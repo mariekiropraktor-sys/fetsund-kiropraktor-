@@ -55,7 +55,6 @@ const forfatterFor = (it) => {
   const c = tag(it, "dc:creator").toLowerCase();
   if (c.includes("sara") || c.includes("nordanger")) return "sara";
   if (c.includes("marie") || c.includes("hermansen")) return "marie";
-  if (c.includes("mathilde") || c.includes("opsvik")) return "mathilde";
   return "klinikken";
 };
 // Tema for filtrering på bloggsiden (gjettes fra adressen – rett gjerne opp for hånd)

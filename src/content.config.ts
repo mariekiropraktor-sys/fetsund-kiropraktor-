@@ -14,8 +14,8 @@ const blogg = defineCollection({
     image: z.string().optional(),
     bildeTekst: z.string().optional(),
     kortFortalt: z.array(z.string()).default([]),
-    // marie | sara | mathilde | klinikken – styrer forfatterboksen nederst
-    forfatter: z.enum(["marie", "sara", "mathilde", "klinikken"]).default("klinikken"),
+    // marie | sara | klinikken – styrer forfatterboksen nederst
+    forfatter: z.enum(["marie", "sara", "klinikken"]).default("klinikken"),
     utkast: z.boolean().default(false),
   }),
 });
@@ -29,7 +29,7 @@ const side = z.object({
   ingress: z.string().default(""),
   bilde: z.string().optional(),
   kortFortalt: z.array(z.string()).default([]),
-  kiropraktor: z.enum(["marie", "sara", "mathilde"]).optional(), // hvem som har dette som spesialfelt
+  kiropraktor: z.enum(["marie", "sara"]).optional(), // hvem som har dette som spesialfelt
   rekkefolge: z.number().default(50),
   oppdatert: z.coerce.date().optional(),
 });

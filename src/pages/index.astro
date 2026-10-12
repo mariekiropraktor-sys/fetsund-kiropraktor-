@@ -6,7 +6,7 @@ import TrustStrip from "../components/TrustStrip.astro";
 import BookingCTA from "../components/BookingCTA.astro";
 import { site, plager, metoder, andreMetoder, kiropraktorer, anmeldelser } from "../data/site";
 
-// Bare Sara og Marie på forsiden (Sara først). Mathilde: avklares.
+// Sara og Marie, Sara først.
 const behandlere = ["sara", "marie"].map((id) => kiropraktorer.find((k) => k.id === id)!);
 const alleMetoder = [...metoder, ...andreMetoder.filter((m) => m.lenke && !m.lenke.includes("vng"))];
 // ["A", "B", "C"] → "a, b og c"
@@ -18,19 +18,19 @@ const liste = (ord: string[]) =>
   title="Kiropraktor i Fetsund | Fetsund Kiropraktorsenter"
   description="Kiropraktorene Sara Nordanger og Marie Hermansen i Fetsund sentrum: trygg hjelp for nakke, rygg og ledd. 4,9 på Google. Gratis parkering, ingen henvisning."
 >
-  <!-- Hero: lys turkis flate med bildet av Marie og Sara -->
+  <!-- Hero: samme oppbygging som Marie-siden – dempet turkis flate, tekst til venstre, bilde til høyre -->
   <div class="hero-ramme">
     <section class="hero">
-      <div class="hero__tekst">
-        <span class="eyebrow">Kiropraktorer i Fetsund sentrum</span>
+      <div class="hero__tekst stack">
+        <span class="eyebrow eyebrow--lys">Kiropraktorer i Fetsund sentrum</span>
         <h1 class="h1">Trygg hjelp for nakke, rygg og ledd</h1>
         <p class="lead">
           Hos oss får du grundig undersøkelse, målrettet behandling og øvelser du kan gjøre selv. Sara og Marie behandler
           alle typer muskel- og leddplager – og har i tillegg hvert sitt spesialfelt.
         </p>
         <div class="btn-row">
-          <a class="btn" href={site.booking}>Bestill time på nett</a>
-          <a class="btn btn--ghost" href="#plager">Hva kan vi hjelpe med?</a>
+          <a class="btn btn--bright" href={site.booking}>Bestill time på nett</a>
+          <a class="btn btn--outline-light" href="#plager">Hva kan vi hjelpe med?</a>
         </div>
         <a class="google" href={site.google.lenke}>
           <span class="google__stjerner" aria-hidden="true">★★★★★</span>
@@ -38,7 +38,7 @@ const liste = (ord: string[]) =>
         </a>
         <p class="hero__note">Gratis parkering · 6 minutter fra Lillestrøm og Sørumsand · Ingen henvisning nødvendig</p>
       </div>
-      <div class="hero__bilde">
+      <figure class="hero__bilde">
         <img
           src={site.heroBilde}
           alt="Kiropraktorene Marie Hermansen og Sara Nordanger i klinikken"
@@ -50,7 +50,7 @@ const liste = (ord: string[]) =>
           <span>Marie Hermansen</span>
           <span>Sara Nordanger</span>
         </div>
-      </div>
+      </figure>
     </section>
   </div>
 
@@ -212,60 +212,113 @@ const liste = (ord: string[]) =>
 </Layout>
 
 <style>
+  /* Hvit flate rundt, som på Marie-siden */
   .hero-ramme {
-    padding: clamp(12px, 2vw, 20px);
+    background: var(--surface);
   }
   .hero {
-    max-width: 1240px;
-    margin: 0 auto;
-    background: var(--flate);
-    border-radius: 28px;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr));
-  }
-  .hero__tekst {
-    padding: clamp(32px, 5vw, 64px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-  }
-  .hero .lead {
-    color: #3a4a5c;
-  }
-  .hero__note {
-    font-size: 15px;
-    color: #3a4a5c;
+    background: #2b6476; /* dempet turkis, samme som Marie-siden */
+    color: #fff;
+    overflow: hidden;
   }
   .hero__bilde {
+    order: -1;
     position: relative;
-    min-height: 360px;
+    margin: 0;
   }
   .hero__bilde img {
-    position: absolute;
-    inset: 0;
     width: 100%;
-    height: 100%;
+    aspect-ratio: 4 / 3;
+    max-height: 460px;
     object-fit: cover;
     object-position: 55% 30%;
+    /* Mobil: bildet tones gradvis over i den turkise flaten */
+    -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 62%, transparent 100%);
   }
   .navnelapper {
     position: absolute;
-    left: 16px;
-    right: 16px;
-    bottom: 16px;
+    left: var(--gutter);
+    right: var(--gutter);
+    bottom: 34%;
     display: flex;
     justify-content: space-between;
     gap: 12px;
   }
   .navnelapper span {
     background: var(--surface);
+    color: var(--ink);
     border-radius: 999px;
     padding: 6px 14px;
     font-size: 14px;
     font-weight: 600;
     box-shadow: 0 6px 20px rgb(16 25 35 / 0.15);
+  }
+  .hero__tekst {
+    gap: 22px;
+    position: relative;
+    margin-top: -40px;
+    padding: 0 var(--gutter) clamp(40px, 8vw, 72px);
+  }
+  .hero .h1 {
+    color: #fff;
+  }
+  .hero .lead {
+    color: rgba(255, 255, 255, 0.82);
+  }
+  .hero__note {
+    font-size: 15px;
+    color: var(--teal-soft);
+  }
+  .eyebrow--lys {
+    color: var(--teal-soft);
+  }
+  .btn--bright {
+    background: var(--teal-bright);
+    border-color: var(--teal-bright);
+    color: var(--ink);
+  }
+  .btn--bright:hover {
+    background: #fff;
+    border-color: #fff;
+    color: var(--ink);
+  }
+
+  /* PC: tekst til venstre, bildet i en avrundet ramme til høyre */
+  @media (min-width: 900px) {
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 600px;
+    }
+    .hero__bilde {
+      order: 0;
+      align-self: center;
+      justify-self: end;
+      width: min(100%, 560px);
+      margin-block: 56px;
+      margin-right: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter)));
+    }
+    .hero__bilde img {
+      aspect-ratio: 1320 / 909;
+      max-height: none;
+      border-radius: 24px;
+      -webkit-mask-image: none;
+      mask-image: none;
+    }
+    .navnelapper {
+      left: 16px;
+      right: 16px;
+      bottom: 16px;
+    }
+    .hero__tekst {
+      align-self: center;
+      margin-top: 0;
+      padding-block: 64px 72px;
+      padding-inline: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter))) 48px;
+    }
   }
 
   .google {

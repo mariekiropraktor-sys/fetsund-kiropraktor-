@@ -9,11 +9,11 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
 
 <Layout
   title="Om klinikken og kiropraktorene"
-  description="Fetsund Kiropraktorsenter ble startet i 2020 av Marie Hermansen og Sara Nordanger. Møt kiropraktorene Marie, Sara og Mathilde og se hva de har særlig erfaring med."
+  description="Fetsund Kiropraktorsenter ble startet i 2020 av kiropraktorene Sara Nordanger og Marie Hermansen. Les om hva de har særlig erfaring med."
 >
   <SideHode
     tittel="Om klinikken"
-    ingress="Fetsund Kiropraktorsenter ble startet i 2020 av Marie Hermansen og Sara Nordanger, som studerte sammen i fire år i Wales. I dag er vi tre kiropraktorer i det kjente «Rosenbergbygget» midt i Fetsund sentrum."
+    ingress="Fetsund Kiropraktorsenter ble startet i 2020 av Marie Hermansen og Sara Nordanger, som studerte sammen i fire år i Wales. Klinikken ligger i det kjente «Rosenbergbygget» midt i Fetsund sentrum."
     smuler={[{ navn: "Om klinikken" }]}
   >
     <div class="btn-row">
@@ -39,22 +39,26 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
 
   <section class="section section--white" id="kiropraktorene">
     <div class="wrap bios">
-      <article class="bio" id="mathilde">
-        <img class="photo bio__bilde" src={k.mathilde.bilde} alt="Kiropraktor Mathilde Opsvik" width="600" height="700" loading="lazy" />
+      <article class="bio" id="sara">
+        <img class="photo bio__bilde" src={k.sara.bilde} alt="Kiropraktor Sara Nordanger" width="600" height="700" loading="lazy" />
         <div class="stack bio__tekst">
-          <span class="eyebrow">Kiropraktor</span>
-          <h2 class="h2">Mathilde Opsvik</h2>
+          <span class="eyebrow">Kiropraktor · medgründer</span>
+          <h2 class="h2">Sara Nordanger</h2>
           <p>
-            Mathilde har over ti års erfaring med rygg- og nakkesmerter, skulderproblemer, bekkenplager, hofteplager og
-            de fleste andre plager i muskler og ledd. Hun har 5-årig mastergrad i kiropraktikk og videreutdanning i
-            sportsmassasje, tørrkopping, instrumentassistert bløtvevsbehandling, tørrnåling og kinesiotaping.
+            Sara tok mastergraden ved University of South Wales i 2015 og har jobbet i Oslo og på Romerike før hun startet
+            klinikken i Fetsund. Halebeinsmerter er hennes spesialisering, og hun har særlig erfaring med bekkenplager i
+            svangerskapet og etter fødsel, og med spedbarn og barn.
           </p>
+          <ul class="chip-list">
+            {k.sara.spesialfelt.map((s) => <li><span class="chip">{s}</span></li>)}
+          </ul>
           <p class="muted">
-            God behandling handler for henne om mer enn timen på benken. Du får konkrete øvelser og verktøy, slik at du
-            kommer deg raskest mulig tilbake til hverdagen.
+            Hun ser også mange med prolaps og isjias, rygg- og nakkesmerter og idrettsskader. Sara bor på Årnes og er glad
+            i friluftsliv og isbading året rundt.
           </p>
           <div class="btn-row">
-            <a class="btn" href={k.mathilde.booking}>Bestill hos Mathilde</a>
+            <a class="btn" href={k.sara.booking}>Bestill hos Sara</a>
+            <a class="btn btn--ghost" href={k.sara.side}>Saras nettside</a>
           </div>
         </div>
       </article>
@@ -83,29 +87,6 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
         </div>
       </article>
 
-      <article class="bio" id="sara">
-        <img class="photo bio__bilde" src={k.sara.bilde} alt="Kiropraktor Sara Nordanger" width="600" height="700" loading="lazy" />
-        <div class="stack bio__tekst">
-          <span class="eyebrow">Kiropraktor · medgründer</span>
-          <h2 class="h2">Sara Nordanger</h2>
-          <p>
-            Sara tok mastergraden ved University of South Wales i 2015 og har jobbet i Oslo og på Romerike før hun startet
-            klinikken i Fetsund. Halebeinsmerter er hennes spesialisering, og hun har særlig erfaring med bekkenplager i
-            svangerskapet og etter fødsel, og med spedbarn og barn.
-          </p>
-          <ul class="chip-list">
-            {k.sara.spesialfelt.map((s) => <li><span class="chip">{s}</span></li>)}
-          </ul>
-          <p class="muted">
-            Hun ser også mange med prolaps og isjias, rygg- og nakkesmerter og idrettsskader. Sara bor på Årnes og er glad
-            i friluftsliv og isbading året rundt.
-          </p>
-          <div class="btn-row">
-            <a class="btn" href={k.sara.booking}>Bestill hos Sara</a>
-            <a class="btn btn--ghost" href={k.sara.side}>Saras nettside</a>
-          </div>
-        </div>
-      </article>
     </div>
   </section>
 

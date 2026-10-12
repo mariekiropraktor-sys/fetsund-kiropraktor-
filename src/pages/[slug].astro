@@ -105,7 +105,7 @@ const artikkelData = {
       <img src={forfatterBilde} alt={forfatterNavn} width="160" height="200" loading="lazy" />
       <div class="forfatterboks__tekst">
         <h2 class="forfatterboks__tittel">{forfatter ? `Skrevet av ${forfatterNavn}` : "Skrevet av kiropraktorene"}</h2>
-        <p>{forfatter ? forfatter.kort : "Vi er tre kiropraktorer midt i Fetsund sentrum, og behandler alle typer muskel- og skjelettplager."}</p>
+        <p>{forfatter ? forfatter.kort : "Vi er kiropraktorer midt i Fetsund sentrum, og behandler alle typer muskel- og skjelettplager."}</p>
         <div class="btn-row">
           <a class="btn" href={forfatter?.booking ?? site.booking}>Bestill time</a>
           <a class="btn btn--ghost" href={forfatterLenke}>Om kiropraktorene</a>

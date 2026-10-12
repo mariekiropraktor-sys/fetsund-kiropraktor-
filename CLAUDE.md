@@ -1,8 +1,8 @@
 # fetsundkiropraktor.no — prosjektkontekst
 
 ## Om prosjektet
-Klinikksiden til Fetsund Kiropraktorsenter (Marie Hermansen, Sara Nordanger og
-Mathilde Opsvik). Flyttes fra WordPress/Bricks (Totalweb) til Astro på Vercel
+Klinikksiden til Fetsund Kiropraktorsenter (Sara Nordanger og Marie Hermansen;
+Mathilde Opsvik har sluttet, okt. 2026). Flyttes fra WordPress/Bricks (Totalweb) til Astro på Vercel
 høsten 2026, med samme design som fetsundkiropraktormarie.no.
 Marie er nybegynner innen webutvikling: forklar endringer enkelt, på norsk, og
 gjerne som en kort liste over hva som er endret. Sara er medeier av siden.

@@ -60,17 +60,6 @@ export const kiropraktorer = [
     side: marie,
     booking: site.booking,
   },
-  {
-    id: "mathilde",
-    navn: "Mathilde Opsvik",
-    tittel: "Kiropraktor",
-    bilde: bilde("MAthilde.webp"),
-    spesialfelt: ["Rygg og nakke", "Skulder og bekken"],
-    interessefelt: ["Muskelbehandling"],
-    kort: "Over 10 års erfaring, med videreutdanning i sportsmassasje, tørrnåling og kopping.",
-    side: "/om-klinikken/#mathilde",
-    booking: site.booking,
-  },
 ];
 
 // Spesialfeltene vises øverst på forsiden. De lenker til den kiropraktoren som eier temaet.

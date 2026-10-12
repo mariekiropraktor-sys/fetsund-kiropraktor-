@@ -8,12 +8,8 @@ import path from "node:path";
 const liste = fs.readFileSync("scripts/bilder.txt", "utf8").split("\n").filter(Boolean);
 // Bilder som brukes direkte i malene (logo, forsidebilde, kiropraktorene)
 const faste = [
-  "Fetsund-Kiropraktorsenter-Tekst.webp",
-  "hero-forside.webp",
-  "MAthilde.webp",
   "Untitled-design.webp",
   "Sara.webp",
-  "marie-og-sara-.webp",
 ].map((f) => `https://fetsundkiropraktor.no/wp-content/uploads/${f}`);
 
 const ut = path.resolve("public/bilder/wp");
