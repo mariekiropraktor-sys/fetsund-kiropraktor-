@@ -4,7 +4,7 @@
 import Layout from "../layouts/Layout.astro";
 import TrustStrip from "../components/TrustStrip.astro";
 import BookingCTA from "../components/BookingCTA.astro";
-import { site, plager, metoder, andreMetoder, kiropraktorer, anmeldelser } from "../data/site";
+import { site, plager, metoder, andreMetoder, kiropraktorer, anmeldelser, eksterne } from "../data/site";
 
 // Sara og Marie, Sara først.
 const behandlere = ["sara", "marie"].map((id) => kiropraktorer.find((k) => k.id === id)!);
@@ -46,9 +46,9 @@ const liste = (ord: string[]) =>
           height="909"
           fetchpriority="high"
         />
-        <div class="navnelapper" aria-hidden="true">
-          <span>Marie Hermansen</span>
-          <span>Sara Nordanger</span>
+        <div class="navnelapper">
+          <a href={eksterne.marie}>Marie Hermansen</a>
+          <a href={eksterne.sara}>Sara Nordanger</a>
         </div>
       </figure>
     </section>
@@ -219,7 +219,7 @@ const liste = (ord: string[]) =>
   .hero {
     display: flex;
     flex-direction: column;
-    background: #2b6476; /* dempet turkis, samme som Marie-siden */
+    background: #33717f; /* dempet turkis, en tone lysere enn Marie-siden */
     color: #fff;
     overflow: hidden;
   }
@@ -247,14 +247,18 @@ const liste = (ord: string[]) =>
     justify-content: space-between;
     gap: 12px;
   }
-  .navnelapper span {
+  .navnelapper a {
     background: var(--surface);
     color: var(--ink);
     border-radius: 999px;
-    padding: 6px 14px;
-    font-size: 14px;
+    padding: 4px 11px;
+    font-size: 12.5px;
     font-weight: 600;
-    box-shadow: 0 6px 20px rgb(16 25 35 / 0.15);
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgb(16 25 35 / 0.15);
+  }
+  .navnelapper a:hover {
+    background: var(--teal-soft);
   }
   .hero__tekst {
     gap: 22px;
