@@ -14,12 +14,21 @@ export const site = {
   epost: "fetsundkiropraktor@gmail.com",
   booking:
     "https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7",
-  apningstider: [{ dager: "Mandag–fredag", tid: "08.00–18.00" }],
-  apningstiderKort: "Man–fre 08–18",
+  // Fra forsideforslaget (okt. 2026) – må bekreftes. Gammel side sa man–fre 08–18.
+  apningstider: [
+    { dager: "Mandag, onsdag, fredag", tid: "08.00–16.00" },
+    { dager: "Tirsdag, torsdag", tid: "08.00–18.00" },
+  ],
+  apningstiderKort: "Man, ons, fre 08–16 · Tir, tor 08–18",
+  google: {
+    vurdering: "4,9",
+    antall: 47,
+    lenke: "https://www.google.com/maps/place/?q=place_id:ChIJ4XMb3Bl9QUYRWxACPEU-F-4",
+  },
   facebook: "https://www.facebook.com/www.fetsundkiropraktor.no",
   instagram: "https://www.instagram.com/fetsundkiropraktorsenter/",
-  logo: bilde("Fetsund-Kiropraktorsenter-Tekst.webp"),
-  heroBilde: bilde("hero-forside.webp"),
+  logo: "/bilder/logo.webp",
+  heroBilde: "/bilder/marie-og-sara.webp",
   grunnlagt: 2020,
 };
 
@@ -29,32 +38,35 @@ const sara = "https://fetsundkiropraktorsara.no";
 // Kiropraktorene. «side» = egen nettside, «booking» = direktelenke i Pasientsky.
 export const kiropraktorer = [
   {
-    id: "marie",
-    navn: "Marie Hermansen",
-    tittel: "Kiropraktor, MNKF · medgründer",
-    bilde: bilde("Untitled-design.webp"),
-    spesialfelt: ["Svimmelhet og krystallsyke", "Kjevesmerter", "Hodepine"],
-    kort: "Har VNG-briller og egen svimmelhetsundersøkelse. Behandler også nakke, rygg og ledd.",
-    side: marie,
-    booking: site.booking,
-  },
-  {
     id: "sara",
     navn: "Sara Nordanger",
     tittel: "Kiropraktor · medgründer",
     bilde: bilde("Sara.webp"),
-    spesialfelt: ["Halebeinsmerter", "Gravide og etter fødsel", "Spedbarn og barn"],
+    spesialfelt: ["Halebeinsmerter", "Gravide", "Nybakte mødre"],
+    interessefelt: ["Bekkenplager", "Spedbarn"],
     kort: "Halebeinsmerter er hennes spesialisering. Ser også mange med rygg, nakke og idrettsskader.",
     side: sara,
     booking:
       "https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=178e4e32-24eb-11eb-be16-eed210cc88f1",
   },
   {
+    id: "marie",
+    navn: "Marie Hermansen",
+    tittel: "Kiropraktor, MNKF · medgründer",
+    bilde: bilde("Untitled-design.webp"),
+    spesialfelt: ["Svimmelhet og krystallsyke"],
+    interessefelt: ["Kjevesmerter", "Hodepine"],
+    kort: "Har VNG-briller og egen svimmelhetsundersøkelse. Behandler også nakke, rygg og ledd.",
+    side: marie,
+    booking: site.booking,
+  },
+  {
     id: "mathilde",
     navn: "Mathilde Opsvik",
     tittel: "Kiropraktor",
     bilde: bilde("MAthilde.webp"),
-    spesialfelt: ["Rygg og nakke", "Skulder og bekken", "Muskelbehandling"],
+    spesialfelt: ["Rygg og nakke", "Skulder og bekken"],
+    interessefelt: ["Muskelbehandling"],
     kort: "Over 10 års erfaring, med videreutdanning i sportsmassasje, tørrnåling og kopping.",
     side: "/om-klinikken/#mathilde",
     booking: site.booking,
@@ -90,18 +102,22 @@ export const spesialfelt = [
 ];
 
 // Vanlige plager. Adressene er de samme som på den gamle siden.
+// Plager både Sara og Marie behandler (forsideforslaget okt. 2026). Lenker til klinikkens egne sider.
 export const plager: { navn: string; tekst: string; lenke: string }[] = [
   { navn: "Nakke", tekst: "Låst, stiv eller vond", lenke: "/behandlingsomrade/akutte-kroniske-nakkeplager/" },
   { navn: "Korsrygg", tekst: "Akutt og langvarig", lenke: "/behandlingsomrade/vondt-i-ryggen/" },
-  { navn: "Brystrygg og ribben", tekst: "Stikk og stivhet", lenke: "/behandlingsomrade/brystryggsmerter/" },
-  { navn: "Skulder og muskler", tekst: "Smerter og knuter", lenke: "/behandlingsomrade/muskelsmerter/" },
-  { navn: "Hofte", tekst: "Også sete og lyske", lenke: "/behandlingsomrade/hoftesmerter/" },
-  { navn: "Kne, ankel og fot", tekst: "Belastning og skader", lenke: "/behandlingsomrade/fot-og-ankel-smerter/" },
-  { navn: "Albue og håndledd", tekst: "Også tennisalbue", lenke: "/behandlingsomrade/albue-og-handleddsmerter/" },
-  { navn: "Idrettsskader", tekst: "Tilbake i aktivitet", lenke: "/behandlingsomrade/idrettsskader-2/" },
-  { navn: "Spedbarn og barn", tekst: "Trygg og skånsom", lenke: "/behandlingsomrade/spebarn-og-barn/" },
-  { navn: "Seniorer", tekst: "Bevegelse og balanse", lenke: "/behandlingsomrade/seniorpasienten/" },
+  { navn: "Brystrygg", tekst: "Stiv og vond mellom skulderbladene", lenke: "/behandlingsomrade/brystryggsmerter/" },
+  { navn: "Skulder", tekst: "Smerter og nedsatt bevegelse", lenke: "/behandlingsomrade/muskelsmerter/" },
+  { navn: "Hofte og kne", tekst: "Også senebetennelser", lenke: "/behandlingsomrade/hoftesmerter/" },
+  { navn: "Fot og ankel", tekst: "Ofte henger bekkenet med", lenke: "/behandlingsomrade/fot-og-ankel-smerter/" },
+  { navn: "Hodepine og kjeve", tekst: "Spenning, stress og klikking", lenke: "/behandlingsomrade/hodepine/" },
+  { navn: "Muskelsmerter", tekst: "Muskelknuter og stivhet", lenke: "/behandlingsomrade/muskelsmerter-og-senebetennelser/" },
+  { navn: "Seniorer", tekst: "Tilpasset behandling i alle aldre", lenke: "/behandlingsomrade/seniorpasienten/" },
 ];
+
+// Utdrag fra Google-anmeldelser. Lim inn pasientenes egen ordlyd fra Google (ikke omskriv).
+// Seksjonen viser bare sitatene som står her – er listen tom, vises kun vurderingen og lenken.
+export const anmeldelser: { tekst: string; om?: string }[] = [];
 
 export const metoder = [
   {

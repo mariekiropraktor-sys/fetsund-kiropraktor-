@@ -1,133 +1,109 @@
 ---
-import Kart from "../components/Kart.astro";
+// Forsiden, bygget etter forsideforslaget som ble avtalt i okt. 2026.
+// Rekkefølge: hero → tillitsstripe → plager → spesialfelt → anmeldelser → slik foregår en time → finn fram → bestill.
 import Layout from "../layouts/Layout.astro";
 import TrustStrip from "../components/TrustStrip.astro";
 import BookingCTA from "../components/BookingCTA.astro";
-import PostCard from "../components/PostCard.astro";
-import Ryggrad from "../components/Ryggrad.astro";
-import { getCollection } from "astro:content";
-import { site, plager, metoder, andreMetoder, spesialfelt, kiropraktorer } from "../data/site";
+import { site, plager, metoder, andreMetoder, kiropraktorer, anmeldelser } from "../data/site";
 
-// De tre nyeste publiserte innleggene vises automatisk på forsiden
-const innlegg = (await getCollection("blogg", (p) => !p.data.utkast))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.id.localeCompare(b.id))
-  .slice(0, 3);
+// Bare Sara og Marie på forsiden (Sara først). Mathilde: avklares.
+const behandlere = ["sara", "marie"].map((id) => kiropraktorer.find((k) => k.id === id)!);
+const alleMetoder = [...metoder, ...andreMetoder.filter((m) => m.lenke && !m.lenke.includes("vng"))];
+// ["A", "B", "C"] → "a, b og c"
+const liste = (ord: string[]) =>
+  (ord.length > 1 ? `${ord.slice(0, -1).join(", ")} og ${ord.at(-1)}` : ord[0] ?? "").toLowerCase();
 ---
 
 <Layout
   title="Kiropraktor i Fetsund | Fetsund Kiropraktorsenter"
-  description="Tre kiropraktorer midt i Fetsund sentrum. Vi behandler nakke, rygg, ledd og muskler – og har egne spesialfelt for svimmelhet, halebein og gravide. Gratis parkering."
+  description="Kiropraktorene Sara Nordanger og Marie Hermansen i Fetsund sentrum: trygg hjelp for nakke, rygg og ledd. 4,9 på Google. Gratis parkering, ingen henvisning."
 >
-  <!-- Topp: tekst og bilde på dempet turkis flate (samme uttrykk som Marie-siden) -->
+  <!-- Hero: lys turkis flate med bildet av Marie og Sara -->
   <div class="hero-ramme">
     <section class="hero">
-      <div class="hero__tekst stack">
-        <span class="eyebrow eyebrow--lys">Kiropraktor i Fetsund sentrum</span>
-        <h1 class="h1">Din lokale kiropraktor – for hele familien</h1>
+      <div class="hero__tekst">
+        <span class="eyebrow">Kiropraktorer i Fetsund sentrum</span>
+        <h1 class="h1">Trygg hjelp for nakke, rygg og ledd</h1>
         <p class="lead">
-          Vi er tre kiropraktorer som behandler alle typer muskel- og skjelettplager, fra akutte smerter til langvarige
-          plager. Du får en grundig undersøkelse, behandling som kombinerer flere metoder, og øvelser du kan gjøre selv.
+          Hos oss får du grundig undersøkelse, målrettet behandling og øvelser du kan gjøre selv. Sara og Marie behandler
+          alle typer muskel- og leddplager – og har i tillegg hvert sitt spesialfelt.
         </p>
         <div class="btn-row">
-          <a class="btn btn--bright" href={site.booking}>Bestill time på nett</a>
-          <a class="btn btn--outline-light" href={site.telefonLenke}>Ring {site.telefon}</a>
+          <a class="btn" href={site.booking}>Bestill time på nett</a>
+          <a class="btn btn--ghost" href="#plager">Hva kan vi hjelpe med?</a>
         </div>
-        <p class="hero__note">6 minutter fra Lillestrøm og Sørumsand · Gratis parkering</p>
+        <a class="google" href={site.google.lenke}>
+          <span class="google__stjerner" aria-hidden="true">★★★★★</span>
+          <span><strong>{site.google.vurdering} på Google</strong> · {site.google.antall} anmeldelser</span>
+        </a>
+        <p class="hero__note">Gratis parkering · 6 minutter fra Lillestrøm og Sørumsand · Ingen henvisning nødvendig</p>
       </div>
-      <img
-        class="hero__bilde"
-        src={site.heroBilde}
-        alt="Behandlingsrom hos Fetsund Kiropraktorsenter"
-        width="960"
-        height="1200"
-        fetchpriority="high"
-      />
+      <div class="hero__bilde">
+        <img
+          src={site.heroBilde}
+          alt="Kiropraktorene Marie Hermansen og Sara Nordanger i klinikken"
+          width="1320"
+          height="909"
+          fetchpriority="high"
+        />
+        <div class="navnelapper" aria-hidden="true">
+          <span>Marie Hermansen</span>
+          <span>Sara Nordanger</span>
+        </div>
+      </div>
     </section>
   </div>
 
   <TrustStrip />
 
-  <!-- Hva kan vi hjelpe med -->
+  <!-- Det begge behandler -->
   <section class="section wrap" id="plager">
     <div class="section-head">
       <h2 class="h2">Hva kan vi hjelpe deg med?</h2>
       <p class="muted">
-        De fleste kommer med helt vanlige plager i nakke, rygg og ledd. I tillegg har hver av oss fordypet seg i noen
-        felt, så du kommer til den som kan mest om akkurat ditt problem.
+        De fleste som kommer til oss har helt vanlige muskel- og leddplager – akutte eller langvarige. Dette behandler vi
+        begge, hver dag.
       </p>
     </div>
-    <div class="hjelp">
-      <div class="card hjelp__spesial">
-        <span class="eyebrow eyebrow--lys">Spesialfelt</span>
-        <h3 class="hjelp__tittel">Når du trenger ekstra kompetanse</h3>
-        <ul class="arrow-list">
-          {
-            spesialfelt.map((s) => (
-              <li>
-                <a href={s.lenke}>
-                  <span>
-                    <strong>{s.navn}</strong>
-                    <small>{s.tekst} Hos {s.hvem}.</small>
-                  </span>
-                  <span aria-hidden="true">→</span>
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
-
-      <div class="card hjelp__kiro">
-        <Ryggrad />
-        <span class="eyebrow">Alle kiropraktorene</span>
-        <h3 class="hjelp__tittel">Muskel- og leddplager</h3>
-        <div class="plager">
-          {
-            plager.map((p) => (
-              <a class="plager__kort" href={p.lenke}>
-                <strong>{p.navn}</strong>
-                <span>{p.tekst}</span>
-              </a>
-            ))
-          }
-        </div>
-        <a class="hjelp__alle" href="/behandlingsomrader/">Se alle plager vi behandler →</a>
-      </div>
+    <div class="plager">
+      {
+        plager.map((p) => (
+          <a class="plager__kort" href={p.lenke}>
+            <strong>{p.navn}</strong>
+            <span>{p.tekst}</span>
+          </a>
+        ))
+      }
     </div>
+    <a class="mer" href="/behandlingsomrader/">Se alle plager vi behandler →</a>
   </section>
 
-  <!-- Kiropraktorene -->
+  <!-- Spesialfelt – kort og rolig -->
   <section class="section section--white" id="kiropraktorene">
     <div class="wrap">
       <div class="section-head">
-        <h2 class="h2">Møt kiropraktorene</h2>
+        <h2 class="h2">Og litt ekstra fordypning</h2>
         <p class="muted">
-          Alle har 5-årig mastergrad i kiropraktikk og over ti års erfaring. Usikker på hvem du skal velge? Ring oss, så
-          hjelper vi deg.
+          I tillegg har vi hvert vårt felt vi har tatt ekstra utdanning i. Har du en av disse plagene, er det lurt å
+          bestille hos den av oss som kan mest om akkurat det.
         </p>
       </div>
-      <div class="team">
+      <div class="fordypning">
         {
-          kiropraktorer.map((k) => (
-            <article class="person">
-              <a href={k.side} class="person__bilde-lenke" tabindex="-1" aria-hidden="true">
-                <img class="person__bilde" src={k.bilde} alt="" width="600" height="700" loading="lazy" />
-              </a>
-              <div class="person__tekst stack">
-                <div>
-                  <h3 class="person__navn">
-                    <a href={k.side}>{k.navn}</a>
-                  </h3>
-                  <p class="muted person__tittel">{k.tittel}</p>
-                </div>
-                <ul class="chip-list">
-                  {k.spesialfelt.map((s) => <li><span class="chip">{s}</span></li>)}
-                </ul>
-                <p class="muted">{k.kort}</p>
-                <div class="person__lenker">
-                  <a class="btn" href={k.booking}>Bestill hos {k.navn.split(" ")[0]}</a>
-                  <a href={k.side}><strong>Les mer →</strong></a>
-                </div>
+          behandlere.map((k) => (
+            <article class="fordypning__kort">
+              <h3 class="fordypning__navn">{k.navn}</h3>
+              <p>
+                <strong>Spesialfelt:</strong> {liste(k.spesialfelt)}
+              </p>
+              <p class="muted">Interessefelt: {liste(k.interessefelt)}</p>
+              <div class="fordypning__lenker">
+                <a class="btn" href={k.booking}>
+                  Bestill hos {k.navn.split(" ")[0]}
+                </a>
+                <a class="mer" href={k.side}>
+                  Les mer om {k.navn.split(" ")[0]} →
+                </a>
               </div>
             </article>
           ))
@@ -136,105 +112,86 @@ const innlegg = (await getCollection("blogg", (p) => !p.data.utkast))
     </div>
   </section>
 
-  <!-- Slik foregår en time -->
-  <section class="section time">
-    <div class="wrap">
-      <h2 class="h2">Slik foregår første time</h2>
-      <ol class="steg">
-        <li>
-          <span class="steg__nr">1</span>
-          <h3>Samtale</h3>
-          <p>Hva plager deg, når startet det, og hva gjør det bedre eller verre? Ofte den viktigste ledetråden.</p>
-        </li>
-        <li>
-          <span class="steg__nr">2</span>
-          <h3>Undersøkelse</h3>
-          <p>Bevegelse, muskler, ledd og nerver. Vi forklarer hva vi finner, og hva som trolig er årsaken.</p>
-        </li>
-        <li>
-          <span class="steg__nr">3</span>
-          <h3>Behandling og øvelser</h3>
-          <p>Tilpasset deg, med øvelser du kan gjøre hjemme. Henvisning videre hvis noe bør utredes.</p>
-        </li>
-      </ol>
-      <div class="btn-row">
-        <a class="btn" href={site.booking}>Førstegangskonsultasjon · 910 kr</a>
-        <a class="btn btn--ghost" href="/priser/">Se alle priser</a>
+  <!-- Google-vurderinger -->
+  <section class="section wrap vurderinger" id="vurderinger">
+    <div class="vurderinger__topp">
+      <div class="stack">
+        <h2 class="h2">Hva pasientene sier</h2>
+        <p class="muted vurderinger__snitt">
+          <span class="google__stjerner" aria-hidden="true">★★★★★</span>
+          <span><strong>{site.google.vurdering} av 5</strong> basert på {site.google.antall} anmeldelser på Google</span>
+        </p>
       </div>
+      <a class="mer" href={site.google.lenke}>Les alle på Google →</a>
     </div>
+    {
+      anmeldelser.length > 0 && (
+        <div class="sitater">
+          {anmeldelser.map((a) => (
+            <figure class="sitat">
+              <span class="google__stjerner" role="img" aria-label="5 av 5 stjerner">
+                ★★★★★
+              </span>
+              <blockquote>«{a.tekst}»</blockquote>
+              <figcaption class="muted">Google-anmeldelse{a.om && ` om ${a.om}`}</figcaption>
+            </figure>
+          ))}
+        </div>
+      )
+    }
   </section>
 
-  <!-- Behandlingsmetoder -->
+  <!-- Slik foregår en time -->
   <section class="section wrap" id="behandling">
-    <div class="section-head">
-      <h2 class="h2">Slik behandler vi</h2>
-      <p class="muted">
-        Vi kombinerer flere metoder i samme time, så du får en helhetlig behandling uten å måtte gå til flere ulike
-        behandlere.
-      </p>
-    </div>
+    <h2 class="h2 steg__tittel">Slik foregår en time</h2>
+    <ol class="steg">
+      <li>
+        <span class="steg__nr">1</span>
+        <h3>Samtale</h3>
+        <p class="muted">Hva plager deg, når startet det, og hva gjør det bedre eller verre? Ofte den viktigste ledetråden.</p>
+      </li>
+      <li>
+        <span class="steg__nr">2</span>
+        <h3>Undersøkelse</h3>
+        <p class="muted">Bevegelse, muskler, ledd og nerver – og flere tester ved behov.</p>
+      </li>
+      <li>
+        <span class="steg__nr">3</span>
+        <h3>Behandling og øvelser</h3>
+        <p class="muted">Tilpasset det vi finner, og øvelser du kan gjøre hjemme. Henvisning videre hvis noe bør utredes.</p>
+      </li>
+    </ol>
     <div class="metoder">
-      {
-        metoder.map((m) => (
-          <a class="card card-link" href={m.lenke}>
-            <h3 class="metoder__navn">{m.navn}</h3>
-            <p class="muted">{m.tekst}</p>
-          </a>
-        ))
-      }
-    </div>
-    <div class="andre">
-      <p><strong>Vi bruker også:</strong></p>
+      <span class="metoder__tittel">Metodene vi bruker</span>
       <ul class="chip-list">
         {
-          andreMetoder.map((m) => (
+          alleMetoder.map((m) => (
             <li>
-              {m.lenke ? (
-                <a class="chip-link" href={m.lenke}>
-                  {m.navn} <span aria-hidden="true">→</span>
-                </a>
-              ) : (
-                <span class="chip">{m.navn}</span>
-              )}
+              <a class="chip-link" href={m.lenke}>
+                {m.navn} <span aria-hidden="true">→</span>
+              </a>
             </li>
           ))
         }
+        <li><a class="chip-link" href="/behandlingsmetoder/">Alle metoder <span aria-hidden="true">→</span></a></li>
       </ul>
     </div>
   </section>
 
-  {
-    innlegg.length > 0 && (
-      <section class="section section--white">
-        <div class="wrap">
-          <div class="blogg-head">
-            <h2 class="h2">Fra bloggen</h2>
-            <a href="/blogg/">
-              <strong>Alle innlegg →</strong>
-            </a>
-          </div>
-          <div class="card-grid">
-            {innlegg.map((p) => (
-              <PostCard slug={p.id} title={p.data.title} tema={p.data.tema} date={p.data.date} image={p.data.image} />
-            ))}
-          </div>
-        </div>
-      </section>
-    )
-  }
-
   <!-- Finn fram -->
-  <section class="section">
-    <div class="wrap grid-2 finn">
+  <section class="section section--white" id="finn-fram">
+    <div class="wrap finn">
       <div class="stack">
         <h2 class="h2">Finn fram</h2>
-        <p>
-          {site.navn}<br />
-          {site.adresse}
-        </p>
+        <p class="finn__adresse">{site.navn}<br />{site.adresse}</p>
         <p class="muted">
-          I «Rosenbergbygget» midt i Fetsund sentrum. Gratis parkering og kort gangvei fra buss og tog.
+          Midt i sentrum, med gratis parkering og kort gangvei fra buss og tog. Ca. 6 minutter med bil fra Lillestrøm og
+          Sørumsand.
         </p>
+        <a class="mer" href="/kontakt-oss/">Kontakt og veibeskrivelse →</a>
+      </div>
+      <div class="finn__boks">
+        <span class="finn__etikett">Åpningstider</span>
         <p>
           {
             site.apningstider.map((a) => (
@@ -245,10 +202,9 @@ const innlegg = (await getCollection("blogg", (p) => !p.data.utkast))
             ))
           }
         </p>
-        <p><a href={site.telefonLenke}>{site.telefon}</a></p>
-        <a href="/kontakt-oss/"><strong>Kontakt og veibeskrivelse →</strong></a>
+        <span class="finn__etikett">Telefon</span>
+        <a class="finn__tlf" href={site.telefonLenke}>{site.telefon}</a>
       </div>
-      <Kart hoyde={300} />
     </div>
   </section>
 
@@ -257,264 +213,259 @@ const innlegg = (await getCollection("blogg", (p) => !p.data.utkast))
 
 <style>
   .hero-ramme {
-    background: var(--surface);
+    padding: clamp(12px, 2vw, 20px);
   }
   .hero {
-    display: flex;
-    flex-direction: column;
-    background: #2b6476;
-    color: #fff;
+    max-width: 1240px;
+    margin: 0 auto;
+    background: var(--flate);
+    border-radius: 28px;
     overflow: hidden;
-  }
-  .hero__bilde {
-    order: -1;
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    max-height: 420px;
-    object-fit: cover;
-    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
-    mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr));
   }
   .hero__tekst {
-    gap: 22px;
-    position: relative;
-    margin-top: -48px;
-    padding: 0 var(--gutter) clamp(40px, 8vw, 72px);
-  }
-  .hero .h1 {
-    color: #fff;
+    padding: clamp(32px, 5vw, 64px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
   }
   .hero .lead {
-    color: rgba(255, 255, 255, 0.82);
+    color: #3a4a5c;
   }
   .hero__note {
     font-size: 15px;
-    color: var(--teal-soft);
+    color: #3a4a5c;
   }
-  .btn--bright {
-    background: var(--teal-bright);
-    border-color: var(--teal-bright);
-    color: var(--ink);
+  .hero__bilde {
+    position: relative;
+    min-height: 360px;
   }
-  .btn--bright:hover {
-    background: #fff;
-    border-color: #fff;
-    color: var(--ink);
+  .hero__bilde img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 55% 30%;
   }
-  @media (min-width: 900px) {
-    .hero {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      min-height: 600px;
-    }
-    .hero__bilde {
-      order: 0;
-      width: min(100%, 520px);
-      height: auto;
-      aspect-ratio: 4 / 5;
-      max-height: none;
-      justify-self: end;
-      align-self: center;
-      margin-block: 56px;
-      margin-right: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter)));
-      border-radius: 24px;
-      -webkit-mask-image: none;
-      mask-image: none;
-    }
-    .hero__tekst {
-      align-self: center;
-      margin-top: 0;
-      padding-block: 64px 72px;
-      padding-inline: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter))) 48px;
-    }
+  .navnelapper {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .navnelapper span {
+    background: var(--surface);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 6px 20px rgb(16 25 35 / 0.15);
   }
 
-  .hjelp {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
-    gap: 20px;
+  .google {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--surface);
+    border-radius: 999px;
+    padding: 8px 16px 8px 12px;
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 15px;
   }
-  .hjelp .card {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  .google strong {
+    font-weight: 600;
   }
-  .hjelp__spesial {
-    background: var(--teal);
-    color: #fff;
+  .google__stjerner {
+    color: var(--star);
+    letter-spacing: 1px;
   }
-  .eyebrow--lys {
-    color: var(--teal-soft);
-  }
-  .hjelp__tittel {
-    font-size: clamp(26px, 3vw, 32px);
-  }
-  .hjelp__spesial .arrow-list a {
-    border-color: var(--teal-line);
-    color: #fff;
-  }
-  .hjelp__spesial .arrow-list a:hover {
-    color: var(--teal-soft);
-  }
-  .hjelp__spesial small {
-    color: rgba(255, 255, 255, 0.8);
-  }
-  .hjelp__kiro {
-    position: relative;
-    overflow: hidden;
-    isolation: isolate;
-  }
-  .hjelp__kiro :global(.ryggrad) {
-    position: absolute;
-    z-index: -1;
-    top: -186px;
-    right: -40px;
-    width: 290px;
-    height: auto;
-    pointer-events: none;
-  }
-  .hjelp__kiro :global(.ryggrad__sirkel) {
-    fill: var(--teal-soft);
-  }
-  .hjelp__kiro :global(.ryggrad__virvler) {
-    fill: #fff;
-  }
-  .hjelp__kiro :global(.ryggrad__skiver) {
-    fill: var(--teal-line);
-    opacity: 0.35;
-  }
-  @media (max-width: 600px) {
-    .hjelp__kiro :global(.ryggrad) {
-      top: -70px;
-      right: -50px;
-      width: 170px;
-    }
-  }
+
   .plager {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr));
     gap: 10px;
   }
   .plager__kort {
-    background: var(--bg);
+    background: var(--surface);
     border-radius: 14px;
     padding: 14px 16px;
-    text-decoration: none;
-    color: var(--ink);
     display: flex;
     flex-direction: column;
+    gap: 2px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .plager__kort strong {
+    font-weight: 600;
   }
   .plager__kort span {
     font-size: 14px;
+    line-height: 1.4;
     color: var(--muted);
   }
   .plager__kort:hover {
-    background: var(--teal-soft);
-    color: var(--ink);
+    background: var(--flate);
   }
-  .hjelp__alle {
+  .mer {
     font-weight: 600;
   }
-
-  .team {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-    gap: 24px;
+  #plager .mer {
+    display: inline-block;
+    margin-top: 24px;
   }
-  .person {
+
+  .fordypning {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+    gap: 16px;
+  }
+  .fordypning__kort {
+    background: var(--bg);
+    border-radius: 20px;
+    padding: clamp(22px, 3vw, 30px);
     display: flex;
     flex-direction: column;
-    background: var(--bg);
-    border-radius: var(--radius);
-    overflow: hidden;
+    gap: 12px;
   }
-  .person__bilde {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center 25%;
-  }
-  .person__tekst {
-    padding: 22px 24px 26px;
-    gap: 14px;
-    flex: 1;
-  }
-  .person__navn {
+  .fordypning__navn {
     font-size: 26px;
   }
-  .person__navn a {
-    color: var(--ink);
-    text-decoration: none;
+  .fordypning__kort strong {
+    font-weight: 600;
   }
-  .person__navn a:hover {
-    color: var(--teal);
-  }
-  .person__tittel {
-    font-size: 15px;
-  }
-  .person .chip {
-    background: var(--surface);
-  }
-  .person__lenker {
-    margin-top: auto;
+  .fordypning__lenker {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 18px;
+    gap: 10px 20px;
+    padding-top: 6px;
   }
 
-  .steg {
-    list-style: none;
-    padding: 0;
-    margin: 36px 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
-    gap: 36px;
+  .vurderinger {
+    padding-bottom: 0;
   }
-  .steg h3 {
-    font-family: var(--sans);
+  .vurderinger__topp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+  }
+  .vurderinger__snitt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .vurderinger__snitt strong {
+    color: var(--ink);
     font-weight: 600;
-    font-size: 20px;
-    margin: 10px 0 6px;
   }
-  .time {
-    background: #e3f4f7;
-  }
-  .steg p {
-    color: var(--muted);
-  }
-  .steg__nr {
-    font-family: var(--serif);
-    font-size: 46px;
-    line-height: 1;
-    color: var(--teal);
-  }
-
-  .metoder {
+  .sitater {
+    margin-top: 28px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
     gap: 16px;
   }
-  .metoder__navn {
-    font-size: 22px;
-    line-height: 1.25;
-  }
-  .andre {
-    margin-top: 28px;
+  .sitat {
+    margin: 0;
+    background: var(--surface);
+    border-radius: 20px;
+    padding: 28px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
+  }
+  .sitat blockquote {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .sitat figcaption {
+    font-size: 15px;
   }
 
-  .blogg-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 28px;
+  .steg__tittel {
+    margin-bottom: 32px;
   }
+  .steg {
+    list-style: none;
+    margin: 0 0 32px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    gap: 16px;
+  }
+  .steg li {
+    background: var(--surface);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .steg h3 {
+    font-size: 24px;
+  }
+  .steg__nr {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    background: var(--flate);
+    color: var(--teal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--serif);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .metoder {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .metoder__tittel {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--muted);
+  }
+
   .finn {
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+    gap: clamp(32px, 5vw, 64px);
+    align-items: start;
+  }
+  .finn__adresse {
+    font-size: 19px;
+  }
+  .finn__boks {
+    background: var(--bg);
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .finn__etikett {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .finn__etikett + p + .finn__etikett {
+    padding-top: 8px;
+  }
+  .finn__tlf {
+    font-size: 19px;
+    font-weight: 600;
   }
 </style>

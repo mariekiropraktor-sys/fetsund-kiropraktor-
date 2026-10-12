@@ -1,92 +1,45 @@
 ---
-import { site, kiropraktorer, eksterne } from "../data/site";
+import { site, kiropraktorer } from "../data/site";
 const ar = new Date().getFullYear();
+const sara = kiropraktorer.find((k) => k.id === "sara")!;
+const marie = kiropraktorer.find((k) => k.id === "marie")!;
 ---
 
 <footer class="footer">
-  <div class="wrap footer__grid">
-    <div class="stack">
-      <p class="footer__navn">{site.navn}</p>
-      <p>{site.adresse}</p>
-      <p><a href={site.telefonLenke}>{site.telefon}</a>{site.epost && <><br /><a href={`mailto:${site.epost}`}>{site.epost}</a></>}</p>
-    </div>
-    <div class="stack">
-      <p class="footer__tittel">Åpningstider</p>
-      <p>
-        {
-          site.apningstider.map((a) => (
-            <>
-              {a.dager}: {a.tid}
-              <br />
-            </>
-          ))
-        }
-      </p>
-      <p>Gratis parkering</p>
-    </div>
-    <div class="stack">
-      <p class="footer__tittel">Kiropraktorene</p>
-      <p>
-        {
-          kiropraktorer.map((k) => (
-            <>
-              <a href={k.side}>{k.navn}</a>
-              <br />
-            </>
-          ))
-        }
-        <a href={eksterne.krystallsykehjelpen}>Krystallsykehjelpen</a>
-      </p>
-    </div>
-    <div class="stack">
-      <p class="footer__tittel">Følg oss</p>
-      <p>
-        <a href={site.facebook}>Facebook</a><br />
-        <a href={site.instagram}>Instagram</a>
-      </p>
-    </div>
-  </div>
-  <div class="wrap footer__bunn">
-    <span>© {ar} {site.navn}</span>
-    <span>Medlem av Norsk Kiropraktorforening · <a href="/personvern/">Personvern</a></span>
+  <div class="wrap footer__inner">
+    <span>© {ar} {site.navn} · Medlem av Norsk Kiropraktorforening</span>
+    <span class="footer__lenker">
+      <a href={sara.side}>Kiropraktor Sara</a>
+      <a href={marie.side}>Kiropraktor Marie</a>
+      <a href={site.facebook}>Facebook</a>
+      <a href={site.instagram}>Instagram</a>
+      <a href="/personvern/">Personvern</a>
+    </span>
   </div>
 </footer>
 
 <style>
   .footer {
-    background: #1f3a4d;
-    color: #d6e2ec;
-    font-size: 15px;
-    padding-top: 56px;
+    background: var(--ink);
+    color: #9fb0c2;
+    font-size: 14px;
+  }
+  .footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    padding-block: 22px;
+  }
+  .footer__lenker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
   }
   .footer a {
-    color: #fff;
+    color: #9fb0c2;
   }
   .footer a:hover {
-    color: var(--teal-soft);
-  }
-  .footer__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
-    gap: 32px;
-    padding-bottom: 40px;
-  }
-  .footer__navn {
-    font-family: var(--serif);
-    font-size: 20px;
     color: #fff;
-  }
-  .footer__tittel {
-    font-weight: 600;
-    color: #fff;
-  }
-  .footer__bunn {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
-    padding-block: 20px;
-    border-top: 1px solid #36566c;
-    font-size: 14px;
   }
 </style>

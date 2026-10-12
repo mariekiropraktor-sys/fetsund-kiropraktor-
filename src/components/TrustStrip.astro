@@ -4,9 +4,12 @@ import { site } from "../data/site";
 
 <section class="trust" aria-label="Kort om klinikken">
   <div class="wrap">
-    <div><strong>Tre kiropraktorer</strong>Under samme tak</div>
-    <div><strong>Siden {site.grunnlagt}</strong>Midt i Fetsund sentrum</div>
-    <div><strong>Gratis parkering</strong>Kort vei fra buss og tog</div>
+    <a href={site.google.lenke}>
+      <strong><span class="star" aria-hidden="true">★</span> {site.google.vurdering} på Google</strong>
+      <span>{site.google.antall} anmeldelser</span>
+    </a>
+    <div><strong>Siden 2015</strong>Autoriserte kiropraktorer</div>
+    <div><strong>Ingen henvisning</strong>Bestill direkte på nett</div>
     <div><strong>Sykmeldingsrett</strong>Kan sykmelde ved behov</div>
     <div><strong>Henvisningsrett</strong>Til MR, røntgen og spesialist</div>
   </div>

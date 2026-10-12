@@ -33,7 +33,7 @@ import { site, navigasjon } from "../data/site";
     <div class="mobilmeny__cta">
       <a class="btn" href={site.booking}>Bestill time på nett</a>
       <a class="btn btn--ghost" href={site.telefonLenke}>Ring {site.telefon}</a>
-      <p class="muted">{site.adresse}<br />{site.apningstiderKort}</p>
+      <p class="muted">{site.adresse}</p>
     </div>
 </div>
 
@@ -59,7 +59,7 @@ import { site, navigasjon } from "../data/site";
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") lukk();
     });
-    window.matchMedia("(min-width: 1024px)").addEventListener("change", lukk);
+    window.matchMedia("(min-width: 901px)").addEventListener("change", lukk);
   }
 </script>
 
@@ -68,7 +68,7 @@ import { site, navigasjon } from "../data/site";
     position: sticky;
     top: 0;
     z-index: 50;
-    background: rgb(238 242 247 / 0.94);
+    background: rgb(255 255 255 / 0.96);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--line);
   }
@@ -77,10 +77,10 @@ import { site, navigasjon } from "../data/site";
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    min-height: 88px;
+    min-height: 84px;
   }
   .topbar__logo img {
-    height: clamp(77px, 8.25vw, 92px);
+    height: 52px;
     width: auto;
   }
   .topbar__nav {
@@ -107,8 +107,8 @@ import { site, navigasjon } from "../data/site";
   .burger {
     width: 48px;
     height: 48px;
-    border: 0;
-    border-radius: 12px;
+    border: 1.5px solid var(--line-2);
+    border-radius: 999px;
     background: var(--surface);
     display: flex;
     flex-direction: column;
@@ -138,7 +138,7 @@ import { site, navigasjon } from "../data/site";
 
   .mobilmeny {
     position: fixed;
-    inset: 77px 0 0 0;
+    inset: 84px 0 0 0;
     z-index: 49;
     background: var(--surface);
     padding: 8px var(--gutter) 32px;
@@ -174,9 +174,9 @@ import { site, navigasjon } from "../data/site";
     font-size: 14px;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 901px) {
     .topbar__inner {
-      min-height: 112px;
+      min-height: 88px;
     }
     .topbar__nav,
     .topbar__book {
