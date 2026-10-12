@@ -1,0 +1,87 @@
+---
+// Google Maps lastes først når besøkende klikker (personvern: ingen data
+// sendes til Google før man selv velger å vise kartet).
+import { site } from "../data/site";
+
+interface Props {
+  hoyde?: number;
+}
+const { hoyde = 300 } = Astro.props;
+const sok = encodeURIComponent(site.adresse);
+const embed = `https://www.google.com/maps?q=${sok}&output=embed`;
+const apne = `https://www.google.com/maps/search/?api=1&query=${sok}`;
+---
+
+<div class="kart" style={`min-height: ${hoyde}px`} data-kart={embed}>
+  <div class="kart__plassholder">
+    <svg width="40" height="40" viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"
+      ></path>
+    </svg>
+    <p class="kart__adresse">{site.adresse}</p>
+    <button type="button" class="btn btn--ghost kart__knapp">Vis kart</button>
+    <p class="kart__info">
+      Kartet hentes fra Google Maps når du klikker. <a href={apne} rel="noopener">Åpne i Google Maps</a>
+    </p>
+  </div>
+</div>
+
+<script>
+  // Bytter plassholderen ut med kartet når man klikker «Vis kart»
+  document.querySelectorAll<HTMLElement>(".kart[data-kart]").forEach((kart) => {
+    kart.querySelector(".kart__knapp")?.addEventListener("click", () => {
+      const iframe = document.createElement("iframe");
+      iframe.src = kart.dataset.kart!;
+      iframe.title = "Kart: Fetsund Kiropraktorsenter";
+      iframe.referrerPolicy = "no-referrer-when-downgrade";
+      kart.replaceChildren(iframe);
+      kart.removeAttribute("data-kart");
+    });
+  });
+</script>
+
+<style>
+  .kart {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: #e3f4f7;
+    display: grid;
+  }
+  .kart :global(iframe) {
+    width: 100%;
+    height: 100%;
+    min-height: inherit;
+    border: 0;
+    display: block;
+  }
+  .kart__plassholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px;
+    text-align: center;
+    color: var(--teal);
+  }
+  .kart__knapp {
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .kart__adresse {
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .kart__info {
+    font-size: 14px;
+    color: var(--ink);
+    opacity: 0.75;
+    max-width: 30ch;
+  }
+</style>

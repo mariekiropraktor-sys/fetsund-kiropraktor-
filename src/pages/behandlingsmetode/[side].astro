@@ -1,0 +1,13 @@
+---
+// Én side per metode: src/content/behandlingsmetode/<adresse>.md → /behandlingsmetode/<adresse>/
+import Fagside from "../../components/Fagside.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const sider = await getCollection("behandlingsmetode");
+  return sider.map((side) => ({ params: { side: side.id }, props: { side } }));
+}
+const { side } = Astro.props;
+---
+
+<Fagside side={side} smule={{ navn: "Behandling", lenke: "/behandlingsmetoder/" }} />

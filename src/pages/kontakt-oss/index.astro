@@ -1,0 +1,88 @@
+---
+import Kart from "../../components/Kart.astro";
+import SideHode from "../../components/SideHode.astro";
+import Layout from "../../layouts/Layout.astro";
+import { site } from "../../data/site";
+---
+
+<Layout
+  title="Kontakt"
+  description="Kontakt Fetsund Kiropraktorsenter, Garderbakken 1 i Fetsund sentrum. Telefon 463 32 766. Gratis parkering. Bestill time på nett."
+>
+  <SideHode
+    tittel="Kontakt oss"
+    ingress="Midt i Fetsund sentrum, ca. 6 minutter fra Lillestrøm og Sørumsand. Gratis parkering og kort gangvei fra buss og tog."
+    smuler={[{ navn: "Kontakt" }]}
+  />
+
+  <section class="wrap innhold grid-2 kontakt">
+    <div class="card stack">
+      <div>
+        <h2 class="kontakt__tittel">Adresse</h2>
+        <p>{site.navn}<br />{site.adresse}</p>
+      </div>
+      <div>
+        <h2 class="kontakt__tittel">Åpningstider</h2>
+        <dl class="tider">
+          {
+            site.apningstider.map((a) => (
+              <>
+                <dt>{a.dager}</dt>
+                <dd>{a.tid}</dd>
+              </>
+            ))
+          }
+        </dl>
+      </div>
+      <div>
+        <h2 class="kontakt__tittel">Telefon</h2>
+        <p><a href={site.telefonLenke}>{site.telefon}</a></p>
+      </div>
+      {site.epost && (
+      <div>
+        <h2 class="kontakt__tittel">E-post</h2>
+        <p><a href={`mailto:${site.epost}`}>{site.epost}</a></p>
+      </div>
+      )}
+      <div class="btn-row">
+        <a class="btn" href={site.booking}>Bestill time på nett</a>
+        <a class="btn btn--ghost" href={site.telefonLenke}>Ring</a>
+      </div>
+      <p class="muted liten">
+        Følg oss på <a href={site.facebook}>Facebook</a> og <a href={site.instagram}>Instagram</a>.
+      </p>
+    </div>
+    <Kart hoyde={380} />
+  </section>
+</Layout>
+
+<style>
+  .kontakt {
+    align-items: stretch;
+  }
+  .kontakt .card {
+    gap: 22px;
+  }
+  .kontakt__tittel {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--teal);
+    margin-bottom: 4px;
+  }
+  .tider {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    gap: 2px 20px;
+    margin: 0;
+  }
+  .tider dd {
+    margin: 0;
+  }
+  .liten {
+    font-size: 15px;
+  }
+</style>

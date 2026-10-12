@@ -1,0 +1,189 @@
+---
+import { site, navigasjon } from "../data/site";
+---
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a href="/" class="topbar__logo" aria-label="Til forsiden">
+      <img src={site.logo} alt="Fetsund Kiropraktorsenter" width="456" height="153" />
+    </a>
+
+    <nav class="topbar__nav" aria-label="Hovedmeny">
+      {navigasjon.map((n) => <a href={n.lenke}>{n.navn}</a>)}
+    </nav>
+
+    <a class="btn topbar__book" href={site.booking}>Bestill time</a>
+
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mobilmeny" aria-label="Åpne meny">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobilmeny" id="mobilmeny" hidden>
+    <nav aria-label="Mobilmeny">
+      {
+        navigasjon.map((n) => (
+          <a href={n.lenke}>
+            {n.navn} <span aria-hidden="true">→</span>
+          </a>
+        ))
+      }
+    </nav>
+    <div class="mobilmeny__cta">
+      <a class="btn" href={site.booking}>Bestill time på nett</a>
+      <a class="btn btn--ghost" href={site.telefonLenke}>Ring {site.telefon}</a>
+      <p class="muted">{site.adresse}<br />{site.apningstiderKort}</p>
+    </div>
+</div>
+
+<script>
+  const knapp = document.querySelector<HTMLButtonElement>(".burger");
+  const meny = document.getElementById("mobilmeny");
+  if (knapp && meny) {
+    const lukk = () => {
+      knapp.setAttribute("aria-expanded", "false");
+      knapp.setAttribute("aria-label", "Åpne meny");
+      meny.hidden = true;
+      document.body.style.overflow = "";
+    };
+    knapp.addEventListener("click", () => {
+      const apen = knapp.getAttribute("aria-expanded") === "true";
+      if (apen) return lukk();
+      knapp.setAttribute("aria-expanded", "true");
+      knapp.setAttribute("aria-label", "Lukk meny");
+      meny.hidden = false;
+      document.body.style.overflow = "hidden";
+    });
+    meny.querySelectorAll("a").forEach((a) => a.addEventListener("click", lukk));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") lukk();
+    });
+    window.matchMedia("(min-width: 1024px)").addEventListener("change", lukk);
+  }
+</script>
+
+<style>
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgb(238 242 247 / 0.94);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    min-height: 88px;
+  }
+  .topbar__logo img {
+    height: clamp(77px, 8.25vw, 92px);
+    width: auto;
+  }
+  .topbar__nav {
+    display: none;
+    gap: clamp(16px, 1.8vw, 26px);
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .topbar__nav a {
+    white-space: nowrap;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .topbar__nav a:hover {
+    color: var(--teal);
+  }
+  .topbar__book {
+    white-space: nowrap;
+    display: none;
+    min-height: 44px;
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .burger {
+    width: 48px;
+    height: 48px;
+    border: 0;
+    border-radius: 12px;
+    background: var(--surface);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 0;
+  }
+  .burger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--ink);
+    border-radius: 2px;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  .burger[aria-expanded="true"] span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .burger[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+  .burger[aria-expanded="true"] span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .mobilmeny {
+    position: fixed;
+    inset: 77px 0 0 0;
+    z-index: 49;
+    background: var(--surface);
+    padding: 8px var(--gutter) 32px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .mobilmeny[hidden] {
+    display: none;
+  }
+  .mobilmeny nav a {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none;
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 24px;
+  }
+  .mobilmeny nav a span {
+    color: var(--teal);
+  }
+  .mobilmeny__cta {
+    margin-top: auto;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+  .mobilmeny__cta p {
+    font-size: 14px;
+  }
+
+  @media (min-width: 1024px) {
+    .topbar__inner {
+      min-height: 112px;
+    }
+    .topbar__nav,
+    .topbar__book {
+      display: flex;
+    }
+    .burger {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,520 @@
+---
+import Kart from "../components/Kart.astro";
+import Layout from "../layouts/Layout.astro";
+import TrustStrip from "../components/TrustStrip.astro";
+import BookingCTA from "../components/BookingCTA.astro";
+import PostCard from "../components/PostCard.astro";
+import Ryggrad from "../components/Ryggrad.astro";
+import { getCollection } from "astro:content";
+import { site, plager, metoder, andreMetoder, spesialfelt, kiropraktorer } from "../data/site";
+
+// De tre nyeste publiserte innleggene vises automatisk på forsiden
+const innlegg = (await getCollection("blogg", (p) => !p.data.utkast))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf() || a.id.localeCompare(b.id))
+  .slice(0, 3);
+---
+
+<Layout
+  title="Kiropraktor i Fetsund | Fetsund Kiropraktorsenter"
+  description="Tre kiropraktorer midt i Fetsund sentrum. Vi behandler nakke, rygg, ledd og muskler – og har egne spesialfelt for svimmelhet, halebein og gravide. Gratis parkering."
+>
+  <!-- Topp: tekst og bilde på dempet turkis flate (samme uttrykk som Marie-siden) -->
+  <div class="hero-ramme">
+    <section class="hero">
+      <div class="hero__tekst stack">
+        <span class="eyebrow eyebrow--lys">Kiropraktor i Fetsund sentrum</span>
+        <h1 class="h1">Din lokale kiropraktor – for hele familien</h1>
+        <p class="lead">
+          Vi er tre kiropraktorer som behandler alle typer muskel- og skjelettplager, fra akutte smerter til langvarige
+          plager. Du får en grundig undersøkelse, behandling som kombinerer flere metoder, og øvelser du kan gjøre selv.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn--bright" href={site.booking}>Bestill time på nett</a>
+          <a class="btn btn--outline-light" href={site.telefonLenke}>Ring {site.telefon}</a>
+        </div>
+        <p class="hero__note">6 minutter fra Lillestrøm og Sørumsand · Gratis parkering</p>
+      </div>
+      <img
+        class="hero__bilde"
+        src={site.heroBilde}
+        alt="Behandlingsrom hos Fetsund Kiropraktorsenter"
+        width="960"
+        height="1200"
+        fetchpriority="high"
+      />
+    </section>
+  </div>
+
+  <TrustStrip />
+
+  <!-- Hva kan vi hjelpe med -->
+  <section class="section wrap" id="plager">
+    <div class="section-head">
+      <h2 class="h2">Hva kan vi hjelpe deg med?</h2>
+      <p class="muted">
+        De fleste kommer med helt vanlige plager i nakke, rygg og ledd. I tillegg har hver av oss fordypet seg i noen
+        felt, så du kommer til den som kan mest om akkurat ditt problem.
+      </p>
+    </div>
+    <div class="hjelp">
+      <div class="card hjelp__spesial">
+        <span class="eyebrow eyebrow--lys">Spesialfelt</span>
+        <h3 class="hjelp__tittel">Når du trenger ekstra kompetanse</h3>
+        <ul class="arrow-list">
+          {
+            spesialfelt.map((s) => (
+              <li>
+                <a href={s.lenke}>
+                  <span>
+                    <strong>{s.navn}</strong>
+                    <small>{s.tekst} Hos {s.hvem}.</small>
+                  </span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div class="card hjelp__kiro">
+        <Ryggrad />
+        <span class="eyebrow">Alle kiropraktorene</span>
+        <h3 class="hjelp__tittel">Muskel- og leddplager</h3>
+        <div class="plager">
+          {
+            plager.map((p) => (
+              <a class="plager__kort" href={p.lenke}>
+                <strong>{p.navn}</strong>
+                <span>{p.tekst}</span>
+              </a>
+            ))
+          }
+        </div>
+        <a class="hjelp__alle" href="/behandlingsomrader/">Se alle plager vi behandler →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kiropraktorene -->
+  <section class="section section--white" id="kiropraktorene">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="h2">Møt kiropraktorene</h2>
+        <p class="muted">
+          Alle har 5-årig mastergrad i kiropraktikk og over ti års erfaring. Usikker på hvem du skal velge? Ring oss, så
+          hjelper vi deg.
+        </p>
+      </div>
+      <div class="team">
+        {
+          kiropraktorer.map((k) => (
+            <article class="person">
+              <a href={k.side} class="person__bilde-lenke" tabindex="-1" aria-hidden="true">
+                <img class="person__bilde" src={k.bilde} alt="" width="600" height="700" loading="lazy" />
+              </a>
+              <div class="person__tekst stack">
+                <div>
+                  <h3 class="person__navn">
+                    <a href={k.side}>{k.navn}</a>
+                  </h3>
+                  <p class="muted person__tittel">{k.tittel}</p>
+                </div>
+                <ul class="chip-list">
+                  {k.spesialfelt.map((s) => <li><span class="chip">{s}</span></li>)}
+                </ul>
+                <p class="muted">{k.kort}</p>
+                <div class="person__lenker">
+                  <a class="btn" href={k.booking}>Bestill hos {k.navn.split(" ")[0]}</a>
+                  <a href={k.side}><strong>Les mer →</strong></a>
+                </div>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Slik foregår en time -->
+  <section class="section time">
+    <div class="wrap">
+      <h2 class="h2">Slik foregår første time</h2>
+      <ol class="steg">
+        <li>
+          <span class="steg__nr">1</span>
+          <h3>Samtale</h3>
+          <p>Hva plager deg, når startet det, og hva gjør det bedre eller verre? Ofte den viktigste ledetråden.</p>
+        </li>
+        <li>
+          <span class="steg__nr">2</span>
+          <h3>Undersøkelse</h3>
+          <p>Bevegelse, muskler, ledd og nerver. Vi forklarer hva vi finner, og hva som trolig er årsaken.</p>
+        </li>
+        <li>
+          <span class="steg__nr">3</span>
+          <h3>Behandling og øvelser</h3>
+          <p>Tilpasset deg, med øvelser du kan gjøre hjemme. Henvisning videre hvis noe bør utredes.</p>
+        </li>
+      </ol>
+      <div class="btn-row">
+        <a class="btn" href={site.booking}>Førstegangskonsultasjon · 910 kr</a>
+        <a class="btn btn--ghost" href="/priser/">Se alle priser</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Behandlingsmetoder -->
+  <section class="section wrap" id="behandling">
+    <div class="section-head">
+      <h2 class="h2">Slik behandler vi</h2>
+      <p class="muted">
+        Vi kombinerer flere metoder i samme time, så du får en helhetlig behandling uten å måtte gå til flere ulike
+        behandlere.
+      </p>
+    </div>
+    <div class="metoder">
+      {
+        metoder.map((m) => (
+          <a class="card card-link" href={m.lenke}>
+            <h3 class="metoder__navn">{m.navn}</h3>
+            <p class="muted">{m.tekst}</p>
+          </a>
+        ))
+      }
+    </div>
+    <div class="andre">
+      <p><strong>Vi bruker også:</strong></p>
+      <ul class="chip-list">
+        {
+          andreMetoder.map((m) => (
+            <li>
+              {m.lenke ? (
+                <a class="chip-link" href={m.lenke}>
+                  {m.navn} <span aria-hidden="true">→</span>
+                </a>
+              ) : (
+                <span class="chip">{m.navn}</span>
+              )}
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  {
+    innlegg.length > 0 && (
+      <section class="section section--white">
+        <div class="wrap">
+          <div class="blogg-head">
+            <h2 class="h2">Fra bloggen</h2>
+            <a href="/blogg/">
+              <strong>Alle innlegg →</strong>
+            </a>
+          </div>
+          <div class="card-grid">
+            {innlegg.map((p) => (
+              <PostCard slug={p.id} title={p.data.title} tema={p.data.tema} date={p.data.date} image={p.data.image} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Finn fram -->
+  <section class="section">
+    <div class="wrap grid-2 finn">
+      <div class="stack">
+        <h2 class="h2">Finn fram</h2>
+        <p>
+          {site.navn}<br />
+          {site.adresse}
+        </p>
+        <p class="muted">
+          I «Rosenbergbygget» midt i Fetsund sentrum. Gratis parkering og kort gangvei fra buss og tog.
+        </p>
+        <p>
+          {
+            site.apningstider.map((a) => (
+              <>
+                {a.dager}: {a.tid}
+                <br />
+              </>
+            ))
+          }
+        </p>
+        <p><a href={site.telefonLenke}>{site.telefon}</a></p>
+        <a href="/kontakt-oss/"><strong>Kontakt og veibeskrivelse →</strong></a>
+      </div>
+      <Kart hoyde={300} />
+    </div>
+  </section>
+
+  <BookingCTA />
+</Layout>
+
+<style>
+  .hero-ramme {
+    background: var(--surface);
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    background: #2b6476;
+    color: #fff;
+    overflow: hidden;
+  }
+  .hero__bilde {
+    order: -1;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    max-height: 420px;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+  }
+  .hero__tekst {
+    gap: 22px;
+    position: relative;
+    margin-top: -48px;
+    padding: 0 var(--gutter) clamp(40px, 8vw, 72px);
+  }
+  .hero .h1 {
+    color: #fff;
+  }
+  .hero .lead {
+    color: rgba(255, 255, 255, 0.82);
+  }
+  .hero__note {
+    font-size: 15px;
+    color: var(--teal-soft);
+  }
+  .btn--bright {
+    background: var(--teal-bright);
+    border-color: var(--teal-bright);
+    color: var(--ink);
+  }
+  .btn--bright:hover {
+    background: #fff;
+    border-color: #fff;
+    color: var(--ink);
+  }
+  @media (min-width: 900px) {
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 600px;
+    }
+    .hero__bilde {
+      order: 0;
+      width: min(100%, 520px);
+      height: auto;
+      aspect-ratio: 4 / 5;
+      max-height: none;
+      justify-self: end;
+      align-self: center;
+      margin-block: 56px;
+      margin-right: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter)));
+      border-radius: 24px;
+      -webkit-mask-image: none;
+      mask-image: none;
+    }
+    .hero__tekst {
+      align-self: center;
+      margin-top: 0;
+      padding-block: 64px 72px;
+      padding-inline: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter))) 48px;
+    }
+  }
+
+  .hjelp {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+    gap: 20px;
+  }
+  .hjelp .card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hjelp__spesial {
+    background: var(--teal);
+    color: #fff;
+  }
+  .eyebrow--lys {
+    color: var(--teal-soft);
+  }
+  .hjelp__tittel {
+    font-size: clamp(26px, 3vw, 32px);
+  }
+  .hjelp__spesial .arrow-list a {
+    border-color: var(--teal-line);
+    color: #fff;
+  }
+  .hjelp__spesial .arrow-list a:hover {
+    color: var(--teal-soft);
+  }
+  .hjelp__spesial small {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .hjelp__kiro {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .hjelp__kiro :global(.ryggrad) {
+    position: absolute;
+    z-index: -1;
+    top: -186px;
+    right: -40px;
+    width: 290px;
+    height: auto;
+    pointer-events: none;
+  }
+  .hjelp__kiro :global(.ryggrad__sirkel) {
+    fill: var(--teal-soft);
+  }
+  .hjelp__kiro :global(.ryggrad__virvler) {
+    fill: #fff;
+  }
+  .hjelp__kiro :global(.ryggrad__skiver) {
+    fill: var(--teal-line);
+    opacity: 0.35;
+  }
+  @media (max-width: 600px) {
+    .hjelp__kiro :global(.ryggrad) {
+      top: -70px;
+      right: -50px;
+      width: 170px;
+    }
+  }
+  .plager {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .plager__kort {
+    background: var(--bg);
+    border-radius: 14px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+  }
+  .plager__kort span {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .plager__kort:hover {
+    background: var(--teal-soft);
+    color: var(--ink);
+  }
+  .hjelp__alle {
+    font-weight: 600;
+  }
+
+  .team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 24px;
+  }
+  .person {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .person__bilde {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center 25%;
+  }
+  .person__tekst {
+    padding: 22px 24px 26px;
+    gap: 14px;
+    flex: 1;
+  }
+  .person__navn {
+    font-size: 26px;
+  }
+  .person__navn a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .person__navn a:hover {
+    color: var(--teal);
+  }
+  .person__tittel {
+    font-size: 15px;
+  }
+  .person .chip {
+    background: var(--surface);
+  }
+  .person__lenker {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .steg {
+    list-style: none;
+    padding: 0;
+    margin: 36px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+    gap: 36px;
+  }
+  .steg h3 {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0 6px;
+  }
+  .time {
+    background: #e3f4f7;
+  }
+  .steg p {
+    color: var(--muted);
+  }
+  .steg__nr {
+    font-family: var(--serif);
+    font-size: 46px;
+    line-height: 1;
+    color: var(--teal);
+  }
+
+  .metoder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    gap: 16px;
+  }
+  .metoder__navn {
+    font-size: 22px;
+    line-height: 1.25;
+  }
+  .andre {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .blogg-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .finn {
+    align-items: stretch;
+  }
+</style>

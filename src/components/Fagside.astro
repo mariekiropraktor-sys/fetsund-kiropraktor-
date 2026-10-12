@@ -1,0 +1,75 @@
+---
+// Felles mal for én plage (behandlingsområde) eller én behandlingsmetode.
+import Layout from "../layouts/Layout.astro";
+import SideHode from "./SideHode.astro";
+import KortFortalt from "./KortFortalt.astro";
+import BookingCTA from "./BookingCTA.astro";
+import { render, type CollectionEntry } from "astro:content";
+import { site, kiropraktorer } from "../data/site";
+
+interface Props {
+  side: CollectionEntry<"behandlingsomrade"> | CollectionEntry<"behandlingsmetode">;
+  smule: { navn: string; lenke: string };
+}
+const { side, smule } = Astro.props;
+const { Content } = await render(side);
+const d = side.data;
+const ekspert = d.kiropraktor ? kiropraktorer.find((k) => k.id === d.kiropraktor) : undefined;
+---
+
+<Layout title={d.seoTittel ?? d.tittel} description={d.beskrivelse} image={d.bilde}>
+  <SideHode tittel={d.tittel} ingress={d.ingress || undefined} smuler={[smule, { navn: d.tittel }]}>
+    <div class="btn-row">
+      <a class="btn" href={ekspert?.booking ?? site.booking}>Bestill time</a>
+      <a class="btn btn--ghost" href={site.telefonLenke}>Ring {site.telefon}</a>
+    </div>
+  </SideHode>
+
+  <div class="wrap fagside">
+    <article class="prose artikkel__tekst">
+      {d.kortFortalt.length > 0 && <KortFortalt punkter={d.kortFortalt} />}
+      <Content />
+    </article>
+    {
+      ekspert && (
+        <aside class="card ekspert stack">
+          <img src={ekspert.bilde} alt="" width="96" height="96" loading="lazy" />
+          <p class="eyebrow">Spesialfelt hos</p>
+          <h2 class="ekspert__navn">{ekspert.navn}</h2>
+          <p class="muted">{ekspert.kort}</p>
+          <a class="btn" href={ekspert.booking}>Bestill hos {ekspert.navn.split(" ")[0]}</a>
+        </aside>
+      )
+    }
+  </div>
+
+  <BookingCTA />
+</Layout>
+
+<style>
+  .fagside {
+    display: grid;
+    gap: 40px;
+    padding-block: clamp(40px, 6vw, 64px);
+    align-items: start;
+  }
+  @media (min-width: 1000px) {
+    .fagside {
+      grid-template-columns: minmax(0, 700px) 300px;
+      justify-content: space-between;
+    }
+    .ekspert {
+      position: sticky;
+      top: 140px;
+    }
+  }
+  .ekspert img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .ekspert__navn {
+    font-size: 24px;
+  }
+</style>

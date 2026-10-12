@@ -1,0 +1,368 @@
+---
+// Blogginnlegg ligger rett under domenet, som på den gamle siden:
+// fetsundkiropraktor.no/vanlige-arsaker-til-vondt-i-nakken/
+import Layout from "../layouts/Layout.astro";
+import BookingCTA from "../components/BookingCTA.astro";
+import PostCard from "../components/PostCard.astro";
+import SideHode from "../components/SideHode.astro";
+import KortFortalt from "../components/KortFortalt.astro";
+import { lesetid } from "../data/lesetid";
+import { getCollection, render } from "astro:content";
+import { site, temaNavn, kiropraktorer } from "../data/site";
+
+export async function getStaticPaths() {
+  const innlegg = await getCollection("blogg");
+  return innlegg.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const minutter = lesetid(post.body);
+// Innholdsfortegnelse: alle h2-overskrifter i innlegget
+const innhold = headings.filter((h) => h.depth === 2);
+const dato = post.data.date.toLocaleDateString("nb-NO", { day: "numeric", month: "long", year: "numeric" });
+
+const relaterte = (await getCollection("blogg", (p) => !p.data.utkast))
+  .filter((p) => p.id !== post.id && p.data.tema === post.data.tema)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+
+// Forfatter: en av kiropraktorene, eller klinikken som helhet
+const forfatter = kiropraktorer.find((k) => k.id === post.data.forfatter);
+const forfatterNavn = forfatter?.navn ?? site.navn;
+const forfatterBilde = forfatter?.bilde ?? site.logo;
+const forfatterLenke = forfatter ? `/om-klinikken/#${forfatter.id}` : "/om-klinikken/";
+
+// Strukturerte data: forteller Google at dette er en fagartikkel
+const artikkelData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.date.toISOString().slice(0, 10),
+  image: new URL(post.data.image ?? site.heroBilde, Astro.site).href,
+  inLanguage: "nb-NO",
+  mainEntityOfPage: new URL(`/${post.id}/`, Astro.site).href,
+  author: forfatter
+    ? { "@type": "Person", name: forfatter.navn, jobTitle: "Kiropraktor", url: new URL(forfatterLenke, Astro.site).href }
+    : { "@type": "Organization", name: site.navn },
+  publisher: { "@type": "Organization", name: "Fetsund Kiropraktorsenter", url: Astro.site?.href },
+};
+---
+
+<Layout title={post.data.seoTittel ?? post.data.title} description={post.data.description} image={post.data.image} type="article" skjult={post.data.utkast}>
+  <script type="application/ld+json" set:html={JSON.stringify(artikkelData)} slot="head" />
+
+  <SideHode
+    tittel={post.data.title}
+    smuler={[{ navn: "Blogg", lenke: "/blogg/" }, { navn: temaNavn[post.data.tema], lenke: `/blogg/?tema=${post.data.tema}` }]}
+    artikkel={!!post.data.image}
+  >
+    {post.data.utkast && <p class="utkast-merke"><strong>Utkast:</strong> denne siden er ikke publisert ennå og vises ikke i bloggen eller hos Google.</p>}
+    <div class="forfatterlinje">
+      <img src={forfatterBilde} alt="" width="72" height="72" />
+      <p>
+        <a href={forfatterLenke}>{forfatterNavn}</a>{forfatter && ", kiropraktor"}<br />
+        <span><time datetime={post.data.date.toISOString().slice(0, 10)}>{dato}</time> <span aria-hidden="true">–</span> {minutter} min lesing</span>
+      </p>
+    </div>
+  </SideHode>
+
+  {
+    post.data.image && (
+      <figure class="wrap forsidebilde">
+        <img src={post.data.image} alt="" />
+        {post.data.bildeTekst && <figcaption>{post.data.bildeTekst}</figcaption>}
+      </figure>
+    )
+  }
+
+  <div class:list={["wrap artikkel", { "artikkel--med-innhold": innhold.length >= 3 }]}>
+    {
+      innhold.length >= 3 && (
+        <aside class="innholdsliste" aria-label="Innhold i artikkelen">
+          <details open>
+            <summary>I denne artikkelen</summary>
+            <ol>
+              {innhold.map((h) => (
+                <li>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                </li>
+              ))}
+            </ol>
+          </details>
+        </aside>
+      )
+    }
+    <article class="prose artikkel__tekst">
+      <KortFortalt punkter={post.data.kortFortalt} />
+      <Content />
+    </article>
+  </div>
+
+  <section class="wrap forfatterboks-ramme" aria-label="Om forfatteren">
+    <div class="forfatterboks">
+      <img src={forfatterBilde} alt={forfatterNavn} width="160" height="200" loading="lazy" />
+      <div class="forfatterboks__tekst">
+        <h2 class="forfatterboks__tittel">{forfatter ? `Skrevet av ${forfatterNavn}` : "Skrevet av kiropraktorene"}</h2>
+        <p>{forfatter ? forfatter.kort : "Vi er tre kiropraktorer midt i Fetsund sentrum, og behandler alle typer muskel- og skjelettplager."}</p>
+        <div class="btn-row">
+          <a class="btn" href={forfatter?.booking ?? site.booking}>Bestill time</a>
+          <a class="btn btn--ghost" href={forfatterLenke}>Om kiropraktorene</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {
+    relaterte.length > 0 && (
+      <section class="section wrap">
+        <h2 class="h2 relaterte">Les også</h2>
+        <div class="card-grid">
+          {relaterte.map((p) => (
+            <PostCard slug={p.id} title={p.data.title} tema={p.data.tema} date={p.data.date} image={p.data.image} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <BookingCTA />
+</Layout>
+
+<script>
+  // Marker overskriften du leser nå i innholdslisten (bare på store skjermer)
+  const lenker = [...document.querySelectorAll<HTMLAnchorElement>(".innholdsliste a")];
+  const overskrifter = lenker
+    .map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1))))
+    .filter((h): h is HTMLElement => h !== null);
+  if (overskrifter.length && "IntersectionObserver" in window) {
+    const synlige = new Set<Element>();
+    const obs = new IntersectionObserver(
+      (oppf) => {
+        oppf.forEach((o) => (o.isIntersecting ? synlige.add(o.target) : synlige.delete(o.target)));
+        const aktiv = overskrifter.find((h) => synlige.has(h));
+        if (!aktiv) return;
+        lenker.forEach((a) => a.toggleAttribute("aria-current", a.hash === "#" + aktiv.id));
+      },
+      { rootMargin: "-10% 0px -75% 0px" },
+    );
+    overskrifter.forEach((h) => obs.observe(h));
+  }
+  // På mobil starter innholdslisten lukket
+  if (matchMedia("(max-width: 1099px)").matches) {
+    document.querySelector(".innholdsliste details")?.removeAttribute("open");
+  }
+</script>
+
+<style>
+  .utkast-merke {
+    background: #fff4e5;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+  .forfatterlinje {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 15px;
+    line-height: 1.45;
+    color: var(--muted);
+  }
+  .forfatterlinje img {
+    width: var(--portrett-liten);
+    height: var(--portrett-liten);
+    flex: none;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 15%;
+    border: 2px solid #fff;
+  }
+  .forfatterlinje a {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .forfatterlinje a:hover {
+    text-decoration: underline;
+  }
+
+  /* Forsidebildet ligger over kanten på toppfeltet */
+  .forsidebilde figcaption {
+    max-width: 1040px;
+    margin: 8px auto 0;
+    font-size: 13px;
+    color: var(--muted);
+    text-align: right;
+  }
+  .forsidebilde {
+    margin-bottom: 0;
+    margin-top: clamp(-96px, -7vw, -40px);
+    position: relative;
+  }
+  .forsidebilde img {
+    width: 100%;
+    max-width: 1040px;
+    margin-inline: auto;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    object-position: center 35%;
+    border-radius: var(--radius);
+    background: var(--line);
+    box-shadow: 0 18px 50px rgb(16 25 35 / 0.12);
+  }
+  @media (max-width: 700px) {
+    .forsidebilde img {
+      aspect-ratio: 4 / 3;
+    }
+  }
+
+  .artikkel {
+    padding-block: clamp(36px, 6vw, 72px);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(0, 700px);
+    gap: 28px;
+  }
+  @media (min-width: 1100px) {
+    .artikkel--med-innhold {
+      grid-template-columns: 240px minmax(0, 700px);
+      gap: 64px;
+    }
+  }
+
+  /* Innholdsliste */
+  .innholdsliste {
+    font-size: 15px;
+  }
+  @media (min-width: 1100px) {
+    .innholdsliste details {
+      position: sticky;
+      top: 104px;
+    }
+    .innholdsliste summary {
+      pointer-events: none;
+    }
+    .innholdsliste summary::marker,
+    .innholdsliste summary::-webkit-details-marker {
+      content: "";
+      display: none;
+    }
+  }
+  .innholdsliste details {
+    background: var(--surface);
+    border-radius: 16px;
+    padding: 16px 18px;
+  }
+  @media (min-width: 1100px) {
+    .innholdsliste details {
+      background: none;
+      padding: 0;
+      border-left: 2px solid var(--line-2);
+    }
+    .innholdsliste summary {
+      padding-left: 16px;
+    }
+  }
+  .innholdsliste summary {
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .innholdsliste ol {
+    list-style: none;
+    margin: 12px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 2px;
+  }
+  .innholdsliste a {
+    display: block;
+    padding: 6px 0;
+    color: var(--muted);
+    text-decoration: none;
+    line-height: 1.35;
+  }
+  @media (min-width: 1100px) {
+    .innholdsliste a {
+      padding: 6px 0 6px 16px;
+      margin-left: -2px;
+      border-left: 2px solid transparent;
+    }
+    .innholdsliste a[aria-current] {
+      color: var(--teal);
+      border-left-color: var(--teal);
+      font-weight: 600;
+    }
+  }
+  .innholdsliste a:hover {
+    color: var(--teal);
+  }
+
+  /* Forfatterboks */
+  .forfatterboks-ramme {
+    padding-bottom: clamp(16px, 3vw, 32px);
+  }
+  .forfatterboks {
+    max-width: 1004px;
+    margin-inline: auto;
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: clamp(22px, 3vw, 32px);
+    display: grid;
+    gap: 24px;
+    align-items: center;
+  }
+  @media (min-width: 640px) {
+    .forfatterboks {
+      grid-template-columns: 140px 1fr;
+    }
+  }
+  .forfatterboks img {
+    width: 140px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 14px;
+  }
+  .forfatterboks__tekst {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .forfatterboks__tittel {
+    font-size: 24px;
+  }
+  .forfatterboks__tekst p {
+    color: var(--muted);
+    max-width: 60ch;
+  }
+  .relaterte {
+    margin-bottom: 28px;
+  }
+  /* Mobil: lite, rundt bilde ved siden av overskriften i stedet for stort portrett */
+  @media (max-width: 639px) {
+    .forfatterboks {
+      grid-template-columns: var(--portrett-liten) 1fr;
+      gap: 14px 16px;
+    }
+    .forfatterboks img {
+      width: var(--portrett-liten);
+      height: var(--portrett-liten);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      object-position: center 15%;
+    }
+    .forfatterboks__tekst {
+      display: contents;
+    }
+    .forfatterboks__tittel {
+      align-self: center;
+      font-size: 21px;
+    }
+    .forfatterboks__tekst p,
+    .forfatterboks__tekst .btn-row {
+      grid-column: 1 / -1;
+    }
+  }
+  </style>

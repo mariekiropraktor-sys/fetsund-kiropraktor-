@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/www.fetsundkiropraktor.no/:path*", "destination": "/:path*", "permanent": true },
+    { "source": "/behandlingsmetoder/ovelsesveiledning{/}?", "destination": "/behandlingsmetode/ovelsesveiledning/", "permanent": true },
+    { "source": "/category/:path*", "destination": "/blogg/", "permanent": true },
+    { "source": "/tag/:path*", "destination": "/blogg/", "permanent": true },
+    { "source": "/testimonialtype/:path*", "destination": "/", "permanent": true },
+    { "source": "/author/:path*", "destination": "/om-klinikken/", "permanent": true },
+    { "source": "/feed{/}?", "destination": "/blogg/", "permanent": false },
+    { "source": "/behandlingsomrade/senebetennelser{/}?", "destination": "/behandlingsomrade/muskelsmerter-og-senebetennelser/", "permanent": true },
+    { "source": "/behandlingsomrade/kne-og-ankel-fotsmerter{/}?", "destination": "/behandlingsomrade/fot-og-ankel-smerter/", "permanent": true },
+    { "source": "/online-booking{/}?", "destination": "/bestill/", "permanent": true }
+  ]
+}

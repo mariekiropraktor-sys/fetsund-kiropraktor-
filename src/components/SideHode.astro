@@ -1,0 +1,149 @@
+---
+// Felles toppfelt for alle undersider: lys turkis flate med ryggraden fra logoen.
+// Bruk: <SideHode tittel="…" ingress="…" smuler={[{ navn: "Svimmelhet", lenke: "/svimmelhet/" }]}>
+//   knapper o.l. i standard-slot, og evt. et kort/bilde i slot="side"
+import Ryggrad from "./Ryggrad.astro";
+
+interface Smule {
+  navn: string;
+  lenke?: string;
+}
+interface Props {
+  tittel: string;
+  ingress?: string;
+  smuler?: Smule[];
+  artikkel?: boolean; // ekstra luft nederst, så forsidebildet kan ligge over kanten
+}
+const { tittel, ingress, smuler = [], artikkel = false } = Astro.props;
+const harSide = Astro.slots.has("side");
+---
+
+<header class:list={["sidehode", { "sidehode--artikkel": artikkel, "sidehode--side": harSide }]}>
+  <Ryggrad />
+  <div class="wrap sidehode__inner">
+    <div class="sidehode__tekst">
+      <nav class="smuler" aria-label="Du er her">
+        <ol>
+          <li><a href="/">Forside</a></li>
+          {
+            smuler.map((s) => (
+              <li>{s.lenke ? <a href={s.lenke}>{s.navn}</a> : <span aria-current="page">{s.navn}</span>}</li>
+            ))
+          }
+        </ol>
+      </nav>
+      <h1 class="sidehode__tittel">{tittel}</h1>
+      {ingress && <p class="sidehode__ingress">{ingress}</p>}
+      <slot />
+    </div>
+    {
+      harSide && (
+        <div class="sidehode__side">
+          <slot name="side" />
+        </div>
+      )
+    }
+  </div>
+</header>
+
+<style>
+  .sidehode {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background: #e3f4f7;
+    border-bottom: 1px solid #cbe9ee;
+  }
+  .sidehode__inner {
+    padding-block: clamp(28px, 5vw, 56px) clamp(36px, 6vw, 72px);
+    display: grid;
+    gap: clamp(28px, 4vw, 56px);
+    align-items: center;
+  }
+  .sidehode--artikkel .sidehode__inner {
+    padding-bottom: clamp(56px, 9vw, 120px);
+  }
+  @media (min-width: 900px) {
+    .sidehode--side .sidehode__inner {
+      grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    }
+  }
+  .sidehode__tekst {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 760px;
+  }
+  .sidehode__tittel {
+    font-size: clamp(36px, 5.2vw, 60px);
+    line-height: 1.06;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  .sidehode__ingress {
+    font-size: clamp(18px, 1.6vw, 21px);
+    line-height: 1.55;
+    color: #2b3a4a;
+    max-width: 62ch;
+    text-wrap: pretty;
+  }
+
+  /* Brødsmuler: Forside / Svimmelhet / PPPD */
+  .smuler ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 0;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .smuler li + li::before {
+    content: "/";
+    margin: 0 10px;
+    color: var(--teal-line);
+  }
+  .smuler a {
+    color: var(--teal);
+    text-decoration: none;
+  }
+  .smuler a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .smuler [aria-current] {
+    color: var(--muted);
+  }
+
+  /* Ryggraden fra logoen, stort og delvis utenfor kanten */
+  .sidehode :global(.ryggrad) {
+    position: absolute;
+    z-index: -1;
+    width: clamp(320px, 42vw, 560px);
+    height: auto;
+    right: clamp(-200px, -8vw, -60px);
+    top: 50%;
+    transform: translateY(-46%) rotate(-8deg);
+    pointer-events: none;
+  }
+  .sidehode :global(.ryggrad__sirkel) {
+    fill: #cdf2f7;
+  }
+  .sidehode :global(.ryggrad__virvler) {
+    fill: #f4fcfd;
+  }
+  .sidehode :global(.ryggrad__skiver) {
+    fill: var(--teal-line);
+    opacity: 0.28;
+  }
+  @media (max-width: 700px) {
+    .sidehode :global(.ryggrad) {
+      width: 300px;
+      right: -170px;
+      top: 0;
+      transform: translateY(-30%) rotate(-8deg);
+      opacity: 0.8;
+    }
+  }
+</style>

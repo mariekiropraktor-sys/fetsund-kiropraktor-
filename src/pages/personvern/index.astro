@@ -1,0 +1,67 @@
+---
+import SideHode from "../../components/SideHode.astro";
+import Layout from "../../layouts/Layout.astro";
+import { site } from "../../data/site";
+---
+
+<Layout
+  title="Personvern"
+  description="Slik behandler fetsundkiropraktor.no personopplysninger: ingen informasjonskapsler, ingen sporing, og kart og videoer lastes bare når du selv velger det."
+>
+  <SideHode
+    tittel="Personvern på denne nettsiden"
+    ingress="Kort fortalt: nettsiden sporer deg ikke, og bruker ingen informasjonskapsler (cookies)."
+    smuler={[{ navn: "Personvern" }]}
+  />
+
+  <section class="wrap innhold prose personvern">
+    <h2>Hvem er ansvarlig</h2>
+    <p>
+      Nettsiden drives av {site.navn}, {site.adresse}. Har du spørsmål om personvern, ring
+      <a href={site.telefonLenke}>{site.telefon}</a>.
+    </p>
+
+    <h2>Ingen informasjonskapsler eller sporing</h2>
+    <p>
+      Vi bruker ikke analyseverktøy, annonsesporing eller informasjonskapsler. Skriftene på siden ligger på vår egen
+      server, så nettleseren din kobler seg ikke til Google for å vise dem.
+    </p>
+
+    <h2>Kart og videoer</h2>
+    <p>
+      Kartet over klinikken hentes fra Google Maps først når du klikker «Vis kart». Da gjelder
+      <a href="https://policies.google.com/privacy?hl=no" rel="noopener">Googles personvernerklæring</a>.
+    </p>
+    <p>
+      Noen blogginnlegg har videoer fra YouTube. De vises i YouTubes personvernvennlige modus
+      (youtube-nocookie.com), som ikke lagrer informasjonskapsler før du starter videoen.
+    </p>
+
+    <h2>Timebestilling</h2>
+    <p>
+      Når du bestiller time på nett, sendes du til Pasientsky, som er klinikkens bestillings- og journalsystem. Opplysningene du oppgir der behandles
+      etter pasientjournalloven og helsepersonelloven, og er underlagt taushetsplikt.
+    </p>
+
+    <h2>Lenker til andre nettsider</h2>
+    <p>
+      Siden lenker blant annet til Facebook, Instagram, Google og kiropraktorenes egne nettsider. Disse har egne regler for
+      personvern.
+    </p>
+
+    <h2>Dine rettigheter</h2>
+    <p>
+      Du har rett til innsyn i opplysninger vi har om deg, og til å be om retting eller sletting der loven tillater
+      det. Du kan også klage til <a href="https://www.datatilsynet.no/" rel="noopener">Datatilsynet</a>.
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .personvern {
+    max-width: calc(720px + 2 * var(--gutter));
+  }
+  .personvern > h2:first-child {
+    margin-top: 0;
+  }
+</style>

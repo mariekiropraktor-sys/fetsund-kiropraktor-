@@ -1,0 +1,14 @@
+---
+import SideHode from "../components/SideHode.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Fant ikke siden" description="Siden du lette etter finnes ikke.">
+  <SideHode tittel="Denne siden finnes ikke" ingress="Kanskje den har flyttet. Prøv en av disse:">
+    <div class="btn-row">
+      <a class="btn" href="/">Til forsiden</a>
+      <a class="btn btn--ghost" href="/behandlingsomrader/">Plager vi behandler</a>
+      <a class="btn btn--ghost" href="/blogg/">Blogg</a>
+    </div>
+  </SideHode>
+</Layout>

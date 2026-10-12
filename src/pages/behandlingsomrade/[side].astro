@@ -1,0 +1,13 @@
+---
+// Én side per plage: src/content/behandlingsomrade/<adresse>.md → /behandlingsomrade/<adresse>/
+import Fagside from "../../components/Fagside.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const sider = await getCollection("behandlingsomrade");
+  return sider.map((side) => ({ params: { side: side.id }, props: { side } }));
+}
+const { side } = Astro.props;
+---
+
+<Fagside side={side} smule={{ navn: "Plager vi behandler", lenke: "/behandlingsomrader/" }} />

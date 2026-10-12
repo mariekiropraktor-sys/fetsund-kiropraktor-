@@ -1,0 +1,44 @@
+---
+import { site } from "../data/site";
+
+interface Props {
+  tittel?: string;
+  tekst?: string;
+}
+const {
+  tittel = "Klar for en vurdering?",
+  tekst = "Bestill time på nett når det passer deg, eller ring hvis du har spørsmål først. Du trenger ikke henvisning.",
+} = Astro.props;
+---
+
+<section class="cta">
+  <div class="wrap cta__inner">
+    <div class="stack">
+      <h2 class="h2">{tittel}</h2>
+      <p>{tekst}</p>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn--light" href={site.booking}>Bestill time på nett</a>
+      <a class="btn btn--outline-light" href={site.telefonLenke}>Ring {site.telefon}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cta {
+    background: var(--teal);
+    color: #fff;
+    padding-block: clamp(48px, 7vw, 72px);
+  }
+  .cta__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+  }
+  .cta p {
+    color: #e8fafc;
+    max-width: 560px;
+  }
+</style>

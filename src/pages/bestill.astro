@@ -1,0 +1,19 @@
+---
+// /bestill/ sender videre til timebestillingen (Pasientsky).
+// Brukes i innlegg, så bestillingslenken bare står ett sted (src/data/site.ts).
+import { site } from "../data/site";
+---
+
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${site.booking}`} />
+    <link rel="canonical" href={site.booking} />
+    <title>Bestill time</title>
+  </head>
+  <body>
+    <p><a href={site.booking}>Gå til timebestilling</a></p>
+  </body>
+</html>

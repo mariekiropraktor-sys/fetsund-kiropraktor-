@@ -1,0 +1,146 @@
+---
+import SideHode from "../../components/SideHode.astro";
+import Layout from "../../layouts/Layout.astro";
+import BookingCTA from "../../components/BookingCTA.astro";
+import { site, kiropraktorer, bilde } from "../../data/site";
+
+const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
+---
+
+<Layout
+  title="Om klinikken og kiropraktorene"
+  description="Fetsund Kiropraktorsenter ble startet i 2020 av Marie Hermansen og Sara Nordanger. Møt kiropraktorene Marie, Sara og Mathilde og se hva de har særlig erfaring med."
+>
+  <SideHode
+    tittel="Om klinikken"
+    ingress="Fetsund Kiropraktorsenter ble startet i 2020 av Marie Hermansen og Sara Nordanger, som studerte sammen i fire år i Wales. I dag er vi tre kiropraktorer i det kjente «Rosenbergbygget» midt i Fetsund sentrum."
+    smuler={[{ navn: "Om klinikken" }]}
+  >
+    <div class="btn-row">
+      <a class="btn" href={site.booking}>Bestill time</a>
+      <a class="btn btn--ghost" href="#kiropraktorene">Møt kiropraktorene</a>
+    </div>
+  </SideHode>
+
+  <section class="wrap innhold grid-2 klinikk">
+    <div class="stack">
+      <h2 class="h2">Et lokalt helsetilbud</h2>
+      <p class="muted">
+        Vi ønsket å gi folk i Fetsund og omegn et godt helsetilbud nær der de bor. Lokalene er pusset opp, og bygget
+        huser i dag alt fra fotterapeut og regnskapsfører til fotograf.
+      </p>
+      <p class="muted">
+        Vi har en helhetlig tilnærming: din helse og trygghet er i fokus fra første samtale til siste oppfølging. Du får
+        en grundig undersøkelse, en forklaring du forstår, og øvelser du kan gjøre selv.
+      </p>
+    </div>
+    <img class="photo" src={bilde("marie-og-sara-.webp")} alt="Marie og Sara, som startet klinikken" width="800" height="600" loading="lazy" />
+  </section>
+
+  <section class="section section--white" id="kiropraktorene">
+    <div class="wrap bios">
+      <article class="bio" id="mathilde">
+        <img class="photo bio__bilde" src={k.mathilde.bilde} alt="Kiropraktor Mathilde Opsvik" width="600" height="700" loading="lazy" />
+        <div class="stack bio__tekst">
+          <span class="eyebrow">Kiropraktor</span>
+          <h2 class="h2">Mathilde Opsvik</h2>
+          <p>
+            Mathilde har over ti års erfaring med rygg- og nakkesmerter, skulderproblemer, bekkenplager, hofteplager og
+            de fleste andre plager i muskler og ledd. Hun har 5-årig mastergrad i kiropraktikk og videreutdanning i
+            sportsmassasje, tørrkopping, instrumentassistert bløtvevsbehandling, tørrnåling og kinesiotaping.
+          </p>
+          <p class="muted">
+            God behandling handler for henne om mer enn timen på benken. Du får konkrete øvelser og verktøy, slik at du
+            kommer deg raskest mulig tilbake til hverdagen.
+          </p>
+          <div class="btn-row">
+            <a class="btn" href={k.mathilde.booking}>Bestill hos Mathilde</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="bio" id="marie">
+        <img class="photo bio__bilde" src={k.marie.bilde} alt="Kiropraktor Marie Hermansen" width="600" height="700" loading="lazy" />
+        <div class="stack bio__tekst">
+          <span class="eyebrow">Kiropraktor, MNKF · medgründer</span>
+          <h2 class="h2">Marie Hermansen</h2>
+          <p>
+            Marie tok mastergraden ved Welsh Institute of Chiropractic i 2015 og startet klinikken i hjembygda si i 2020.
+            Hun har særlig kompetanse på svimmelhet og krystallsyke, og bruker VNG-briller for å stille presis diagnose.
+            Nest etter kommer kjevesmerter og hodepine.
+          </p>
+          <ul class="chip-list">
+            {k.marie.spesialfelt.map((s) => <li><span class="chip">{s}</span></li>)}
+          </ul>
+          <p class="muted">
+            Marie er engasjert i Norsk Kiropraktorforening. På kontoret ligger ofte hunden Luna og bidrar med litt
+            poteterapi.
+          </p>
+          <div class="btn-row">
+            <a class="btn" href={k.marie.booking}>Bestill hos Marie</a>
+            <a class="btn btn--ghost" href={k.marie.side}>Maries nettside</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="bio" id="sara">
+        <img class="photo bio__bilde" src={k.sara.bilde} alt="Kiropraktor Sara Nordanger" width="600" height="700" loading="lazy" />
+        <div class="stack bio__tekst">
+          <span class="eyebrow">Kiropraktor · medgründer</span>
+          <h2 class="h2">Sara Nordanger</h2>
+          <p>
+            Sara tok mastergraden ved University of South Wales i 2015 og har jobbet i Oslo og på Romerike før hun startet
+            klinikken i Fetsund. Halebeinsmerter er hennes spesialisering, og hun har særlig erfaring med bekkenplager i
+            svangerskapet og etter fødsel, og med spedbarn og barn.
+          </p>
+          <ul class="chip-list">
+            {k.sara.spesialfelt.map((s) => <li><span class="chip">{s}</span></li>)}
+          </ul>
+          <p class="muted">
+            Hun ser også mange med prolaps og isjias, rygg- og nakkesmerter og idrettsskader. Sara bor på Årnes og er glad
+            i friluftsliv og isbading året rundt.
+          </p>
+          <div class="btn-row">
+            <a class="btn" href={k.sara.booking}>Bestill hos Sara</a>
+            <a class="btn btn--ghost" href={k.sara.side}>Saras nettside</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <BookingCTA tittel="Usikker på hvem du skal velge?" tekst="Ring oss, så finner vi den kiropraktoren som passer best for plagene dine." />
+</Layout>
+
+<style>
+  .klinikk {
+    align-items: center;
+  }
+  .bios {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(48px, 7vw, 80px);
+  }
+  .bio {
+    display: grid;
+    gap: 28px;
+    align-items: start;
+    scroll-margin-top: 120px;
+  }
+  .bio__bilde {
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center 20%;
+    max-width: 380px;
+  }
+  .bio__tekst {
+    gap: 16px;
+    max-width: 640px;
+  }
+  @media (min-width: 800px) {
+    .bio {
+      grid-template-columns: 340px 1fr;
+      gap: 48px;
+    }
+  }
+</style>

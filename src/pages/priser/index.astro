@@ -1,0 +1,108 @@
+---
+import SideHode from "../../components/SideHode.astro";
+import Layout from "../../layouts/Layout.astro";
+import BookingCTA from "../../components/BookingCTA.astro";
+import { site, priser, tilleggspriser } from "../../data/site";
+---
+
+<Layout
+  title="Priser"
+  description="Priser hos Fetsund Kiropraktorsenter: førstegangskonsultasjon 910 kr, oppfølgende behandling 580 kr og egne priser for svimmelhetsundersøkelse."
+>
+  <SideHode
+    tittel="Priser"
+    ingress="Du trenger ikke henvisning fra lege. Bestill time direkte på nett, eller ring hvis du er usikker på hvilken time du skal velge."
+    smuler={[{ navn: "Priser" }]}
+  />
+
+  <section class="wrap innhold">
+    {
+      priser.map((g) => (
+        <div class="pris-gruppe">
+          <h2 class="pris-gruppe__tittel">{g.gruppe}</h2>
+          <p class="muted pris-gruppe__intro">{g.intro}</p>
+          <div class="pris-liste">
+            {g.timer.map((p) => (
+              <div class="card pris">
+                <div class="stack pris__tekst">
+                  <h3 class="pris__navn">{p.navn}</h3>
+                  <p class="muted">{p.tekst}</p>
+                </div>
+                <div class="pris__hoyre">
+                  <span class="pris__belop">{p.pris}</span>
+                  <a class="btn" href={site.booking}>
+                    Bestill
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+    <div class="pris-gruppe">
+      <h2 class="pris-gruppe__tittel">Tillegg</h2>
+      <dl class="card tillegg">
+        {tilleggspriser.map((t) => (<><dt>{t.navn}</dt><dd>{t.pris}</dd></>))}
+      </dl>
+    </div>
+  </section>
+
+  <BookingCTA />
+</Layout>
+
+<style>
+  .pris-gruppe {
+    max-width: 900px;
+  }
+  .pris-gruppe + .pris-gruppe {
+    margin-top: 48px;
+  }
+  .pris-gruppe__tittel {
+    font-size: clamp(26px, 3vw, 32px);
+  }
+  .pris-gruppe__intro {
+    margin: 6px 0 18px;
+  }
+  .pris-liste {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 900px;
+  }
+  .pris {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .pris__tekst {
+    flex: 1 1 320px;
+    gap: 6px;
+  }
+  .pris__navn {
+    font-size: 24px;
+  }
+  .pris__hoyre {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .pris__belop {
+    font-family: var(--serif);
+    font-size: 26px;
+    white-space: nowrap;
+  }
+  .tillegg {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px 24px;
+    margin: 18px 0 0;
+  }
+  .tillegg dd {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 20px;
+  }
+</style>

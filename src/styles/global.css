@@ -1,0 +1,689 @@
+/* Farger og skrift fra designet «Valgt retning» (turkis fra logoen) */
+:root {
+  --ink: #101923;
+  --muted: #475569;
+  --bg: #eef2f7;
+  --surface: #ffffff;
+  --line: #dde6f0;
+  --line-2: #cbd7e7;
+  --teal: #0b6e81; /* knapper og lenker – lesbar mot hvitt */
+  --teal-bright: #18bad3; /* logoens turkis, brukes på mørk bakgrunn */
+  --teal-soft: #baeff7;
+  --teal-line: #4fa3b3;
+  --star: #b7791f;
+
+  --serif: "Fraunces Variable", Georgia, serif;
+  --sans: "Outfit Variable", system-ui, sans-serif;
+
+  --radius: 20px;
+  --max: 1200px;
+  --gutter: clamp(20px, 4vw, 40px);
+  /* Størrelsen på det lille, runde bildet av Marie – likt på alle sider */
+  --portrett-liten: 72px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--bg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--teal);
+}
+a:hover {
+  color: var(--ink);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.12;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--teal-bright);
+  outline-offset: 2px;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+}
+.skip:focus {
+  left: 16px;
+  top: 16px;
+  z-index: 100;
+  background: var(--surface);
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+/* ---------- Oppsett ---------- */
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding-inline: var(--gutter);
+}
+.section {
+  padding-block: clamp(56px, 8vw, 96px);
+}
+.section--white {
+  background: var(--surface);
+}
+.section--dark {
+  background: var(--ink);
+  color: #fff;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+}
+.eyebrow {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.lead {
+  font-size: clamp(17px, 2vw, 19px);
+  color: var(--muted);
+}
+.muted {
+  color: var(--muted);
+}
+.h1 {
+  font-size: clamp(36px, 5.5vw, 56px);
+  line-height: 1.08;
+}
+.h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.15;
+}
+.section-head {
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+/* ---------- Knapper ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 12px 26px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1.5px solid var(--teal);
+  background: var(--teal);
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+.btn:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.btn--ghost {
+  background: transparent;
+  color: var(--teal);
+}
+.btn--ghost:hover {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: #fff;
+}
+.btn--light {
+  background: #fff;
+  border-color: #fff;
+  color: var(--ink);
+}
+.btn--light:hover {
+  background: var(--teal-soft);
+  border-color: var(--teal-soft);
+  color: var(--ink);
+}
+.btn--outline-light {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.btn--outline-light:hover {
+  background: #fff;
+  color: var(--ink);
+}
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* ---------- Kort ---------- */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: clamp(22px, 3vw, 32px);
+}
+.card-link {
+  text-decoration: none;
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card-link:hover {
+  color: var(--ink);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgb(16 25 35 / 0.08);
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 16px;
+}
+.arrow-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.arrow-list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line-2);
+  text-decoration: none;
+  color: inherit;
+}
+.arrow-list li:last-child a {
+  border-bottom: 1px solid var(--line-2);
+}
+.arrow-list small {
+  display: block;
+  font-size: 15px;
+  opacity: 0.85;
+}
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.chip-list li {
+  display: flex;
+}
+.chip-list .chip,
+.chip-list .chip-link {
+  background: var(--surface);
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 15px;
+}
+/* Merkelapper som lenker: turkis tekst og pil, så de skiller seg fra de uten lenke */
+.chip-list .chip-link {
+  color: var(--teal);
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+.chip-list .chip-link:hover {
+  border-color: var(--teal);
+  background: var(--bg);
+}
+
+/* ---------- Bilder ---------- */
+.photo {
+  width: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+/* ---------- Tillitsstripe ---------- */
+.trust {
+  background: var(--surface);
+}
+.trust .wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr));
+  gap: 20px;
+  padding-block: 26px;
+  font-size: 15px;
+  color: var(--muted);
+}
+.trust strong {
+  display: block;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--ink);
+}
+.trust a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.trust a span {
+  text-decoration: underline;
+}
+.star {
+  color: var(--star);
+}
+
+/* ---------- Artikkeltekst (blogg og fagsider) ---------- */
+/* ---------- Artikkeltekst (blogg og fagsider) ---------- */
+.prose {
+  max-width: 700px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #1c2733;
+}
+.prose > * + * {
+  margin-top: 1.1em;
+}
+/* Første avsnitt litt større, som en ingress */
+.artikkel__tekst > p:first-child,
+.artikkel__tekst > .kort-fortalt + p {
+  font-size: 21px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.prose h2 {
+  font-size: clamp(26px, 3vw, 32px);
+  line-height: 1.18;
+  margin-top: 2.1em;
+  scroll-margin-top: 100px;
+  text-wrap: balance;
+}
+.prose h3 {
+  font-size: 22px;
+  line-height: 1.25;
+  margin-top: 1.7em;
+  scroll-margin-top: 100px;
+}
+.prose h2 + *,
+.prose h3 + * {
+  margin-top: 0.6em;
+}
+.prose h4 {
+  font-family: var(--sans);
+  font-size: 18px;
+  margin: 1.4em 0 0;
+}
+.prose a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.prose strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+/* Punktlister med små turkise prikker */
+.prose ul {
+  list-style: none;
+  padding-left: 0;
+}
+.prose ul > li {
+  position: relative;
+  padding-left: 1.5em;
+}
+.prose ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.2em;
+  top: 0.68em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--teal-line);
+}
+.prose ol {
+  padding-left: 1.4em;
+}
+.prose ol > li::marker {
+  color: var(--teal);
+  font-weight: 600;
+}
+.prose li + li {
+  margin-top: 0.4em;
+}
+.prose img {
+  border-radius: 16px;
+  margin-inline: auto;
+}
+/* Høye bilder (stående/kvadratiske) skal ikke fylle hele skjermen på PC */
+@media (min-width: 700px) {
+  .prose figure img {
+    width: auto;
+    max-width: 100%;
+    max-height: 520px;
+  }
+}
+.prose figure {
+  margin: 2em 0;
+}
+.prose figcaption {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin-top: 10px;
+  text-align: center;
+}
+/* Uthevet sitat: skriv «> tekst» i Markdown */
+.prose blockquote {
+  margin: 2em 0;
+  padding: 4px 0 4px 24px;
+  border-left: 4px solid var(--teal-bright);
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.6vw, 26px);
+  line-height: 1.4;
+  color: var(--teal);
+  text-wrap: balance;
+}
+.prose blockquote p {
+  margin: 0;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+  overflow-x: auto;
+  background: var(--surface);
+  border-radius: 14px;
+}
+.prose th,
+.prose td {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.prose th {
+  font-weight: 600;
+  background: #e3f4f7;
+}
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--line-2);
+  margin: 2.5em 0;
+}
+.video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--ink);
+}
+.video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .card-link,
+  .btn {
+    transition: none;
+  }
+}
+
+/* ---------- Undersider ---------- */
+.side-topp {
+  padding-block: clamp(40px, 7vw, 72px) 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.side-topp > * {
+  max-width: 760px;
+}
+[hidden] {
+  display: none !important;
+}
+.innhold {
+  padding-block: clamp(32px, 5vw, 56px) clamp(56px, 8vw, 96px);
+}
+.notis {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 20px 24px;
+  font-size: 16px;
+}
+
+/* ---------- Bokser i artikler (erstatter gamle tekstbilder) ----------
+   Bruk i Markdown som HTML:
+   <div class="boks"><p class="boks__tittel">…</p><ul class="sjekk"><li>…</li></ul></div> */
+.prose .boks {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin: 2.2em 0;
+  padding: clamp(22px, 3.5vw, 36px);
+  border-radius: var(--radius);
+  background: #e3f4f7;
+}
+.prose .boks::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -70px;
+  bottom: -80px;
+  width: 260px;
+  height: 260px;
+  background: url("/bilder/ryggrad-motiv.svg") center / contain no-repeat;
+  transform: rotate(-8deg);
+  pointer-events: none;
+}
+.prose .boks > * + * {
+  margin-top: 0.8em;
+}
+.prose .boks__tittel {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.4vw, 26px);
+  line-height: 1.2;
+  color: var(--ink);
+}
+.prose .boks__slutt {
+  font-weight: 600;
+  color: var(--ink);
+}
+/* Sjekkliste med haker */
+.prose ul.sjekk > li {
+  padding-left: 2em;
+}
+.prose ul.sjekk > li::before {
+  left: 0;
+  top: 0.22em;
+  width: 22px;
+  height: 22px;
+  background: #fff
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%230b6e81' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E")
+    center / 13px no-repeat;
+}
+/* Advarsel: «gjør ikke dette før …» */
+.prose .boks--advarsel {
+  background: #fff4e5;
+  border-left: 4px solid #e0a040;
+}
+.prose .boks--advarsel::after {
+  content: none;
+}
+/* Kilder og faglig grunnlag */
+.prose .boks--kilder {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  font-size: 16px;
+  line-height: 1.6;
+}
+.prose .boks--kilder::after {
+  content: none;
+}
+.prose .boks--kilder ul > li::before {
+  background: var(--teal);
+}
+/* Sammenligningstabell: to tilstander side om side */
+.prose .sammenligning {
+  display: table;
+  width: 100%;
+  margin: 2em 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-size: 16px;
+}
+.prose .sammenligning th,
+.prose .sammenligning td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+}
+.prose .sammenligning thead th {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.2;
+  background: #e3f4f7;
+  color: var(--ink);
+}
+.prose .sammenligning thead th:nth-child(2) {
+  background: var(--teal);
+  color: #fff;
+}
+.prose .sammenligning thead th:nth-child(3) {
+  background: #1f3a4d;
+  color: #fff;
+}
+.prose .sammenligning tbody th {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 15px;
+  background: none;
+  width: 30%;
+}
+.prose .sammenligning tbody tr:last-child > * {
+  border-bottom: 0;
+}
+.prose .sammenligning caption {
+  caption-side: bottom;
+  text-align: left;
+  font-size: 15px;
+  color: var(--muted);
+  padding: 12px 16px 16px;
+}
+@media (max-width: 560px) {
+  .prose .sammenligning {
+    font-size: 15px;
+    table-layout: fixed;
+  }
+  .prose .sammenligning th,
+  .prose .sammenligning td {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+  .prose .sammenligning th,
+  .prose .sammenligning td {
+    padding: 10px 10px;
+  }
+}
+
+/* Råd og øvelser: «Dette kan du gjøre selv» */
+.prose .boks--rad {
+  background: var(--surface);
+  border: 2px solid var(--teal-line);
+}
+.prose .boks--rad::after {
+  content: none;
+}
+/* Liten bestillingsboks midt i innlegget */
+.prose .boks--bestill {
+  background: var(--surface);
+  display: grid;
+  grid-template-columns: var(--portrett-liten) 1fr;
+  gap: 18px;
+  align-items: start;
+}
+.prose .boks--bestill::after {
+  content: none;
+}
+.prose .boks--bestill > img {
+  width: var(--portrett-liten);
+  height: var(--portrett-liten);
+  margin: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 15%;
+}
+.prose .boks--bestill > * + * {
+  margin-top: 0;
+}
+.prose .boks--bestill > div > * + * {
+  margin-top: 0.5em;
+}
+.prose .boks--bestill .btn {
+  margin-top: 6px;
+}
+@media (max-width: 480px) {
+  .prose .boks--bestill {
+    grid-template-columns: 52px 1fr;
+    gap: 14px;
+  }
+  .prose .boks--bestill > img {
+    width: 52px;
+    height: 52px;
+  }
+}
+/* Knapper inne i artikkeltekst skal ikke få lenkestrek */
+.prose .btn {
+  text-decoration: none;
+}

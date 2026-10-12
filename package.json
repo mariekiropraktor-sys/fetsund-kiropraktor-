@@ -1,0 +1,31 @@
+{
+  "name": "fetsundkiropraktor",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "import:wordpress": "node scripts/import-wordpress.mjs",
+    "hent-bilder": "node scripts/hent-bilder.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariekiropraktor-sys/fetsundkiropraktor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariekiropraktor-sys/fetsundkiropraktor/issues"
+  },
+  "homepage": "https://github.com/mariekiropraktor-sys/fetsundkiropraktor#readme",
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/outfit": "^5.3.0",
+    "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "@types/turndown": "^5.0.6",
+    "turndown": "^7.2.4"
+  },
+  "private": true,
+  "type": "module"
+}

@@ -1,0 +1,64 @@
+---
+import SideHode from "../../components/SideHode.astro";
+import Layout from "../../layouts/Layout.astro";
+import BookingCTA from "../../components/BookingCTA.astro";
+import { getCollection } from "astro:content";
+import { metoder, andreMetoder } from "../../data/site";
+
+const sider = (await getCollection("behandlingsmetode")).sort(
+  (a, b) => a.data.rekkefolge - b.data.rekkefolge || a.data.tittel.localeCompare(b.data.tittel, "nb"),
+);
+const liste = sider.length
+  ? sider.map((s) => ({ navn: s.data.tittel, tekst: s.data.beskrivelse, lenke: `/behandlingsmetode/${s.id}/` }))
+  : metoder;
+---
+
+<Layout
+  title="Behandlingsmetoder"
+  description="Kiropraktisk manipulasjon, nålebehandling, triggerpunktmassasje, muskeltesting og øvelser. Slik behandler kiropraktorene på Fetsund Kiropraktorsenter."
+>
+  <SideHode
+    tittel="Slik behandler vi"
+    ingress="Behandlingen settes sammen etter hva undersøkelsen viser. Ofte kombinerer vi flere metoder i samme time, så du slipper å gå til flere ulike behandlere."
+    smuler={[{ navn: "Behandling" }]}
+  />
+
+  <section class="wrap innhold">
+    <div class="metoder">
+      {
+        liste.map((m) => (
+          <a class="card card-link" href={m.lenke}>
+            <h2 class="metoder__navn">{m.navn}</h2>
+            {m.tekst && <p class="muted">{m.tekst}</p>}
+          </a>
+        ))
+      }
+    </div>
+    {
+      !sider.length && (
+        <ul class="chip-list andre">
+          {andreMetoder.map((m) => (
+            <li>{m.lenke ? <a class="chip-link" href={m.lenke}>{m.navn} →</a> : <span class="chip">{m.navn}</span>}</li>
+          ))}
+        </ul>
+      )
+    }
+  </section>
+
+  <BookingCTA />
+</Layout>
+
+<style>
+  .metoder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+    gap: 16px;
+  }
+  .metoder__navn {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .andre {
+    margin-top: 28px;
+  }
+</style>
