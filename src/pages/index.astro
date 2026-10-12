@@ -32,10 +32,6 @@ const liste = (ord: string[]) =>
           <a class="btn btn--bright" href={site.booking}>Bestill time på nett</a>
           <a class="btn btn--outline-light" href="#plager">Hva kan vi hjelpe med?</a>
         </div>
-        <a class="google" href={site.google.lenke}>
-          <span class="google__stjerner" aria-hidden="true">★★★★★</span>
-          <span><strong>{site.google.vurdering} på Google</strong> · {site.google.antall} anmeldelser</span>
-        </a>
         <p class="hero__note">Gratis parkering · 6 minutter fra Lillestrøm og Sørumsand · Ingen henvisning nødvendig</p>
       </div>
       <figure class="hero__bilde">
@@ -325,21 +321,6 @@ const liste = (ord: string[]) =>
     }
   }
 
-  .google {
-    align-self: flex-start;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: var(--surface);
-    border-radius: 999px;
-    padding: 8px 16px 8px 12px;
-    text-decoration: none;
-    color: var(--ink);
-    font-size: 15px;
-  }
-  .google strong {
-    font-weight: 600;
-  }
   .google__stjerner {
     color: var(--star);
     letter-spacing: 1px;
