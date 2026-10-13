@@ -13,12 +13,9 @@ export const site = {
   epost: "fetsundkiropraktor@gmail.com",
   booking:
     "https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7",
-  // Fra forsideforslaget (okt. 2026) – må bekreftes. Gammel side sa man–fre 08–18.
-  apningstider: [
-    { dager: "Mandag, onsdag, fredag", tid: "08.00–16.00" },
-    { dager: "Tirsdag, torsdag", tid: "08.00–18.00" },
-  ],
-  apningstiderKort: "Man, ons, fre 08–16 · Tir, tor 08–18",
+  // Bekreftet av Marie 13. okt. 2026
+  apningstider: [{ dager: "Mandag–fredag", tid: "08.00–17.00" }],
+  apningstiderKort: "Man–fre 08–17",
   google: {
     vurdering: "4,9",
     antall: 47,
