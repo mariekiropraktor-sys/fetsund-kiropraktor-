@@ -3,9 +3,10 @@ import sitemap from "@astrojs/sitemap";
 import fs from "node:fs";
 
 // Blogginnlegg merket «utkast: true» skal ikke med i sitemap
-const utkast = fs
-  .readdirSync("./src/content/blogg")
-  .filter((f) => /^utkast:\s*true/m.test(fs.readFileSync(`./src/content/blogg/${f}`, "utf8")))
+// (mappen kan mangle før innholdet er importert)
+const bloggMappe = "./src/content/blogg";
+const utkast = (fs.existsSync(bloggMappe) ? fs.readdirSync(bloggMappe) : [])
+  .filter((f) => /^utkast:\s*true/m.test(fs.readFileSync(`${bloggMappe}/${f}`, "utf8")))
   .map((f) => `/${f.replace(/\.md$/, "")}/`);
 
 // Ekte HTTP 301-videresendinger ligger i vercel.json (Vercels egen mekanisme).
