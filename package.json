@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mariekiropraktor-sys/fetsundkiropraktor.git"
+    "url": "git+https://github.com/mariekiropraktor-sys/fetsund-kiropraktor-.git"
   },
   "bugs": {
-    "url": "https://github.com/mariekiropraktor-sys/fetsundkiropraktor/issues"
+    "url": "https://github.com/mariekiropraktor-sys/fetsund-kiropraktor-/issues"
   },
-  "homepage": "https://github.com/mariekiropraktor-sys/fetsundkiropraktor#readme",
+  "homepage": "https://github.com/mariekiropraktor-sys/fetsund-kiropraktor-#readme",
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
     "@fontsource-variable/fraunces": "^5.3.0",
