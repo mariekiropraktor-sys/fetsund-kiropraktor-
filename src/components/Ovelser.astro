@@ -1,0 +1,280 @@
+---
+// Øvelsessiden. Brukes av /ovelser/ (bare godkjente kategorier) og den skjulte
+// forhåndsvisningen /ovelser/utkast/ (alle kategorier, utkast merket).
+import Layout from "../layouts/Layout.astro";
+import SideHode from "./SideHode.astro";
+import BookingCTA from "./BookingCTA.astro";
+import { getCollection } from "astro:content";
+import { site, kiropraktorer } from "../data/site";
+
+interface Props {
+  visUtkast?: boolean;
+}
+const { visUtkast = false } = Astro.props;
+
+const kategorier = (await getCollection("ovelser"))
+  .filter((k) => visUtkast || !k.data.utkast)
+  .filter((k) => k.data.ovelser.length > 0 || k.data.lenker.length > 0 || k.data.merknad)
+  .sort((a, b) => a.data.rekkefolge - b.data.rekkefolge);
+const kiro = (id?: string) => kiropraktorer.find((k) => k.id === id);
+---
+
+<Layout
+  title="Våre beste øvelser"
+  description="Øvelser du kan gjøre hjemme for nakke, rygg, skulder, hofte, kne, fot og balanse – utvalgt av kiropraktorene på Fetsund Kiropraktorsenter."
+  skjult={visUtkast}
+>
+  <SideHode
+    tittel="Våre beste øvelser"
+    ingress="Øvelser vi ofte gir pasientene våre, til bruk hjemme mellom timene. Velg området du har vondt i."
+    smuler={[{ navn: "Øvelser" }]}
+  >
+    {visUtkast && <p class="utkast-merke"><strong>Forhåndsvisning:</strong> denne siden viser også utkast som ikke er godkjent ennå. Den er skjult for Google.</p>}
+    <nav class="hopp" aria-label="Velg område">
+      <ul class="chip-list">
+        {
+          kategorier.map((k) => (
+            <li>
+              <a class="chip-link" href={`#${k.id}`}>
+                {k.data.navn}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </SideHode>
+
+  <div class="wrap">
+    <aside class="obs">
+      <p class="obs__tittel">Før du starter</p>
+      <p>
+        Øvelsene er generelle råd og erstatter ikke en undersøkelse. Gjør dem rolig og i ditt eget tempo. Det er greit å kjenne
+        at det strekker eller jobber, men stopp hvis det gjør tydelig vondere. Har du sterke smerter, nummenhet, kraftløshet
+        eller smerter etter et fall eller en ulykke, ta kontakt før du trener.
+      </p>
+    </aside>
+  </div>
+
+  {
+    kategorier.map((k, i) => {
+      const d = k.data;
+      const laget = kiro(d.kiropraktor);
+      return (
+        <section class:list={["section kategori", { "section--white": i % 2 === 0 }]} id={k.id}>
+          <div class="wrap kategori__inner">
+            <header class="kategori__hode">
+              {visUtkast && d.utkast && <span class="utkast">Utkast – ikke publisert</span>}
+              <h2 class="h2">{d.navn}</h2>
+              {d.ingress && <p class="muted kategori__ingress">{d.ingress}</p>}
+              {laget && (
+                <p class="kategori__av">
+                  <img src={laget.bilde} alt="" width="36" height="36" loading="lazy" />
+                  Øvelser fra <a href={laget.side}>{laget.navn}</a>
+                </p>
+              )}
+            </header>
+
+            {d.merknad && <p class="merknad">{d.merknad}</p>}
+
+            {d.ovelser.length > 0 && (
+              <ol class="ovelser">
+                {d.ovelser.map((o) => (
+                  <li class="ovelse">
+                    <h3 class="ovelse__navn">{o.navn}</h3>
+                    <p>{o.tekst}</p>
+                    {o.dosering && <p class="ovelse__dosering">{o.dosering}</p>}
+                    {o.video && (
+                      <div class="video">
+                        <iframe
+                          src={`https://www.youtube-nocookie.com/embed/${o.video}`}
+                          title={`Video: ${o.navn}`}
+                          loading="lazy"
+                          allowfullscreen
+                        />
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            )}
+
+            {d.bilde && (
+              <details class="ark">
+                <summary>Se øvelsesarket med tegninger</summary>
+                <img src={d.bilde} alt={`Øvelsesark: ${d.navn}`} loading="lazy" />
+              </details>
+            )}
+
+            {d.lenker.length > 0 && (
+              <div class="lenker">
+                <p class="lenker__tittel">Les mer</p>
+                <ul>
+                  {d.lenker.map((l) => (
+                    <li>
+                      <a href={l.lenke}>{l.tekst} →</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        </section>
+      );
+    })
+  }
+
+  <BookingCTA
+    tittel="Trenger du et program tilpasset deg?"
+    tekst="På timen får du øvelser som passer akkurat dine plager, og vi viser deg hvordan du gjør dem riktig."
+  />
+</Layout>
+
+<style>
+  .utkast-merke {
+    background: #fff1d6;
+    color: #6b4600;
+    border-radius: 14px;
+    padding: 10px 14px;
+    font-size: 15px;
+  }
+  .hopp {
+    margin-top: 6px;
+  }
+  .obs {
+    margin-block: clamp(28px, 4vw, 40px) 0;
+    background: #fff6e8;
+    border: 1px solid #f1d5a6;
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    max-width: 820px;
+    font-size: 16px;
+  }
+  .obs__tittel {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .kategori {
+    scroll-margin-top: 90px;
+  }
+  .kategori__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .kategori__hode {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 720px;
+  }
+  .kategori__av {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: var(--muted);
+  }
+  .kategori__av img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+  }
+  .utkast {
+    align-self: flex-start;
+    background: #fff1d6;
+    color: #8a5a00;
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .merknad {
+    max-width: 720px;
+    background: var(--flate);
+    border-radius: 16px;
+    padding: 18px 22px;
+  }
+  .ovelser {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: ovelse;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 16px;
+  }
+  .ovelse {
+    counter-increment: ovelse;
+    background: var(--bg);
+    border-radius: 18px;
+    padding: 22px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+  }
+  .kategori:not(.section--white) .ovelse {
+    background: var(--surface);
+  }
+  .ovelse__navn {
+    font-size: 21px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .ovelse__navn::before {
+    content: counter(ovelse);
+    flex: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+    background: var(--flate);
+    color: var(--teal);
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-2px);
+  }
+  .ovelse p {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+  .ovelse__dosering {
+    margin-top: auto;
+    padding-top: 6px;
+    font-weight: 600;
+    color: var(--teal);
+    font-size: 15px !important;
+  }
+  .ark summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--teal);
+  }
+  .ark img {
+    margin-top: 14px;
+    max-width: 640px;
+    width: 100%;
+    border-radius: 14px;
+    background: #fff;
+  }
+  .lenker__tittel {
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .lenker ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+  }
+  .lenker a {
+    font-weight: 500;
+  }
+</style>

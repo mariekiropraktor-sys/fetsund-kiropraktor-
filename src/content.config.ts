@@ -47,4 +47,32 @@ const behandlingsmetode = defineCollection({
   schema: side,
 });
 
-export const collections = { blogg, behandlingsomrade, behandlingsmetode };
+// Øvelsessiden /ovelser/: én fil per kategori i src/content/ovelser/.
+// utkast: true = vises bare på den skjulte forhåndsvisningen /ovelser/utkast/ til den er godkjent.
+// En kategori uten øvelser, lenker eller merknad vises ikke.
+const ovelser = defineCollection({
+  loader: glob({ pattern: "*.md", base: "./src/content/ovelser" }),
+  schema: z.object({
+    navn: z.string(), // f.eks. «Nakke»
+    rekkefolge: z.number().default(50),
+    ingress: z.string().default(""),
+    utkast: z.boolean().default(false),
+    kiropraktor: z.enum(["marie", "sara"]).optional(), // hvem som har laget programmet
+    plager: z.array(z.string()).default([]), // plagesider (filnavn) som skal lenke hit
+    merknad: z.string().optional(), // vises i en egen boks, f.eks. ved krystallsyke
+    bilde: z.string().optional(), // f.eks. et øvelsesark
+    ovelser: z
+      .array(
+        z.object({
+          navn: z.string(),
+          tekst: z.string(),
+          dosering: z.string().optional(), // f.eks. «2 sett à 8 repetisjoner»
+          video: z.string().optional(), // YouTube-id
+        }),
+      )
+      .default([]),
+    lenker: z.array(z.object({ tekst: z.string(), lenke: z.string() })).default([]),
+  }),
+});
+
+export const collections = { blogg, behandlingsomrade, behandlingsmetode, ovelser };

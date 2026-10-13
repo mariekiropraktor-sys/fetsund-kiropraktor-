@@ -25,6 +25,11 @@ const oversikt = erPlage
 const oppdatert = d.oppdatert?.toLocaleDateString("nb-NO", { day: "numeric", month: "long", year: "numeric" });
 const forstegang = priser[0].timer[0];
 
+// Øvelser som hører til denne plagen (bare godkjente kategorier)
+const ovelser = (await getCollection("ovelser", (o) => !o.data.utkast)).find(
+  (o) => o.data.plager.includes(side.id) && o.data.ovelser.length > 0,
+);
+
 // Beslektede sider: samme gruppe først, så resten, maks 3
 const alle = (await getCollection(type)).filter((s) => s.id !== side.id);
 const beslektet = [
@@ -85,6 +90,16 @@ const smuleData = {
         <KortFortalt punkter={d.kortFortalt} />
         <Content />
       </div>
+      {
+        ovelser && (
+          <a class="ovelsekort" href={`/ovelser/#${ovelser.id}`}>
+            <span class="eyebrow">Øvelser du kan gjøre hjemme</span>
+            <strong>{ovelser.data.ovelser.length} øvelser for {ovelser.data.navn.toLowerCase()}</strong>
+            <span class="muted">{ovelser.data.ovelser.map((o) => o.navn).join(" · ")}</span>
+            <span class="ovelsekort__mer">Se øvelsene →</span>
+          </a>
+        )
+      }
       <p class="forfatter">
         <img src={ekspert?.bilde ?? site.heroBilde} alt="" width="72" height="72" loading="lazy" />
         <span>
@@ -173,6 +188,30 @@ const smuleData = {
   }
   .fag-tekst :global(.prose img) {
     border-radius: 16px;
+  }
+  .ovelsekort {
+    max-width: 700px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: var(--flate);
+    border-radius: 18px;
+    padding: 22px 24px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .ovelsekort strong {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 23px;
+  }
+  .ovelsekort__mer {
+    color: var(--teal);
+    font-weight: 600;
+  }
+  .ovelsekort:hover strong {
+    color: var(--teal);
   }
   .forfatter {
     max-width: 700px;

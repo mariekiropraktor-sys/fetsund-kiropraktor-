@@ -178,6 +178,7 @@ export const tilleggspriser = [
 export const navigasjon = [
   { navn: "Plager", lenke: "/behandlingsomrader/" },
   { navn: "Behandling", lenke: "/behandlingsmetoder/" },
+  { navn: "Øvelser", lenke: "/ovelser/" },
   { navn: "Kiropraktorene", lenke: "/om-klinikken/" },
   { navn: "Priser", lenke: "/priser/" },
   { navn: "Blogg", lenke: "/blogg/" },
