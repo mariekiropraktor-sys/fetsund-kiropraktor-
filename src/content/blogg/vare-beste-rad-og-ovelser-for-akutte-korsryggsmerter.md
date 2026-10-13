@@ -26,7 +26,7 @@ Denne artikkelen gir deg tydelige råd om hvordan du håndterer ryggplager i den
 
 Utfør daglige aktiviteter og [gå korte turer](https://www.dagensmedisin.no/forebygging-innenriks-ntb/forskning-jo-flere-skritt-per-dag-desto-lavere-risiko-for-kroniske-ryggproblemer/694506). Ikke forsøk å finne din egen diagnose eller starte med tunge øvelser før du har rådført deg med [kiropraktoren din](https://fetsundkiropraktormarie.no/8-arsaker-til-korsryggsmerter-som-kiropraktoren-kan-hjelpe-deg-med/) hos Fetsund Kiropraktorsenter. Riktig tilpasning og veiledning er viktig for trygg behandling av akutte korsryggsmerter.
 
-<figure><img class="size-medium wp-image-996" src="https://fetsundkiropraktormarie.no/wp-content/uploads/generated-image-3-960x720.webp" alt="" width="960" height="720"><figcaption>Lett aktivitet hjelper mot korsryggsmerter. Gå gjerne i ulendt terreng!</figcaption></figure>
+<figure><img class="size-medium wp-image-996" src="/bilder/wp/generated-image-3-960x720.webp" alt="" width="960" height="720"><figcaption>Lett aktivitet hjelper mot korsryggsmerter. Gå gjerne i ulendt terreng!</figcaption></figure>
 
 ## Smertelindring og egenbehandling
 
