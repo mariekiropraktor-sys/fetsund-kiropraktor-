@@ -102,7 +102,18 @@ export const plager: { navn: string; tekst: string; lenke: string }[] = [
 
 // Utdrag fra Google-anmeldelser. Lim inn pasientenes egen ordlyd fra Google (ikke omskriv).
 // Seksjonen viser bare sitatene som står her – er listen tom, vises kun vurderingen og lenken.
-export const anmeldelser: { tekst: string; om?: string }[] = [];
+// Hentet ordrett fra klinikkens Google-oppføring 13. okt. 2026.
+// Mangler: én om Sara og hennes spesialfelt.
+export const anmeldelser: { tekst: string; om?: string }[] = [
+  {
+    tekst:
+      "Tok kontakt med Marie hos Fetsund Kiropraktorsenter ang det jeg antok var krystallsyke og hun hjalp meg slik at problemet var borte etter første besøk! Fikk god oppfølging etterpå og hjelp med andre skavanker også. Veldig gode tre behandlinger hos henne til nå. Anbefales.",
+    om: "Marie",
+  },
+  {
+    tekst: "Endelig fikk jeg hjelp til hofte og bekken plager jeg har slitt med i mange år. Høy kompetanse og grundige i sitt arbeid.",
+  },
+];
 
 export const metoder = [
   {

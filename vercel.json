@@ -13,6 +13,8 @@
     { "source": "/behandlingsomrade/kne-og-ankel-fotsmerter{/}?", "destination": "/behandlingsomrade/fot-og-ankel-smerter/", "permanent": true },
     { "source": "/vi-har-vunnet-en-konkurranse-%F0%9F%A5%B3{/}?", "destination": "/vi-har-vunnet-en-konkurranse/", "permanent": true },
     { "source": "/vi-har-vunnet-en-konkurranse-🥳{/}?", "destination": "/vi-har-vunnet-en-konkurranse/", "permanent": true },
+    { "source": "/hodepine-i-svangerskaper-du-gravid-og-har-hodepine-utforsk-arsaker-og-effektive-tips-her{/}?", "destination": "/er-du-gravid-og-har-hodepine-utforsk-arsaker-og-effektive-tips-her/", "permanent": true },
+    { "source": "/behandlingsomrade/muskelsmerter{/}?", "destination": "/behandlingsomrade/smerter-i-ribben-og-midtrygg/", "permanent": true },
     { "source": "/online-booking{/}?", "destination": "/bestill/", "permanent": true }
   ]
 }
