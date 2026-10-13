@@ -105,8 +105,12 @@ export const plager: { navn: string; tekst: string; lenke: string }[] = [
 // Utdrag fra Google-anmeldelser. Lim inn pasientenes egen ordlyd fra Google (ikke omskriv).
 // Seksjonen viser bare sitatene som står her – er listen tom, vises kun vurderingen og lenken.
 // Hentet ordrett fra klinikkens Google-oppføring 13. okt. 2026.
-// Mangler: én om Sara og hennes spesialfelt.
 export const anmeldelser: { tekst: string; om?: string }[] = [
+  {
+    tekst:
+      "Sara er den desidert dyktigste og mest kunnskapsrike kiropraktoren jeg har vært hos. Hun er svært dedikert og engasjert i kvinnehelse og svangerskapsrelaterte utfordringer. Kommer heretter kun til å gå til Sara når jeg har behov for kiropraktorhjelp. Anbefales på det sterkeste!",
+    om: "Sara",
+  },
   {
     tekst:
       "Tok kontakt med Marie hos Fetsund Kiropraktorsenter ang det jeg antok var krystallsyke og hun hjalp meg slik at problemet var borte etter første besøk! Fikk god oppfølging etterpå og hjelp med andre skavanker også. Veldig gode tre behandlinger hos henne til nå. Anbefales.",

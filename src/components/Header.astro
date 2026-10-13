@@ -4,8 +4,9 @@ import { site, navigasjon } from "../data/site";
 
 <header class="topbar">
   <div class="wrap topbar__inner">
-    <a href="/" class="topbar__logo" aria-label="Til forsiden">
-      <img src={site.logo} alt="Fetsund Kiropraktorsenter" width="456" height="153" />
+    <a href="/" class="topbar__logo" aria-label="Fetsund Kiropraktorsenter – til forsiden">
+      <img src="/bilder/logo-symbol.webp" alt="" width="155" height="153" />
+      <span class="topbar__navn">Fetsund<br />Kiropraktorsenter</span>
     </a>
 
     <nav class="topbar__nav" aria-label="Hovedmeny">
@@ -79,14 +80,31 @@ import { site, navigasjon } from "../data/site";
     gap: 24px;
     min-height: 92px;
   }
-  /* Logoen er ett bilde med både symbol og tekst */
+  /* Logoen: ryggrad-symbolet som bilde, navnet som tekst (så det kan gjøres større) */
+  .topbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--ink);
+    text-decoration: none;
+  }
   .topbar__logo img {
-    height: 60px;
+    height: 56px;
     width: auto;
+  }
+  .topbar__navn {
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.15;
+    letter-spacing: -0.005em;
   }
   @media (min-width: 1100px) {
     .topbar__logo img {
-      height: 68px;
+      height: 64px;
+    }
+    .topbar__navn {
+      font-size: 22px;
     }
   }
   .topbar__nav {
