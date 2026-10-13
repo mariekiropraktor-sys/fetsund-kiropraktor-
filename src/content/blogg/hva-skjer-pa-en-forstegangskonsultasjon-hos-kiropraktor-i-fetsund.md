@@ -7,8 +7,6 @@ image: "/bilder/wp/2025-07-03-13.10.35-1920x1440-e1754981642768.webp"
 forfatter: marie
 ---
 
-## Hva skjer på en førstegangskonsultasjon hos kiropraktor i Fetsund?
-
 ![førstegangskonsultasjon hos kiropraktor i fetsund](/bilder/wp/sara_bannerbilde-640x420-1-3.webp)Hva skjer på en førstegangskonsultasjon hos kiropraktor i Fetsund? Mange som aldri har vært hos kiropraktor før, ringer eller sender meldinger for å høre mer om hva som skjer på den første timen. Det er helt naturlig å ha spørsmål – og derfor har jeg laget denne guiden, slik at du kan føle deg trygg og forberedt allerede før du kommer.
 
 ![førstegangskonsultasjon hos kiropraktor i fetsund](/bilder/wp/sara_bannerbilde-640x420-1-3.webp)![Førstegangskonsultasjon hos kiropraktor i Fetsund](/bilder/wp/sara_bannerbilde-640x420.webp)

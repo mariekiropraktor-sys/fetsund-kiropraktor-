@@ -1,6 +1,11 @@
 ---
 tittel: "Muskelsmerter og senebetennelser"
-beskrivelse: ""
+kortNavn: "Muskler og sener"
+kortTekst: "Muskelknuter, stivhet og senebetennelse"
+gruppe: ledd
+ingress: "Muskelknuter og senebetennelser er vanlige ved overbelastning. Vi finner årsaken og gir behandling og øvelser."
+beskrivelse: "Muskelsmerter eller senebetennelse? Les om behandling hos kiropraktorene ved Fetsund Kiropraktorsenter."
+rekkefolge: 13
 bilde: "/bilder/wp/back-5163495_1280.webp"
 oppdatert: 2024-11-21
 ---

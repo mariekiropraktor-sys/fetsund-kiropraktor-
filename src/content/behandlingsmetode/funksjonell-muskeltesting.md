@@ -1,6 +1,10 @@
 ---
 tittel: "Funksjonell muskeltesting"
-beskrivelse: "Har du smerter som stadig vender tilbake? Det kan skyldes at musklene dine ikke samarbeider optimalt, noe som gir muskulære ubalanser. Les mer om dette her!"
+kortNavn: "Funksjonell muskeltesting"
+kortTekst: "Finner muskler som ikke samarbeider"
+ingress: "Smerter som stadig kommer tilbake kan skyldes muskler som ikke samarbeider. Muskeltesting hjelper oss å finne årsaken."
+beskrivelse: "Funksjonell muskeltesting finner muskulære ubalanser bak smerter som stadig kommer tilbake."
+rekkefolge: 6
 bilde: "/bilder/wp/Neutral-Earthy-Sophisticated-Modern-Business-Gift-Certificate.webp"
 oppdatert: 2026-03-19
 ---

@@ -1,11 +1,13 @@
 ---
-tittel: "Kiropraktisk manipulasjonsbehandling"
-beskrivelse: "En av kiropraktorens viktigste verktøy når det gjelder behandling av både akutte og kroniske muskel og skjelettplager. Men hvordan funker det egentlig?"
+tittel: "Kiropraktisk manipulasjon"
+kortNavn: "Kiropraktisk manipulasjon"
+kortTekst: "Klassisk leddbehandling som frigjør låste ledd"
+ingress: "Manipulasjon er en av kiropraktorens viktigste behandlingsformer for akutte og langvarige plager i rygg, nakke og ledd."
+beskrivelse: "Hva er kiropraktisk manipulasjon, og hvordan virker det? Les om behandlingen hos kiropraktorene i Fetsund."
+rekkefolge: 1
 bilde: "/bilder/wp/sara_bannerbilde-640x420-1.webp"
 oppdatert: 2026-07-07
 ---
-
-## Kiropraktisk manipulasjonsbehandling – kiropraktorens viktigste verktøy?
 
 Når de fleste hører ordet kiropraktor, tenker de automatisk på rygg, nakke og den karakteristiske «knekkelyden». Faktisk er manipulasjonsbehandling bare én av mange behandlingsteknikker vi bruker, men for mange pasienter er den et svært effektivt verktøy når et ledd har blitt stivt og smertefullt.
 

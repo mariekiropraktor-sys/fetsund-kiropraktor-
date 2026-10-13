@@ -7,8 +7,6 @@ image: "/bilder/wp/sitte-pa-stol-haleben-vondt-1920x1280-5-1.webp"
 forfatter: sara
 ---
 
-## Årsaker til halebeinsmerter - En guide til deg som har vondt i halebeinet
-
 ![](/bilder/wp/sitte-pa-stol-haleben-vondt-1920x1280-640x427-1-1.webp)
 
 Årsaker til halebeinsmerter. Halebeinsmerter kan være både smertefullt og forstyrrende. Det finnes mange årsaker til halebeinsmerter. 

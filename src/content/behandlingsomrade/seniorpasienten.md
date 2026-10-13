@@ -1,6 +1,11 @@
 ---
-tittel: "Seniorpasienten og kiropraktorbehandling - dette virker!"
-beskrivelse: "På Fetsund Kiropraktorsenter bryr vi oss om pasienter i alle aldre, inkludert seniorpasienten! Ta en titt innom for å se hva vi kan hjelpe deg med."
+tittel: "Seniorer og kiropraktorbehandling"
+kortNavn: "Seniorer"
+kortTekst: "Bevegelighet, balanse og smertelindring"
+gruppe: livsfase
+ingress: "Vi behandler pasienter i alle aldre. For seniorer tilpasser vi behandlingen, og legger vekt på bevegelighet, balanse og trygg aktivitet."
+beskrivelse: "Kiropraktorbehandling for seniorer i Fetsund: tilpasset behandling for bevegelighet, balanse og smerter."
+rekkefolge: 32
 bilde: "/bilder/wp/Kopi-av-70-CHIROPRACTOR-IG-POSTS-6.webp"
 oppdatert: 2025-01-08
 ---

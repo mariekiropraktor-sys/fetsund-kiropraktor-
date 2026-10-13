@@ -9,10 +9,6 @@ forfatter: sara
 
 **5 Vanlige årsaker til fotsmerter – og hvorfor bekkenet kan være nøkkelen til å bli kvitt smertene**
 
-![5 Vanlige årsaker til fotsmerter](/bilder/wp/20231129_132817-1-1920x1440-e1732183238107-480x473-1.webp)  
-Hei, og velkommen til min nettside! Fotplager kan være både smertefulle og frustrerende, spesielt hvis de kommer tilbake gang på gang. Mange pasienter som kommer til meg, har fått behandling for foten alene, men smertene vender tilbake fordi underliggende årsaker som bekken, knær og hofter ikke har blitt undersøkt.  
-I denne artikkelen gir jeg deg en oversikt over 5 vanlige årsaker til fotplager, symptomer på hver tilstand, og hvorfor det er så viktig å se hele kroppen som en helhet når vi behandler føttene.
-
 ##  1. Plantar fasciitt
 
 ![](/bilder/wp/20231129_132642-1920x1440-480x360-1.webp)

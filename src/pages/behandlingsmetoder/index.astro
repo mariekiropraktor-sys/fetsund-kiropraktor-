@@ -1,64 +1,93 @@
 ---
+// Oversikt over behandlingsmetodene. Tekstene styres av kortNavn og kortTekst
+// i hver fil i src/content/behandlingsmetode/.
 import SideHode from "../../components/SideHode.astro";
 import Layout from "../../layouts/Layout.astro";
 import BookingCTA from "../../components/BookingCTA.astro";
 import { getCollection } from "astro:content";
-import { metoder, andreMetoder } from "../../data/site";
+import { site } from "../../data/site";
 
-const sider = (await getCollection("behandlingsmetode")).sort(
-  (a, b) => a.data.rekkefolge - b.data.rekkefolge || a.data.tittel.localeCompare(b.data.tittel, "nb"),
-);
-const liste = sider.length
-  ? sider.map((s) => ({ navn: s.data.tittel, tekst: s.data.beskrivelse, lenke: `/behandlingsmetode/${s.id}/` }))
-  : metoder;
+const sider = (await getCollection("behandlingsmetode")).sort((a, b) => a.data.rekkefolge - b.data.rekkefolge);
+const hoved = sider.slice(0, 4);
+const andre = sider.slice(4);
 ---
 
 <Layout
   title="Behandlingsmetoder"
-  description="Kiropraktisk manipulasjon, nålebehandling, triggerpunktmassasje, muskeltesting og øvelser. Slik behandler kiropraktorene på Fetsund Kiropraktorsenter."
+  description="Kiropraktisk manipulasjon, mobilisering, triggerpunktmassasje, nålebehandling og øvelser. Slik behandler kiropraktorene på Fetsund Kiropraktorsenter."
 >
   <SideHode
     tittel="Slik behandler vi"
     ingress="Behandlingen settes sammen etter hva undersøkelsen viser. Ofte kombinerer vi flere metoder i samme time, så du slipper å gå til flere ulike behandlere."
     smuler={[{ navn: "Behandling" }]}
-  />
+  >
+    <div class="btn-row">
+      <a class="btn" href={site.booking}>Bestill time</a>
+      <a class="btn btn--ghost" href="/priser/">Se priser</a>
+    </div>
+  </SideHode>
 
-  <section class="wrap innhold">
+  <section class="section wrap">
+    <h2 class="h2 tittel">Metodene vi bruker mest</h2>
     <div class="metoder">
       {
-        liste.map((m) => (
-          <a class="card card-link" href={m.lenke}>
-            <h2 class="metoder__navn">{m.navn}</h2>
-            {m.tekst && <p class="muted">{m.tekst}</p>}
+        hoved.map((m) => (
+          <a class="card card-link metode" href={`/behandlingsmetode/${m.id}/`}>
+            <h3 class="metode__navn">{m.data.kortNavn}</h3>
+            <p class="muted">{m.data.kortTekst}</p>
+            <span class="metode__mer">Les mer →</span>
           </a>
         ))
       }
     </div>
-    {
-      !sider.length && (
-        <ul class="chip-list andre">
-          {andreMetoder.map((m) => (
-            <li>{m.lenke ? <a class="chip-link" href={m.lenke}>{m.navn} →</a> : <span class="chip">{m.navn}</span>}</li>
-          ))}
-        </ul>
-      )
-    }
+  </section>
+
+  <section class="section section--white">
+    <div class="wrap">
+      <h2 class="h2 tittel">Vi bruker også</h2>
+      <div class="metoder">
+        {
+          andre.map((m) => (
+            <a class="card card-link metode metode--lys" href={`/behandlingsmetode/${m.id}/`}>
+              <h3 class="metode__navn">{m.data.kortNavn}</h3>
+              <p class="muted">{m.data.kortTekst}</p>
+              <span class="metode__mer">Les mer →</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
   </section>
 
   <BookingCTA />
 </Layout>
 
 <style>
+  .tittel {
+    margin-bottom: 28px;
+  }
   .metoder {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
     gap: 16px;
   }
-  .metoder__navn {
-    font-size: 24px;
-    margin-bottom: 8px;
+  .metode {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
-  .andre {
-    margin-top: 28px;
+  .metode--lys {
+    background: var(--bg);
+  }
+  .metode__navn {
+    font-size: 22px;
+    line-height: 1.25;
+  }
+  .metode__mer {
+    margin-top: auto;
+    padding-top: 6px;
+    color: var(--teal);
+    font-weight: 600;
+    font-size: 15px;
   }
 </style>

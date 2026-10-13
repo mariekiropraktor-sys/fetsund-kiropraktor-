@@ -1,11 +1,14 @@
 ---
 tittel: "Hodepine"
-beskrivelse: "Hodepine, migrene eller nakkesmerter? Les om vanlige årsaker til hodepine og hvordan kiropraktorene ved Fetsund Kiropraktorsenter kan hjelpe."
+kortNavn: "Hodepine"
+kortTekst: "Spenningshodepine og hodepine fra nakken"
+gruppe: hode
+ingress: "Mye hodepine kommer fra nakken og stramme muskler. Vi skiller mellom ulike typer hodepine, og henviser videre ved behov."
+beskrivelse: "Hodepine eller migrene? Les om vanlige årsaker og hvordan kiropraktorene ved Fetsund Kiropraktorsenter kan hjelpe."
+rekkefolge: 20
 bilde: "/bilder/wp/406051985_3662765807375576_6730752410300302163_n-1.webp"
 oppdatert: 2026-08-26
 ---
-
-## Hodepine – kan kiropraktoren hjelpe?
 
 [Hodepine](https://nhi.no/forstehjelp/hode-og-rygg/hodepine) er svært vanlig, men årsaken kan variere betydelig fra person til person. Hos noen henger hodepinen sammen med spenninger, redusert bevegelighet eller smerter i nakke og kjeve. Hos andre kan det dreie seg om migrene eller andre former for hodepine som krever en annen tilnærming.
 

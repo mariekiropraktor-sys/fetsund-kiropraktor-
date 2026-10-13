@@ -1,75 +1,216 @@
 ---
 // Felles mal for én plage (behandlingsområde) eller én behandlingsmetode.
+// Bygget som fagsidene på Marie-siden: toppfelt med kort til høyre, tekst på hvit flate,
+// og kort med beslektede sider nederst.
 import Layout from "../layouts/Layout.astro";
 import SideHode from "./SideHode.astro";
 import KortFortalt from "./KortFortalt.astro";
 import BookingCTA from "./BookingCTA.astro";
-import { render, type CollectionEntry } from "astro:content";
-import { site, kiropraktorer } from "../data/site";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import { site, kiropraktorer, priser } from "../data/site";
 
+type Side = CollectionEntry<"behandlingsomrade"> | CollectionEntry<"behandlingsmetode">;
 interface Props {
-  side: CollectionEntry<"behandlingsomrade"> | CollectionEntry<"behandlingsmetode">;
-  smule: { navn: string; lenke: string };
+  side: Side;
+  type: "behandlingsomrade" | "behandlingsmetode";
 }
-const { side, smule } = Astro.props;
+const { side, type } = Astro.props;
 const { Content } = await render(side);
 const d = side.data;
 const ekspert = d.kiropraktor ? kiropraktorer.find((k) => k.id === d.kiropraktor) : undefined;
+const erPlage = type === "behandlingsomrade";
+const oversikt = erPlage
+  ? { navn: "Plager vi behandler", lenke: "/behandlingsomrader/" }
+  : { navn: "Behandling", lenke: "/behandlingsmetoder/" };
+const oppdatert = d.oppdatert?.toLocaleDateString("nb-NO", { day: "numeric", month: "long", year: "numeric" });
+const forstegang = priser[0].timer[0];
+
+// Beslektede sider: samme gruppe først, så resten, maks 3
+const alle = (await getCollection(type)).filter((s) => s.id !== side.id);
+const beslektet = [
+  ...alle.filter((s) => d.gruppe && s.data.gruppe === d.gruppe),
+  ...alle.filter((s) => !d.gruppe || s.data.gruppe !== d.gruppe),
+]
+  .slice(0, 3)
+  .map((s) => ({ navn: s.data.kortNavn, tekst: s.data.kortTekst, lenke: `/${type}/${s.id}/` }));
+
+const sideUrl = new URL(`/${type}/${side.id}/`, Astro.site).href;
+const smuleData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Forside", item: new URL("/", Astro.site).href },
+    { "@type": "ListItem", position: 2, name: oversikt.navn, item: new URL(oversikt.lenke, Astro.site).href },
+    { "@type": "ListItem", position: 3, name: d.tittel, item: sideUrl },
+  ],
+};
 ---
 
-<Layout title={d.seoTittel ?? d.tittel} description={d.beskrivelse} image={d.bilde}>
-  <SideHode tittel={d.tittel} ingress={d.ingress || undefined} smuler={[smule, { navn: d.tittel }]}>
+<Layout title={d.seoTittel ?? d.tittel} description={d.beskrivelse} image={d.bilde} type="article">
+  <script type="application/ld+json" set:html={JSON.stringify(smuleData)} slot="head" />
+
+  <SideHode tittel={d.tittel} ingress={d.ingress || undefined} smuler={[oversikt, { navn: d.tittel }]}>
     <div class="btn-row">
-      <a class="btn" href={ekspert?.booking ?? site.booking}>Bestill time</a>
+      <a class="btn" href={ekspert?.booking ?? site.booking}>{ekspert ? `Bestill hos ${ekspert.navn.split(" ")[0]}` : "Bestill time"}</a>
       <a class="btn btn--ghost" href={site.telefonLenke}>Ring {site.telefon}</a>
     </div>
-  </SideHode>
-
-  <div class="wrap fagside">
-    <article class="prose artikkel__tekst">
-      {d.kortFortalt.length > 0 && <KortFortalt punkter={d.kortFortalt} />}
-      <Content />
-    </article>
     {
-      ekspert && (
-        <aside class="card ekspert stack">
-          <img src={ekspert.bilde} alt="" width="96" height="96" loading="lazy" />
+      ekspert ? (
+        <aside class="sidekort" slot="side">
+          <img class="sidekort__bilde" src={ekspert.bilde} alt="" width="88" height="88" />
           <p class="eyebrow">Spesialfelt hos</p>
-          <h2 class="ekspert__navn">{ekspert.navn}</h2>
+          <h2 class="sidekort__tittel">{ekspert.navn}</h2>
           <p class="muted">{ekspert.kort}</p>
-          <a class="btn" href={ekspert.booking}>Bestill hos {ekspert.navn.split(" ")[0]}</a>
+          <a class="sidekort__lenke" href={ekspert.side}>Les mer om {ekspert.navn.split(" ")[0]} →</a>
+        </aside>
+      ) : (
+        <aside class="sidekort" slot="side">
+          <p class="eyebrow">Første time</p>
+          <h2 class="sidekort__tittel">{forstegang.navn}</h2>
+          <ul class="sidekort__liste">
+            <li>Samtale og grundig undersøkelse</li>
+            <li>Behandling tilpasset det vi finner</li>
+            <li>Øvelser du kan gjøre hjemme</li>
+            <li>Du trenger ikke henvisning</li>
+          </ul>
+          <p class="sidekort__pris">{forstegang.pris}</p>
         </aside>
       )
     }
-  </div>
+  </SideHode>
+
+  <section class="section section--white">
+    <article class="wrap fag-tekst">
+      <div class="prose artikkel__tekst">
+        <KortFortalt punkter={d.kortFortalt} />
+        <Content />
+      </div>
+      <p class="forfatter">
+        <img src={ekspert?.bilde ?? site.heroBilde} alt="" width="72" height="72" loading="lazy" />
+        <span>
+          Skrevet av {ekspert ? <a href={ekspert.side}>kiropraktor {ekspert.navn}</a> : <a href="/om-klinikken/">kiropraktorene ved {site.navn}</a>}.
+          {oppdatert && <><br /><span class="muted">Sist oppdatert {oppdatert}</span></>}
+        </span>
+      </p>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 class="h2 andre__tittel">{erPlage ? "Andre plager vi behandler" : "Andre metoder vi bruker"}</h2>
+      <div class="card-grid">
+        {
+          beslektet.map((t) => (
+            <a class="card card-link andre__kort" href={t.lenke}>
+              <h3 class="andre__navn">{t.navn}</h3>
+              <p class="muted">{t.tekst}</p>
+              <span class="andre__mer">Les mer →</span>
+            </a>
+          ))
+        }
+      </div>
+      <p class="andre__alle"><a href={oversikt.lenke}>Se alle {erPlage ? "plager" : "metoder"} →</a></p>
+    </div>
+  </section>
 
   <BookingCTA />
 </Layout>
 
 <style>
-  .fagside {
-    display: grid;
-    gap: 40px;
-    padding-block: clamp(40px, 6vw, 64px);
-    align-items: start;
+  .sidekort {
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: clamp(22px, 3vw, 32px);
+    box-shadow: 0 18px 50px rgb(11 110 129 / 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
-  @media (min-width: 1000px) {
-    .fagside {
-      grid-template-columns: minmax(0, 700px) 300px;
-      justify-content: space-between;
-    }
-    .ekspert {
-      position: sticky;
-      top: 140px;
-    }
-  }
-  .ekspert img {
-    width: 96px;
-    height: 96px;
+  .sidekort__bilde {
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center top;
   }
-  .ekspert__navn {
+  .sidekort__tittel {
     font-size: 24px;
+  }
+  .sidekort__lenke {
+    font-weight: 600;
+  }
+  .sidekort__liste {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0;
+    display: grid;
+    gap: 10px;
+  }
+  .sidekort__liste li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.45;
+  }
+  .sidekort__liste li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #e3f4f7
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%230b6e81' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' d='M6 12.5l4 4 8-9'/%3E%3C/svg%3E")
+      center / 12px no-repeat;
+  }
+  .sidekort__pris {
+    font-family: var(--serif);
+    font-size: 28px;
+    margin-top: 6px;
+  }
+  .fag-tekst {
+    max-width: calc(760px + 2 * var(--gutter));
+  }
+  .fag-tekst :global(.prose img) {
+    border-radius: 16px;
+  }
+  .forfatter {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 15px;
+  }
+  .forfatter img {
+    width: var(--portrett-liten);
+    height: var(--portrett-liten);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    flex: none;
+  }
+  .andre__tittel {
+    margin-bottom: 28px;
+  }
+  .andre__kort {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .andre__navn {
+    font-size: 22px;
+  }
+  .andre__mer {
+    color: var(--teal);
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: auto;
+  }
+  .andre__alle {
+    margin-top: 24px;
+    font-weight: 600;
   }
 </style>

@@ -7,10 +7,6 @@ image: "/bilder/wp/Shutterstock_2160904461-1918x852-1.webp"
 forfatter: sara
 ---
 
-## Delte magemuskler etter fødsel: hvordan gjenkjenne og håndtere tilstanden
-
-![Delte magemuskler etter fødsel](/bilder/wp/Shutterstock_2160904461-1918x852-640x284-1.webp)
-
 Delte magemuskler, også kjent som diastasis recti, er en vanlig tilstand som mange kvinner opplever etter svangerskap. Denne tilstanden oppstår når de parallelle magemusklene (rectus abdominis) separeres langs midtlinjen av magen som et resultat av den økende belastningen fra fosteret under graviditeten. Selv om dette er en naturlig tilpasning til svangerskapet ditt, kan det for noen kvinner medføre vedvarende problemer for kjernemuskulaturen hvis musklene ikke trekker seg sammen igjen i løpet av barselperioden. Risikoen er høyere for flergangsfødende.
 
 ## Kjernemuskulaturen:

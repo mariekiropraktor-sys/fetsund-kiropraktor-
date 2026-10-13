@@ -1,11 +1,14 @@
 ---
 tittel: "Fot- og ankelsmerter"
-beskrivelse: ""
+kortNavn: "Fot og ankel"
+kortTekst: "Belastning, overtråkk og vonde føtter"
+gruppe: ledd
+ingress: "Vonde føtter og ankler påvirker hele kroppen. Vi undersøker fot, ankel og hvordan du går, og gir behandling og øvelser."
+beskrivelse: "Vondt i foten eller ankelen? Les om vanlige årsaker og behandling hos kiropraktor i Fetsund."
+rekkefolge: 11
 bilde: "/bilder/wp/406037100_890843069338425_7395187688359100618_n-1.webp"
 oppdatert: 2024-05-23
 ---
-
-![](/bilder/wp/406037100_890843069338425_7395187688359100618_n-2.webp)
 
 Fot- og ankelssmerter er vanlige plager vi ser på [Fetsund Kiropraktorsenter](/), som kan påvirke både idrettsutøvere og personer med en aktiv livsstil. Disse smertene kan være begrensende og påvirke daglige aktiviteter. Det er viktig å forstå de underliggende årsakene til fot- og ankelssmerter for å kunne tilby effektiv behandling og lindring til pasientene.
 

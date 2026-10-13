@@ -1,6 +1,11 @@
 ---
-tittel: "Albuesmerter, tennisalbue og kiropraktorbehandling =sant!"
-beskrivelse: "Våre kiropraktorer bruker et bredt spekter av ulike behandlingsteknikker og er derfor spesielt egnet til å diagnostisere og behandle alle typer albuesmerter."
+tittel: "Albue- og håndleddsmerter"
+kortNavn: "Albue og håndledd"
+kortTekst: "Tennisalbue og vonde håndledd"
+gruppe: ledd
+ingress: "Tennisalbue, golfalbue og vonde håndledd kommer ofte av overbelastning. Behandling av muskler, sener og ledd gir ofte god bedring."
+beskrivelse: "Tennisalbue eller vondt i håndleddet? Les om årsaker og behandling hos kiropraktor i Fetsund."
+rekkefolge: 12
 bilde: "/bilder/wp/405939708_338312925623030_5659347031312529928_n-4.webp"
 oppdatert: 2024-11-26
 ---

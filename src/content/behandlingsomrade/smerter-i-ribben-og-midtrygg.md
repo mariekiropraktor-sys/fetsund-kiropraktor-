@@ -1,6 +1,11 @@
 ---
 tittel: "Smerter i ribben og midtrygg"
-beskrivelse: "Det kan være mange årsaker til smerter mellom skuldre og/eller frem mot brystkassen. Her går vi gjennom de vanligste årsakene som kiropraktoren hjelper deg med."
+kortNavn: "Ribben og midtrygg"
+kortTekst: "Vondt mellom skuldrene og frem mot brystet"
+gruppe: rygg
+ingress: "Smerter mellom skuldrene og frem mot brystkassen kan kjennes skremmende. Her går vi gjennom de vanligste årsakene, og hva som hjelper."
+beskrivelse: "Smerter i ribbeina eller midt i ryggen? Les om de vanligste årsakene og hvordan kiropraktoren kan hjelpe."
+rekkefolge: 4
 bilde: "/bilder/wp/406373838_1388254135378545_8573694390161122537_n.webp"
 oppdatert: 2025-06-04
 ---

@@ -1,11 +1,14 @@
 ---
-tittel: "Fibromyalgi, muskelssmerter og kiropraktorbehandling"
-beskrivelse: "Vi på Fetsund Kiropraktorsenter bruker god tid på våre pasienter og mener vi er spesielt egnet til å behandle pasienter med fibromyalgi."
+tittel: "Fibromyalgi og langvarige muskelsmerter"
+kortNavn: "Fibromyalgi"
+kortTekst: "Langvarige, utbredte muskelsmerter"
+gruppe: ledd
+ingress: "Ved fibromyalgi og langvarige smerter er skånsom behandling, god tid og tilpasset aktivitet viktig."
+beskrivelse: "Fibromyalgi eller langvarige muskelsmerter? Les om hvordan kiropraktorbehandling kan hjelpe."
+rekkefolge: 15
 bilde: "/bilder/wp/Kopi-av-70-CHIROPRACTOR-IG-POSTS-5-1.webp"
 oppdatert: 2025-01-08
 ---
-
-## **Fibromyalgi** 
 
 ### **Skrevet av kiropraktor Marie Hermansen**
 

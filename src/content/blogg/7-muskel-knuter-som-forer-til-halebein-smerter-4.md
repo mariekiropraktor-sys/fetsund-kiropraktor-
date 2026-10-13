@@ -7,8 +7,6 @@ image: "/bilder/wp/obturator-internus-4.webp"
 forfatter: sara
 ---
 
-## 8 Muskel knuter som fører til halebein smerter
-
 Smerter i halebeinet kommer ikke alltid fra selve halebeinet. Muskel knuter og refererte smerter fra disse kan stråle til halebenet. Vår [Kiropraktor Sara Nordanger](https://fetsundkiropraktorsara.no/om-sara-nordanger/) har spesialisert seg på behandling og utredning av halebensmerter. I denne artikkelen kan du lese om de 8 vanligste muskel knutene som fører til halebein smerter.
 
 ![](/bilder/wp/halbein.webp)

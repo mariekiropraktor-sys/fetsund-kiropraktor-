@@ -24,6 +24,9 @@ const blogg = defineCollection({
 // src/content/behandlingsomrade/<adresse>.md → /behandlingsomrade/<adresse>/
 const side = z.object({
   tittel: z.string(),
+  kortNavn: z.string(), // kort navn på kortene i oversikten, f.eks. «Nakke»
+  kortTekst: z.string(), // én kort linje under navnet på kortet
+  gruppe: z.enum(["rygg", "ledd", "hode", "livsfase"]).optional(), // bare for plager
   seoTittel: z.string().optional(),
   beskrivelse: z.string().default(""),
   ingress: z.string().default(""),

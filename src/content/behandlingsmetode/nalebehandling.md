@@ -1,6 +1,10 @@
 ---
 tittel: "Nålebehandling"
-beskrivelse: "Nåler bruker vi som triggerpunksbehandling når vi ikke kommer helt i mål med vanlig triggerpunksmassasje."
+kortNavn: "Nålebehandling"
+kortTekst: "Tørrnåling når massasje ikke er nok"
+ingress: "Vi bruker nåler i muskelknuter når vanlig triggerpunktmassasje ikke gir nok effekt."
+beskrivelse: "Nålebehandling (tørrnåling) av muskelknuter hos kiropraktorene i Fetsund."
+rekkefolge: 4
 bilde: "/bilder/wp/Dry-Needling_web-2.webp"
 oppdatert: 2024-05-23
 ---

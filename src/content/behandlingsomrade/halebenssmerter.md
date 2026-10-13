@@ -1,12 +1,15 @@
 ---
-tittel: "Halebeinssmerter"
-beskrivelse: "halebeinssmerter. Kiropraktor Sara Nordanger er spesialisert i å utrede og behandle halebeinssmerter"
+tittel: "Halebeinsmerter"
+kortNavn: "Halebein"
+kortTekst: "Vondt når du sitter eller reiser deg"
+gruppe: rygg
+ingress: "Halebeinsmerter er Sara Nordangers spesialfelt. De kommer ofte etter et fall, i svangerskapet eller etter fødsel, men kan også oppstå uten kjent årsak."
+beskrivelse: "Vondt i halebeinet? Kiropraktor Sara Nordanger har spesialisert seg på utredning og behandling av halebeinsmerter."
+rekkefolge: 5
 bilde: "/bilder/wp/vondt-i-haleben-1918x1116-7.webp"
 kiropraktor: sara
 oppdatert: 2026-10-02
 ---
-
-![halebeinssmerter](/bilder/wp/vondt-i-haleben-1918x1116-480x279-1.webp)
 
 Vår [Kiropraktor Sara Nordanger](https://fetsundkiropraktorsara.no/om-sara-nordanger/) har spesialisert seg på behandling og utredning av halebeinssmerter. Hun har bred erfaring fra sine 6 år på Ullevål sykhus, og bekken og barn.
 

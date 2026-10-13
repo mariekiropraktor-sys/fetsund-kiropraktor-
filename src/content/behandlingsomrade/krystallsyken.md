@@ -1,12 +1,15 @@
 ---
-tittel: "Krystallsyken - symptomer, årsaker, øvelser og behandling"
-beskrivelse: "Krystallsyke (BPPV) gir kortvarig, kraftig svimmelhet ved hodebevegelser. Les om symptomer, årsaker, behandling og når du bør kontakte kiropraktor."
+tittel: "Krystallsyke"
+kortNavn: "Krystallsyke"
+kortTekst: "Kraftig snurring når du snur hodet"
+gruppe: hode
+ingress: "Krystallsyke gir korte, kraftige anfall av svimmelhet når du snur deg i senga eller ser opp. Det kan behandles effektivt."
+beskrivelse: "Krystallsyke (BPPV) gir kortvarig, kraftig svimmelhet ved hodebevegelser. Les om symptomer, behandling og øvelser."
+rekkefolge: 23
 bilde: "/bilder/wp/823fe724-6ef5-4626-a519-1bc4d68038c1.webp"
 kiropraktor: marie
 oppdatert: 2026-07-07
 ---
-
-## Krystallsyke (BPPV) – symptomer, årsaker, øvelser og behandling
 
 De fleste som får krystallsyke husker godt den første episoden. Kanskje snudde du deg i sengen en morgen og opplevde at hele rommet begynte å spinne. Kanskje ble du svimmel da du så opp mot en hylle eller bøyde deg ned for å knytte skoene. Opplevelsen kan være både intens og skremmende, og mange frykter at noe alvorlig har skjedd.
 

@@ -49,7 +49,7 @@ export const kiropraktorer = [
     id: "marie",
     navn: "Marie Hermansen",
     tittel: "Kiropraktor, MNKF · medgründer",
-    bilde: bilde("Untitled-design.webp"),
+    bilde: "/bilder/marie-portrett.webp",
     spesialfelt: ["Svimmelhet og krystallsyke"],
     interessefelt: ["Kjevesmerter", "Hodepine"],
     kort: "Har VNG-briller og egen svimmelhetsundersøkelse. Behandler også nakke, rygg og ledd.",
@@ -192,5 +192,13 @@ export const temaNavn: Record<string, string> = {
   "ledd-og-muskler": "Ledd og muskler",
   annet: "Annet",
 };
+
+// Grupper på oversikten over plager
+export const plageGrupper = [
+  { id: "rygg", navn: "Rygg og nakke" },
+  { id: "ledd", navn: "Ledd og muskler" },
+  { id: "hode", navn: "Hode og svimmelhet" },
+  { id: "livsfase", navn: "Gravid, barn og senior" },
+] as const;
 
 export const eksterne = { marie, sara, krystallsykehjelpen: "https://www.krystallsykehjelpen.no/" };

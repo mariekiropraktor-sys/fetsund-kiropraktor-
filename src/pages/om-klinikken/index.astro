@@ -50,7 +50,8 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
             svangerskapet og etter fødsel, og med spedbarn og barn.
           </p>
           <ul class="chip-list">
-            {k.sara.spesialfelt.map((s) => <li><span class="chip">{s}</span></li>)}
+            {k.sara.spesialfelt.map((s) => <li><span class="chip chip--spesial">{s}</span></li>)}
+            {k.sara.interessefelt.map((s) => <li><span class="chip">{s}</span></li>)}
           </ul>
           <p class="muted">
             Hun ser også mange med prolaps og isjias, rygg- og nakkesmerter og idrettsskader. Sara bor på Årnes og er glad
@@ -74,7 +75,8 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
             Nest etter kommer kjevesmerter og hodepine.
           </p>
           <ul class="chip-list">
-            {k.marie.spesialfelt.map((s) => <li><span class="chip">{s}</span></li>)}
+            {k.marie.spesialfelt.map((s) => <li><span class="chip chip--spesial">{s}</span></li>)}
+            {k.marie.interessefelt.map((s) => <li><span class="chip">{s}</span></li>)}
           </ul>
           <p class="muted">
             Marie er engasjert i Norsk Kiropraktorforening. På kontoret ligger ofte hunden Luna og bidrar med litt
@@ -94,6 +96,12 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
 </Layout>
 
 <style>
+  .chip--spesial {
+    background: var(--flate);
+    border-color: var(--flate);
+    color: var(--teal);
+    font-weight: 600;
+  }
   .klinikk {
     align-items: center;
   }

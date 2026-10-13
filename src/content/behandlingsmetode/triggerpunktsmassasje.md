@@ -1,6 +1,10 @@
 ---
-tittel: "Triggerpunktsmassasje"
-beskrivelse: "Triggerpunktsmassasje er ikke bare behagelig og smertelindrende, men spiller også en viktig rolle under både behandling og utredning av dine plager"
+tittel: "Triggerpunktmassasje"
+kortNavn: "Triggerpunktmassasje"
+kortTekst: "Løser opp muskelknuter som gir smerte"
+ingress: "Triggerpunktmassasje løser opp muskelknuter som gir smerte der de sitter, og ofte et annet sted i kroppen."
+beskrivelse: "Triggerpunktmassasje løser opp muskelknuter. Les om behandlingen hos Fetsund Kiropraktorsenter."
+rekkefolge: 3
 bilde: "/bilder/wp/triggerpunkt_web-3.webp"
 oppdatert: 2024-11-21
 ---

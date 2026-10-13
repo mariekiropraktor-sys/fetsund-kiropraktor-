@@ -1,12 +1,15 @@
 ---
-tittel: "Svimmelhet/krystallsyke"
-beskrivelse: "Svimmelhet, krystallsyke og ustøhet kan ha mange årsaker. Få en enkel, trygg guide til vanlige svimmelhetsårsaker – og når du bør få det undersøkt"
+tittel: "Svimmelhet"
+kortNavn: "Svimmelhet"
+kortTekst: "Snurring, gynging og ustøhet"
+gruppe: hode
+ingress: "Svimmelhet kan ha mange årsaker. Marie Hermansen har svimmelhet som spesialfelt og undersøker med VNG-briller."
+beskrivelse: "Svimmel eller ustø? Les om vanlige årsaker til svimmelhet og når du bør få det undersøkt."
+rekkefolge: 22
 bilde: "/bilder/wp/IMG_1617.webp"
 kiropraktor: marie
 oppdatert: 2026-07-07
 ---
-
-## Svimmelhet – vanlige årsaker, undersøkelser og behandling
 
 Har du opplevd at rommet plutselig begynner å snurre når du snur deg i sengen? Kanskje kjenner du deg ustø når du går, føler at kroppen gynger eller blir svimmel i butikker og andre travle omgivelser. Svimmelhet kan oppleves på mange forskjellige måter, og nettopp derfor er det ikke alltid enkelt å finne årsaken.
 

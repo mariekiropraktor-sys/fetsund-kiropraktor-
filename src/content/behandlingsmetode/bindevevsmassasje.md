@@ -1,6 +1,10 @@
 ---
 tittel: "Bindevevsmassasje"
-beskrivelse: "Bindevevsmassasje er en god behandling for en rekke palger. Her forklarer vi litt mer rundt denne populære behandlingsmetoden."
+kortNavn: "Bindevevsmassasje"
+kortTekst: "Instrumentbehandling av stramt vev"
+ingress: "Bindevevsmassasje løsner opp stramt bindevev og muskler, ofte med instrumenter i rustfritt stål."
+beskrivelse: "Bindevevsmassasje løsner stramt vev og muskler. Les om behandlingen hos Fetsund Kiropraktorsenter."
+rekkefolge: 5
 bilde: "/bilder/wp/Traksjonsbehandling_web-1.webp"
 oppdatert: 2024-05-23
 ---

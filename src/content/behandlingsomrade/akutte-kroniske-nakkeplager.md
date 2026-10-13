@@ -1,6 +1,11 @@
 ---
-tittel: "Akutte/kroniske nakkeplager"
-beskrivelse: "En time hos kiropraktoren er er en naturlig, trygg og effektiv del av både behandling og utredning av kroniske og akutte plager i nakken. Men hva ser vi etter og hvordan kan vi hjelpe deg?"
+tittel: "Nakkesmerter – akutte og langvarige"
+kortNavn: "Nakke"
+kortTekst: "Låst, stiv eller vond nakke"
+gruppe: rygg
+ingress: "Stiv, låst eller vond nakke er noe av det vi ser oftest. Her kan du lese om vanlige årsaker, og hvordan vi undersøker og behandler nakken."
+beskrivelse: "Vondt i nakken? Les om vanlige årsaker til akutte og langvarige nakkesmerter, og hvordan kiropraktorene i Fetsund kan hjelpe."
+rekkefolge: 1
 bilde: "/bilder/wp/Kopi-av-70-CHIROPRACTOR-IG-POSTS-6.webp"
 oppdatert: 2025-02-19
 ---

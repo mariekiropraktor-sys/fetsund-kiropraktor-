@@ -1,6 +1,11 @@
 ---
 tittel: "Hoftesmerter"
-beskrivelse: ""
+kortNavn: "Hofte"
+kortTekst: "Smerter i hofta, lysken og setet"
+gruppe: ledd
+ingress: "Smerter i hofta kan komme fra selve leddet, fra musklene rundt eller fra korsryggen og bekkenet. En grundig undersøkelse finner årsaken."
+beskrivelse: "Vondt i hofta? Les om vanlige årsaker til hoftesmerter og hvordan kiropraktorene i Fetsund kan hjelpe."
+rekkefolge: 10
 bilde: "/bilder/wp/20231121_112547-scaled-1-1.webp"
 oppdatert: 2024-02-28
 ---

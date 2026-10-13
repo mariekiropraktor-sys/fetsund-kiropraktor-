@@ -1,6 +1,11 @@
 ---
 tittel: "Brystryggsmerter"
-beskrivelse: ""
+kortNavn: "Brystrygg"
+kortTekst: "Stiv og vond mellom skulderbladene"
+gruppe: rygg
+ingress: "Smerter i brystryggen kan kjennes mellom skulderbladene, ut i ribbeina eller når du puster dypt. Oftest skyldes det stive ledd og stramme muskler."
+beskrivelse: "Vondt i brystryggen eller mellom skulderbladene? Les om årsaker og behandling hos kiropraktor i Fetsund."
+rekkefolge: 3
 bilde: "/bilder/wp/406373838_1388254135378545_8573694390161122537_n-300x225-1-1.webp"
 oppdatert: 2025-06-04
 ---

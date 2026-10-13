@@ -1,6 +1,11 @@
 ---
 tittel: "Vondt i ryggen"
-beskrivelse: "Vondt i ryggen? Korsryggsmerter er noe våre kiropraktorer ser daglig på klinikken her i Fetsund sentrum. Vi kan bidra med god og effektiv hjelp"
+kortNavn: "Korsrygg"
+kortTekst: "Akutt låsning, kink og langvarige smerter"
+gruppe: rygg
+ingress: "Korsryggsmerter er blant det vanligste vi behandler. De fleste blir bra, og riktig behandling og øvelser kan korte ned tiden betydelig."
+beskrivelse: "Vondt i korsryggen? Les om vanlige årsaker, hva du kan gjøre selv, og hvordan kiropraktorene i Fetsund behandler ryggsmerter."
+rekkefolge: 2
 bilde: "/bilder/wp/Kopi-av-70-CHIROPRACTOR-IG-POSTS-7.webp"
 oppdatert: 2025-07-07
 ---

@@ -1,86 +1,159 @@
 ---
+// Oversikt over alle plager, gruppert som kort. Tekstene på kortene styres av
+// feltene kortNavn, kortTekst og gruppe i hver fil i src/content/behandlingsomrade/.
 import SideHode from "../../components/SideHode.astro";
 import Layout from "../../layouts/Layout.astro";
 import BookingCTA from "../../components/BookingCTA.astro";
 import { getCollection } from "astro:content";
-import { spesialfelt, plager, kiropraktorer } from "../../data/site";
+import { site, spesialfelt, plageGrupper } from "../../data/site";
 
-// Alle plager som har egen side. Før innholdet er importert vises listen fra site.ts.
-const sider = (await getCollection("behandlingsomrade")).sort(
-  (a, b) => a.data.rekkefolge - b.data.rekkefolge || a.data.tittel.localeCompare(b.data.tittel, "nb"),
-);
-const liste = sider.length
-  ? sider.map((s) => ({
-      navn: s.data.tittel,
-      tekst: s.data.beskrivelse,
-      lenke: `/behandlingsomrade/${s.id}/`,
-      hvem: kiropraktorer.find((k) => k.id === s.data.kiropraktor)?.navn.split(" ")[0],
-    }))
-  : plager.map((p) => ({ ...p, hvem: undefined }));
+const sider = (await getCollection("behandlingsomrade")).sort((a, b) => a.data.rekkefolge - b.data.rekkefolge);
+const grupper = plageGrupper
+  .map((g) => ({ ...g, sider: sider.filter((s) => s.data.gruppe === g.id) }))
+  .filter((g) => g.sider.length > 0);
 ---
 
 <Layout
   title="Plager vi behandler"
-  description="Kiropraktorene i Fetsund behandler nakke, rygg, skulder, hofte, kne og fot – og har egne spesialfelt for svimmelhet, halebeinsmerter, gravide og barn."
+  description="Kiropraktorene i Fetsund behandler nakke, rygg, hofte, kne og fot – og har egne spesialfelt for svimmelhet, halebeinsmerter, gravide og barn."
 >
   <SideHode
     tittel="Plager vi behandler"
     ingress="Vi behandler alle typer muskel- og skjelettplager, fra akutte smerter til langvarige plager. Finn plagen din under, eller ring oss hvis du er usikker."
     smuler={[{ navn: "Plager vi behandler" }]}
-  />
-
-  <section class="wrap innhold stack omrader">
-    <h2 class="h2">Spesialfelt</h2>
-    <div class="spesial">
-      {
-        spesialfelt.map((s) => (
-          <a class="card card-link spesial__kort" href={s.lenke}>
-            <span class="eyebrow">Hos {s.hvem}</span>
-            <h3>{s.navn}</h3>
-            <p class="muted">{s.tekst}</p>
-          </a>
-        ))
-      }
+  >
+    <div class="btn-row">
+      <a class="btn" href={site.booking}>Bestill time</a>
+      <a class="btn btn--ghost" href={site.telefonLenke}>Ring {site.telefon}</a>
     </div>
+  </SideHode>
 
-    <h2 class="h2 omrader__tittel">Alle plager</h2>
-    <ul class="arrow-list card alle">
-      {
-        liste.map((p) => (
-          <li>
-            <a href={p.lenke}>
-              <span>
-                <strong>{p.navn}</strong>
-                {p.tekst && <small>{p.tekst}</small>}
-              </span>
-              <span aria-hidden="true">→</span>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
+  <section class="section wrap">
+    <div class="spesial card">
+      <span class="eyebrow eyebrow--lys">Spesialfelt</span>
+      <h2 class="spesial__tittel">Når du trenger ekstra kompetanse</h2>
+      <ul class="spesial__liste">
+        {
+          spesialfelt.map((s) => (
+            <li>
+              <a href={s.lenke}>
+                <span>
+                  <strong>{s.navn}</strong>
+                  <small>{s.tekst} Hos {s.hvem}.</small>
+                </span>
+                <span aria-hidden="true">→</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
   </section>
 
-  <BookingCTA />
+  {
+    grupper.map((g, i) => (
+      <section class:list={["section gruppe", { "section--white": i % 2 === 0 }]}>
+        <div class="wrap">
+          <h2 class="h2 gruppe__tittel">{g.navn}</h2>
+          <div class="plager">
+            {g.sider.map((s) => (
+              <a class="plager__kort" href={`/behandlingsomrade/${s.id}/`}>
+                {s.data.kiropraktor && <span class="plager__merke">Spesialfelt</span>}
+                <strong>{s.data.kortNavn}</strong>
+                <span>{s.data.kortTekst}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <BookingCTA tittel="Finner du ikke plagen din?" tekst="Vi behandler de fleste plager i muskler, ledd og nerver. Ring oss, så finner vi ut om vi kan hjelpe." />
 </Layout>
 
 <style>
-  .omrader {
-    gap: 24px;
-  }
-  .omrader__tittel {
-    margin-top: 32px;
-  }
   .spesial {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+    background: var(--teal);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
     gap: 16px;
   }
-  .spesial__kort h3 {
-    font-size: 22px;
-    margin: 6px 0 8px;
+  .eyebrow--lys {
+    color: var(--teal-soft);
   }
-  .alle {
-    max-width: 820px;
+  .spesial__tittel {
+    font-size: clamp(26px, 3vw, 32px);
+  }
+  .spesial__liste {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    column-gap: 32px;
+  }
+  .spesial__liste a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--teal-line);
+    color: #fff;
+    text-decoration: none;
+  }
+  .spesial__liste a:hover {
+    color: var(--teal-soft);
+  }
+  .spesial__liste small {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+  }
+  .gruppe__tittel {
+    margin-bottom: 24px;
+  }
+  .plager {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
+    gap: 12px;
+  }
+  .plager__kort {
+    background: var(--bg);
+    border-radius: 16px;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-decoration: none;
+    color: var(--ink);
+    transition: background 0.15s;
+  }
+  .gruppe:not(.section--white) .plager__kort {
+    background: var(--surface);
+  }
+  .plager__kort strong {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 21px;
+  }
+  .plager__kort span {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .plager__kort .plager__merke {
+    order: -1;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 2px;
+  }
+  .plager__kort:hover,
+  .gruppe:not(.section--white) .plager__kort:hover {
+    background: var(--flate);
   }
 </style>

@@ -1,6 +1,11 @@
 ---
 tittel: "Kjevesmerter"
-beskrivelse: "Har du vondt i kjeven? Kanskje redusert gapeevne eller vondt å tygge? Vi har spesialkompetanse innen behandling og utredning av kjevesmerter. Les hvordan her."
+kortNavn: "Kjeve"
+kortTekst: "Smerter, klikking og vondt å tygge"
+gruppe: hode
+ingress: "Vondt i kjeven, klikking eller redusert gapeevne kan ofte behandles. Kjeve er et av Marie Hermansens interessefelt."
+beskrivelse: "Vondt i kjeven eller klikking? Les om årsaker og behandling av kjevesmerter hos kiropraktor i Fetsund."
+rekkefolge: 21
 bilde: "/bilder/wp/406315618_898607168278717_372496122684456257_n.webp"
 kiropraktor: marie
 oppdatert: 2024-11-17

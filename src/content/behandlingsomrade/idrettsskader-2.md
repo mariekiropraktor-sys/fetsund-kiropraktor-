@@ -1,6 +1,11 @@
 ---
 tittel: "Idrettsskader"
-beskrivelse: "Idrettsskader er vanlige blant utøvere på alle nivåer, fra amatører til profesjonelle. Disse skadene kan variere fra milde forstuinger til alvorlige ligamentrupturer og beinbrudd."
+kortNavn: "Idrettsskader"
+kortTekst: "Tilbake i aktivitet, trygt"
+gruppe: ledd
+ingress: "Idrettsskader rammer både mosjonister og utøvere. Vi hjelper deg med behandling og en plan for å komme trygt tilbake."
+beskrivelse: "Idrettsskade? Kiropraktorene i Fetsund hjelper deg med behandling og opptrening for å komme trygt tilbake."
+rekkefolge: 14
 bilde: "/bilder/wp/fitness-1348867_1280.webp"
 oppdatert: 2024-06-19
 ---

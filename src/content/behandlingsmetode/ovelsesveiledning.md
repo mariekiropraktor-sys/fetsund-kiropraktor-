@@ -1,6 +1,10 @@
 ---
-tittel: "Øvelsesveiledning"
-beskrivelse: "Ved Fetsund Kiropraktorsenter legger vi stor vekt på øvelses veiledning som en integrert del av behandlingen for muskelskjelettlidelser."
+tittel: "Øvelser og veiledning"
+kortNavn: "Øvelser og veiledning"
+kortTekst: "Tilpassede øvelser du kan gjøre hjemme"
+ingress: "Øvelser er en viktig del av behandlingen. Du får et program tilpasset deg, så du kan jobbe videre hjemme."
+beskrivelse: "Tilpassede øvelser og veiledning er en fast del av behandlingen hos Fetsund Kiropraktorsenter."
+rekkefolge: 7
 bilde: "/bilder/wp/dumbbells-2465478_640.webp"
 oppdatert: 2025-02-18
 ---

@@ -1,6 +1,10 @@
 ---
-tittel: "VNG Undersøkelse for svimmelhet"
-beskrivelse: "VNG-undersøkelse ved svimmelhet og krystallsyke. Presis diagnostikk med videobriller som hjelper oss å finne årsaken og velge riktig behandling."
+tittel: "VNG-undersøkelse for svimmelhet"
+kortNavn: "VNG-undersøkelse"
+kortTekst: "Presis utredning av svimmelhet"
+ingress: "Med VNG-videobriller kan vi se øyebevegelsene nøyaktig og finne årsaken til svimmelheten. Undersøkelsen gjøres hos Marie Hermansen."
+beskrivelse: "VNG-undersøkelse ved svimmelhet og krystallsyke hos Marie Hermansen, Fetsund Kiropraktorsenter."
+rekkefolge: 8
 bilde: "/bilder/wp/IMG_1617.webp"
 oppdatert: 2026-07-07
 ---

@@ -1,6 +1,11 @@
 ---
-tittel: "Gravide og etter svangerskap"
-beskrivelse: "På fetsund kiropraktorsenter tar vi ekstra godt vare på deg som mor under svangerskapet, og om du skulle ha problemer etter fødsel"
+tittel: "Gravide og etter fødsel"
+kortNavn: "Gravid og etter fødsel"
+kortTekst: "Bekken, rygg og bekkenbunn"
+gruppe: livsfase
+ingress: "Bekkenplager, ryggsmerter og hodepine er vanlig i svangerskapet. Sara Nordanger har mye erfaring med gravide og tiden etter fødsel."
+beskrivelse: "Gravid eller nybakt mor med bekken- eller ryggsmerter? Les om skånsom kiropraktorbehandling i svangerskapet og etter fødsel."
+rekkefolge: 30
 bilde: "/bilder/wp/gravid-beahndling-2-1920x1280-6.webp"
 kiropraktor: sara
 oppdatert: 2026-10-02

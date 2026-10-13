@@ -1,11 +1,13 @@
 ---
-tittel: "Mobiliseringsbehandling"
-beskrivelse: "Mobilisering er et godt alternativ og supplement til den tradisjonelle manipulasjonsbehandlingen. Her går vi litt inn på hva slags type plager vi bruker dette til i klinikken."
+tittel: "Mobilisering"
+kortNavn: "Mobilisering"
+kortTekst: "Rolig leddbehandling uten «knekk»"
+ingress: "Mobilisering er en rolig og skånsom måte å bedre bevegelsen i stive ledd på, som alternativ eller tillegg til manipulasjon."
+beskrivelse: "Mobilisering er en skånsom leddbehandling uten knekk. Les om når kiropraktorene i Fetsund bruker den."
+rekkefolge: 2
 bilde: "/bilder/wp/mobliseringsbehandling_web.webp"
 oppdatert: 2024-11-17
 ---
-
-## Mobiliseringsbehandling som alternativ til manipulasjonsbehandlig?
 
 Noen pasienter oppsøker oss og ønsker hjelp for diverse plager som eksempelvis  vondt i ryggen, isjas, nakkesmerter, vondt i brystryggen, hvor vi kanskje mener [kiropraktisk manipulasjonsbehandling](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) er beste tilnærming for denne problemstillingen. Hva gjør vi så om pasienten av ulike årsaker ikke ønsker dette berømte "knekket", "poppet" eller "manipulasjonsbehandling" som vi så fint kaller det?
 

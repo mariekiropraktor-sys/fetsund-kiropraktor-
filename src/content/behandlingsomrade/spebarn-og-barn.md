@@ -1,6 +1,11 @@
 ---
 tittel: "Spedbarn og barn"
-beskrivelse: "Barn, inkludert spedbarn, opplever ofte kiropraktisk behandling som behagelig. Behandlingen vi gir er skånsom, med lette og presise trykk. For spedbarn bruker vi sjelden mer kraft enn det som trengs for å trykke på et lukket øye."
+kortNavn: "Spedbarn og barn"
+kortTekst: "Skånsom behandling for de minste"
+gruppe: livsfase
+ingress: "Behandlingen av spedbarn og barn er skånsom, med lette og presise grep. Mange foreldre kommer med uro, skjevheter eller ammeproblemer."
+beskrivelse: "Kiropraktor for spedbarn og barn i Fetsund. Skånsom behandling med lette og presise grep."
+rekkefolge: 31
 bilde: "/bilder/wp/spebarn-behandling-1920x1280-8.webp"
 kiropraktor: sara
 oppdatert: 2024-11-08
@@ -9,8 +14,6 @@ oppdatert: 2024-11-08
 Mange forbinder kiropraktorer kun med behandling av ryggsmerter, og lurer på hvorfor så mange barn kommer til behandling. Nervesystemet, som ligger beskyttet av ryggsøylen, styrer alle kroppens funksjoner. Derfor er det essensielt at barn har en velfungerende rygg for optimal helse.
 
 Barn, inkludert spedbarn, opplever ofte kiropraktisk behandling som behagelig. Behandlingen vi gir er skånsom, med lette og presise trykk. For spedbarn bruker vi sjelden mer kraft enn det som trengs for å trykke på et lukket øye.
-
-![](/bilder/wp/spebarn-behandling-1920x1280-480x320-1.webp)
 
 Fødselen kan være en stor påkjenning for en nyfødt kropp. Selv om menneskekroppen er designet for å tåle det trykket som oppstår under fødselen, kan enkelte situasjoner, som bruk av vakuum eller tang, setefødsel, eller trang posisjon i livmoren, føre til spenninger i barnets muskel- og skjelettsystem.
 
