@@ -19,7 +19,9 @@ export const site = {
   google: {
     vurdering: "4,9",
     antall: 47,
-    lenke: "https://www.google.com/maps/place/?q=place_id:ChIJ4XMb3Bl9QUYRWxACPEU-F-4",
+    // Googles offisielle lenkeformat – virker både i nettleser og i Google Maps-appen
+    lenke:
+      "https://www.google.com/maps/search/?api=1&query=Fetsund+Kiropraktorsenter&query_place_id=ChIJ4XMb3Bl9QUYRWxACPEU-F-4",
   },
   facebook: "https://www.facebook.com/www.fetsundkiropraktor.no",
   instagram: "https://www.instagram.com/fetsundkiropraktorsenter/",
