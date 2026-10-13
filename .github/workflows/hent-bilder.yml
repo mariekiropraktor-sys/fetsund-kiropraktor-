@@ -1,0 +1,31 @@
+# Laster ned bildene fra den gamle WordPress-siden og lagrer dem i repoet
+# (public/bilder/wp/), så siden ikke er avhengig av WordPress etter flyttingen.
+# Kjøres automatisk når listen over bilder (scripts/bilder.txt) endres,
+# eller manuelt fra fanen «Actions» på GitHub.
+name: Hent bilder fra WordPress
+
+on:
+  push:
+    branches: [main]
+    paths: [scripts/bilder.txt, scripts/hent-bilder.mjs]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  hent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/hent-bilder.mjs
+      - name: Lagre nye bilder i repoet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/bilder/wp
+          git diff --cached --quiet || git commit -m "Bilder lastet ned fra WordPress"
+          git push

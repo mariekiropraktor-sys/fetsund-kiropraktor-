@@ -10,7 +10,7 @@ const blogg = defineCollection({
     seoTittel: z.string().optional(), // kortere tittel for Google (maks ca. 60 tegn)
     description: z.string().default(""),
     date: z.coerce.date(),
-    tema: z.enum(["rygg-og-nakke", "halebein-og-bekken", "gravid-og-barn", "ledd-og-muskler", "annet"]).default("annet"),
+    tema: z.enum(["rygg-og-nakke", "svimmelhet-og-hode", "halebein-og-bekken", "gravid-og-barn", "ledd-og-muskler", "annet"]).default("annet"),
     image: z.string().optional(),
     bildeTekst: z.string().optional(),
     kortFortalt: z.array(z.string()).default([]),

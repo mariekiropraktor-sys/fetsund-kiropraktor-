@@ -18,7 +18,11 @@ let ok = 0;
 for (const url of [...new Set([...faste, ...liste])]) {
   const fil = path.join(ut, path.basename(url));
   if (fs.existsSync(fil)) continue;
-  const svar = await fetch(url);
+  const svar = await fetch(url).catch(() => null);
+  if (!svar) {
+    console.warn(`Fikk ikke kontakt med ${url}`);
+    continue;
+  }
   if (!svar.ok) {
     console.warn(`Fant ikke ${url} (${svar.status})`);
     continue;

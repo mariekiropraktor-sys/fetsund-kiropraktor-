@@ -11,6 +11,8 @@
     { "source": "/feed{/}?", "destination": "/blogg/", "permanent": false },
     { "source": "/behandlingsomrade/senebetennelser{/}?", "destination": "/behandlingsomrade/muskelsmerter-og-senebetennelser/", "permanent": true },
     { "source": "/behandlingsomrade/kne-og-ankel-fotsmerter{/}?", "destination": "/behandlingsomrade/fot-og-ankel-smerter/", "permanent": true },
+    { "source": "/vi-har-vunnet-en-konkurranse-%F0%9F%A5%B3{/}?", "destination": "/vi-har-vunnet-en-konkurranse/", "permanent": true },
+    { "source": "/vi-har-vunnet-en-konkurranse-🥳{/}?", "destination": "/vi-har-vunnet-en-konkurranse/", "permanent": true },
     { "source": "/online-booking{/}?", "destination": "/bestill/", "permanent": true }
   ]
 }

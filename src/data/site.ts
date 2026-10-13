@@ -1,9 +1,8 @@
 // Fakta som brukes mange steder på siden. Endres her, så oppdateres alt.
 
-// Bildene ligger foreløpig på den gamle WordPress-siden. Kjør `npm run hent-bilder`
-// én gang (krever internett) for å laste dem ned til public/bilder/, og sett
-// deretter BILDER til "/bilder". Ikke la siden lenke til WordPress etter flyttingen.
-const BILDER = "https://fetsundkiropraktor.no/wp-content/uploads";
+// Bilder fra den gamle WordPress-siden ligger i public/bilder/wp/
+// (lastes ned av GitHub-handlingen «Hent bilder fra WordPress»).
+const BILDER = "/bilder/wp";
 export const bilde = (fil: string) => `${BILDER}/${fil}`;
 
 export const site = {
@@ -96,7 +95,7 @@ export const plager: { navn: string; tekst: string; lenke: string }[] = [
   { navn: "Nakke", tekst: "Låst, stiv eller vond", lenke: "/behandlingsomrade/akutte-kroniske-nakkeplager/" },
   { navn: "Korsrygg", tekst: "Akutt og langvarig", lenke: "/behandlingsomrade/vondt-i-ryggen/" },
   { navn: "Brystrygg", tekst: "Stiv og vond mellom skulderbladene", lenke: "/behandlingsomrade/brystryggsmerter/" },
-  { navn: "Skulder", tekst: "Smerter og nedsatt bevegelse", lenke: "/behandlingsomrade/muskelsmerter/" },
+  { navn: "Skulder", tekst: "Smerter og nedsatt bevegelse", lenke: "/skuldersmerter-for-under-og-etter-ett-kiropraktorbesok/" },
   { navn: "Hofte og kne", tekst: "Også senebetennelser", lenke: "/behandlingsomrade/hoftesmerter/" },
   { navn: "Fot og ankel", tekst: "Ofte henger bekkenet med", lenke: "/behandlingsomrade/fot-og-ankel-smerter/" },
   { navn: "Hodepine og kjeve", tekst: "Spenning, stress og klikking", lenke: "/behandlingsomrade/hodepine/" },
@@ -179,6 +178,7 @@ export const navigasjon = [
 
 export const temaNavn: Record<string, string> = {
   "rygg-og-nakke": "Rygg og nakke",
+  "svimmelhet-og-hode": "Svimmelhet, hodepine og kjeve",
   "halebein-og-bekken": "Halebein og bekken",
   "gravid-og-barn": "Gravid og barn",
   "ledd-og-muskler": "Ledd og muskler",
