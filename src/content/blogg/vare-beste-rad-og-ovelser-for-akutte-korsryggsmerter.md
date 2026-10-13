@@ -48,7 +48,7 @@ Profesjonell behandling innebærer nøye vurdering av anatomi, smerteutbredelse 
 
 Er det lenge til du får deg. time hos oss? Eller vil du kanskje forsøke noen øvelser før du tar deg en time? Her er noen lette øvelser du kan forsøke, som ikke *sannsynligvis* vil gjøre ting så mye verre.
 
-![](/bilder/wp/Skjermbilde-2025–11–25-kl.-13.28.00.jpeg-672x960.webp)
+![](/bilder/wp/skjermbilde-2025-11-25.webp)
 
 ## Vår behandling av korsryggsmerter
 

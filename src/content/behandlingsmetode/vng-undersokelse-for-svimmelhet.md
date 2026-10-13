@@ -57,7 +57,7 @@ Undersøkelsen kan også gi informasjon som tyder på redusert funksjon i balans
 
 VNG er ett av flere hjelpemidler i utredningen. Resultatene vurderes alltid sammen med sykehistorien og den kliniske undersøkelsen.
 
-<figure><img class="wp-image-1412" src="/bilder/wp/videonystagmography-test-in-Brooklyn.jpg-960x960.webp" alt="" width="528" height="528"><figcaption>VNG underskelse, slik ser det sånn ca ut! Kilde https://www.neuroinjuryspecialists.com/diagnostic-testing/videonystagmography-test-vng/</figcaption></figure>
+<figure><img class="wp-image-1412" src="/bilder/wp/videonystagmography-test-in-brooklyn.webp" alt="" width="528" height="528"><figcaption>VNG underskelse, slik ser det sånn ca ut! Kilde https://www.neuroinjuryspecialists.com/diagnostic-testing/videonystagmography-test-vng/</figcaption></figure>
 
 ## Hva skjer etter undersøkelsen?
 

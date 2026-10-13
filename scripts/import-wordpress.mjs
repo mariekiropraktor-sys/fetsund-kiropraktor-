@@ -43,7 +43,7 @@ for (const it of items) {
 
 // --- Bilder: alle wp-content-adresser samles og skrives om til /bilder/wp/<filnavn> ---
 const bilder = new Set();
-const bildeRe = /https?:\/\/(?:www\.)?fetsundkiropraktor\.no\/wp-content\/uploads\/[^"'\s)]+?\.(?:webp|jpe?g|png|gif|svg)/gi;
+const bildeRe = /https?:\/\/(?:www\.)?fetsundkiropraktor\.no\/wp-content\/uploads\/[^"'\s)?#]+\.(?:webp|jpe?g|png|gif|svg)(?![\w.-])/gi;
 const nyBildeadresse = (url) => {
   bilder.add(url);
   return `/bilder/wp/${path.basename(url)}`;

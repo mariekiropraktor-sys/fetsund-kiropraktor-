@@ -15,8 +15,10 @@ const faste = [
 const ut = path.resolve("public/bilder/wp");
 fs.mkdirSync(ut, { recursive: true });
 let ok = 0;
-for (const url of [...new Set([...faste, ...liste])]) {
-  const fil = path.join(ut, path.basename(url));
+// En linje kan være «adresse -> filnavn» når filnavnet skal endres (f.eks. spesialtegn)
+for (const linje of [...new Set([...faste, ...liste])]) {
+  const [url, navn] = linje.split(" -> ");
+  const fil = path.join(ut, navn ?? path.basename(url));
   if (fs.existsSync(fil)) continue;
   const svar = await fetch(url).catch(() => null);
   if (!svar) {
