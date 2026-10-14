@@ -50,6 +50,9 @@ fra @fontsource (ingen Google Fonts av personvernhensyn).
   Prisene skal være like på klinikksiden og Marie-siden.
 - Gamle adresser som fjernes skal få en 301 i `vercel.json`.
 - Kjør `npm run build` før push.
+- Commits må ha Marie som forfatter (`git config user.name "Marie Hermansen"`,
+  `git config user.email mariekiropraktor@gmail.com`). Vercel (Hobby) bygger ikke commits
+  fra andre forfattere, f.eks. «Claude <noreply@anthropic.com>».
 
 ## Gjenstår (okt. 2026)
 1. Importere innhold: WordPress-eksport (Verktøy → Eksporter → Alt innhold), så
