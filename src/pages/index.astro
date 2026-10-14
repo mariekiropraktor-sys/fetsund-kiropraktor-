@@ -94,9 +94,6 @@ const liste = (ord: string[]) =>
                 <strong>Spesialfelt:</strong> {liste(k.spesialfelt)}
               </p>
               <p class="muted">Interessefelt: {liste(k.interessefelt)}</p>
-              <p class="fordypning__ogsa">
-                <strong>Behandler også:</strong> {k.ogsa}
-              </p>
               <div class="fordypning__lenker">
                 <a class="btn" href={k.booking}>
                   Bestill hos {k.navn.split(" ")[0]}
