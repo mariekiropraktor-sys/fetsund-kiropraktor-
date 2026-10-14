@@ -10,6 +10,7 @@ import { site, plager, metoder, andreMetoder, kiropraktorer, anmeldelser, ekster
 const behandlere = ["sara", "marie"].map((id) => kiropraktorer.find((k) => k.id === id)!);
 const alleMetoder = [...metoder, ...andreMetoder.filter((m) => m.lenke && !m.lenke.includes("vng"))];
 // ["A", "B", "C"] → "a, b og c"
+const stor = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
 const liste = (ord: string[]) =>
   (ord.length > 1 ? `${ord.slice(0, -1).join(", ")} og ${ord.at(-1)}` : ord[0] ?? "").toLowerCase();
 ---
@@ -89,22 +90,22 @@ const liste = (ord: string[]) =>
         {
           behandlere.map((k) => (
             <article class="fordypning__kort">
+              <img class="fordypning__bilde" src={k.bilde} alt={`Kiropraktor ${k.navn}`} width="140" height="140" loading="lazy" />
               <h3 class="fordypning__navn">{k.navn}</h3>
-              <p>
-                <strong>Spesialfelt:</strong> {liste(k.spesialfelt)}
+              <p class="fordypning__spesial">
+                <span class="fordypning__etikett">Spesialfelt</span>
+                <span>{stor(liste(k.spesialfelt))}</span>
               </p>
-              <p class="muted">Interessefelt: {liste(k.interessefelt)}</p>
-              <p class="fordypning__ogsa">
-                <strong>Behandler også:</strong> {k.ogsa}
+              <p class="fordypning__interesse muted">Interessefelt: {liste(k.interessefelt)}</p>
+              <p class="fordypning__ogsa muted">
+                <strong>Behandler også:</strong> {k.ogsa.toLowerCase()}
               </p>
-              <div class="fordypning__lenker">
-                <a class="btn" href={k.booking}>
-                  Bestill hos {k.navn.split(" ")[0]}
-                </a>
-                <a class="mer" href={k.side}>
-                  Les mer om {k.navn.split(" ")[0]} →
-                </a>
-              </div>
+              <a class="btn fordypning__btn" href={k.booking}>
+                Bestill hos {k.navn.split(" ")[0]}
+              </a>
+              <a class="mer fordypning__mer" href={k.side}>
+                Les mer om {k.navn.split(" ")[0]} →
+              </a>
             </article>
           ))
         }
@@ -364,31 +365,75 @@ const liste = (ord: string[]) =>
     margin-top: 24px;
   }
 
+  /* To kort side om side – også på mobil – med rundt bilde av hver av oss */
   .fordypning {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
-    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(10px, 2vw, 20px);
   }
   .fordypning__kort {
     background: var(--bg);
     border-radius: 20px;
-    padding: clamp(22px, 3vw, 30px);
+    padding: clamp(18px, 3vw, 32px) clamp(12px, 2.5vw, 32px);
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    min-width: 0;
+  }
+  .fordypning__bilde {
+    width: clamp(84px, 14vw, 140px);
+    height: clamp(84px, 14vw, 140px);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    border: 4px solid #fff;
+    box-shadow: 0 8px 24px rgb(11 110 129 / 0.15);
   }
   .fordypning__navn {
-    font-size: 26px;
+    font-size: clamp(19px, 2.4vw, 26px);
   }
-  .fordypning__kort strong {
+  .fordypning__spesial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    font-size: clamp(15px, 1.6vw, 17px);
+    font-weight: 500;
+  }
+  .fordypning__etikett {
+    background: var(--flate);
+    color: var(--teal);
+    border-radius: 999px;
+    padding: 3px 12px;
+    font-size: 13px;
     font-weight: 600;
   }
-  .fordypning__lenker {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px 20px;
-    padding-top: 6px;
+  .fordypning__interesse,
+  .fordypning__ogsa {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 1.45;
+  }
+  .fordypning__ogsa strong {
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .fordypning__btn {
+    margin-top: auto;
+    width: 100%;
+    max-width: 260px;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: clamp(14px, 1.5vw, 16px);
+  }
+  .fordypning__mer {
+    font-size: clamp(14px, 1.5vw, 16px);
+  }
+  @media (max-width: 520px) {
+    .fordypning__interesse {
+      display: none; /* holder kortene korte nok side om side på mobil */
+    }
   }
 
   .vurderinger {

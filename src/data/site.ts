@@ -55,7 +55,7 @@ export const kiropraktorer = [
     tittel: "Kiropraktor · medgründer",
     bilde: bilde("Sara.webp"),
     spesialfelt: ["Halebeinsmerter", "Gravide"],
-    interessefelt: ["Etter fødsel", "Spedbarn og barn"],
+    interessefelt: ["Etter fødsel", "Spedbarn"],
     ogsa: "Rygg, nakke, prolaps og isjias, idrettsskader",
     kort: "Spesialfelt i halebeinsmerter, gravide og tiden etter fødsel. Ser også mange med rygg- og nakkesmerter og idrettsskader.",
     side: sara,
