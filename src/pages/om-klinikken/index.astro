@@ -130,10 +130,29 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
     gap: 16px;
     max-width: 640px;
   }
-  @media (min-width: 800px) {
+  /* PC: kiropraktorene står ved siden av hverandre, bilde over tekst */
+  @media (min-width: 900px) {
+    .bios {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(40px, 5vw, 64px);
+      align-items: stretch;
+    }
     .bio {
-      grid-template-columns: 340px 1fr;
-      gap: 48px;
+      grid-template-rows: auto 1fr;
+    }
+    .bio__bilde {
+      width: 100%;
+      max-width: none;
+      aspect-ratio: 1 / 1;
+    }
+    .bio__tekst {
+      display: flex;
+      flex-direction: column;
+    }
+    /* Knappene havner på samme høyde selv om tekstene er ulikt lange */
+    .bio__tekst .btn-row {
+      margin-top: auto;
     }
   }
 </style>
