@@ -364,10 +364,11 @@ const liste = (ord: string[]) =>
     margin-top: 24px;
   }
 
+  /* Alltid side om side – også på mobil */
   .fordypning {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
-    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(10px, 2vw, 16px);
   }
   .fordypning__kort {
     background: var(--bg);
@@ -389,6 +390,40 @@ const liste = (ord: string[]) =>
     align-items: center;
     gap: 10px 20px;
     padding-top: 6px;
+  }
+  /* Knappene nederst i kortet, på lik høyde */
+  .fordypning__lenker {
+    margin-top: auto;
+  }
+  /* Mobil: smalere kort, mindre tekst og knapp i full bredde */
+  @media (max-width: 640px) {
+    .fordypning__kort {
+      padding: 16px 14px;
+      gap: 8px;
+      font-size: 14px;
+      line-height: 1.45;
+      min-width: 0;
+    }
+    .fordypning__navn {
+      font-size: 19px;
+      line-height: 1.2;
+    }
+    .fordypning__lenker {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+    .fordypning__lenker .btn {
+      width: 100%;
+      padding-inline: 8px;
+      font-size: 14px;
+      text-align: center;
+      justify-content: center;
+    }
+    .fordypning__lenker .mer {
+      font-size: 14px;
+      text-align: center;
+    }
   }
 
   .vurderinger {
