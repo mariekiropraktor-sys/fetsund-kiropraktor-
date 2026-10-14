@@ -30,6 +30,15 @@ export const site = {
   grunnlagt: 2020,
 };
 
+// Google Ads-måling. Står id tom, lastes ingen Google-kode og det vises ikke noe cookie-banner.
+// id: Google-tag-ID fra Google Ads (Verktøy → Datastyring → Google-tag), f.eks. "AW-123456789".
+// bestill / ring: konverteringsetiketter (delen etter «/» i send_to), f.eks. "AbC-D_efG-h12_34-567".
+export const googleAds = {
+  id: "",
+  bestill: "", // klikk på «Bestill time»
+  ring: "", // klikk på telefonnummeret
+};
+
 const marie = "https://fetsundkiropraktormarie.no";
 const sara = "https://fetsundkiropraktorsara.no";
 

@@ -1,0 +1,135 @@
+---
+// Cookie-banner og Google Ads-måling (Google Consent Mode v2, «basic»-variant).
+// Ingenting fra Google lastes før den besøkende har trykket «Godta».
+// Vises bare når googleAds.id er fylt ut i src/data/site.ts.
+import { googleAds } from "../data/site";
+const aktiv = Boolean(googleAds.id);
+---
+
+{
+  aktiv && (
+    <>
+      <div class="samtykke" id="samtykke" role="dialog" aria-labelledby="samtykke-tittel" hidden>
+        <p class="samtykke__tittel" id="samtykke-tittel">Får vi måle annonsene våre?</p>
+        <p class="samtykke__tekst">
+          Vi vil gjerne bruke informasjonskapsler fra Google for å se om annonsene våre fører til timebestillinger. Vi måler
+          aldri hva du skriver eller bestiller. <a href="/personvern/">Les mer</a>
+        </p>
+        <div class="samtykke__knapper">
+          <button type="button" class="btn btn--ghost" data-samtykke="nei">Avvis</button>
+          <button type="button" class="btn" data-samtykke="ja">Godta</button>
+        </div>
+      </div>
+
+      <script is:inline define:vars={{ ads: googleAds }}>
+        (function () {
+          var NOKKEL = "samtykke-v1";
+          var boks = document.getElementById("samtykke");
+          var lastet = false;
+
+          function les() {
+            try { return localStorage.getItem(NOKKEL); } catch (e) { return null; }
+          }
+          function lagre(v) {
+            try { localStorage.setItem(NOKKEL, v); } catch (e) {}
+          }
+
+          // Laster Google-taggen. Kalles bare etter at den besøkende har godtatt.
+          function lastGoogle() {
+            if (lastet) return;
+            lastet = true;
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function () { window.dataLayer.push(arguments); };
+            gtag("consent", "default", {
+              ad_storage: "granted",
+              ad_user_data: "granted",
+              ad_personalization: "granted",
+              analytics_storage: "granted",
+            });
+            gtag("js", new Date());
+            gtag("config", ads.id);
+            var s = document.createElement("script");
+            s.async = true;
+            s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(ads.id);
+            document.head.appendChild(s);
+          }
+
+          // Måler klikk på «Bestill time» (Pasientsky) og telefonnummeret
+          document.addEventListener("click", function (e) {
+            if (!lastet || !e.target.closest) return;
+            var a = e.target.closest("a[href]");
+            if (!a) return;
+            var href = a.getAttribute("href") || "";
+            var etikett = href.indexOf("pasientsky.no") !== -1 ? ads.bestill : href.indexOf("tel:") === 0 ? ads.ring : "";
+            if (etikett) gtag("event", "conversion", { send_to: ads.id + "/" + etikett });
+          });
+
+          function vis() { boks.hidden = false; }
+          function skjul() { boks.hidden = true; }
+
+          boks.addEventListener("click", function (e) {
+            var valg = e.target.getAttribute && e.target.getAttribute("data-samtykke");
+            if (!valg) return;
+            lagre(valg);
+            skjul();
+            if (valg === "ja") lastGoogle();
+            else if (lastet) location.reload(); // trekker tilbake samtykke: last siden uten Google
+          });
+
+          // «Cookie-innstillinger» i bunnteksten åpner banneret igjen
+          document.querySelectorAll("[data-cookie-innstillinger]").forEach(function (k) {
+            k.hidden = false;
+            k.addEventListener("click", function (e) { e.preventDefault(); vis(); });
+          });
+
+          var valgt = les();
+          if (valgt === "ja") lastGoogle();
+          else if (valgt !== "nei") vis();
+        })();
+      </script>
+    </>
+  )
+}
+
+<style>
+  .samtykke {
+    position: fixed;
+    z-index: 100;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    max-width: 440px;
+    margin-left: auto;
+    background: var(--surface, #fff);
+    color: var(--ink);
+    border-radius: 18px;
+    padding: 20px 22px;
+    box-shadow: 0 18px 50px rgb(16 25 35 / 0.22);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .samtykke[hidden] {
+    display: none;
+  }
+  .samtykke__tittel {
+    font-family: var(--serif);
+    font-size: 21px;
+  }
+  .samtykke__tekst {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .samtykke__knapper {
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+  }
+  .samtykke__knapper .btn {
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    flex: 1;
+    justify-content: center;
+  }
+</style>

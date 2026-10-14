@@ -1,16 +1,22 @@
 ---
 import SideHode from "../../components/SideHode.astro";
 import Layout from "../../layouts/Layout.astro";
-import { site } from "../../data/site";
+import { site, googleAds } from "../../data/site";
+// Teksten tilpasser seg automatisk når Google Ads-måling slås på i site.ts
+const maling = Boolean(googleAds.id);
 ---
 
 <Layout
   title="Personvern"
-  description="Slik behandler fetsundkiropraktor.no personopplysninger: ingen informasjonskapsler, ingen sporing, og kart og videoer lastes bare når du selv velger det."
+  description={maling
+    ? "Slik behandler fetsundkiropraktor.no personopplysninger: informasjonskapsler fra Google bare hvis du sier ja, og kart og videoer lastes bare når du selv velger det."
+    : "Slik behandler fetsundkiropraktor.no personopplysninger: ingen informasjonskapsler, ingen sporing, og kart og videoer lastes bare når du selv velger det."}
 >
   <SideHode
     tittel="Personvern på denne nettsiden"
-    ingress="Kort fortalt: nettsiden sporer deg ikke, og bruker ingen informasjonskapsler (cookies)."
+    ingress={maling
+      ? "Kort fortalt: vi bruker bare informasjonskapsler (cookies) hvis du sier ja, og da bare for å måle om annonsene våre virker."
+      : "Kort fortalt: nettsiden sporer deg ikke, og bruker ingen informasjonskapsler (cookies)."}
     smuler={[{ navn: "Personvern" }]}
   />
 
@@ -21,11 +27,36 @@ import { site } from "../../data/site";
       <a href={site.telefonLenke}>{site.telefon}</a>.
     </p>
 
-    <h2>Ingen informasjonskapsler eller sporing</h2>
-    <p>
-      Vi bruker ikke analyseverktøy, annonsesporing eller informasjonskapsler. Skriftene på siden ligger på vår egen
-      server, så nettleseren din kobler seg ikke til Google for å vise dem.
-    </p>
+    {
+      maling ? (
+        <>
+          <h2>Informasjonskapsler og annonsemåling</h2>
+          <p>
+            Vi annonserer på Google. Sier du ja i banneret, lastes Google sin annonsekode (Google Ads), som bruker
+            informasjonskapsler for å se om noen som har klikket på en annonse, trykker «Bestill time» eller ringer oss.
+            Google kan også bruke dette til å vise deg annonser fra oss senere. Vi får bare tall, ikke hvem du er, og vi
+            måler aldri hva du skriver eller bestiller hos Pasientsky.
+          </p>
+          <p>
+            Sier du nei, lastes ingenting fra Google, og siden virker akkurat like godt. Du kan når som helst endre valget
+            ditt under <a href="#" data-cookie-innstillinger>Cookie-innstillinger</a> nederst på siden. Les mer i
+            <a href="https://policies.google.com/technologies/ads?hl=no" rel="noopener">Googles forklaring om annonser</a>.
+          </p>
+          <p>
+            Valget ditt huskes i nettleseren din (lokal lagring), så du slipper å bli spurt hver gang. Skriftene på siden
+            ligger på vår egen server, så nettleseren din kobler seg ikke til Google for å vise dem.
+          </p>
+        </>
+      ) : (
+        <>
+          <h2>Ingen informasjonskapsler eller sporing</h2>
+          <p>
+            Vi bruker ikke analyseverktøy, annonsesporing eller informasjonskapsler. Skriftene på siden ligger på vår egen
+            server, så nettleseren din kobler seg ikke til Google for å vise dem.
+          </p>
+        </>
+      )
+    }
 
     <h2>Kart og videoer</h2>
     <p>
