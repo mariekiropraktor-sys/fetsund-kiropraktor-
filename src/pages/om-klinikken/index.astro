@@ -1,15 +1,58 @@
 ---
+// Om klinikken: toppfelt med bilde av oss begge, kort om klinikken, slik vi jobber,
+// kiropraktorene som to like store kort side om side, og praktisk info.
 import SideHode from "../../components/SideHode.astro";
 import Layout from "../../layouts/Layout.astro";
 import BookingCTA from "../../components/BookingCTA.astro";
-import { site, kiropraktorer, bilde } from "../../data/site";
+import TrustStrip from "../../components/TrustStrip.astro";
+import { site, kiropraktorer } from "../../data/site";
 
 const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
+
+// Rekkefølge: Marie, så Sara (besluttet 14. okt. 2026)
+const bios = [
+  {
+    p: k.marie,
+    tittel: "Kiropraktor, MNKF · medgründer",
+    avsnitt: [
+      "Marie tok mastergraden ved Welsh Institute of Chiropractic i 2015 og startet klinikken i hjembygda si i 2020. Hun har særlig kompetanse på svimmelhet og krystallsyke, og bruker VNG-briller for å stille presis diagnose. Nest etter kommer kjevesmerter og hodepine.",
+      "Ved siden av svimmelhet behandler hun mange med vanlige muskel- og skjelettplager: vond nakke, låst rygg, skuldersmerter, hodepine og plager i hofte, kne og fot.",
+    ],
+    personlig:
+      "Marie er engasjert i Norsk Kiropraktorforening. På kontoret ligger ofte hunden Luna og bidrar med litt poteterapi.",
+    nettside: "Maries nettside",
+  },
+  {
+    p: k.sara,
+    tittel: "Kiropraktor · medgründer",
+    avsnitt: [
+      "Sara tok mastergraden ved University of South Wales i 2015 og har jobbet i Oslo og på Romerike før hun startet klinikken i Fetsund. Halebeinsmerter er hennes spesialisering, og hun har særlig erfaring med bekkenplager i svangerskapet og etter fødsel, og med spedbarn og barn.",
+      "Hun ser også mange med prolaps og isjias, rygg- og nakkesmerter og idrettsskader.",
+    ],
+    personlig: "Sara bor på Årnes og er glad i friluftsliv og isbading året rundt.",
+    nettside: "Saras nettside",
+  },
+];
+
+const tilnaerming = [
+  {
+    tittel: "Grundig undersøkelse",
+    tekst: "Vi tar oss tid til å finne ut hvorfor du har vondt, ikke bare hvor.",
+  },
+  {
+    tittel: "En forklaring du forstår",
+    tekst: "Du får vite hva vi finner, hva vi tror det skyldes, og hva planen er.",
+  },
+  {
+    tittel: "Øvelser du kan gjøre selv",
+    tekst: "Enkle øvelser og råd, så du kan hjelpe deg selv mellom timene.",
+  },
+];
 ---
 
 <Layout
   title="Om klinikken og kiropraktorene"
-  description="Fetsund Kiropraktorsenter ble startet i 2020 av kiropraktorene Sara Nordanger og Marie Hermansen. Les om hva de har særlig erfaring med."
+  description="Fetsund Kiropraktorsenter ble startet i 2020 av kiropraktorene Marie Hermansen og Sara Nordanger. Les om klinikken og hva de har særlig erfaring med."
 >
   <SideHode
     tittel="Om klinikken"
@@ -20,79 +63,113 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
       <a class="btn" href={site.booking}>Bestill time</a>
       <a class="btn btn--ghost" href="#kiropraktorene">Møt kiropraktorene</a>
     </div>
+    <figure class="toppbilde" slot="side">
+      <img src={site.heroBilde} alt="Marie Hermansen og Sara Nordanger i klinikken" width="800" height="600" />
+      <figcaption>Marie og Sara</figcaption>
+    </figure>
   </SideHode>
 
-  <section class="wrap innhold grid-2 klinikk">
-    <div class="stack">
-      <h2 class="h2">Et lokalt helsetilbud</h2>
-      <p class="muted">
-        Vi ønsket å gi folk i Fetsund og omegn et godt helsetilbud nær der de bor. Lokalene er pusset opp, og bygget
-        huser i dag alt fra fotterapeut og regnskapsfører til fotograf.
-      </p>
-      <p class="muted">
-        Vi har en helhetlig tilnærming: din helse og trygghet er i fokus fra første samtale til siste oppfølging. Du får
-        en grundig undersøkelse, en forklaring du forstår, og øvelser du kan gjøre selv.
-      </p>
+  <TrustStrip />
+
+  <!-- Kort om klinikken og hvordan vi jobber -->
+  <section class="section wrap">
+    <div class="intro">
+      <div class="intro__tekst">
+        <span class="eyebrow">Klinikken</span>
+        <h2 class="h2">Et lokalt helsetilbud</h2>
+        <p class="muted">
+          Vi ønsket å gi folk i Fetsund og omegn et godt helsetilbud nær der de bor. Lokalene er pusset opp, og bygget
+          huser i dag alt fra fotterapeut og regnskapsfører til fotograf.
+        </p>
+        <p class="muted">
+          Vi har en helhetlig tilnærming: din helse og trygghet er i fokus fra første samtale til siste oppfølging.
+        </p>
+      </div>
+      <ol class="verdier">
+        {
+          tilnaerming.map((t) => (
+            <li class="verdi">
+              <h3 class="verdi__tittel">{t.tittel}</h3>
+              <p class="muted">{t.tekst}</p>
+            </li>
+          ))
+        }
+      </ol>
     </div>
-    <img class="photo" src="/bilder/marie-og-sara.webp" alt="Marie og Sara, som startet klinikken" width="800" height="600" loading="lazy" />
   </section>
 
+  <!-- Kiropraktorene: to like store kort side om side -->
   <section class="section section--white" id="kiropraktorene">
-    <div class="wrap bios">
-      <article class="bio" id="marie">
-        <img class="photo bio__bilde" src={k.marie.bilde} alt="Kiropraktor Marie Hermansen" width="600" height="700" loading="lazy" />
-        <div class="stack bio__tekst">
-          <span class="eyebrow">Kiropraktor, MNKF · medgründer</span>
-          <h2 class="h2">Marie Hermansen</h2>
-          <p>
-            Marie tok mastergraden ved Welsh Institute of Chiropractic i 2015 og startet klinikken i hjembygda si i 2020.
-            Hun har særlig kompetanse på svimmelhet og krystallsyke, og bruker VNG-briller for å stille presis diagnose.
-            Nest etter kommer kjevesmerter og hodepine.
-          </p>
-          <p>
-            Ved siden av svimmelhet behandler hun mange med vanlige muskel- og skjelettplager: vond nakke, låst rygg,
-            skuldersmerter, hodepine og plager i hofte, kne og fot.
-          </p>
-          <ul class="chip-list">
-            {k.marie.spesialfelt.map((s) => <li><span class="chip chip--spesial">{s}</span></li>)}
-            {k.marie.interessefelt.map((s) => <li><span class="chip">{s}</span></li>)}
-          </ul>
-          <p class="muted">
-            Marie er engasjert i Norsk Kiropraktorforening. På kontoret ligger ofte hunden Luna og bidrar med litt
-            poteterapi.
-          </p>
-          <div class="btn-row">
-            <a class="btn" href={k.marie.booking}>Bestill hos Marie</a>
-            <a class="btn btn--ghost" href={k.marie.side}>Maries nettside</a>
-          </div>
-        </div>
-      </article>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Kiropraktorene</span>
+        <h2 class="h2">Møt oss</h2>
+        <p class="muted">
+          Vi behandler begge alle typer muskel- og skjelettplager, og har i tillegg hvert vårt spesialfelt.
+        </p>
+      </div>
 
-      <article class="bio" id="sara">
-        <img class="photo bio__bilde" src={k.sara.bilde} alt="Kiropraktor Sara Nordanger" width="600" height="700" loading="lazy" />
-        <div class="stack bio__tekst">
-          <span class="eyebrow">Kiropraktor · medgründer</span>
-          <h2 class="h2">Sara Nordanger</h2>
-          <p>
-            Sara tok mastergraden ved University of South Wales i 2015 og har jobbet i Oslo og på Romerike før hun startet
-            klinikken i Fetsund. Halebeinsmerter er hennes spesialisering, og hun har særlig erfaring med bekkenplager i
-            svangerskapet og etter fødsel, og med spedbarn og barn.
-          </p>
-          <ul class="chip-list">
-            {k.sara.spesialfelt.map((s) => <li><span class="chip chip--spesial">{s}</span></li>)}
-            {k.sara.interessefelt.map((s) => <li><span class="chip">{s}</span></li>)}
-          </ul>
-          <p class="muted">
-            Hun ser også mange med prolaps og isjias, rygg- og nakkesmerter og idrettsskader. Sara bor på Årnes og er glad
-            i friluftsliv og isbading året rundt.
-          </p>
-          <div class="btn-row">
-            <a class="btn" href={k.sara.booking}>Bestill hos Sara</a>
-            <a class="btn btn--ghost" href={k.sara.side}>Saras nettside</a>
-          </div>
-        </div>
-      </article>
+      <div class="bios">
+        {
+          bios.map(({ p, tittel, avsnitt, personlig, nettside }) => (
+            <article class="bio" id={p.id}>
+              <img class="bio__bilde" src={p.bilde} alt={`Kiropraktor ${p.navn}`} width="600" height="700" loading="lazy" />
+              <div class="bio__tekst">
+                <span class="eyebrow">{tittel}</span>
+                <h3 class="bio__navn">{p.navn}</h3>
+                <ul class="chip-list bio__felt" aria-label="Spesialfelt og interessefelt">
+                  {p.spesialfelt.map((s) => (
+                    <li>
+                      <span class="chip chip--spesial">{s}</span>
+                    </li>
+                  ))}
+                  {p.interessefelt.map((s) => (
+                    <li>
+                      <span class="chip">{s}</span>
+                    </li>
+                  ))}
+                </ul>
+                {avsnitt.map((a) => (
+                  <p>{a}</p>
+                ))}
+                <p class="bio__personlig">{personlig}</p>
+                <div class="btn-row bio__knapper">
+                  <a class="btn" href={p.booking}>
+                    Bestill hos {p.navn.split(" ")[0]}
+                  </a>
+                  <a class="btn btn--ghost" href={p.side}>
+                    {nettside}
+                  </a>
+                </div>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
 
+  <!-- Praktisk -->
+  <section class="section wrap">
+    <div class="praktisk">
+      <div class="praktisk__kort">
+        <span class="eyebrow">Her finner du oss</span>
+        <p class="praktisk__stor">{site.adresse}</p>
+        <p class="muted">I «Rosenbergbygget» midt i Fetsund sentrum. Gratis parkering, og kort vei fra buss og tog.</p>
+        <a class="mer" href="/kontakt-oss/">Kart og veibeskrivelse →</a>
+      </div>
+      <div class="praktisk__kort">
+        <span class="eyebrow">Åpningstider</span>
+        {
+          site.apningstider.map((a) => (
+            <p class="praktisk__stor">
+              {a.dager} {a.tid}
+            </p>
+          ))
+        }
+        <p class="muted">Ring <a href={site.telefonLenke}>{site.telefon}</a>, eller bestill time på nett når det passer deg.</p>
+        <a class="mer" href="/priser/">Se priser →</a>
+      </div>
     </div>
   </section>
 
@@ -100,40 +177,169 @@ const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
 </Layout>
 
 <style>
+  /* Toppbilde */
+  .toppbilde {
+    position: relative;
+    margin: 0;
+  }
+  .toppbilde img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius);
+    box-shadow: 0 18px 50px rgb(11 110 129 / 0.15);
+  }
+  .toppbilde figcaption {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    background: #fff;
+    border-radius: 999px;
+    padding: 5px 14px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  /* Intro + verdier */
+  .intro {
+    display: grid;
+    gap: clamp(28px, 4vw, 56px);
+    align-items: center;
+  }
+  @media (min-width: 900px) {
+    .intro {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+  }
+  .intro__tekst {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 560px;
+  }
+  .verdier {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: verdi;
+    display: grid;
+    gap: 12px;
+  }
+  .verdi {
+    counter-increment: verdi;
+    background: var(--surface);
+    border-radius: 18px;
+    padding: 18px 22px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 14px;
+    row-gap: 2px;
+    align-items: center;
+  }
+  .verdi::before {
+    content: counter(verdi);
+    grid-row: span 2;
+    align-self: start;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    background: var(--flate);
+    color: var(--teal);
+    font-family: var(--serif);
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .verdi__tittel {
+    font-size: 20px;
+  }
+  .verdi p {
+    font-size: 15px;
+  }
+
+  /* Kiropraktorene */
+  .section-head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 640px;
+    margin-bottom: clamp(24px, 4vw, 40px);
+  }
+  .bios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+    gap: clamp(16px, 2.5vw, 28px);
+  }
+  .bio {
+    background: var(--bg);
+    border-radius: var(--radius);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    scroll-margin-top: 110px;
+  }
+  .bio__bilde {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center 22%;
+  }
+  .bio__tekst {
+    padding: clamp(22px, 3vw, 34px);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex: 1;
+  }
+  .bio__navn {
+    font-size: clamp(28px, 3vw, 36px);
+    line-height: 1.1;
+  }
+  .bio__felt {
+    margin-bottom: 4px;
+  }
+  .bio__tekst p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .bio__personlig {
+    color: var(--muted);
+    font-style: italic;
+  }
+  .bio__knapper {
+    margin-top: auto;
+    padding-top: 6px;
+  }
   .chip--spesial {
     background: var(--flate);
     border-color: var(--flate);
     color: var(--teal);
     font-weight: 600;
   }
-  .klinikk {
-    align-items: center;
+
+  /* Praktisk */
+  .praktisk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 16px;
   }
-  .bios {
+  .praktisk__kort {
+    background: var(--surface);
+    border-radius: 20px;
+    padding: clamp(22px, 3vw, 30px);
     display: flex;
     flex-direction: column;
-    gap: clamp(48px, 7vw, 80px);
+    gap: 10px;
   }
-  .bio {
-    display: grid;
-    gap: 28px;
-    align-items: start;
-    scroll-margin-top: 120px;
+  .praktisk__stor {
+    font-family: var(--serif);
+    font-size: clamp(22px, 2.4vw, 26px);
+    line-height: 1.2;
   }
-  .bio__bilde {
-    aspect-ratio: 4 / 5;
-    object-fit: cover;
-    object-position: center 20%;
-    max-width: 380px;
-  }
-  .bio__tekst {
-    gap: 16px;
-    max-width: 640px;
-  }
-  @media (min-width: 800px) {
-    .bio {
-      grid-template-columns: 340px 1fr;
-      gap: 48px;
-    }
+  .praktisk .mer {
+    margin-top: auto;
+    font-weight: 600;
   }
 </style>
