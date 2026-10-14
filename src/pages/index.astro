@@ -80,8 +80,9 @@ const liste = (ord: string[]) =>
       <div class="section-head">
         <h2 class="h2">Og litt ekstra fordypning</h2>
         <p class="muted">
-          I tillegg har vi hvert vårt felt vi har tatt ekstra utdanning i. Har du en av disse plagene, er det lurt å
-          bestille hos den av oss som kan mest om akkurat det.
+          Begge behandler alle typer muskel- og skjelettplager, og det er det de fleste kommer til oss med. I tillegg har
+          vi hvert vårt felt vi har tatt ekstra utdanning i. Har du en av disse plagene, er det lurt å bestille hos den av
+          oss som kan mest om akkurat det.
         </p>
       </div>
       <div class="fordypning">
@@ -93,6 +94,9 @@ const liste = (ord: string[]) =>
                 <strong>Spesialfelt:</strong> {liste(k.spesialfelt)}
               </p>
               <p class="muted">Interessefelt: {liste(k.interessefelt)}</p>
+              <p class="fordypning__ogsa">
+                <strong>Behandler også:</strong> {k.ogsa}
+              </p>
               <div class="fordypning__lenker">
                 <a class="btn" href={k.booking}>
                   Bestill hos {k.navn.split(" ")[0]}

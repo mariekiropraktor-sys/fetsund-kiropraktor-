@@ -43,15 +43,18 @@ const marie = "https://fetsundkiropraktormarie.no";
 const sara = "https://fetsundkiropraktorsara.no";
 
 // Kiropraktorene. «side» = egen nettside, «booking» = direktelenke i Pasientsky.
+// Begge skal komme like godt fram: like mange spesialfelt, og «ogsa» viser at begge behandler
+// vanlige muskel- og skjelettplager.
 export const kiropraktorer = [
   {
     id: "sara",
     navn: "Sara Nordanger",
     tittel: "Kiropraktor · medgründer",
     bilde: bilde("Sara.webp"),
-    spesialfelt: ["Halebeinsmerter", "Gravide", "Nybakte mødre"],
-    interessefelt: ["Bekkenplager", "Spedbarn"],
-    kort: "Halebeinsmerter er hennes spesialisering. Ser også mange med rygg, nakke og idrettsskader.",
+    spesialfelt: ["Halebeinsmerter", "Gravide"],
+    interessefelt: ["Etter fødsel", "Spedbarn og barn"],
+    ogsa: "Rygg, nakke, prolaps og isjias, idrettsskader",
+    kort: "Spesialfelt i halebeinsmerter, gravide og tiden etter fødsel. Ser også mange med rygg- og nakkesmerter og idrettsskader.",
     side: sara,
     booking:
       "https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=178e4e32-24eb-11eb-be16-eed210cc88f1",
@@ -61,9 +64,10 @@ export const kiropraktorer = [
     navn: "Marie Hermansen",
     tittel: "Kiropraktor, MNKF · medgründer",
     bilde: "/bilder/marie-portrett.webp",
-    spesialfelt: ["Svimmelhet og krystallsyke"],
+    spesialfelt: ["Svimmelhet", "Krystallsyke"],
     interessefelt: ["Kjevesmerter", "Hodepine"],
-    kort: "Har VNG-briller og egen svimmelhetsundersøkelse. Behandler også nakke, rygg og ledd.",
+    ogsa: "Nakke, rygg, skulder og ledd – omtrent halvparten av pasientene hennes",
+    kort: "Spesialfelt i svimmelhet og krystallsyke, med VNG-briller. Omtrent halvparten av pasientene hennes kommer med nakke, rygg, skulder og andre muskel- og leddplager.",
     side: marie,
     booking: site.booking,
   },
@@ -114,16 +118,17 @@ export const plager: { navn: string; tekst: string; lenke: string }[] = [
 // Utdrag fra Google-anmeldelser. Lim inn pasientenes egen ordlyd fra Google (ikke omskriv).
 // Seksjonen viser bare sitatene som står her – er listen tom, vises kun vurderingen og lenken.
 // Hentet ordrett fra klinikkens Google-oppføring 13. okt. 2026.
+// Rekkefølge: Marie, Sara, generell (Sara står først i kiropraktor-seksjonen over).
 export const anmeldelser: { tekst: string; om?: string }[] = [
-  {
-    tekst:
-      "Sara er den desidert dyktigste og mest kunnskapsrike kiropraktoren jeg har vært hos. Hun er svært dedikert og engasjert i kvinnehelse og svangerskapsrelaterte utfordringer. Kommer heretter kun til å gå til Sara når jeg har behov for kiropraktorhjelp. Anbefales på det sterkeste!",
-    om: "Sara",
-  },
   {
     tekst:
       "Tok kontakt med Marie hos Fetsund Kiropraktorsenter ang det jeg antok var krystallsyke og hun hjalp meg slik at problemet var borte etter første besøk! Fikk god oppfølging etterpå og hjelp med andre skavanker også. Veldig gode tre behandlinger hos henne til nå. Anbefales.",
     om: "Marie",
+  },
+  {
+    tekst:
+      "Sara er den desidert dyktigste og mest kunnskapsrike kiropraktoren jeg har vært hos. Hun er svært dedikert og engasjert i kvinnehelse og svangerskapsrelaterte utfordringer. Kommer heretter kun til å gå til Sara når jeg har behov for kiropraktorhjelp. Anbefales på det sterkeste!",
+    om: "Sara",
   },
   {
     tekst: "Endelig fikk jeg hjelp til hofte og bekken plager jeg har slitt med i mange år. Høy kompetanse og grundige i sitt arbeid.",
