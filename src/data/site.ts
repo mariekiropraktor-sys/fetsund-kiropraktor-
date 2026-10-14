@@ -34,9 +34,12 @@ export const site = {
 // id: Google-tag-ID fra Google Ads (Verktøy → Datastyring → Google-tag), f.eks. "AW-123456789".
 // bestill / ring: konverteringsetiketter (delen etter «/» i send_to), f.eks. "AbC-D_efG-h12_34-567".
 export const googleAds = {
-  id: "",
-  bestill: "", // klikk på «Bestill time»
-  ring: "", // klikk på telefonnummeret
+  // Google Ads-taggen fra eksisterende konverteringskode i annonsekontoen.
+  id: "AW-520953726",
+  // Egne etiketter for klikk på bestilling og telefon må opprettes i Google Ads.
+  // Bruk aldri etiketten for «Avtale bestilt» på et klikk – det er ikke en ferdig bestilling.
+  bestill: "STS1CIrUy5wdEP6-tPgB", // «Klikk til timebestilling pasientsky» – sekundær konvertering
+  ring: "",
 };
 
 const marie = "https://fetsundkiropraktormarie.no";

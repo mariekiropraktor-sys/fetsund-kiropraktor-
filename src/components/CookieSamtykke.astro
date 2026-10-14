@@ -12,8 +12,8 @@ const aktiv = Boolean(googleAds.id);
       <div class="samtykke" id="samtykke" role="dialog" aria-labelledby="samtykke-tittel" hidden>
         <p class="samtykke__tittel" id="samtykke-tittel">Får vi måle annonsene våre?</p>
         <p class="samtykke__tekst">
-          Vi vil gjerne bruke informasjonskapsler fra Google for å se om annonsene våre fører til timebestillinger. Vi måler
-          aldri hva du skriver eller bestiller. <a href="/personvern/">Les mer</a>
+          Hvis du samtykker, bruker vi Google Ads til å telle klikk på lenker til timebestilling.
+          Google kan behandle opplysninger om besøket ditt. Vi måler ikke hva du fyller ut eller bestiller hos Pasientsky. <a href="/personvern/">Les mer</a>
         </p>
         <div class="samtykke__knapper">
           <button type="button" class="btn btn--ghost" data-samtykke="nei">Avvis</button>
@@ -43,11 +43,19 @@ const aktiv = Boolean(googleAds.id);
             gtag("consent", "default", {
               ad_storage: "granted",
               ad_user_data: "granted",
-              ad_personalization: "granted",
+              ad_personalization: "denied",
               analytics_storage: "granted",
             });
             gtag("js", new Date());
-            gtag("config", ads.id);
+            // Ingen automatiske sidevisninger eller tilpassede annonser på helserelaterte sider.
+            // Bruk en nøytral sideadresse i måledataene, ikke adressen til plagene pasienten leser om.
+            gtag("config", ads.id, {
+              send_page_view: false,
+              page_location: "https://fetsundkiropraktor.no/",
+              page_title: "Fetsund Kiropraktorsenter",
+              allow_google_signals: false,
+              allow_ad_personalization_signals: false,
+            });
             var s = document.createElement("script");
             s.async = true;
             s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(ads.id);
@@ -60,8 +68,30 @@ const aktiv = Boolean(googleAds.id);
             var a = e.target.closest("a[href]");
             if (!a) return;
             var href = a.getAttribute("href") || "";
-            var etikett = href.indexOf("pasientsky.no") !== -1 ? ads.bestill : href.indexOf("tel:") === 0 ? ads.ring : "";
-            if (etikett) gtag("event", "conversion", { send_to: ads.id + "/" + etikett });
+            var booking = href.indexOf("pasientsky.no") !== -1 || /^\/bestill\/?(?:[?#]|$)/.test(href);
+            var etikett = booking ? ads.bestill : href.indexOf("tel:") === 0 ? ads.ring : "";
+            if (!etikett) return;
+
+            // For vanlig klikk i samme fane: gi Google-taggen kort tid til å sende
+            // hendelsen før nettleseren forlater siden. Fortsett også om Google er treg.
+            if (booking && !e.defaultPrevented && e.button === 0 &&
+                !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey &&
+                a.target !== "_blank" && !a.hasAttribute("download")) {
+              e.preventDefault();
+              var navigert = false;
+              var fortsett = function () {
+                if (navigert) return;
+                navigert = true;
+                window.location.assign(a.href);
+              };
+              gtag("event", "conversion", {
+                send_to: ads.id + "/" + etikett,
+                event_callback: fortsett,
+              });
+              setTimeout(fortsett, 1000);
+            } else {
+              gtag("event", "conversion", { send_to: ads.id + "/" + etikett });
+            }
           });
 
           function vis() { boks.hidden = false; }
