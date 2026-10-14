@@ -473,7 +473,7 @@ const liste = (ord: string[]) =>
   }
 
   .steg__tittel {
-    margin-bottom: 32px;
+    margin-bottom: clamp(20px, 3vw, 32px);
   }
   .steg {
     list-style: none;
@@ -481,22 +481,31 @@ const liste = (ord: string[]) =>
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
-    gap: 16px;
+    gap: clamp(10px, 1.5vw, 16px);
   }
+  /* Nummeret står til venstre for overskriften, så kortene blir lave på mobil */
   .steg li {
     background: var(--surface);
-    border-radius: 20px;
-    padding: 28px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    border-radius: 18px;
+    padding: clamp(16px, 2.4vw, 26px);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 14px;
+    row-gap: 4px;
+    align-items: center;
+    align-content: start;
   }
   .steg h3 {
-    font-size: 24px;
+    font-size: clamp(19px, 2vw, 22px);
+  }
+  .steg p {
+    grid-column: 2;
+    font-size: clamp(15px, 1.5vw, 16px);
+    line-height: 1.5;
   }
   .steg__nr {
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     border-radius: 999px;
     background: var(--flate);
     color: var(--teal);
@@ -504,7 +513,7 @@ const liste = (ord: string[]) =>
     align-items: center;
     justify-content: center;
     font-family: var(--serif);
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
   }
   .metoder {
