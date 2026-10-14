@@ -97,9 +97,6 @@ const liste = (ord: string[]) =>
                 <span>{stor(liste(k.spesialfelt))}</span>
               </p>
               <p class="fordypning__interesse muted">Interessefelt: {liste(k.interessefelt)}</p>
-              <p class="fordypning__ogsa muted">
-                <strong>Behandler også:</strong> {k.ogsa.toLowerCase()}
-              </p>
               <a class="btn fordypning__btn" href={k.booking}>
                 Bestill hos {k.navn.split(" ")[0]}
               </a>
@@ -410,14 +407,9 @@ const liste = (ord: string[]) =>
     font-size: 13px;
     font-weight: 600;
   }
-  .fordypning__interesse,
-  .fordypning__ogsa {
+  .fordypning__interesse {
     font-size: clamp(14px, 1.5vw, 16px);
     line-height: 1.45;
-  }
-  .fordypning__ogsa strong {
-    font-weight: 600;
-    color: var(--ink);
   }
   .fordypning__btn {
     margin-top: auto;
