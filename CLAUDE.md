@@ -59,3 +59,11 @@ fra @fontsource (ingen Google Fonts av personvernhensyn).
 3. Vurdere dubletter: to innlegg om hodepine i svangerskapet, flere halebein-innlegg
    med -4/-6 i adressen, svimmelhetsinnlegg som også finnes på Marie-siden.
 4. Flytte domenet fra Totalweb (DNS) når Sara har godkjent.
+
+## Timebestilling hos Marie (besluttet 14. okt. 2026)
+- Felles knapper (meny, mobil, bunn) går til klinikkens felles booking (`site.booking`).
+- Marie har egne lenker i `kiropraktorer` (calendarId 8b02aa62…): `booking` = førstegangsundersøkelse,
+  `bookingSvimmelhet`, `bookingOppfolging`, `bookingKalender`.
+- Svimmelhet, krystallsyken og VNG-siden (`kiropraktor: marie`) har «Bestill svimmelhetsundersøkelse».
+  Maries blogginnlegg om svimmelhet/krystallsyke likeså; hennes øvrige innlegg og kjevesmerter går til førstegang.
+- Prissiden: svimmelhetsprisene bestilles i Maries kalender; dobbelttime svimmelhet = «Ring for time».

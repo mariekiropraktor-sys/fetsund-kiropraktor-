@@ -2,7 +2,11 @@
 import SideHode from "../../components/SideHode.astro";
 import Layout from "../../layouts/Layout.astro";
 import BookingCTA from "../../components/BookingCTA.astro";
-import { site, priser, tilleggspriser } from "../../data/site";
+import { site, priser, tilleggspriser, kiropraktorer } from "../../data/site";
+// Svimmelhet er Maries spesialfelt: de timene bestilles rett i hennes kalender
+const marie = kiropraktorer.find((k) => k.id === "marie")!;
+const lenke = (b?: string) =>
+  b === "marie-svimmelhet" ? marie.bookingSvimmelhet : b === "marie-kalender" ? marie.bookingKalender : site.booking;
 ---
 
 <Layout
@@ -30,9 +34,11 @@ import { site, priser, tilleggspriser } from "../../data/site";
                 </div>
                 <div class="pris__hoyre">
                   <span class="pris__belop">{p.pris}</span>
-                  <a class="btn" href={site.booking}>
-                    Bestill
-                  </a>
+                  {p.bestill === "ring" ? (
+                    <a class="btn btn--ghost" href={site.telefonLenke}>Ring for time</a>
+                  ) : (
+                    <a class="btn" href={lenke(p.bestill)}>Bestill</a>
+                  )}
                 </div>
               </div>
             ))}

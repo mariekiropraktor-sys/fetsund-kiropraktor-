@@ -71,4 +71,4 @@ For det første bør du ta kontakt dersom svimmelheten kommer sammen med vond na
 
 ## Kontakt oss
 
-Kiropraktor Marie Hermansen på Fetsund Kiropraktorsenter har lang erfaring med svimmelhet og nakkeplager. Derfor kan du ringe oss på **463 32 766** eller benytte vår [online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b). På denne måten får du trygg oppfølging mot en bedre hverdag.
+Kiropraktor Marie Hermansen på Fetsund Kiropraktorsenter har lang erfaring med svimmelhet og nakkeplager. Derfor kan du ringe oss på **463 32 766** eller benytte vår [online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=d2162c00-a508-11f0-9831-e62cb3f7a407&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b). På denne måten får du trygg oppfølging mot en bedre hverdag.

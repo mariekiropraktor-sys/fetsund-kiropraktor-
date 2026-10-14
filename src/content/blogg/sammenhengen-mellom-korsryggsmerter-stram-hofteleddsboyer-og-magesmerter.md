@@ -49,6 +49,6 @@ En undersøkelse hos kiropraktoren din kan avdekke om en stram hofteleddsbøyer 
 
 ## Kontakt oss!
 
-Hos Fetsund Kiropraktorsenter er vi dedikert til å hjelpe deg med å oppnå bedre helse og funksjon. Ønsker du mer informasjon om hofteleddsbøyeren, korsryggsmerter eller lignende, er du velkommen til å kontakte oss på telefon 46332766 eller benytte vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7).
+Hos Fetsund Kiropraktorsenter er vi dedikert til å hjelpe deg med å oppnå bedre helse og funksjon. Ønsker du mer informasjon om hofteleddsbøyeren, korsryggsmerter eller lignende, er du velkommen til å kontakte oss på telefon 46332766 eller benytte vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b).
 
 La oss hjelpe deg på veien mot en sterkere og mer funksjonell hverdag!

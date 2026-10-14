@@ -40,6 +40,9 @@ export const googleAds = {
 };
 
 const marie = "https://fetsundkiropraktormarie.no";
+const pasientsky =
+  "https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7";
+const marieKalender = "8b02aa62-04b5-11eb-98d4-56c227606b2b";
 const sara = "https://fetsundkiropraktorsara.no";
 
 // Kiropraktorene. «side» = egen nettside, «booking» = direktelenke i Pasientsky.
@@ -69,7 +72,11 @@ export const kiropraktorer = [
     ogsa: "Nakke, rygg, skulder, hodepine og ledd",
     kort: "Spesialfelt i svimmelhet og krystallsyke, med VNG-briller. Behandler også mange med nakke, rygg, skulder og andre muskel- og leddplager.",
     side: marie,
-    booking: site.booking,
+    // Direkte i Maries kalender: førstegangsundersøkelse, svimmelhetsundersøkelse og oppfølging
+    booking: `${pasientsky}&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=${marieKalender}`,
+    bookingSvimmelhet: `${pasientsky}&timeslotType=d2162c00-a508-11f0-9831-e62cb3f7a407&calendarId=${marieKalender}`,
+    bookingOppfolging: `${pasientsky}&timeslotType=6accef46-04b5-11eb-9a4f-ee3259d83450&calendarId=${marieKalender}`,
+    bookingKalender: `${pasientsky}&calendarId=${marieKalender}`,
   },
 ];
 
@@ -182,9 +189,9 @@ export const priser = [
     gruppe: "Svimmelhet",
     intro: "Bestilles hos Marie Hermansen. Undersøkelsen gjøres med VNG-briller.",
     timer: [
-      { navn: "Svimmelhetsundersøkelse", pris: "1 100 kr", tekst: "Grundig undersøkelse ved svimmelhet, krystallsyke eller balanseplager." },
-      { navn: "Oppfølgende behandling – svimmelhet", pris: "625 kr", tekst: "Oppfølging etter svimmelhetsundersøkelse." },
-      { navn: "Dobbelttime – svimmelhet", pris: "855 kr", tekst: "Når svimmelheten trenger ekstra tid." },
+      { navn: "Svimmelhetsundersøkelse", bestill: "marie-svimmelhet", pris: "1 100 kr", tekst: "Grundig undersøkelse ved svimmelhet, krystallsyke eller balanseplager." },
+      { navn: "Oppfølgende behandling – svimmelhet", bestill: "marie-kalender", pris: "625 kr", tekst: "Oppfølging etter svimmelhetsundersøkelse." },
+      { navn: "Dobbelttime – svimmelhet", bestill: "ring", pris: "855 kr", tekst: "Når svimmelheten trenger ekstra tid." },
     ],
   },
 ];

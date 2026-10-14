@@ -31,6 +31,9 @@ const relaterte = (await getCollection("blogg", (p) => !p.data.utkast))
 const forfatter = kiropraktorer.find((k) => k.id === post.data.forfatter);
 const forfatterNavn = forfatter?.navn ?? site.navn;
 const forfatterBilde = forfatter?.bilde ?? site.logo;
+// Maries innlegg om svimmelhet/krystallsyke går rett til svimmelhetsundersøkelsen
+const omSvimmelhet = /svimmel|krystall/.test(post.id) && !/kjeve/.test(post.id);
+const bestillLenke = (omSvimmelhet && forfatter?.bookingSvimmelhet) || forfatter?.booking || site.booking;
 const forfatterLenke = forfatter ? `/om-klinikken/#${forfatter.id}` : "/om-klinikken/";
 
 // Strukturerte data: forteller Google at dette er en fagartikkel
@@ -107,7 +110,7 @@ const artikkelData = {
         <h2 class="forfatterboks__tittel">{forfatter ? `Skrevet av ${forfatterNavn}` : "Skrevet av kiropraktorene"}</h2>
         <p>{forfatter ? forfatter.kort : "Vi er kiropraktorer midt i Fetsund sentrum, og behandler alle typer muskel- og skjelettplager."}</p>
         <div class="btn-row">
-          <a class="btn" href={forfatter?.booking ?? site.booking}>Bestill time</a>
+          <a class="btn" href={bestillLenke}>{omSvimmelhet && forfatter?.bookingSvimmelhet ? "Bestill svimmelhetsundersøkelse" : "Bestill time"}</a>
           <a class="btn btn--ghost" href={forfatterLenke}>Om kiropraktorene</a>
         </div>
       </div>

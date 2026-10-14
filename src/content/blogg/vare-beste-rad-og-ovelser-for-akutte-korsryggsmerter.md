@@ -70,4 +70,4 @@ Vi har lang erfaring med både akutte og langvarige korsryggsplager, og tilbyr h
 
 Hos Fetsund Kiropraktorsenter er vi dedikert til å hjelpe deg med å oppnå bedre helse og funksjon.
 
-Kontakt oss gjerne på telefon 46332766 for spørsmål eller benytt vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7) for direkte bestilling av time.
+Kontakt oss gjerne på telefon 46332766 for spørsmål eller benytt vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b) for direkte bestilling av time.

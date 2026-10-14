@@ -24,6 +24,12 @@ const oversikt = erPlage
   : { navn: "Behandling", lenke: "/behandlingsmetoder/" };
 const oppdatert = d.oppdatert?.toLocaleDateString("nb-NO", { day: "numeric", month: "long", year: "numeric" });
 const forstegang = priser[0].timer[0];
+// Svimmelhetssidene går rett til svimmelhetsundersøkelsen i Maries kalender
+const erSvimmelhet = ["svimmelhet", "krystallsyken", "vng-undersokelse-for-svimmelhet"].includes(side.id);
+const bestillLenke = (erSvimmelhet && ekspert?.bookingSvimmelhet) || ekspert?.booking || site.booking;
+const bestillTekst = erSvimmelhet && ekspert?.bookingSvimmelhet
+  ? "Bestill svimmelhetsundersøkelse"
+  : ekspert ? `Bestill hos ${ekspert.navn.split(" ")[0]}` : "Bestill time";
 
 // Øvelser som hører til denne plagen (bare godkjente kategorier)
 const ovelser = (await getCollection("ovelser", (o) => !o.data.utkast)).find(
@@ -56,7 +62,7 @@ const smuleData = {
 
   <SideHode tittel={d.tittel} ingress={d.ingress || undefined} smuler={[oversikt, { navn: d.tittel }]}>
     <div class="btn-row">
-      <a class="btn" href={ekspert?.booking ?? site.booking}>{ekspert ? `Bestill hos ${ekspert.navn.split(" ")[0]}` : "Bestill time"}</a>
+      <a class="btn" href={bestillLenke}>{bestillTekst}</a>
       <a class="btn btn--ghost" href={site.telefonLenke}>Ring {site.telefon}</a>
     </div>
     {

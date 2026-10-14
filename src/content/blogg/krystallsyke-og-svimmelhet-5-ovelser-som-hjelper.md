@@ -125,7 +125,7 @@ Utføres sittende, før hodet raskt legges bakover slik at det henger over kante
 
 Kiropraktor Marie Hermansen jobber daglig med krystallsyke og har en særdeles interesse i både utredning og behandling av svimmelhet.
 
-Kontakt oss gjerne på telefon 46332766 – eller benytt deg av vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7).
+Kontakt oss gjerne på telefon 46332766 – eller benytt deg av vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=d2162c00-a508-11f0-9831-e62cb3f7a407&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b).
 
 Vi gleder oss til å hjelpe deg på vei til en bedre hverdag!
 

@@ -66,4 +66,4 @@ Dersom du sliter med langvarig stresshodepine, svimmelhet eller kjevesmerter som
 
 Hos **Fetsund Kiropraktorsenter** har vi bred erfaring med behandling av muskel- og skjelettrelaterte plager. **Kiropraktor Marie Hermansen** tilbyr en helhetlig tilnærming som inkluderer grundig undersøkelse, behandling og veiledning for å sikre langvarig lindring.
 
-Ta kontakt med oss på **Fetsund Kiropraktorsenter** for en vurdering, og la oss hjelpe deg tilbake til en bedre hverdag! Kontakt oss gjerne per telefon 46332766 eller besøk vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7)
+Ta kontakt med oss på **Fetsund Kiropraktorsenter** for en vurdering, og la oss hjelpe deg tilbake til en bedre hverdag! Kontakt oss gjerne per telefon 46332766 eller besøk vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b)

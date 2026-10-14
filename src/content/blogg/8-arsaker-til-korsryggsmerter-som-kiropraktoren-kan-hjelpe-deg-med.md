@@ -75,7 +75,7 @@ Marie & Sara tar seg alltid god tid for sikre seg at pasientene deres er komfort
 
 Våre kiropraktorer jobber daglig med korsryggsmerter og har en særdeles interesse i både utredning og behandling av vonde rygger.
 
-Kontakt oss gjerne på telefon 46332766 – eller benytt deg av vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7).
+Kontakt oss gjerne på telefon 46332766 – eller benytt deg av vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b).
 
 Vi gleder oss til å hjelpe deg på vei til en bedre hverdag!
 

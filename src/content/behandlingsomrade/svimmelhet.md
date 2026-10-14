@@ -178,4 +178,4 @@ Hos Fetsund Kiropraktorsenter setter vi av god tid til å lytte til historien di
 
 Målet vårt er enkelt: å finne årsaken til svimmelheten og hjelpe deg tilbake til en tryggere og mer stabil hverdag.
 
-Har du spørsmål, eller ønsker du en vurdering, er du velkommen til å ta kontakt med oss. Ring **463 32 766**, eller bestill time via vår [**døgnåpne online booking**.](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7)
+Har du spørsmål, eller ønsker du en vurdering, er du velkommen til å ta kontakt med oss. Ring **463 32 766**, eller bestill time via vår [**døgnåpne online booking**.](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=d2162c00-a508-11f0-9831-e62cb3f7a407&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b)

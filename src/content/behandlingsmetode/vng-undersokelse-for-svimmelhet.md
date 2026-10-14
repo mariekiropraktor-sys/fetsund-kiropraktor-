@@ -5,6 +5,7 @@ kortTekst: "Presis utredning av svimmelhet"
 ingress: "Med VNG-videobriller kan vi se øyebevegelsene nøyaktig og finne årsaken til svimmelheten. Undersøkelsen gjøres hos Marie Hermansen."
 beskrivelse: "VNG-undersøkelse ved svimmelhet og krystallsyke hos Marie Hermansen, Fetsund Kiropraktorsenter."
 rekkefolge: 8
+kiropraktor: marie
 bilde: "/bilder/wp/IMG_1617.webp"
 oppdatert: 2026-07-07
 ---
@@ -87,4 +88,4 @@ Er du plaget med svimmelhet, ustøhet eller mistenker at du har krystallsyke?
 
 Hos Fetsund Kiropraktorsenter får du en grundig undersøkelse hvor vi ser hele bildet – ikke bare symptomene. Ved behov benytter vi VNG-videobriller for å stille en mest mulig presis diagnose og velge riktig behandling.
 
- Ring oss på **463 32 766**, eller bestill time via vår [**døgnåpne online booking**](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7).
+ Ring oss på **463 32 766**, eller bestill time via vår [**døgnåpne online booking**](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=d2162c00-a508-11f0-9831-e62cb3f7a407&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b).
