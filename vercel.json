@@ -15,6 +15,7 @@
     { "source": "/vi-har-vunnet-en-konkurranse-🥳{/}?", "destination": "/vi-har-vunnet-en-konkurranse/", "permanent": true },
     { "source": "/hodepine-i-svangerskaper-du-gravid-og-har-hodepine-utforsk-arsaker-og-effektive-tips-her{/}?", "destination": "/er-du-gravid-og-har-hodepine-utforsk-arsaker-og-effektive-tips-her/", "permanent": true },
     { "source": "/behandlingsomrade/muskelsmerter{/}?", "destination": "/behandlingsomrade/smerter-i-ribben-og-midtrygg/", "permanent": true },
-    { "source": "/online-booking{/}?", "destination": "/bestill/", "permanent": true }
+    { "source": "/online-booking{/}?", "destination": "/bestill/", "permanent": true },
+    { "source": "/krystallsyke-og-svimmelhet-5-ovelser-som-hjelper{/}?", "destination": "https://www.krystallsykehjelpen.no/blogg/krystallsyke-5-ovelser-som-hjelper/", "permanent": true }
   ]
 }

@@ -165,7 +165,7 @@ Nei. En viktig del av jobben vår er å finne ut hvem som kan hjelpes hos oss, o
 Svimmelhet kan ha mange ulike årsaker. Ønsker du å lære mer om de vanligste diagnosene, kan disse artiklene være nyttige:
 
 -   [**5 vanlige årsaker til svimmelhet**](/hvorfor-blir-jeg-svimmel/)
--   [**Krystallsyke – våre 5 vanligste øvelser**](/krystallsyke-og-svimmelhet-5-ovelser-som-hjelper/) – hvorfor riktig diagnose bør stilles før du prøver øvelser hjemme.
+-   [**Krystallsyke – våre 5 vanligste øvelser**](https://www.krystallsykehjelpen.no/blogg/krystallsyke-5-ovelser-som-hjelper/) – hvorfor riktig diagnose bør stilles før du prøver øvelser hjemme.
 -   [**Nakkesvimmelhet**](<http://Nakkesvimmelhet aka Cervikogen svimmelhet - hva er det?>) – når svimmelheten henger sammen med nakke og muskulatur.
 -   [**Vestibulær migrene**](https://fetsundkiropraktormarie.no/vestibulaer-migrene-nar-migrene-gir-svimmelhet/) – en vanlig, men ofte oversett årsak til tilbakevendende svimmelhet.
 -   [**PPPD**](https://nhi.no/sykdommer/orenesehals/indre-ore-og-balanseorganer/persisterende-postural-perseptuell-svimmelhet-ppps) – vedvarende gyngende svimmelhet etter sykdom eller stress.

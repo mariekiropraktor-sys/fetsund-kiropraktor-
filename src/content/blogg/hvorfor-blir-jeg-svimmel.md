@@ -31,7 +31,7 @@ Den vanligste årsaken til plutselige, korte «snurr» i hodet er [krystallsyke]
 
 Mange beskriver at det «slår til» når de legger seg ned, snur seg i senga, bøyer seg frem eller ser opp. Selve snurret varer ofte bare noen sekunder, men kan føles svært intenst og komme med kvalme eller ubehag. Krystallsyke er i seg selv ufarlig, men kan være ekstremt plagsomt og øke risikoen for fall – særlig hos eldre eller de som allerede har nedsatt funksjon.
 
-Heldigvis finnes det målrettede [behandlingsmanøvre](https://fetsundkiropraktormarie.no/krystallsyke-og-svimmelhet-5-ovelser-som-hjelper/) (som Epleys manøver) der man bruker bestemte hode- og kroppsbevegelser for å geleide krystallene [på plass igjen](https://www.vestreviken.no/behandlinger/krystallsyke-diagnostiske-manovrer/). Mange opplever rask bedring etter én eller noen få behandlinger hos erfaren behandler, som kiropraktor med kompetanse på krystallsyke. Andre vil måtte følge opp over tid og må kanskje gjennom en mer omfattende reahabilitering.
+Heldigvis finnes det målrettede [behandlingsmanøvre](https://www.krystallsykehjelpen.no/blogg/krystallsyke-5-ovelser-som-hjelper/) (som Epleys manøver) der man bruker bestemte hode- og kroppsbevegelser for å geleide krystallene [på plass igjen](https://www.vestreviken.no/behandlinger/krystallsyke-diagnostiske-manovrer/). Mange opplever rask bedring etter én eller noen få behandlinger hos erfaren behandler, som kiropraktor med kompetanse på krystallsyke. Andre vil måtte følge opp over tid og må kanskje gjennom en mer omfattende reahabilitering.
 
 ## Når krystallene ikke oppfører seg "riktig"
 
