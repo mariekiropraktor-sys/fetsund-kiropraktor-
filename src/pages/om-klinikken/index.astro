@@ -35,6 +35,18 @@ const bios = [
   },
 ];
 
+// Mathilde er hos oss en kort periode til (beskjed fra Marie 19. okt. 2026: «3 uker til»).
+// Kortet skjules automatisk ved neste publisering etter siste dag. Slett blokken når hun har sluttet.
+const mathilde = {
+  navn: "Mathilde Opsvik",
+  bilde: "/bilder/wp/mathilde.webp",
+  sisteDag: "2026-11-09",
+  tekst:
+    "Mathilde har over ti års erfaring med rygg- og nakkesmerter, skulderproblemer, bekkenplager, hofteplager og de fleste andre plager i muskler og ledd. Hun har 5-årig mastergrad i kiropraktikk og videreutdanning i sportsmassasje, tørrkopping, instrumentassistert bløtvevsbehandling, tørrnåling og kinesiotaping.",
+};
+const visMathilde = new Date() <= new Date(`${mathilde.sisteDag}T23:59:59`);
+const sisteDagTekst = new Date(mathilde.sisteDag).toLocaleDateString("nb-NO", { day: "numeric", month: "long" });
+
 const tilnaerming = [
   {
     tittel: "Grundig undersøkelse",
@@ -147,6 +159,22 @@ const tilnaerming = [
           ))
         }
       </div>
+
+      {
+        visMathilde && (
+          <article class="gjest" id="mathilde">
+            <img class="gjest__bilde" src={mathilde.bilde} alt={`Kiropraktor ${mathilde.navn}`} width="160" height="160" loading="lazy" />
+            <div class="gjest__tekst">
+              <span class="eyebrow">Kiropraktor · hos oss til {sisteDagTekst}</span>
+              <h3 class="gjest__navn">{mathilde.navn}</h3>
+              <p>{mathilde.tekst}</p>
+              <div class="btn-row">
+                <a class="btn" href={site.booking}>Bestill hos Mathilde</a>
+              </div>
+            </div>
+          </article>
+        )
+      }
     </div>
   </section>
 
@@ -318,6 +346,45 @@ const tilnaerming = [
     border-color: var(--flate);
     color: var(--teal);
     font-weight: 600;
+  }
+
+  /* Mathilde – eget, mindre kort under Marie og Sara */
+  .gjest {
+    margin-top: clamp(16px, 2.5vw, 28px);
+    background: var(--bg);
+    border-radius: var(--radius);
+    padding: clamp(20px, 3vw, 32px);
+    display: grid;
+    gap: 18px 28px;
+    align-items: center;
+    scroll-margin-top: 110px;
+  }
+  @media (min-width: 700px) {
+    .gjest {
+      grid-template-columns: 160px 1fr;
+    }
+  }
+  .gjest__bilde {
+    width: clamp(110px, 18vw, 160px);
+    height: clamp(110px, 18vw, 160px);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 39% 28%;
+    border: 4px solid #fff;
+    box-shadow: 0 8px 24px rgb(11 110 129 / 0.15);
+  }
+  .gjest__tekst {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 760px;
+  }
+  .gjest__navn {
+    font-size: clamp(24px, 2.6vw, 30px);
+  }
+  .gjest__tekst p {
+    font-size: 16px;
+    line-height: 1.6;
   }
 
   /* Praktisk */
