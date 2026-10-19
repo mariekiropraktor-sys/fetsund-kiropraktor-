@@ -83,6 +83,21 @@ export const kiropraktorer = [
   },
 ];
 
+// Mathilde er hos oss en kort periode til (beskjed fra Marie 19. okt. 2026).
+// Vises på forsiden og «Om klinikken» til og med sisteDag (sjekkes når siden publiseres).
+// Slett denne blokken og bruken av den når hun har sluttet.
+export const mathilde = {
+  navn: "Mathilde Opsvik",
+  bilde: "/bilder/wp/mathilde.webp",
+  sisteDag: "2026-11-11",
+  booking: site.booking,
+  kort: "Over ti års erfaring med rygg, nakke, skulder, bekken og hofte. Videreutdanning i sportsmassasje, tørrnåling, kopping og kinesiotaping.",
+  tekst:
+    "Mathilde har over ti års erfaring med rygg- og nakkesmerter, skulderproblemer, bekkenplager, hofteplager og de fleste andre plager i muskler og ledd. Hun har 5-årig mastergrad i kiropraktikk og videreutdanning i sportsmassasje, tørrkopping, instrumentassistert bløtvevsbehandling, tørrnåling og kinesiotaping.",
+};
+export const visMathilde = new Date() <= new Date(`${mathilde.sisteDag}T23:59:59`);
+export const mathildeSisteDag = new Date(mathilde.sisteDag).toLocaleDateString("nb-NO", { day: "numeric", month: "long" });
+
 // Spesialfeltene vises øverst på forsiden. De lenker til den kiropraktoren som eier temaet.
 export const spesialfelt = [
   {

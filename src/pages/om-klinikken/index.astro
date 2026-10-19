@@ -5,7 +5,7 @@ import SideHode from "../../components/SideHode.astro";
 import Layout from "../../layouts/Layout.astro";
 import BookingCTA from "../../components/BookingCTA.astro";
 import TrustStrip from "../../components/TrustStrip.astro";
-import { site, kiropraktorer } from "../../data/site";
+import { site, kiropraktorer, mathilde, visMathilde, mathildeSisteDag as sisteDagTekst } from "../../data/site";
 
 const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
 
@@ -34,18 +34,6 @@ const bios = [
     nettside: "Saras nettside",
   },
 ];
-
-// Mathilde er hos oss en kort periode til (beskjed fra Marie 19. okt. 2026: «3 uker til»).
-// Kortet skjules automatisk ved neste publisering etter siste dag. Slett blokken når hun har sluttet.
-const mathilde = {
-  navn: "Mathilde Opsvik",
-  bilde: "/bilder/wp/mathilde.webp",
-  sisteDag: "2026-11-11",
-  tekst:
-    "Mathilde har over ti års erfaring med rygg- og nakkesmerter, skulderproblemer, bekkenplager, hofteplager og de fleste andre plager i muskler og ledd. Hun har 5-årig mastergrad i kiropraktikk og videreutdanning i sportsmassasje, tørrkopping, instrumentassistert bløtvevsbehandling, tørrnåling og kinesiotaping.",
-};
-const visMathilde = new Date() <= new Date(`${mathilde.sisteDag}T23:59:59`);
-const sisteDagTekst = new Date(mathilde.sisteDag).toLocaleDateString("nb-NO", { day: "numeric", month: "long" });
 
 const tilnaerming = [
   {
@@ -169,7 +157,7 @@ const tilnaerming = [
               <h3 class="gjest__navn">{mathilde.navn}</h3>
               <p>{mathilde.tekst}</p>
               <div class="btn-row">
-                <a class="btn" href={site.booking}>Bestill hos Mathilde</a>
+                <a class="btn" href={mathilde.booking}>Bestill hos Mathilde</a>
               </div>
             </div>
           </article>
