@@ -146,8 +146,9 @@ export const plager: { navn: string; tekst: string; lenke: string }[] = [
 // Rekkefølge: Marie, Sara, generell (Sara står først i kiropraktor-seksjonen over).
 export const anmeldelser: { tekst: string; om?: string }[] = [
   {
+    // Fra Maries egen Google-oppføring (Kiropraktor Marie Hermansen – Fetsund Kiropraktorsenter), lagt inn 20. okt. 2026
     tekst:
-      "Tok kontakt med Marie hos Fetsund Kiropraktorsenter ang det jeg antok var krystallsyke og hun hjalp meg slik at problemet var borte etter første besøk! Fikk god oppfølging etterpå og hjelp med andre skavanker også. Veldig gode tre behandlinger hos henne til nå. Anbefales.",
+      "Jeg ble akutt veldig svimmel og via fastlegen kom jeg til Marie samme dag! Hun undersøkte grundig og fant krystallsyke som hun behandlet. Tenk å få hjelp med en gang. Nydelig! Jeg tok også noen fler behandlinger for nakke, rygg og hofter, og det var veldig godt. Mitt første møte med en kiropraktor var veldig positivt. Marie er veldig flink så jeg kommer til å gå tilbake til henne hvis kroppen trenger mer service!",
     om: "Marie",
   },
   {
