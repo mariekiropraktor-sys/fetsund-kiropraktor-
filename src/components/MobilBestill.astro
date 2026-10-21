@@ -1,0 +1,45 @@
+---
+// Fast linje nederst på mobil med «Bestill time» og «Ring», som på Marie-siden.
+// Vises bare på smale skjermer (under 901px), der toppmenyen ikke har bestillingsknapp.
+import { site } from "../data/site";
+---
+
+<div class="mobilbestill">
+  <a class="btn mobilbestill__bestill" href={site.booking}>Bestill time</a>
+  <a class="btn btn--ghost mobilbestill__ring" href={site.telefonLenke} aria-label={`Ring ${site.telefon}`}>Ring</a>
+</div>
+
+<style>
+  .mobilbestill {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    display: flex;
+    gap: 10px;
+    padding: 10px var(--gutter) calc(10px + env(safe-area-inset-bottom));
+    background: var(--surface);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -6px 20px rgba(16, 25, 35, 0.08);
+  }
+  .mobilbestill__bestill {
+    flex: 2;
+  }
+  .mobilbestill__ring {
+    flex: 1;
+    background: var(--surface);
+  }
+  /* Plass nederst så linjen ikke dekker bunnteksten */
+  :global(body) {
+    padding-bottom: calc(72px + env(safe-area-inset-bottom));
+  }
+  @media (min-width: 901px) {
+    .mobilbestill {
+      display: none;
+    }
+    :global(body) {
+      padding-bottom: 0;
+    }
+  }
+</style>
