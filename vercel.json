@@ -2,20 +2,160 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": true,
   "redirects": [
-    { "source": "/www.fetsundkiropraktor.no/:path*", "destination": "/:path*", "permanent": true },
-    { "source": "/behandlingsmetoder/ovelsesveiledning{/}?", "destination": "/behandlingsmetode/ovelsesveiledning/", "permanent": true },
-    { "source": "/category/:path*", "destination": "/blogg/", "permanent": true },
-    { "source": "/tag/:path*", "destination": "/blogg/", "permanent": true },
-    { "source": "/testimonialtype/:path*", "destination": "/", "permanent": true },
-    { "source": "/author/:path*", "destination": "/om-klinikken/", "permanent": true },
-    { "source": "/feed{/}?", "destination": "/blogg/", "permanent": false },
-    { "source": "/behandlingsomrade/senebetennelser{/}?", "destination": "/behandlingsomrade/muskelsmerter-og-senebetennelser/", "permanent": true },
-    { "source": "/behandlingsomrade/kne-og-ankel-fotsmerter{/}?", "destination": "/behandlingsomrade/fot-og-ankel-smerter/", "permanent": true },
-    { "source": "/vi-har-vunnet-en-konkurranse-%F0%9F%A5%B3{/}?", "destination": "/vi-har-vunnet-en-konkurranse/", "permanent": true },
-    { "source": "/vi-har-vunnet-en-konkurranse-🥳{/}?", "destination": "/vi-har-vunnet-en-konkurranse/", "permanent": true },
-    { "source": "/hodepine-i-svangerskaper-du-gravid-og-har-hodepine-utforsk-arsaker-og-effektive-tips-her{/}?", "destination": "/er-du-gravid-og-har-hodepine-utforsk-arsaker-og-effektive-tips-her/", "permanent": true },
-    { "source": "/behandlingsomrade/muskelsmerter{/}?", "destination": "/behandlingsomrade/smerter-i-ribben-og-midtrygg/", "permanent": true },
-    { "source": "/online-booking{/}?", "destination": "/bestill/", "permanent": true },
-    { "source": "/krystallsyke-og-svimmelhet-5-ovelser-som-hjelper{/}?", "destination": "https://www.krystallsykehjelpen.no/blogg/krystallsyke-5-ovelser-som-hjelper/", "permanent": true }
+    {
+      "source": "/www.fetsundkiropraktor.no/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/behandlingsmetoder/ovelsesveiledning{/}?",
+      "destination": "/behandlingsmetode/ovelsesveiledning/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/blogg/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/blogg/",
+      "permanent": true
+    },
+    {
+      "source": "/testimonialtype/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "/om-klinikken/",
+      "permanent": true
+    },
+    {
+      "source": "/feed{/}?",
+      "destination": "/blogg/",
+      "permanent": false
+    },
+    {
+      "source": "/behandlingsomrade/senebetennelser{/}?",
+      "destination": "/behandlingsomrade/muskelsmerter-og-senebetennelser/",
+      "permanent": true
+    },
+    {
+      "source": "/behandlingsomrade/kne-og-ankel-fotsmerter{/}?",
+      "destination": "/behandlingsomrade/fot-og-ankel-smerter/",
+      "permanent": true
+    },
+    {
+      "source": "/vi-har-vunnet-en-konkurranse-%F0%9F%A5%B3{/}?",
+      "destination": "/vi-har-vunnet-en-konkurranse/",
+      "permanent": true
+    },
+    {
+      "source": "/vi-har-vunnet-en-konkurranse-🥳{/}?",
+      "destination": "/vi-har-vunnet-en-konkurranse/",
+      "permanent": true
+    },
+    {
+      "source": "/hodepine-i-svangerskaper-du-gravid-og-har-hodepine-utforsk-arsaker-og-effektive-tips-her{/}?",
+      "destination": "/er-du-gravid-og-har-hodepine-utforsk-arsaker-og-effektive-tips-her/",
+      "permanent": true
+    },
+    {
+      "source": "/behandlingsomrade/muskelsmerter{/}?",
+      "destination": "/behandlingsomrade/smerter-i-ribben-og-midtrygg/",
+      "permanent": true
+    },
+    {
+      "source": "/online-booking{/}?",
+      "destination": "/bestill/",
+      "permanent": true
+    },
+    {
+      "source": "/krystallsyke-og-svimmelhet-5-ovelser-som-hjelper{/}?",
+      "destination": "https://www.krystallsykehjelpen.no/blogg/krystallsyke-5-ovelser-som-hjelper/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/albuesmerter-og-tennisalbue{/}?",
+      "destination": "/behandlingsomrade/albue-og-handleddsmerter/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/ankel-og-fotsmerter{/}?",
+      "destination": "/behandlingsomrade/fot-og-ankel-smerter/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/brystryggsmerter{/}?",
+      "destination": "/behandlingsomrade/brystryggsmerter/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/fibromyalgi{/}?",
+      "destination": "/behandlingsomrade/fibromyalgi-muskelssmerter-og-kiropraktorbehandling/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/hodepine{/}?",
+      "destination": "/behandlingsomrade/hodepine/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/hoftesmerter{/}?",
+      "destination": "/behandlingsomrade/hoftesmerter/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/korsrygg{/}?",
+      "destination": "/behandlingsomrade/vondt-i-ryggen/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/krystallsyken{/}?",
+      "destination": "/behandlingsomrade/krystallsyken/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/muskelsmerter{/}?",
+      "destination": "/behandlingsomrade/muskelsmerter-og-senebetennelser/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/nakke{/}?",
+      "destination": "/behandlingsomrade/akutte-kroniske-nakkeplager/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/seniorpasienter{/}?",
+      "destination": "/behandlingsomrade/seniorpasienten/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/skuldersmerter{/}?",
+      "destination": "/skuldersmerter-for-under-og-etter-ett-kiropraktorbesok/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/spedbarn-og-barn{/}?",
+      "destination": "/behandlingsomrade/spebarn-og-barn/",
+      "permanent": true
+    },
+    {
+      "source": "/knapper-forside/:path*",
+      "destination": "/behandlingsomrader/",
+      "permanent": true
+    },
+    {
+      "source": "/priser/:slug{/}?",
+      "destination": "/priser/",
+      "permanent": true
+    },
+    {
+      "source": "/testimonial/:path*",
+      "destination": "/",
+      "permanent": true
+    }
   ]
 }
