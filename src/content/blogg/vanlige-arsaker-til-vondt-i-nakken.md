@@ -9,7 +9,7 @@ forfatter: sara
 
 **Vanlige årsaker til vondt i nakken**
 
-![Vanlige årsaker til vondt i nakken](https://fetsundkiropraktorsara.no/wp-content/uploads/406097245_1367214817500958_6090055338116051163_n-640x480.webp "Vanlige årsaker til vondt i nakken")
+![Vanlige årsaker til vondt i nakken](/bilder/wp/406097245_1367214817500958_6090055338116051163_n-640x480.webp "Vanlige årsaker til vondt i nakken")
 
 Nakkesmerter er et problem mange kjenner på, spesielt i dagens samfunn, der mye tid går til stillesittende arbeid foran skjermer. Årsakene kan være sammensatte, og noen av de vanligste utløserne for nakkesmerter inkluderer faktorer vi ofte overser i hverdagen. Nedenfor har jeg listet de **5 vanligste årsakene til nakkesmerte**r – kanskje kan det hjelpe deg å få en bedre forståelse av hvorfor nakken blir vond.
 
@@ -31,7 +31,7 @@ Vanlige symptomer på nakkesmerter inkluderer:
 
 ## Hvordan kiropraktisk behandling kan hjelpe
 
-![Vanlige årsaker til vondt i nakken](https://fetsundkiropraktorsara.no/wp-content/uploads/Bindevevsmasasjie-640x427.webp "Vanlige årsaker til vondt i nakken")
+![Vanlige årsaker til vondt i nakken](/bilder/wp/Bindevevsmasasjie-640x427.webp "Vanlige årsaker til vondt i nakken")
 
 Som kiropraktor har jeg gode verktøy for å lindre og å bli kvitt nakkesmertene dine. Gjennom justeringer, mobilisering og målrettede øvelser jobber vi sammen for å styrke nakken og redusere smerter. Nedenfor beskriver jeg hvordan jeg konkret kan hjelpe deg med hver av de vanligste årsakene til nakkesmerter:
 
