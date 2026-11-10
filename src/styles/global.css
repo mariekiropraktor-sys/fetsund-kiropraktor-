@@ -688,3 +688,10 @@ p {
 .prose .btn {
   text-decoration: none;
 }
+
+/* Lange nettadresser i tekst skal brytes, ellers blir siden bredere enn mobilskjermen */
+.prose,
+.prose a,
+.prose figcaption {
+  overflow-wrap: anywhere;
+}

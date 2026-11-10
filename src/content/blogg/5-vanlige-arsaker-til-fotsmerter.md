@@ -9,8 +9,7 @@ forfatter: sara
 
 **5 Vanlige årsaker til fotsmerter – og hvorfor bekkenet kan være nøkkelen til å bli kvitt smertene**
 
-##  1. Plantar fasciitt
-
+## 1. Plantar fasciitt
 ![](/bilder/wp/20231129_132642-1920x1440-480x360-1.webp)
 
 Plantar fasciitt er en betennelseslignende tilstand som påvirker bindevevsplaten (plantarfascia) under foten.  
@@ -22,7 +21,6 @@ Symptomer:
 -   Plantar fasciitt oppstår ofte på grunn av overbelastning, dårlig støtte i skoene, eller feil fotstilling.
 
 ## 2\. Cuboid syndrom
-
 ![5 Vanlige årsaker til fotsmerter](/bilder/wp/20231129_132645-1920x1440-480x360-1.webp)
 
 Cuboid syndrom er en tilstand der cuboidbeinet på utsiden av foten forskyves, noe som fører til smerte og nedsatt funksjon.  
@@ -34,7 +32,6 @@ Symptomer:
 -   Cuboid syndrom oppstår ofte etter en overtråkk, feil belastning, eller overdreven bruk.
 
 ## 3\. Tarsal tunnel-syndrom
-
 Tarsal tunnel-syndrom er en nerveplage der nerven som går gjennom ankelen blir klemt eller irritert.  
 Symptomer:
 
@@ -44,7 +41,6 @@ Symptomer:
 -   Denne tilstanden skyldes ofte stram muskulatur, hevelse eller unormal fotstilling som øker trykket på nervene.
 
 ## 4\. Achilles tendinose
-
 ![5 Vanlige årsaker til fotsmerter](/bilder/wp/20231129_132731-1920x1440-480x360-1.webp)
 
 Achilles tendinose er en kronisk tilstand der akillessenen blir irritert og smertefull.Symptomer:
@@ -55,7 +51,6 @@ Achilles tendinose er en kronisk tilstand der akillessenen blir irritert og smer
 -   Tilstanden skyldes ofte overbelastning, repetitiv aktivitet eller dårlig biomekanikk.
 
 ## 5\. Mortons nevrom
-
 Mortons nevrom er en nerveirritasjon mellom tærne, ofte på grunn av trange sko eller feil belastning.  
 Symptomer:
 
@@ -65,7 +60,6 @@ Symptomer:
 -   Denne tilstanden kan forverres ved feil belastning eller ubalanse i kroppen.
 
 ## 6\. Hallux valgus (skjev stortå)
-
 ![5 Vanlige årsaker til fotsmerter](/bilder/wp/20231129_132718-1920x1440-480x360-1.webp)
 
 Hallux valgus er en deformitet der stortåen peker innover mot de andre tærne, og en kul dannes på innsiden av foten.  
@@ -77,7 +71,6 @@ Symptomer:
 -   Tilstanden skyldes ofte arv, men feil belastning og dårlig skovalg kan forverre problemet.
 
 ## Hvordan bekkenet kan påvirke føttene dine
-
 ![5 Vanlige årsaker til fotsmerter](/bilder/wp/Shutterstock_2395673425-1920x1680-4-1-480x420-1.webp)
 
 Bekkenet fungerer som fundamentet for ryggraden og hele underkroppen. Hvis [bekkenet er i ubalanse](https://fetsundkiropraktorsara.no/bekkenrotasjon-og-halebeinssmerter-din-guide-til-hva-du-kan-gjore/) – enten fremoverrotert (anterior tilt), bakoverrotert (posterior tilt) eller skjevt til én side (lateral tilt) – kan det påvirke hvordan du går og står. Dette kan skape feilbelastninger som forplanter seg ned til knær, ankler og føtter.  
@@ -87,14 +80,12 @@ Skjevt bekken: Kan skape asymmetri i belastningen mellom føttene, noe som kan u
 Jeg opplever ofte at pasienter som har fått behandling for fotplager andre steder, blir smertefrie en stund, men at plagene kommer tilbake fordi bekkenet, hoftene og knærne ikke har blitt vurdert. Når vi adresserer hele kroppen og finner den underliggende årsaken, kan vi få en varig løsning.
 
 ## Forskning som understøtter sammenhengen
-
 Studier bekrefter at biomekaniske ubalanser i bekkenet påvirker belastningen på knær og føtter:  
 [Journal of Foot and Ankle Research](https://pmc.ncbi.nlm.nih.gov/articles/PMC4519225/) viser at bekkenets posisjon har en direkte innvirkning på belastningsmønsteret i foten.  
 Clinical Biomechanics har funnet en klar sammenheng mellom hoftebevegelser og fotrelaterte tilstander som plantar fasciitt og akillesseneplager.  
-([Cornwall and McPoil, 1995](https://pmc.ncbi.nlm.nih.gov/articles/PMC4519225/#b2-jhk-46-85); [Inman, 1976](https://pmc.ncbi.nlm.nih.gov/articles/PMC4519225/#b4-jhk-46-85); [Stergiou and Bates, 1997)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4519225/#b29-jhk-46-85)
+([Cornwall and McPoil, 1995](https://pmc.ncbi.nlm.nih.gov/articles/PMC4519225/#b2-jhk-46-85); [Inman, 1976](https://pmc.ncbi.nlm.nih.gov/articles/PMC4519225/#b4-jhk-46-85); [Stergiou and Bates, 1997)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4519225/#b29-jhk-46-85)
 
 ## Hvordan jeg kan hjelpe deg
-
 Som kiropraktor undersøker jeg alltid hele kroppen for å finne ut hva som ligger bak fotplagene dine. Behandlingen inkluderer ofte:  
 Undersøkelse av bekken, knær og hofter for å finne biomekaniske ubalanser.
 

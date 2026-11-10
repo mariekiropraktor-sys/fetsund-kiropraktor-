@@ -13,4 +13,4 @@ Vi trenger treningsglede og vi vil bevare disse lokale gledesspredere, selv ette
 
 Man får dessverre ikke mindre vondter av inaktivitet, indre uro og hjemmekontor…
 
-Varme hilsener fra oss på Fetsund kiropraktorsenter  ♥️
+Varme hilsener fra oss på Fetsund kiropraktorsenter  ♥️

@@ -19,15 +19,13 @@ På Fetsund Kiropraktorsenter undersøker vi blant annet nakke, øvre rygg, musk
 Her kan du lese om noen av hodepinetypene vi ofte møter i klinikken.
 
 ## Spenningshodepine
-
 Spenningshodepine er en av de vanligste formene for hodepine. Den beskrives ofte som et trykk eller et stramt bånd rundt hodet og er vanligvis mild til moderat i intensitet.
 
 Hodepinen kan kjennes på begge sider av hodet, over pannen, i tinningene eller bakhodet. Mange opplever samtidig øm og anspent muskulatur i nakke og skuldre.
 
-Stress, søvn, langvarige arbeidsstillinger og belastninger i hverdagen kan påvirke plagene, men årsaken er ikke nødvendigvis én enkelt muskel eller ett bestemt ledd. Ofte er flere faktorer involvert.
+Stress, søvn, langvarige arbeidsstillinger og belastninger i hverdagen kan påvirke plagene, men årsaken er ikke nødvendigvis én enkelt muskel eller et bestemt ledd. Ofte er flere faktorer involvert.
 
 ### Hva kan vi gjøre?
-
 Undersøkelsen tilpasses symptomene dine. Dersom vi finner muskel- og skjelettplager som kan være relevante for hodepinen, kan behandlingen blant annet bestå av:
 
 -   manuell behandling av nakke og øvre rygg
@@ -40,7 +38,6 @@ Undersøkelsen tilpasses symptomene dine. Dersom vi finner muskel- og skjelettpl
 Målet er ikke bare å dempe symptomene der og da, men å finne hvilke faktorer som ser ut til å bidra til hodepinen hos akkurat deg.
 
 ## Cervikogen hodepine – hodepine fra nakken
-
 [Cervikogen hodepine](/stresshodepine-svimmelhet-og-kjevesmerter/) er hodepine hvor smerter fra strukturer i nakken oppleves som smerter i hodet.
 
 Den er ofte ensidig og kan starte øverst i nakken eller bakhodet før den trekker frem mot tinningen, pannen eller området rundt øyet.
@@ -56,13 +53,11 @@ Typiske kjennetegn kan være:
 Noen opplever også [svimmelhet](https://fetsundkiropraktormarie.no/krystallsyke/) eller en følelse av ustøhet samtidig med nakkeplagene. Svimmelhet kan imidlertid ha mange forskjellige årsaker, og det er derfor viktig å vurdere dette separat fremfor automatisk å anta at svimmelheten kommer fra nakken.
 
 ### Behandling av cervikogen hodepine
-
 Når undersøkelsen tyder på at nakken bidrar til hodepinen, kan behandling rettet mot ledd, muskulatur og funksjon i nakken være aktuelt.
 
 Dette kombineres ofte med øvelser og råd om aktivitet og belastning.
 
 ## Hodepine relatert til kjeve og TMD
-
 Har du vondt i tinningen samtidig som du presser eller skjærer tenner, er øm i kjeven eller merker klikking og ubehag fra kjeveleddet?
 
 Da kan [kjeven](/behandlingsomrade/kjevesmerter/) være en del av problemet.
@@ -82,7 +77,6 @@ Vanlige symptomer kan være:
 -   samtidig nakke- og skulderspenninger
 
 ### Hvordan undersøker vi kjeven?
-
 Vi vurderer blant annet bevegelsen i kjeveleddet, tyggemuskulaturen og hvordan kjeven beveger seg når du åpner og lukker munnen. Nakken undersøkes også, ettersom nakke- og kjeveplager ofte kan opptre samtidig.
 
 Behandlingen kan bestå av manuell behandling, øvelser for kjeve og nakke og råd om belastning og vaner som kan påvirke kjeven.
@@ -92,7 +86,6 @@ Ved mistanke om tannrelaterte årsaker eller andre tilstander som krever tannleg
 ![](/bilder/wp/178460306_301584771413178_2456496153995291602_n-960x888.webp)
 
 ## Migrene
-
 Migrene er mer enn bare kraftig hodepine. Det er en nevrologisk tilstand som kan gi anfall med moderat til sterk hodepine, ofte kombinert med kvalme og økt følsomhet for lys og lyd.
 
 Hodepinen er ofte pulserende og kan være tydeligst på én side, men migrene kan også gi smerter på begge sider av hodet.
@@ -102,7 +95,6 @@ Noen opplever aura før eller under et migreneanfall. Aura kan blant annet gi sy
 Migrene kan påvirkes av en rekke faktorer, blant annet søvn, stress, hormoner, måltidsmønster og individuelle triggere.
 
 ### Kan kiropraktoren behandle migrene?
-
 Migrene behandles først og fremst gjennom god diagnostikk, håndtering av triggere og ved behov medikamentell behandling i samarbeid med lege.
 
 Samtidig har mange med migrene også smerter og stivhet i nakke og skuldre. Dersom undersøkelsen viser relevante muskel- og skjelettplager, kan vi hjelpe med disse som en del av en helhetlig tilnærming.
@@ -110,7 +102,6 @@ Samtidig har mange med migrene også smerter og stivhet i nakke og skuldre. Ders
 Vi er samtidig opptatt av å skille mellom migrene, cervikogen hodepine, spenningshodepine og andre årsaker til hodepine.
 
 ## Når bør hodepine undersøkes nærmere?
-
 De aller fleste hodepiner er ikke tegn på alvorlig sykdom. Likevel finnes det situasjoner hvor hodepine bør vurderes raskt av lege.
 
 Det gjelder blant annet ved:
@@ -125,7 +116,6 @@ Det gjelder blant annet ved:
 Kiropraktorer er autorisert helsepersonell og vurderer også om symptomene dine bør undersøkes videre. Ved behov kan vi henvise til bildediagnostikk eller anbefale kontakt med lege eller annet helsepersonell.
 
 ## Slik foregår en undersøkelse hos oss
-
 Ved første konsultasjon bruker vi tid på å kartlegge hodepinen din.
 
 Vi spør blant annet om når den startet, hvor den sitter, hvor ofte den kommer, hvor lenge den varer, hvilke andre symptomer du opplever og hva som gjør den bedre eller verre.
@@ -135,7 +125,6 @@ Deretter gjør vi en klinisk undersøkelse tilpasset symptomene dine. Det kan in
 På bakgrunn av dette vurderer vi hva som mest sannsynlig bidrar til plagene dine – og om behandling hos oss er riktig for deg.
 
 ## Usikker på hvilken type hodepine du har?
-
 Du trenger ikke vite hva hodepinen skyldes før du bestiller time. Det er nettopp noe av det vi forsøker å finne ut av under undersøkelsen.
 
 Våre kiropraktorer ved Fetsund Kiropraktorsenter har lang erfaring med undersøkelse og behandling av hodepine, nakke- og kjeveplager.

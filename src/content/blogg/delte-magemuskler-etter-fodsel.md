@@ -10,7 +10,6 @@ forfatter: sara
 Delte magemuskler, også kjent som diastasis recti, er en vanlig tilstand som mange kvinner opplever etter svangerskap. Denne tilstanden oppstår når de parallelle magemusklene (rectus abdominis) separeres langs midtlinjen av magen som et resultat av den økende belastningen fra fosteret under graviditeten. Selv om dette er en naturlig tilpasning til svangerskapet ditt, kan det for noen kvinner medføre vedvarende problemer for kjernemuskulaturen hvis musklene ikke trekker seg sammen igjen i løpet av barselperioden. Risikoen er høyere for flergangsfødende.
 
 ## Kjernemuskulaturen:
-
 Kjernemuskulaturen er en gruppe muskler som er veldig viktig for å støtte og stabilisere kroppen din, spesielt rundt korsryggen og bekkenet. Disse musklene inkluderer:
 
 1.  **Dype magemuskler (transversus abdominis):** Disse ligger innerst i magen og fungerer som et korsett som støtter magen og ryggen. Ryggmuskler (multifidus): Små muskler langs ryggraden som hjelper med å holde ryggen stabil.
@@ -21,7 +20,6 @@ Kjernemuskulaturen er en gruppe muskler som er veldig viktig for å støtte og s
 Det er viktig å trene kjernemuskulaturen fordi den hjelper deg med å opprettholde en god kroppsholdning, forebygger ryggsmerter, og gir deg en sterk base for bevegelse. Etter en fødsel kan det være ekstra viktig å styrke disse musklene, da de kan bli svekket og føre til problemer som [ryggsmerter](https://fetsundkiropraktorsara.no/ryggsmerter-i-svangerskapet-arsaker-og-losninger/) eller utfordringer med kontrollen over urin og avføring.
 
 ## Hvorfor det er viktig å sjekke for delte magemuskler etter svangerskap
-
 Det er flere grunner til at det er viktig å identifisere og håndtere delte magemuskler:
 
 -   **Forebygging:** Diastasis recti kan svekke kjernemuskulaturen, noe som kan føre til ryggsmerter, dårlig kroppsholdning og økt risiko for bekkenbunnsproblemer som urinlekkasje. Ifølge studier, er svekkelsen av kjernemuskulaturen knyttet til ubalanse i bekkenet og endret bevegelsesmønster, noe som kan påvirke både fysisk funksjon og livskvalitet[【1】](<http://NCBI - Diastasis Recti Study>).
@@ -29,13 +27,11 @@ Det er flere grunner til at det er viktig å identifisere og håndtere delte mag
 -   **Bedre rehabilitering:** Tidlig identifisering av diastasis recti gjør det mulig å starte med skreddersydde øvelser som styrker magemusklene og beskytter korsryggen. Dette kan også bidra til å forebygge langsiktige komplikasjoner, som kroniske ryggsmerter og bekkenbunnsproblemer[【2】](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11023973).
 
 ### Når og hvordan sjekke for delte magemuskler etter fødsel
-
 ![Delte magemuskler etter fødsel](/bilder/wp/gravid-1920x1280-640x427-1.webp)
 
 Det anbefales å sjekke for diastasis recti omtrent 6–8 uker etter fødselen. Dette gir kroppen tid til å begynne å tilpasse seg en ikke-gravid tilstand. Ifølge en studie fra National Center for Biotechnology Information (NCBI) trekker magemusklene seg sammen av seg selv hos omtrent 60 % av kvinnene, mens resten kan oppleve vedvarende separasjon som krever målrettet behandling[【3】](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11023973). Dersom bedring ikke ses innen denne perioden, bør man vurdere å konsultere en kiropraktor for øvelser, og veiledning.
 
 ### Komplikasjoner ved ubehandlet diastasis recti
-
 Ubehandlet diastasis recti kan føre til flere komplikasjoner:
 
 -   **Bekkenbunnsdysfunksjon:** Svekkede magemuskler kan øke presset på bekkenbunnen, noe som kan føre til problemer som inkontinens eller prolaps.
@@ -44,7 +40,6 @@ Ubehandlet diastasis recti kan føre til flere komplikasjoner:
 -   **Redusert fysisk funksjon:** Manglende kjernestabilitet kan påvirke daglige aktiviteter som løfting, bæring av barn og trening, noe som kan ha en negativ innvirkning på livskvaliteten.
 
 ### Behandling for delte magemuskler
-
 ![](/bilder/wp/sky-freedom-happiness-2667455-768x496-1-480x310-1-1.webp)
 
 1.  **Gradvis fysisk aktivitet:** Etter ca. 6 uker kan det være aktuelt å begynne med lette øvelser for å styrke de dype magemusklene. Det er viktig å unngå øvelser som øker buktrykket, som sit-ups og planke, da disse kan forverre tilstanden. Fokuser heller på øvelser som aktiverer transversus abdominis, kroppens naturlige korsett.

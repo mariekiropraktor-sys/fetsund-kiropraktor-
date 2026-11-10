@@ -17,7 +17,6 @@ Muskelsmerter og senebetennelser er vanlige plager som kan påvirke både idrett
 Her er en oversikt over årsakene, symptomene og behandlingsalternativene for muskelsmerter og senebetennelser:
 
 ## Årsaker til muskelsmerter og senebetennelser:
-
 1\. **Overbelastning**: Gjentatt belastning av muskler og sener uten tilstrekkelig hvile kan føre til overbelastningsskader og smerter.
 
 2\. **Feil treningsteknikk**: Utilstrekkelig oppvarming, feilaktig teknikk eller for intens trening kan bidra til muskelsmerter og senebetennelser.
@@ -27,7 +26,6 @@ Her er en oversikt over årsakene, symptomene og behandlingsalternativene for mu
 4\. **Aldring og slitasje**: Med alderen kan muskler og sener bli svakere og mindre fleksible, noe som øker risikoen for skader og smerter.
 
 ## Symptomer på muskelsmerter og senebetennelser:
-
 ![](/bilder/wp/infra-spinatus-triggerpunkt-480x468-1.webp)
 
 \- Smerte og ømhet i det berørte området.
@@ -41,7 +39,6 @@ Her er en oversikt over årsakene, symptomene og behandlingsalternativene for mu
 \- Muligens rødhet eller varme i det berørte området.
 
 ## Behandlingsalternativer:
-
 1\. **RICE-metoden**: Hvile, is, kompresjon og elevasjon kan bidra til å redusere smerte og betennelse i det berørte området.
 
 2\. **Antiinflammatoriske medisiner**: Ikke-steroide antiinflammatoriske legemidler (NSAIDs) kan bidra til å redusere smerte og betennelse.
@@ -55,7 +52,6 @@ Her er en oversikt over årsakene, symptomene og behandlingsalternativene for mu
 6\. **Ergonomiske endringer**: Justering av arbeidsstasjonen eller daglige aktiviteter kan bidra til å redusere belastningen på muskler og sener.
 
 ## Forebygging:
-
 \- Oppvarmingsrutiner før trening eller fysisk aktivitet kan bidra til å forhindre skader og muskelsmerter.
 
 \- Gradvis økning av treningsintensitet og varighet for å unngå overbelastning.
