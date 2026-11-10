@@ -10,6 +10,7 @@ oppdatert: 2024-11-21
 ---
 
 ## Hva er egentlig et triggerpunkt?
+
 Her strides (som alltid) de lærde, men vi skal prøve å gi deg en så god forklaring som mulig, basert på det vi tror vi vet. Triggerpunkt kommer av det engelske ordet "trigger" eller "avtrekker".
 
 Triggerpunkter er altså muskler som kan identifiseres som ekstra stramme og ikke minst, meget ømme ved berøring. *I tillegg til dette* vil disse musklene produsere såkalte "radikulære smerter" eller "strålende smerter",  til andre steder i kroppen i tillegg til der man faktisk utøver trykket. Man kan også forvente seg en lokal "sammentrekning" eller twitch response" ved trykk på den vonde muskelen.
@@ -23,6 +24,7 @@ Både kiropraktor [Marie Hermansen](https://fetsundkiropraktormarie.no/om-marie-
 **Illustrasjonen viser hvordan triggerpunkt avmerket med "x" kan oppleves som smerter bak øyne, på siden av kjeven og opp bak hodet. Dette opplever mange som spenningshodepine.**
 
 ## Hvordan utføres triggerpunktsmassasje?
+
 Ved å holde et jevnt trykk på muskelen, vil muskelen etter hvert “gi slipp” eller “mykne”. Muskelen får da økt blodtilstrømning og “selvtilhelingen” settes i gang.  
 Ved bruk av nåler, vil man kjenne et lite “rykk” i muskelen, som da ofte vil oppleves som lindrende i etterkant. Som følge av dette, vil ofte strålende/radikulære smertene som kommer som følge av muskelspenningen, avta og pasienten kjenner seg bedre av muskelsmertene.
 
@@ -30,6 +32,7 @@ Selve behandlingen vil kunne oppleves som både godt og vondt på en gang, men d
 Noen kan kjenne seg litt “ømme” og “støle” i musklene etter behandling, men disse bivirkningene avtar som regel etter 1-2 dager eller samme kveld.
 
 ## Hva kan triggerpunktsmassasje hjelpe for?
+
 [Triggerpunktsmassasje](https://www.helsesmart.no/triggerpunktmassasje/) burde utføres i sammenheng med andre tiltak som trening, egenhjelp, ergonomi og ofte andre behandlingsformer. Som nevnt tidligere er det er godt verktøy for å sette riktig diagnose på et problem.
 
 Eksempelvis den første illustrasjonen, ser vi at en ***klassisk spenningshodepine*** kan være som følge av ett eller flere triggerpunkt. Dette kan behandles med både triggerpunktsmassasje, [nålebehandling](/behandlingsmetode/nalebehandling/) og [manipulasjonsbehandling.](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/)   
@@ -55,6 +58,7 @@ Kjært barn har mange navn! Triggerpunkt i denne muskelen kan gi smerter i korsr
 Dette bare for å nevne noe.
 
 ## Hva hvis triggerpunktsmassasjen ikke gir ønsket effekt?
+
 Om triggerpunktsmassasjen ikke hjelper eller kiropraktoren ikke klarer å reprodusere smertene pasienten kommer for å få hjelp til, vil ofte kiropraktoren lete videre eller henvise til ytterligere undersøkelser.
 
 En kiropraktor har full henvisningsrett til både MR/CT/ røntgen, samt spesialistundersøkelser og sykemelding.

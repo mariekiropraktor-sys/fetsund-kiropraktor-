@@ -32,6 +32,7 @@ Graston-instrumentene har flere fordeler:
 -   **Behandling**: Ved å bruke instrumentene til å massere eller skrape over disse områdene, brytes adhesjonene ned og arrvevet mykes opp, øker blodsirkulasjonen i vevet, og strekker bindevevet, noe som igjen kan forbedre bevegelse og redusere smerte.
 
 ### Fordeler ved Graston-teknikken
+
 1.  **Forbedrer mobilitet**: Teknikken hjelper til med å frigjøre stramt bindevev og muskler, noe som gir bedre bevegelsesfrihet.
 2.  **Reduserer smerte**: Mange pasienter opplever en merkbar reduksjon i smerter etter behandling, da teknikken reduserer spenning og inflammasjon i det berørte området.
 3.  **Hurtigere restitusjon**: Ved å øke blodsirkulasjonen til området som behandles, fremmes kroppens naturlige helingsprosess, noe som kan føre til raskere restitusjon etter skader.
@@ -65,6 +66,7 @@ Selv om spesifikke studier på bindevevsmassasje og Graston-teknikken for EDS-pa
 For å kunne trekke mer sikre konklusjoner kreves det flere studier direkte rettet mot EDS og manuelle behandlingsmetoder som Graston-teknikken.
 
 ### Ehlers-Danlos syndrom og bindevevsmassasje
+
 Selv om det er lite spesifikk forskning på Graston-teknikken for EDS, kan teknikken potensielt være nyttig for å redusere stramme områder i bindevevet og lindre muskel- og leddsmerter. For personer med EDS må terapeuten være spesielt forsiktig for å unngå å overbelaste det allerede sårbare bindevevet. En skånsom tilnærming er avgjørende for å sikre at behandlingen gir smertelindring uten å forårsake ytterligere skade.
 
 Graston-teknikken kan dermed være et godt supplement til andre manuelle behandlingsformer, som fysioterapi og kiropraktikk, for pasienter som sliter med kroniske smerter eller muskelplager.

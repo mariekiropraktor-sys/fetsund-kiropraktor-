@@ -12,6 +12,7 @@ oppdatert: 2024-11-17
 ---
 
 ## Har du vondt i kjeven?
+
 Kjevesmerter er en veldig plagsom tilstand som ofte er relativt greit å gjøre noe med, om det ikke går over av seg selv.
 
 Det er ganske vanlig å ha vondt i kjeven, men det er bare omkring 5 % av befolkningen som oppsøker hjelp for dette.
@@ -21,6 +22,7 @@ Det er ganske vanlig å ha vondt i kjeven, men det er bare omkring 5 % av befolk
 Flesteparten av hennes kjevepasienter responderer meget bra på hennes behandling, råd og hjemmeøvelser.
 
 ## Årsaker til kjevesmerter
+
 Som alt mulig annet, kan kjevesmerter ha ulike årsaker. I denne artikkelen skal vi i all hovedsak ta for oss muskulære årsaker, samt leddproblematikk knyttet til disse plagene.
 
 På grunn av de kompliserte oppgavene en kjeve skal utføre, er oppbygningen ganske avansert. Det er det eneste leddet i kroppen som kan bevege seg tredimensjonalt og all bevegelse på den ene siden, vil påvirke den andre.
@@ -41,6 +43,7 @@ Derfor vil mange strukturer som leddbånd, bindevev, lokale muskler, nerver, pus
 -   Trigeminusnevralgi
 
 ## Symptomer
+
 Her vil vi først og fremst konsentrere oss om symptomene ved kjeveleddsdysfunksjon, som kan høyst sannsynlig komme fra muskel- og skjelettsystemet.
 
 Dette inkluderer:
@@ -65,6 +68,7 @@ Våre kiropraktorer streber alltid etter å samarbeide med annet helsepersonell 
 Det er mange muskler som kan gi opphav til kjeveleddsmerter, her bla masseter (2a&b), temporalis (1) og laterale/mediale pterygoideus (4&3)
 
 ## Behandlingstilnærminger for kjeveplager
+
 Vår behandling av kjeveplager er alltid tilpasset etter det som avdekkes under fysisk undersøkelse og sykehistorie.
 
 Våre teknikker inkluderer bla [triggerpunktsmassasje](/behandlingsmetode/triggerpunktsmassasje/), [bindevevsmassasje](/behandlingsmetode/bindevevsmassasje/) og [kiropraktisk manipulasjonsbehandling](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/).
@@ -74,6 +78,7 @@ Spesifikke hjemme øvelser for kjeve, avspenningsteknikker eller reponeringsøve
 Igjen, alt er avhengig av årsak.
 
 ## Kontakt oss!
+
 Våre kiropraktorer jobber daglig med kjeveleddsplager og har en særdeles interesse i både utredning og behandling av slike diagnoser.
 
 Kontakt oss gjerne på telefon 46332766 – eller benytt deg av vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b).

@@ -8,6 +8,7 @@ forfatter: marie
 ---
 
 ## Har du noen gang lurt på litt rundt det praktiske når det gjelder et kiropraktorbesøk?
+
 *Skrevet av [kiropraktor Marie Hermansen](https://kiropraktormariehermansen.totalweb.dev/), eier, gründer og kiropraktor ved Fetsund Kiropraktorsenter.*
 
 Hva slags teknikker bruker man og hva bør man gjøre eller unngå før behandling? Hva med det du lurer på etter besøket? Fikk du med deg alt kiropraktoren sa? Her får du svar på det kiropraktoren ønsker at du skal vite før, under og etter et kiropraktorbesøk.
@@ -17,11 +18,13 @@ Om du vil lese mer om forklarende om hvorfor kjevesmerter oppstår, hva det kan 
 <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/KhJpMbWEBks" title="Video fra YouTube" loading="lazy" allowfullscreen=""></iframe></div>
 
 ## Hva skjer underveis i behandlingen?
+
 Her tar vi opp ting som kan være nyttig å sette seg inn i før du oppsøker kiropraktoren din for behandling av kjevesmerter.
 
 <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/2BQt5vT5xlI" title="Video fra YouTube" loading="lazy" allowfullscreen=""></iframe></div>
 
 ## Hva skjer så etter endt behandling?
+
 Etter behandlingen kan ting være litt sårt og ømt. Så hva kan du forvente deg i etterkant? Hvor ofte bør du gå på behandling og hva kan du selv gjøre for å bedre kjevesmertene dine i etterkant?
 
 <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/ze2c4VPUoxs" title="Video fra YouTube" loading="lazy" allowfullscreen=""></iframe></div>

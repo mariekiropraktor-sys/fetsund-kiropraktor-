@@ -8,6 +8,7 @@ forfatter: marie
 ---
 
 ## Korsryggsmerter - årsaker og kiropraktorbehandling.
+
 Vår egen [Kiropraktor Marie Hermansen](http://www.kiropraktormarie.no) har skrevet et lite blogginnlegg som har til hensikt å forklare litt "matnyttig" rundt ryggsmerter.
 
 Korsryggsmerter er noe kiropraktoren jobber mye med. Men er det bare muskulært? Sitter det bare i leddene? Eller er det bare noe du innbiller deg? Er det mange årsaker som kan gi smerter i korsryggen? Etter å ha lest dette blogginnlegget, blir du forhåpentligvis litt klokere på disse spørsmålene.
@@ -17,6 +18,7 @@ Det skal sant sier at det kan være mange årsaker til at man får vondt i rygge
 <figure><img src="/bilder/wp/erectorspinae.png" alt="" width="548" height="831"><figcaption>De største muskelgruppene i korsryggen. Disse blir ofte overaktive under en såkalt "kjink i ryggen" Lånt fra muskelbloggen.no</figcaption></figure>
 
 ## Årsaker til korsryggsmerter; som kiropraktoren kan hjelpe deg med!
+
 1.  ### **Muskelbelastning og -spenning:**
 
     Dette er en av de vanligste årsakene til korsryggsmerter, spesielt etter tung løfting eller plutselige bevegelser. Da er det ofte en liten muskelgruppe som heter m.Multifidus som blir overbelastet. Denne muskelen står for rotasjonsbevegelser i ryggen. I og med at dette er en bevegelse vi gjør relativt lite av i hverdagen, vil den ofte spent som følge av overbelastning. En annen muskel som heter m.Lumbale Erektor Spinae (ryggstrekkerene) vil overkompensere og forsøke å overta noe av jobben til m. Multifidus. Dette er ofte en av musklene vi masserer før vi utfører [manipulasjonsbehandling](https://fetsundkiropraktormarie.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) av ryggen.
@@ -52,6 +54,7 @@ Det skal sant sier at det kan være mange årsaker til at man får vondt i rygge
      "Låsning i ryggen", "kjink i ryggen", "strekk i ryggen", kjært barn har mange navn. Dette er for oss en fellesbetegnelse på at hjernen har oppfattet en skade som egentlig ikke har skjedd. Dvs, du tar på deg sokken og DER smeller det i ryggen. Her er det ofte vanskelig å plukke ut en bestemt syndebukk av noen av de overnevnte årsakene, men ofte har kanskje pasienten følt seg litt stiv i utgangspunktet og bare avfeid det som normalt. Denne bevegelsen blir da siste dråpen i begeret og ikke nødvendigvis årsaken i seg selv. Kiropraktoren din hjelper deg med å finne best type behandling, øvelser og eventuelle videre tiltak. 
 
 ## Behandling for korsryggsmerter
+
 Det finnes mange forskjellige grunner til at man får vondt i ryggen. Her på Fetsund Kiropraktorsenter bruker vi masse forskjellige typer teknikker og spesial tilpasser behandlingen til hver enkelt av dere som besøker oss! Noen likhetstrekk er det i behandlingen, selv om årsakene kan være veldig forskjellige. Her har vi listet opp de vanligste behandlingsmetodene våre for korsryggsmerter.
 
 -   ### Øvelser for ryggsmerter!
@@ -69,6 +72,7 @@ Behandling funker veldig bra, i kombinasjon med egen tiltak som nevnt over.  Vå
 Marie & Sara tar seg alltid god tid for sikre seg at pasientene deres er komfortable med behandlingen som skal gjøres. Alt må ikke manipuleres/knekkes og alle må ikke gjøre masse kjedelige øvelser. Sammen finner vi ut av en gyllen middelvei! Nettopp på grunn av dette, er pasienter i alle aldre velkomne til Fetsund Kiropraktorsenter.
 
 ## Kontakt oss!
+
 Våre kiropraktorer jobber daglig med korsryggsmerter og har en særdeles interesse i både utredning og behandling av vonde rygger.
 
 Kontakt oss gjerne på telefon 46332766 – eller benytt deg av vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b).

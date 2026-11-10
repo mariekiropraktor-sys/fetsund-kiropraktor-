@@ -22,6 +22,7 @@ Smerter i sete - Det kan det være mange årsaker til - Skrevet av Kiropraktor S
 Det finnes hjelp å få! Riktig diagnose for riktig behandling er viktig og her kan jeg som kiropraktor hjelpe deg.
 
 ### Årsaker til smerter i sete: [Halebeinssmerter](/behandlingsomrade/halebenssmerter/)
+
 Halebeinet utgjør den nedre delen av ryggsøylen. Den består av et nebbformet bein som i tillegg er koblet til korsbenet gjennom 3–5 halebeins virvler.
 
 ![](/bilder/wp/halebein-anatomi-1920x1280-480x320-1.webp)
@@ -37,6 +38,7 @@ Dersom du har falt på rumpa, hatt en traumatisk fødsel, er gravid, har hypermo
 [Kiropraktor Sara Nordanger](https://fetsundkiropraktorsara.no/) ved [Fetsund kiropraktorsenter](/) har spesialkompetanse på utredning og behandling av halebenssmerter og bekkenbunnsproblematikk. Ta kontakt!
 
 ### Piriformis syndrom
+
 Piriformis-muskelen er lokalisert i setet og har en viktig rolle ved å muliggjøre rotasjon av hoften utover og bidrar også til å bøye hofteleddet. Når denne muskelen blir irritert, overbelastet eller betent, kan dette resultere i at du opplever irritasjon av isjiasnerven, som faktisk passerer gjennom denne muskelen. [(2)](https://www.ncbi.nlm.nih.gov/books/NBK448172/)
 
 Smertene kan likne på isjias-smerter, selv om smertene ikke stammer fra ryggen. De kommer altså fra irritasjon av nerven forårsaket av muskelen i setet. Du kan kjenne smerter enten bare i setet eller at det strekker seg ned i beinet ditt. Problemet kan oppstå som et resultat av dårlig kroppsholdning eller etter en langvarig eller akutt skade, noe som resulterer i plutselig og kraftig innoverrotasjon av hoften. 
@@ -44,6 +46,7 @@ Smertene kan likne på isjias-smerter, selv om smertene ikke stammer fra ryggen.
 Typiske symptomer inkluderer smerter i setet og hofteområdet, som noen ganger kan strekke seg opp til korsryggen. Disse smertene forverres ofte når du står opp fra senga eller etter å ha sittet lenge i samme stilling. Smertene i setet kan spesielt forverres når du beveger hoften i spesifikke retninger. Piriformis-syndrom kan ha svært liknende symptomer som spinal stenose, derfor er det avgjørende å gjennomgå en grundig undersøkelse og sykehistorie hos en behandler med kompetanse innen disse områdene før en diagnose kan stilles.
 
 ### smerter i sete som stråler fra en Skiveutglidning
+
 I korsryggen består ryggsøylen din av fem ryggvirvler. Mellom virvlene finner man skivene, som består av et hardt ytre lag og et geléaktig indre lag som fungerer som en pute. Disse skivene er avgjørende for bevegelse i ryggsøylen. Uten så ville ryggraden vært stiv og lite Fleksibel.
 
 ![](/bilder/wp/20231121_122804-256x300-1-1.webp)
@@ -57,6 +60,7 @@ Typiske symptomer inkluderer økte smerter ved hosting, nysing eller sittende (s
 Skiveutglidninger kan ramme alle, uavhengig av alder, treningsnivå, repeterende bevegelser, tunge løft, etter et fall eller som følge av langvarig stillesitting. Ved mistanke om skiveutglidning er det viktig med en grundig nevrologisk undersøkelse for å identifisere hvilken nerve som er berørt og om det dreier seg om en full prolaps eller starten på en skiveutglidning som kan utvikle seg til en prolaps. Mange tilfeller av skiveutglidninger utvikler seg aldri til en prolaps, og med riktig behandling og øvelser kan man oppnå smertefrihet.
 
 ### Trochanterbursitt
+
 Bursitt er en tilstand som involverer betennelse i en slimpose. Slimposer finnes flere steder i kroppen og fungerer som væskefylte puter mellom sener og ben for å lette bevegelse og glidning over disse områdene. Når en slimpose i seteregionen er betent, kalles det trokanterbursitt. Denne slimposen er plassert på siden av setet eller låret og kan være svært smertefull når den er betent. 
 
 Trokanterbursitt skyldes ofte gjentatte mikrotraumer over tid, for eksempel ved løping, rask gange eller trening. Andre årsaker kan inkludere senebetennelser i omkringliggende muskler i setet, fall på siden eller i noen tilfeller oppstå idiopatisk (uten en klar utløsende årsak). 
@@ -64,6 +68,7 @@ Trokanterbursitt skyldes ofte gjentatte mikrotraumer over tid, for eksempel ved 
 Smertene du opplever er vanligvis lokalisert rett over den betente slimposen (det er viktig å utelukke brudd hos eldre pasienter eller etter traumer). Disse smertene forverres ofte under langvarig aktivitet og trening, eller i stillinger som stabiliserer bekkenet. For eksempel å stå på ett ben, eller å føre låret inn mot kroppen (adduksjon). Smertene kan imidlertid lindres ved å føre låret bort fra kroppen (abduksjon), da dette reduserer presset og spenningen over slimposen. [(4)](https://www.ncbi.nlm.nih.gov/books/NBK538503/)  
 
 ### Hamstrings senebetennelse
+
 Hamstrings senebetennelse er en tilstand som ofte forårsaker smerter i og under rumpeområdet. Smertene kan noen ganger stråle nedover langs baksiden av låret.  
 
 Tilstanden kan oppstå plutselig eller være kronisk og tilbakevendende. Slike plager sees ofte hos langdistanseløpere, utøvere innen friidrett, fotball, rugby og andre aktive personer. Imidlertid kan tilstanden også påvirke personer som ikke er like aktive. 
@@ -71,6 +76,7 @@ Tilstanden kan oppstå plutselig eller være kronisk og tilbakevendende. Slike p
 Smerter forbundet med denne type senebetennelse forverres ofte under aktiviteter som å sitte, løpe, gå raskt eller utføre utfall, da disse bevegelsene belaster senene. Hovedfunksjonen til hamstringsmuskelen er å bøye kneet og trekke hoften og hele benet bakover. Derfor kan smertene være framtredende under aktivitet som involverer disse bevegelsene [(5)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8016446/). 
 
 ### smerter i sete fra Triggerpunkter og muskelknuter
+
 Selv om mange har hørt om triggerpunkter, er det ikke alltid man tenker over at dette kan være årsaken til sete/rumpe-smerter. Triggerpunkter kan noen ganger være konstante og gir/fører til refererte smerter og strålinger til andre områder av kroppen. For eksempel kan et triggerpunkt i skuldra resultere i smerte som stråler ned til fingrene, eller et triggerpunkt i nakken kan føre til hodepine. Les mer om [8 muskelknuter som fører til halebeinssmerter her.](https://fetsundkiropraktorsara.no/muskelknuter-og-halebeinssmerter8-muskelknuter-som-forer-til-halebeinssmerter/)
 
 ![](/bilder/wp/triggerpunkt-1.webp)
@@ -80,6 +86,7 @@ Triggerpunkter er knuter i muskelfibrene som kan oppstå etter akutte traumer el
 Triggerpunkter kan resultere i stivhet, redusert bevegelse og kan noen ganger være assosiert med langvarige muskelskjelettplager [(6)](https://pubmed.ncbi.nlm.nih.gov/11871683/). 
 
 ### Hofte artrose
+
 Har du hofte artrose er du som regel over 60 år. Noen unge kan også få artrose, men da sekundært til en skade eller fødselsfeil. Hofteleddet er et av kroppens største vektbærende ledd og er blant de første stedene artrose kan oppstå. Du kan tenke på artrose som «rynker på skjelettet». Noen kan ha artrose med betydelige smerter, mens andre kan ha moderat artrose uten å kjenne så mye til det.
 
 De fleste utvikler artrose i eldre alder, og smertene ved hofteartrose er vanligvis mest intense i setet og lysken. Noen ganger stråler de ut til det fremre låret og kneet. I de tidlige stadiene av hofteartrose kan smertene og stivheten være mest plagsom om morgenen eller etter langvarig sitting eller hvile. Stivheten varer som regel bare noen få minutter og avtar etter rundt 30 minutter. 

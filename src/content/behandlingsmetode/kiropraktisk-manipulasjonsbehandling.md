@@ -16,6 +16,7 @@ Hos Fetsund Kiropraktorsenter er vi opptatt av å se hele mennesket – ikke bar
 Målet vårt er ikke at det skal «knekkes». Målet er at du skal få mindre smerter, bedre funksjon og komme raskere tilbake til en normal hverdag.
 
 ## "Låsningen" – hva er det egentlig?
+
 Mange pasienter forteller at de har fått en «låsning» i ryggen eller nakken. Kanskje våknet de med kink i nakken, fikk akutte korsryggsmerter etter å ha løftet noe, eller opplever at ryggen plutselig har blitt stiv og vanskelig å bevege.
 
 I dag bruker vi ofte begrepet nedsatt leddfunksjon eller redusert bevegelighet i stedet for «låsning». Det beskriver tilstanden bedre og sier noe om at leddet ikke beveger seg like godt som det normalt skal.
@@ -35,6 +36,7 @@ Selv om smertene kan være kraftige, skyldes denne typen plager heldigvis svært
 Derfor er en grundig undersøkelse alltid første steg hos oss. Vi ønsker å finne årsaken til plagene dine før vi bestemmer hvilken behandling som passer best.
 
 ## Hvordan virker manipulasjonsbehandlingen?
+
 Manipulasjonsbehandling er en rask, presis og kontrollert bevegelse som utføres mot et ledd med redusert bevegelighet.
 
 Hensikten er å bedre leddfunksjonen, redusere smerter og gjøre det lettere å bevege seg normalt igjen.
@@ -44,6 +46,7 @@ Vi manipulerer ikke fordi det skal lage lyd. Vi manipulerer fordi forskning vise
 Mange opplever at området føles friere rett etter behandlingen. Andre merker gradvis bedring de neste dagene. Hvor raskt man blir bedre varierer fra person til person og avhenger blant annet av hvor lenge plagene har vart og hva som er årsaken.
 
 ## Hvorfor sier det "popp"?
+
 Vi bruker faktisk helst ordet «popping» fremfor «knekking».
 
 Grunnen er enkel. Det er nemlig ingenting som knekker.
@@ -55,6 +58,7 @@ Lyden kan være høy, men den er helt ufarlig.
 Noen ganger kommer lyden, andre ganger ikke. Det har liten betydning for resultatet av behandlingen.
 
 ## Gjør behandlingen vondt?
+
 De fleste opplever manipulasjonsbehandling som rask og lite ubehagelig.
 
 Hvis området allerede er svært smertefullt eller irritert, kan man kjenne et kort ubehag idet behandlingen utføres. Selve manipulasjonen varer imidlertid bare et brøkdels sekund.
@@ -62,6 +66,7 @@ Hvis området allerede er svært smertefullt eller irritert, kan man kjenne et k
 Noen opplever også lett ømhet eller stølhet de første timene eller dagen etter behandlingen. Dette går som regel raskt over.
 
 ## Er manipulasjonsbehandling trygt?
+
 Ja. Når behandlingen utføres av en autorisert kiropraktor etter en grundig undersøkelse, regnes manipulasjonsbehandling som en trygg behandlingsform for de fleste muskel- og skjelettplager der den er anbefalt.
 
 Like viktig som å vite når man skal manipulere, er å vite når man ikke skal gjøre det.
@@ -71,6 +76,7 @@ Derfor undersøker vi alltid pasientene grundig før vi starter behandling. Ders
 ![](/bilder/wp/sara_bannerbilde-640x420-1-1.webp)![](/bilder/wp/394010414_1678027619275305_7528138204979922281_n-1-300x300-1.webp)
 
 ## Bruker vi manipulasjonsbehandling i kombinasjon med andre behandlingsformer?
+
 Ja – faktisk gjør vi det svært ofte.
 
 Selv om manipulasjonsbehandling er et viktig verktøy, er det sjelden hele løsningen alene.
@@ -82,6 +88,7 @@ For mange pasienter er det også viktig å jobbe med styrke, bevegelighet og gra
 Derfor får mange råd og øvelser som passer akkurat deres plager.
 
 ## Er det forskjell på å "knekke ryggen selv" og behandling hos kiropraktor?
+
 Ja.
 
 Når du knekker ryggen eller nakken selv, skjer bevegelsen som regel i de leddene som allerede beveger seg godt.
@@ -89,22 +96,29 @@ Når du knekker ryggen eller nakken selv, skjer bevegelsen som regel i de ledden
 En kiropraktor undersøker først hvilke ledd som faktisk har redusert bevegelighet og retter behandlingen mot disse. Målet er derfor ikke å få frem en lyd, men å bedre funksjonen i riktig ledd.
 
 ## Vanlige spørsmål
+
 ### Må det si "popp" for at behandlingen skal virke?
+
 Nei. Lyden har liten betydning for effekten av behandlingen. Mange opplever god bedring selv om det ikke kommer noen lyd.
 
 ### Hvor mange behandlinger trenger jeg?
+
 Det varierer fra person til person. Noen opplever stor bedring etter én behandling, mens andre trenger et kort behandlingsforløp kombinert med øvelser og aktivitet.
 
 ### Kan alle få manipulasjonsbehandling?
+
 Nei. Derfor gjør vi alltid en grundig undersøkelse først. Hos enkelte er andre behandlingsformer mer hensiktsmessige enn manipulasjon.
 
 ### Kan jeg trene etter behandlingen?
+
 I de fleste tilfeller, ja. Mange kan gjenoppta normal aktivitet samme dag. Dersom vi anbefaler noe annet, får du beskjed om dette under konsultasjonen.
 
 ### Er manipulasjonsbehandling det samme som å «sette noe på plass»?
+
 Nei. Dette er en vanlig misforståelse. Behandlingen handler om å bedre leddfunksjon og bevegelighet – ikke om å «sette knokler på plass».
 
 ## Har du spørsmål?
+
 Har du akutte rygg- eller nakkesmerter, en kink i nakken eller opplever at kroppen ikke fungerer som den pleier?
 
 Hos Fetsund Kiropraktorsenter gjør vi alltid en grundig undersøkelse først. Deretter forklarer vi hva vi tror er årsaken til plagene dine, og om manipulasjonsbehandling er riktig behandling for deg.

@@ -11,6 +11,7 @@ oppdatert: 2025-07-07
 ---
 
 ## Har du vondt i ryggen?
+
 **Du er neppe alene. Her på Fetsund kiropraktorsenter ser vi mange med vondt i ryggen i løpet av dagen.** 
 
 I følge [FHI](https://nhi.no/sykdommer/muskelskjelett/rygg-nakke-bryst/korsryggsmerter-vedvarende/) vil 60-70% av befolkningen vil oppleve ryggvondt en eller flere ganger i løpet av livet. I følge [Norsk kiropraktorforening](https://www.kiropraktikk.no/Problemomraader/Ryggsmerter) Har halvparten av disse hatt vondt siste år og cirka 40% siste måned.
@@ -28,6 +29,7 @@ Korsryggsmerter er ofte meget ubehagelige og begrensende på mange måter, men d
 **Her på Fetsund Kiropraktorsenter får du en grundig undersøkelse av dine korsryggsmerter, samt henvisning til MR/røntgen eller sykemelding om det skulle være nødvendig. Vi samarbeider godt med lokalt helsepersonell.**
 
 ## Hvorfor får man vondt i ryggen?
+
 Som tidligere nevnt kan ingen være helt sikre på hvorfor man får så plutselig vondt i ryggen. Men vi skal likevel gi dere en liten pekepinn på hva vi tror det kan være, i følge [Norsk kiropraktorforening](https://www.kiropraktikk.no/Problemomraader/Ryggsmerter):
 
 -   **Forstrekning av ryggmusklene**, for eksempel etter tunge løft, vridninger eller brå bevegelser.
@@ -43,6 +45,7 @@ Som tidligere nevnt kan ingen være helt sikre på hvorfor man får så plutseli
 **Kiropraktorene på Fetsund kiropraktorsenter er kunnskapsrike og har lang erfaring med behandling og utredning av korsryggsmerter.**
 
 ## Hva er forskjellen på akutte og kroniske korsryggsmerter?
+
 Dette er et definisjonsspørsmål og har mye å si for hvor god prognose man har for å bli bedre av korsryggsmerter:
 
 -   Akutte korsryggsmerter har varighet under 4 uker – god prognose
@@ -52,6 +55,7 @@ Dette er et definisjonsspørsmål og har mye å si for hvor god prognose man har
 I noen tilfeller, spesielt ved langvarige plager, kan følelsesmessige og sosiale utfordringer virke inn på smertene. Generell nedstemthet, depresjon, en følelse av utilstrekkelighet og manglende støtte hos partner og i arbeid er eksempler på psykososiale forhold som har vist seg å kunne forsterke eller forlenge smerteprosesser. Det er derfor viktig å ta tak i alle aspekter når man først vil “rydde opp i” vondtene sine.
 
 ## Behandlingsmetoder og egenhjelp for korsryggsmerter.
+
 Om du opplever korsryggsmerter eller vondt i ryggen er det veldig gunstig om du klarer å hode deg fysisk aktiv, fremfor å sitte stille eller holde sengen. Fysisk aktivitet har dokumentert effekt for en rekke muskel- og skjelettsmerter, inkludert ryggplager.
 
 I følge [nationale kliniske retningslinjer for korsryggsmerter med eller uten nerverotsaffeksjon](file:///Users/marteher/Downloads/Nasjonale%20kliniske%20retningslinjer%20for%20korsryggsmerter%20med%20og%20uten%20nerverotaffeksjon.pdf) er det meget god dokumentasjon for at manipulasjonsbehandling, utført av kvalifiserte fagpersoner, er gunstig ved akutte oppståtte korsryggsmerter, basert på den forskningen som nå finnes.
@@ -70,6 +74,7 @@ I følge [NICE guidelines](https://www.nice.org.uk/guidance/ng59) er en “pakke
 Dette passer godt inn med hvordan [våre kiropraktorer](/#ansatte) på Fetsund Kiropraktorsenter jobber.
 
 ## Kontakt oss!
+
 Vi på Fetsund Kiropraktorsenter jobber daglig med akutte og kroniske korsryggsmerter og har en særlig interesse for både utredning og behandling av dette.
 
 Kontakt oss gjerne på telefon 46332766, eller benytt vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7).

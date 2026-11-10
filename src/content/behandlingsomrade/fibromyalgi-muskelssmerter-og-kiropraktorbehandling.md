@@ -11,6 +11,7 @@ oppdatert: 2025-01-08
 ---
 
 ### Skrevet av kiropraktor Marie Hermansen
+
 Fibromyalgi er en kronisk smertetilstand som påvirker muskler, sener og bindevev, og den rammer omtrent 2–4 % av befolkningen, med overvekt av kvinner.
 
 Vi på Fetsund Kiropraktorsenter bruker ofte god tid på våre fibromyalgipasienter. I tillegg til dette bruker vi et spekter av ulike [behandlingsmetoder](https://fetsundkiropraktormarie.no/behandlingsmetoder/), slik at du som pasient slipper å oppsøke mange forskjellige type behandlere for ulike type smerter.
@@ -18,6 +19,7 @@ Vi på Fetsund Kiropraktorsenter bruker ofte god tid på våre fibromyalgipasien
 Mange av våre pasienter søker behandling for å lindre symptomer og forbedre livskvaliteten. Her kan kiropraktisk behandling hos oss spille en rolle som en del av en helhetlig tilnærming.
 
 ## Hvordan stilles fibromyalgi-diagnosen?
+
 <figure><img class="wp-image-850" src="/bilder/wp/fibromyalgi-smertepunkter-960x721-1.webp" alt="Fibromyalgi og kiropraktorbehandling" width="695" height="522"><figcaption>For å sette diagnosen "fibromyalgi" benyttes blant annet disse 18 smertepunktene. Kilde: NHI</figcaption></figure>
 
 En større, nyere studie (2021), så nærmere på diagnostisering av fibromyalgi.[¹](https://pubmed.ncbi.nlm.nih.gov/33918736/) De viste til at diagnosen fortsatt stilles av revmatolog, basert på disse punktene:
@@ -31,6 +33,7 @@ En større, nyere studie (2021), så nærmere på diagnostisering av fibromyalgi
 Men artikkelen anerkjenner også hvordan fibromyalgi er et kronisk smertesyndrom som består av mye mer enn *bare* smerter. Blant annet peker de på hvordan dette er en svært kompleks diagnose, som videre beskrevet i denne artikkelen.
 
 ## Hva er fibromyalgi?
+
 Dette er en kompleks tilstand kjennetegnet av:
 
 -   ##### Kroniske, utbredte muskelsmerter.
@@ -50,6 +53,7 @@ Dette er en kompleks tilstand kjennetegnet av:
 Tilstanden kan variere i intensitet og oppleves forskjellig fra person til person. Årsaken er ikke fullt ut forstått, men forskning peker mot en overfølsomhet i nervesystemet som en viktig faktor. Det er absolutt noe som trengs å [forskes mer på](https://tidsskriftet.no/2009/08/kronikk/uklare-tilstander-felles-mekanismer)!
 
 ## Hvordan kan kiropraktorbehandling hjelpe ved fibromyalgi?
+
 Kiropraktisk behandling kan bidra til å:
 
 -   ##### **Lindre muskel- og leddsmerter**
@@ -69,6 +73,7 @@ Her er vi som kiropraktorer spesielt egnet til å hjelpe deg! Med vår gode beha
 Regelmessig og skånsom bevegelse er viktig for å håndtere fibromyalgisymptomer. Våre kiropraktorer kan anbefale tilpassede øvelser som ikke forverrer smerte.
 
 ## Kiropraktorbehandling for fibromyalgipasienter
+
 **Skånsomme teknikker tilpasset hver enkelt**  
 Våre kiropraktorer bruker en rekke ulike verktøy for å få sine pasienter så bra som overhodet mulig. Dette inkluderer bla. nålebehandling, manipulasjonsbehandling, trykkpunktsmassasje, massasjepistol, bindevevsmassasje, mobiliseringsbehandling, traksjonsbehandling. Bare for å nevne noe! Derfor mener vi at våre kiropraktorer er spesielt egnet for å behandle denne pasientgruppen.
 
@@ -79,6 +84,7 @@ Fibromyalgi kan gi forskjellige symptomer fra dag til dag. Behandlingen tilpasse
 Kiropraktoren ser kroppen som en helhet. Ved å ta hensyn til både fysisk og mental helse kan behandlingen støtte kroppen i å håndtere smertene bedre.
 
 ## Hvor mange behandlinger trenger en fibromyalgipasient?
+
 Fibromyalgi er en kronisk tilstand, og det finnes ingen kur. Målet med kiropraktorbehandling er derfor å lindre symptomer og forbedre funksjon. Antall behandlinger avhenger av symptomene og pasientens målsetninger.
 
 For noen er noen få behandlinger nok til å få bedre kontroll over symptomene, mens andre har nytte av jevnlige oppfølginger for å holde plagene i sjakk. Sammen med kiropraktoren kan du utarbeide en plan som passer dine behov.
@@ -86,9 +92,11 @@ For noen er noen få behandlinger nok til å få bedre kontroll over symptomene,
 De fleste med fibromyalgi vet at de ikke nødvendigvis blir helt bra. MEN, man kan bli så bra som overhodet mulig! Derfor anbefaler vi ofte regelmessig oppfølging for disse pasientgruppene.
 
 ## Er kiropraktisk behandling trygt ved fibromyalgi?
+
 Ja, kiropraktisk behandling er trygt når det utføres av autorisert helsepersonell. Kiropraktorer har utdanning som sikrer at de kan tilpasse behandlingen til pasienter med komplekse tilstander som dette. Før behandlingen starter, gjennomføres en grundig samtale og undersøkelse for å sikre at behandlingen er trygg og effektiv.
 
 ## Øvelser og egenomsorg
+
 I tillegg til kiropraktorbehandling kan disse tiltakene være til hjelp:
 
 -   **Lavintensiv trening:** Aktiviteter som yoga, pilates, tai chi og gåturer kan redusere stivhet og smerte.
@@ -98,6 +106,7 @@ I tillegg til kiropraktorbehandling kan disse tiltakene være til hjelp:
 Kiropraktoren kan gi råd og veiledning om disse tiltakene som en del av et helhetlig behandlingsopplegg.
 
 ## Kontakt oss!
+
 Vi på Fetsund Kiropraktorsenter har erfaring med behandling av fibromyalgipasienter og tilpasser behandlingen til dine behov.
 
 📞 **Ring oss på 46332766**, eller benytt vår døgnåpne online booking.  

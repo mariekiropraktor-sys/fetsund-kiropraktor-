@@ -16,6 +16,7 @@ Denne artikkelen vil gi en forklaring på hva mobiliseringsbehandling er og hvor
 **Våre kiropraktorer i Fetsund hjelper deg gjerne med å finne en effektiv og skånsom metode for å få bukt med dine korsryggsmerter.**
 
 ## Forskjellen på manipulasjonsbehandling og mobiliseringsbehandling av ryggen/isjiasplager
+
 Med manipulasjonsbehandlingen har man et bestemt håndgrep, hvor det gies en ***rask og kontrollert*** impuls inn mot leddet i leddets begrensede bevegelsesretning. Ved mobiliseringsbehandling, vil man ha tilsvarende grep, men med en ***sakte*** impuls inn mot leddets begrensede bevegelsesutslag. Med manipulasjonsbehandling vil dette ofte føre til en kortvarig separasjon av leddflater hvor det finnes leddveske. Denne separasjonen gir en trykkendring som medfører en kortvarig faseendring av leddvæsken til gassfase. Da får man en «poppelyd », eller det som heter en kavitasjon. Dette er helt ufarlig og er ingen varig endring. Man kan noen ganger høre "poppet" eller "knekket" med mobiliseringsbehandling også, men ikke like ofte.
 
 ***Rent klinisk*** oppleves forskjellen på disse to behandlingsmetodene som følgende:
@@ -25,6 +26,7 @@ Med manipulasjonsbehandlingen har man et bestemt håndgrep, hvor det gies en ***
 **Ved mobiliseringsbehandling** oppnåes ofte samme resultat, men det kan ofte ta litt lenger tid før den veldige, positive effekten kommer.
 
 ## Ulike typer mobiliseringsbehandlinger
+
 Det finnes mange veier til Roma! Her på Fetsund kiropraktorsenter benytter vi oss av så og si alle. Her er en liten oversikt over de forskjellige type mobiliseringsmetodene vi benytter oss av ved for eksempel akutte/kroniske oppståtte vondter i rygg eller nakke:
 
 #1: med et/flere forskjellige typer **håndgrep** i et eller forskjellige typer plan og bevegelsesomfang. Her brukes altså ingen form for "redskaper". 
@@ -38,6 +40,7 @@ Det finnes mange veier til Roma! Her på Fetsund kiropraktorsenter benytter vi o
 **Activatorbehandling er trygt og effektivt!**
 
 ## Hva slags plager kan mobiliseringsbehandling hjelpe for?
+
 Mobiliseringsbehandling kan hjelpe for en rekke plager, som de fleste andre behandlingstiltakene vi tilbyr her på Fetsund kiropraktorsenter.
 
 ***Mobiliseringsbehandlingen kan initiere en positiv reaksjon som igjen stimulerer muskler og ledd til å bevege seg og fungere bedre. Dette kan være med på å lindre smerter ved en rekke plagsomme tilstander.*** 

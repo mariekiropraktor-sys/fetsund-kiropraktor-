@@ -8,6 +8,7 @@ forfatter: sara
 ---
 
 ## Har du vondt i bekkenet – men føler at ingenting helt hjelper?
+
 Bekkenplager - årsaken er kanskje ikke den du tror?![Bekkenplager - årsaken er kanskje ikke den du tror?](/bilder/wp/haoebeinsmerter-vondt-i-rumpa-1920x1280-4-640x427.webp)
 
 Du har kanskje fått øvelser for hofte, bekken eller kjerne…  
@@ -21,6 +22,7 @@ Og ja – jeg vet det høres litt rart ut
 Men føttene dine har faktisk mye å si for hvordan bekkenet ditt har det.
 
 ## Bekkenplager - årsaken er kanskje ikke den du tror? - Hvordan føttene påvirker hoftene og bekkenet: ![](/bilder/wp/20231129_132817-1-1920x1440-e1732183238107-480x473-1.webp)
+
 [Føttene](/behandlingsomrade/fot-og-ankel-smerter/) er kroppens kontaktpunkt med bakken.  
 For hvert steg du tar, skal de både:
 
@@ -43,6 +45,7 @@ En fot som kan pronere og supinere godt, vil gi en mer, la oss si, harmonisk, be
 Spesielt pronasjonen er viktig. Når fotbuen flater ut og plantarfasciaen strekkes, gir den – sammen med andre sansenerver i foten viktig informasjon til hjernen. Da skjønner hjernen at musklene på baksiden av leggen og låret skal aktiveres, slik at vi bremser fallet fremover og får en stabil plattform å skyve fra ([1,](https://whatthefoot.co.uk/)[2](https://books.google.no/books?hl=no&lr=&id=GnfyOh4fDeUC&oi=fnd&pg=PP1&dq=Schleip,+R.+\(2012\).+Fascia:+The+Tensional+Network+of+the+Human+Body.+Churchill+Livingstone.&ots=qUDwuvetmD&sig=RaBOv0cf1sbC7nxe3aGJqx4MELI&redir_esc=y#v=onepage&q&f=false)). Dette er med på å styrke *setemuskulaturen*, en muskelgruppe som er notorisk svak hos de med bekken og hofteplager ([4](https://pubmed.ncbi.nlm.nih.gov/15094530/)).
 
 ## Skal man bare se på føttene da når man har bekkenplager? Nei, men…
+
 Har du smerter:
 
 -   bak i bekkenet ved bekkenleddene (SI-ledd),
@@ -58,6 +61,7 @@ kan en stiv eller «rigid» fot være *én av flere medvirkende faktorer*. Det b
 ![](/bilder/wp/20231129_132645-1920x1440-480x360-1.webp)
 
 ## Hvordan vet du om du har en stiv fot som ikke flater ut og/eller strammer seg til (supinerer) ordentlig?
+
 ![](/bilder/wp/fitness-1348867_1280-480x270-1.webp)![](/bilder/wp/fitness-1348867_1280-1-640x360.webp)
 
 Det er ikke så lett å vite, men her er noen selvtester du kan prøve hjemme, gjerne barfot foran et speil:
@@ -67,6 +71,7 @@ Det er ikke så lett å vite, men her er noen selvtester du kan prøve hjemme, g
 2.  **Sjekk evnen til å løfte fotbuen (supinasjon / «short foot» light)** Stå barfot og se ned på føttene dine. Forsøk å «gjøre foten kortere» ved å trekke hæl og forfot svakt mot hverandre uten å krølle tærne. Du skal kjenne litt muskelaktivitet under fotbuen. Får du det ikke til uten å krølle tærne kan det tyde på stivhet.
 
 ## Tre enkle øvelser for mykere føtter
+
 ![](/bilder/wp/dumbbells-2465478_640-2.webp)  
 
 **NB. Øvelser prøves på eget ansvar. Disse øvelsene er generelt skånsomme for de fleste, men vær oppmerksom på kroppens signaler og stopp hvis noe gjør vondt**
@@ -78,6 +83,7 @@ Det er ikke så lett å vite, men her er noen selvtester du kan prøve hjemme, g
 3.  **Balansere på én fot** Stå barfot nær en vegg eller stol som støtte. Løft den ene foten noen centimeter fra gulvet og stå på én fot. Prøv å holde balansen i 20–30 sekunder uten å «klore deg fast» med tærne. Bytt bein. 1–3 runder per side. Du skal kjenne at fot, legg og sete jobber – men uten smerte.
 
 ## Bekkenplager - årsaken er kanskje ikke den du tror? - Når bør du oppsøke hjelp?
+
 Om du kjenner deg igjen i bekken- og hofteplager, og mistenker at føttene dine er stive, svake eller ikke pronerer/ supinerer (flater ut, strammer seg til) som de skal, er det lurt å nevne dette når du kommer til meg på klinikken.
 
 Da kan vi gjøre en vurdering av både bekken, hofte og fot, se hvordan du står og går, og tilpasse et behandlingsopplegg der foten faktisk blir en del av løsningen ikke bare en oversett passasjer.
@@ -93,6 +99,7 @@ skrevet av [Mathilde opsvik](/om-klinikken/)
 ![Bekkenplager - årsaken er kanskje ikke den du tror?](/bilder/wp/505889953_122216958248092734_8634118696147266478_n-480x480.webp)
 
 ### Bekkenplager - årsaken er kanskje ikke den du tror? - Referanser:
+
 -   Hornestam, J. F., Arantes, P. M. M., Souza, T. R., Resende, R. A., Aquino, C. F., Fonseca, S. T., & da Silva, P. L. P. (2021). Foot pronation affects pelvic motion during the loading response phase of gait. *Brazilian Journal of Physical Therapy*, 25(6), 727–734.
 
 -   Khamis, S., & Yizhar, Z. (2007). Effect of feet hyperpronation on pelvic alignment in a standing position. *Gait & Posture*, 25(1), 127–134.

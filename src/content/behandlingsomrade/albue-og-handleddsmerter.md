@@ -28,6 +28,7 @@ Alt dette skal vi forsøke å svare på i denne artikkelen, så les videre!
 <figure><img class=" wp-image-845" src="/bilder/wp/466843593_916483483468862_1261850557798969971_n-960x551-1.webp" alt="Tennisalbue" width="570" height="327"><figcaption>Tennisalbue er en av de vanligste diagnosene ved albuesmerter.</figcaption></figure>
 
 ## De 5 vanligste årsakene til albuesmerter
+
 -   **Tennisalbue (Lateral epikondylitt)** Dette skyldes overbelastning eller mikrotraumer i seneområdet på utsiden av albuen. Typiske symptomer er smerter ved grep, løft eller rotasjonsbevegelser. Behandling kan inkludere avlastning, øvelser, og manuell behandling for å redusere betennelse og styrke området.
 -   **Golfalbue (Medial epikondylitt)** Dette er en lignende tilstand som tennisalbue, men smerten oppstår på innsiden av albuen. Det skyldes ofte repetitiv belastning på håndledd og underarm. Kiropraktoren kan hjelpe med å redusere belastningen og gi veiledning om spesifikke øvelser.
 -   **Muskulære triggerpunkter** Mange opplever at spenninger i underarmsmusklene kan gi smerter som stråler mot albuen. Disse triggerpunktene kan behandles med teknikker som massasje, nålebehandling eller mobilisering av ledd.
@@ -36,6 +37,7 @@ Alt dette skal vi forsøke å svare på i denne artikkelen, så les videre!
 -   *Nysgjerrig på litt mer sjeldnere årsaker? Les mer [her](https://nhi.no/symptomer/muskelskjelett/albuesmerter-veiviser/hva-kan-arsaken-vere)* 
 
 ## Symptomer på albuesmerter som peker mot et potensielt kiropraktorbesøk
+
 -   **Smerter ved aktivitet** Albuesmerter som oppstår under belastning, for eksempel ved trening eller arbeid, kan være noe kiropraktoren kan hjelpe med. Vi kartlegger smertemønsteret og tilpasser behandling og øvelser deretter.
 
 -   **Verkende smerter i hvile** Albuesmerter som verker og smerter selv ved lette bevegelser eller ingen bevegelse. Disse har som regel sitti i en stund og bør tas rask hånd om for å unngå kroniske smerter.
@@ -44,6 +46,7 @@ Alt dette skal vi forsøke å svare på i denne artikkelen, så les videre!
 -   **Stivhet og redusert bevegelighet** Hvis albuen føles stiv eller bevegelsen er begrenset, kan det tyde på låsninger eller betennelse. En kiropraktor kan ofte hjelpe med manuell behandling og råd for å øke bevegeligheten.
 
 ## Behandling for albuesmerter
+
 **Øvelser**  
 Albueplager kan ofte bedres med spesialtilpassede øvelser. Nettet har mange
 
@@ -58,6 +61,7 @@ Manuell behandling som [trigg](https://fetsundkiropraktormarie.no/behandlingsmet
 ![](/bilder/wp/Kopi-av-70-CHIROPRACTOR-IG-POSTS-4-960x960-1.webp)
 
 ### Kontakt oss!
+
 Våre kiropraktorer jobber daglig med albuesmerter og har stor interesse for å finne løsninger som passer for deg.
 
 Kontakt oss gjerne på telefon 46332766 – eller benytt vår døgnåpne online booking. Kikk [her](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7).

@@ -16,7 +16,9 @@ Mange beskriver «muskelknuter» – små, ømme punkter som både kan gjøre vo
 Nedenfor går vi gjennom noen av de vanligste musklene der vi finner triggerpunkter i klinikken, og hvordan de typisk kjennes ut.
 
 ## Nakke og skuldre
+
 ## Trapezius – «kappemuskelen»
+
 Triggerpunkter i nakke‑ og skuldermuskulatur kan gi et bredt spekter av symptomer, både lokalt og som utstrålende smerter til hode, ansikt og øvre del av rygg.
 
 Vanlige symptomer er blant annet:
@@ -50,6 +52,7 @@ På illustrasjoner av triggerpunkter er det ofte markert små «X» der selve tr
 ![](/bilder/wp/Trapezius-2.webp)![](/bilder/wp/Trapezius-3.webp)![](/bilder/wp/Trapezius.webp)
 
 ## Nakkemuskulatur langs bakhodet (splenius)
+
 Små, dype muskler øverst i nakken kan gi:
 
 -   Trykkende hodepine bak og oppover i hodet, samt "bak" øynene.
@@ -65,7 +68,9 @@ Små, dype muskler øverst i nakken kan gi:
 <figure><img class=" wp-image-1044" src="/bilder/wp/Splenius-Capitis-Splenius-Cervicis2-.webp" alt="" width="385" height="260"><figcaption>Triggerpunkt øvre nakkemuskler</figcaption></figure>
 
 ## Skulderblad og overarm
+
 ## Infraspinatus og teres minor
+
 Disse musklene ligger på baksiden av skulderbladet og er viktige for stabilitet i skulderen. Stramheten her kommer ofte av overaktive muskler på fremsiden av skulderen.
 
 Typiske symptomer:
@@ -81,6 +86,7 @@ Typiske symptomer:
 <figure><img class=" wp-image-1046" src="/bilder/wp/Teres-Minor.webp" alt="" width="346" height="296"><figcaption>Triggerpunkt Teres minor</figcaption></figure>
 
 ## Brystrygg og mellom skulderbladene
+
 Musklene mellom skulderbladene (blant annet rhomboideus og deler av trapezius) får ofte triggerpunkter ved mye stillesitting eller når vi «synker sammen» foran PC. Litt som Infraspinatus og Teres minor.
 
 Typiske symptomer:
@@ -94,7 +100,9 @@ Typiske symptomer:
 <figure><img class=" wp-image-1047" src="/bilder/wp/Rhomboid.webp" alt="" width="249" height="371"><figcaption>Triggerpunkt Rhomboideus</figcaption></figure>
 
 ## Korsrygg og sete
+
 ## Setemuskulaturen (gluteus-gruppen)
+
 I setet finner vi mange viktige stabiliseringsmuskler. Triggerpunkter her er svært vanlige – både hos dem som sitter mye og hos dem som løfter tungt.
 
 Typiske symptomer:
@@ -114,6 +122,7 @@ Typiske symptomer:
 <figure><figcaption>Samme muskel, bare litt andre punkter.</figcaption></figure>
 
 ## Dype setemuskler (blant annet piriformis)
+
 Dype triggerpunkter kan:
 
 -   Gi «isjias-lignende» smerter ned på baksiden av låret
@@ -125,7 +134,9 @@ Dype triggerpunkter kan:
 <figure><img class="wp-image-1063 " src="/bilder/wp/Piriformis.webp" alt="" width="364" height="313"><figcaption>Piriformissyndrom er relativt godt kjent?</figcaption></figure>
 
 ## Lår og legger
+
 ## Forside lår (rectus femoris)
+
 Denne muskelen er en del av quadriceps og er aktiv ved gange, løping og når du reiser deg.
 
 Typiske symptomer:
@@ -139,6 +150,7 @@ Typiske symptomer:
 <figure><img class="wp-image-1066" src="/bilder/wp/Rectus-Femoris-710x960.webp" alt="" width="369" height="499"><figcaption>Smerter i kneet og fremside lår kan forklares med denne muskelen!</figcaption></figure>
 
 ## Leggmuskler (gastrocnemius)
+
 Triggerpunkter i tykkleggen kan:
 
 -   Gi smerter bak i kneet eller ned i leggen
@@ -150,6 +162,7 @@ Triggerpunkter i tykkleggen kan:
 <figure><img class="wp-image-1067" src="/bilder/wp/Gastrocnemius-960x707.webp" alt="" width="521" height="384"><figcaption>Det kan vært lurt å sjekke ut disse triggerpunktene om du har smerter under foten eller i leggen!</figcaption></figure>
 
 ## Hvorfor oppstår muskel triggerpunkter?
+
 De vanligste årsakene er:
 
 -   Langvarig ensidig belastning (for eksempel stillesitting foran PC) PS: Les også om [funksjonell muskeltesting](/behandlingsmetode/funksjonell-muskeltesting/) og hvordan dette fletter seg inn i triggerpunkter og hvorfor de oppstår!
@@ -163,6 +176,7 @@ De vanligste årsakene er:
 Over tid kan muskelfibrene bli stående i en vedvarende, lokal «kontraksjon». Det gir økt spenning, dårligere blodsirkulasjon og opphopning av stoffskifteprodukter – noe som igjen gjør området ømt og smertefullt.
 
 ## Hva kan du gjøre med triggerpunkter?
+
 Behandling kan bestå av:
 
 -   Manuell behandling: trykk på selve punktet, muskel- og bindevevsmassasje
@@ -184,6 +198,7 @@ Som pasient kan du ofte komme langt med:
 -   Rolige bevegelser og pust når du merker at du «biter deg fast» i skuldrene
 
 ## Kontakt oss!
+
 Hos Fetsund Kiropraktorsenter er vi dedikert til å hjelpe deg med å oppnå bedre helse og funksjon. Ønsker du mer informasjon om triggerpunkter og om det kan være opphav til dine smerter/plager, er du velkommen til å kontakte oss på telefon 46332766 eller benytte vår [døgnåpne online booking](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7&timeslotType=4d6f6546-0875-11eb-8cb2-367c89629524&calendarId=8b02aa62-04b5-11eb-98d4-56c227606b2b).
 
 La oss hjelpe deg på veien mot en triggerpunktfri hverdag!

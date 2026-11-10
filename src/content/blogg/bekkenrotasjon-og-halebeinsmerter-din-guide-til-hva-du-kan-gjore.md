@@ -14,6 +14,7 @@ forfatter: sara
 Halebeinsmerter er en vanlig plage som mange opplever på et tidspunkt i livet. Smerten kan variere fra mildt ubehag til intense smerter som påvirker daglige aktiviteter som å sitte, gå eller bøye seg. Den vanligste årsaken til halebeinsmerter som vi ser ved Fetsund kiropraktorsenter er etter traume som fall på rumpa, i [svangerskap, eller etter fødsel](https://fetsundkiropraktorsara.no/ryggsmerter-i-svangerskap-arsaker-og-losninger/). Men hva skjer når halebeinsmertene kommer uten kjent årsak? Halebeinsmerter som ikke er fra traume kommer ofte av [muskelknuter som stråler til halebein](https://fetsundkiropraktorsara.no/7-muskel-knuter-som-forer-til-halebein-smerter/), eller feiljusteringer i bekkenet, spesielt forover rotert bekken (anterior bekkenrotasjon/nedre kryss syndrom) eller bakover rotert bekken (posterior bekkenrotasjon), eller begge. I denne artikkelen skal vi utforske hvordan disse tilstandene kan føre til halebeinsmerter, samt hvilke behandlingsmetoder som kan hjelpe deg. Les mer om andre [årsaker til halebeinsmerter](https://fetsundkiropraktorsara.no/arsaker-til-halebeinsmerter/) skrevet av [Kiropraktor Sara Nordanger](https://fetsundkiropraktorsara.no/om-sara-nordanger/).
 
 ## Nedre kryss syndrom - forover rotert bekken
+
 ![Bekkenrotasjon og halebeinsmerter ](/bilder/wp/Shutterstock_2395673425-1920x1680-640x560-1.webp)
 
 Når bekkenet er forover rotert, vil den fremre delen av bekkenet vippe nedover, mens den bakre delen heves [(1)](https://pubmed.ncbi.nlm.nih.gov/34533893/)[(4)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10048650/). Dette kan føre til:
@@ -30,6 +31,7 @@ Når bekkenet er forover rotert, vil den fremre delen av bekkenet vippe nedover,
 Det er viktig å merke seg at komprimering av nerver på grunn av bekkenrotasjon kan variere fra person til person, avhengig av individets anatomi og graden av bekkenrotasjon
 
 ## Bakover rotert bekken (Posterior Bekkenrotasjon)
+
 Når bekkenet er bakover rotert, vil den fremre delen av bekkenet heves, mens den bakre delen vippes nedover [(1)](https://pubmed.ncbi.nlm.nih.gov/34533893/),[(4)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10048650/). Dette kan føre til:
 
 -    **Redusert bevegelighet i korsryggen**: Bakover rotert bekken kan redusere bevegeligheten i korsryggen, og du mister svaien (flat korsrygg),  som kan føre til kompensatoriske bevegelser og overbelastning av halebeinet.
@@ -37,6 +39,7 @@ Når bekkenet er bakover rotert, vil den fremre delen av bekkenet heves, mens de
 -   **Økt trykk på halebeinet:** Bakover rotert bekken kan direkte øke trykket på halebeinet når du sitter, noe som kan føre til smerte.
 
 ## Kombinasjon av Forover og Bakover Rotert bekken
+
 ![Bekkenrotasjon og halebeinsmerter](/bilder/wp/shutterstock_1574082157-1-1920x1280-640x427-1.webp)
 
 Det er også mulig å ha en kombinasjon der den ene hoften er rotert forover og den andre bakover. Denne asymmetrien kan ha betydelige konsekvenser [(2)](https://scholar.google.com/scholar?q=pelvic+incidence+rotation+sacral+slope+lumbosacral+pain#d=gs_qabs&t=1718740926231&u=%23p%3DapSn2fAcrEEJ):
@@ -46,6 +49,7 @@ Det er også mulig å ha en kombinasjon der den ene hoften er rotert forover og 
 3.  **Endret gangmønster:** Asymmetrien kan påvirke gangmønsteret ditt, noe som kan føre til ytterligere belastning på halebeinet og øke risikoen for andre muskel- og skjelettplager.
 
 ### Andre Komplikasjoner av bekkenrotasjon
+
 Et rotert bekken kan føre til en rekke andre komplikasjoner og smerter i ulike deler av kroppen [(2)](https://scholar.google.com/scholar?q=pelvic+incidence+rotation+sacral+slope+lumbosacral+pain#d=gs_qabs&t=1718740926231&u=%23p%3DapSn2fAcrEEJ). Dette inkluderer:
 
 1.  Beinlengdeforskjell: En feiljustering i bekkenet kan skape en tilsynelatende beinlengdeforskjell, som kan føre til ubalansert belastning
@@ -55,10 +59,13 @@ Et rotert bekken kan føre til en rekke andre komplikasjoner og smerter i ulike 
 5.  [Nakkesmerter:](https://fetsundkiropraktorsara.no/behandlingsomrade/akutte-kroniske-nakkeplager/) Skjevheter i bekkenet kan påvirke kroppsholdningen hele veien opp til nakken, noe som kan føre til nakkesmerter og hodepine.
 
 ## Behandlingsmetoder
+
 #### Kiropraktisk leddjustering
+
 [Kiropraktisk manipulasjonsbehandling](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) kan bidra til å korrigere bekkenrotasjon ved hjelp av manuelle justeringer. Dette kan bidra til å redusere trykket på halebeinet og lindre smerte. En kiropraktor kan også anbefale spesifikke øvelser og tøyninger for å styrke kjernemuskulaturen og forbedre kroppsholdningen.
 
 #### Øvelser og Tøyninger
+
 [Spesifikke øvelser](https://fetsundkiropraktorsara.no/behandlingsmetode/ovelsesveiledning/) kan bidra til å rette opp bekkenet og redusere halebeinsmerter:
 
 \- Bekkenvipper: Disse kan bidra til å justere bekkenet og styrke kjernemuskulaturen.
@@ -70,12 +77,15 @@ Et rotert bekken kan føre til en rekke andre komplikasjoner og smerter i ulike 
 \- Bekkenbunnsøvelser: Styrking av bekkenbunnsmusklene kan bidra til bedre støtte for bekkenet og redusere smerter [(3)](https://pubmed.ncbi.nlm.nih.gov/24976749/).
 
 #### Ergonomiske Justeringer
+
 Tilpasning av arbeidsstasjonen din og bruk av spesialdesignet pute for halebeinet kan redusere trykket på halebeinet når du sitter i lange perioder. En kiropraktor kan gi råd om de beste ergonomiske justeringene for din situasjon
 
 #### Smertelindring
+
 I noen tilfeller kan smertestillende medisiner eller betennelsesdempende midler være nødvendige for å håndtere smerten. Varme-/[kuldebehandling](https://fetsundkiropraktorsara.no/kuldeeksponering-kalde-dusjer-isbad-torr-du-utfordre-deg-selv/) kan også være effektive tillegg til kiropraktisk behandling.
 
 #### Sovestilling
+
 Sovestillingen din kan også påvirke bekkenets posisjon og bidra til halebeinsmerter. Her er noen tips for å optimalisere sovestillingen [(3)](https://pubmed.ncbi.nlm.nih.gov/24976749/):
 
 1.  Sov på ryggen: Denne stillingen holder ryggraden i en nøytral posisjon og kan redusere belastningen på bekkenet og halebeinet.

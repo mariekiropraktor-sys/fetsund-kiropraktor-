@@ -13,6 +13,7 @@ Her på Fetsund Kiropraktorsenter ser vi pasienten som en helhet. Stressmestring
 ![](/bilder/wp/stressmestring.webp)
 
 ## En økende trend
+
 Vi ser en økende interesse for å ta vinterbad, og det er det mange gode grunner til! Kuldeterapi har utrolige mange fordeler, og det har de siste årene gjort mange nye forskningsartikler om fordelene med isbading.   
 
 På sosiale medier florerer det med bilder av mennesker i alle aldre og størrelser som ikke bare dypper tærne i isvannet, men som kaster seg ut i det med hele kroppen. Dette fenomenet, noen kaller det "kryoterapi" eller bare kuldeterapi, inkluderer ikke bare isbading, men også kalde dusjer, snø-yoga, eller toppturer på vinteren, iført bare undertøy. Lokal kuldeterapi, hvor bare deler av kroppen utsettes for intens kulde, som å senke hendene i isvann eller bruke isposer for å lindre smerter og hevelse etter skader, er også vanlig.
@@ -29,6 +30,7 @@ Interessen for kuldeterapi har vokst betydelig de siste årene, delvis på grunn
 -   Effektivt mot kronisk autoimmun inflammasjon [(1)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9518606/)
 
 ### Helsefordeler:
+
 Selv om det å ta en kald dusj kanskje ikke er den mest behagelige opplevelsen, så gir det visse helsemessige fordeler.  En [studie fra 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4049052/) og [en studie fra 2000](https://pubmed.ncbi.nlm.nih.gov/10751106/) viser at kalde dusjer kan: 
 
 -   Redusere betennelse, og hevelse 
@@ -42,6 +44,7 @@ Selv om det å ta en kald dusj kanskje ikke er den mest behagelige opplevelsen, 
 -   Aktivere produksjon av hvite blodceller
 
 ### Hva skjer med sirkulasjonssystemet når du tar kalde dusjer:
+
 Du har 96000 km med blodårer i kroppen, blod transporterer friskt oksygenrikt blod til alle muskler, vev, nerver og ledd du har i kroppen, og tar bort avfallsstoffer. Når du går inn i en kald dusj, eller i et sbad så fører det til at blodårene på overflaten av huden trekker seg sammen. Dette fører blodstrømmen bort fra overflaten av huden. Når blod beveger seg bort fra huden, utvides blodårene i dypere kroppsvev. Dette forbedrer sirkulasjonen i det dype vevet.  
 
  [En studie i 2019](https://journals.humankinetics.com/view/journals/ijspp/14/7/article-p1006.xml) fant at det å ta en kald dusj etter trening kan forbedre den generelle hydreringen ved å kjøle ned hele kroppen. 
@@ -51,9 +54,11 @@ Kontinuerlig eksponering for kulde gjennom kalde dusjer, isbading og kontakt med
 Kuldebehandling, både lokal og for hele kroppen, brukes også for å lindre smerte og akselerere restitusjon etter skader og intensive treningsøkter. Imidlertid er det viktig å være oppmerksom på bivirkninger og å konsultere helsepersonell før man starter slik behandling, spesielt for personer med underliggende medisinske tilstander.
 
 ### Sosialt, sunt og en måte å få nye venner på
+
 Det er viktig å merke seg at isbading kan være farlig og ikke bør utføres alene. I Fetsund er det en gruppe på Facebook “badehjertene” laget av en pasient av meg, hvor flere ivrige isbadere bader sammen nesten hver uke. Om du vil bade, en spesiell dag, eller sted kan du spørre om noen andre vil bli med, og nesten garantert vil du få selskap. Både sosialt, trygt, og en måte å få nye venner på.  [https://www.facebook.com/groups/544569336817407](https://www.facebook.com/groups/544569336817407)
 
 ### [Wim Hof metoden](https://www.wimhofmethod.com/) - “The ice man”
+
 ![](/bilder/wp/wim-hof-960x640-1.webp)
 
 Wim Hof er en nederlandsk mann, kjent som ismannen. Det var han som fikk isbading ordentlig på kartet. Hans metode for kuldeeksponering er i en kort beskrivelse en blanding av pusteteknikk og hyperventilering for å øke oksygeninnholdet i blodet, for deretter å eksponere seg for kalde dusjer eller isbad.   
@@ -71,24 +76,31 @@ Jeg anbefaler alle mine pasienter å utføre denne pusteteknikken før de går i
 Her er en eksempelvideo du kan prøve med pusteteknikk. Bare ligg ned, eller sitt komfortabelt og følg instruksjonene i denne [videoen](https://www.youtube.com/watch?v=tybOi4hjZFQ&t=52s&ab_channel=WimHof), eller følg instruksjonene beskrevet under: 
 
 ### WHM grunnleggende pusteteknikk:
+
 Det anbefales å utføre denne øvelsen om morgenen før du spiser. 
 
 ### 1: Finn komfort
+
 Sett deg i en behagelig stilling for meditasjon, enten sittende, liggende eller på en annen måte som føles godt for deg. Sørg for at kroppen din er avslappet og at du kan puste dypt uten hindringer.
 
 ### 2: 30/40 dype åndedrag
+
 Lukk øynene og prøv å tømme tankene dine. Vær oppmerksom på pusten din og forsøk å koble deg helt til den. Ta et dypt pust gjennom nesen, eller munnen. Fyll lungene dine helt med luft, og slipp deretter ut på en avslappet måte. Gjenta dette ca. 30/40 ganger. Noen kan oppleve svimmelhet eller prikking i kroppen, noe som indikerer at karbondioksid forlater blodet og at øvelsen utføres riktig. Dette er normalt og helt ufarlig.
 
 ### 3: Hold pusten etter utpust
+
 Etter de dype åndedragene, tøm lungene for luft uten anstrengelse. Hold pusten så lenge du kan uten å presse deg selv. Vent til du kjenner trang til å puste igjen.
 
 ### 4: Innhalering etter retensjon
+
 Når du kjenner trang til å puste igjen, ta et dypt åndedrag med full kapasitet. Kjenn hvordan magen og brystet ekspanderer. Hold pusten i omtrent 10/15 sekunder når du er fullt innpustet. Pust deretter ut – dette er én runde. 
 
 Du kan gjenta denne pusteøvelsen 3-4 ganger etter hverandre. Etter å ha fullført øvelsen, nyt følelsen av velvære som kan minne om en meditativ tilstand, deretter gå inn i den kalde dusjen.   
 
 ### Den kalde dusjen:
+
 #### *Hvor kaldt må jeg ha dusjen?*
+
 Noen mennesker tåler kulde bedre enn andre. Nøkkelen er å sikte på en temperatur som vekker tanken: "Dette er veldig kaldt (!), og jeg vil ut, MEN jeg kan trygt holde meg inne." For noen mennesker kan temperaturen være 60 °F, mens for andre 45 °F.
 
 Her er nøkkelen: jo kaldere vannet er, jo kortere tid trenger du for å utsette deg selv for kulde for å få effekt. En studie viste signifikante og langvarige økninger i dopamin når folk var i kjølig (60°F) vann i omtrent en time opp til nakken, med hodet over vannet. Andre studier beskriver en betydelig økning i adrenalin og dopamin fra bare 20 sekunder i veldig kaldt vann (~40°F). Den gode nyheten er at når du bevisst eksponerer deg for kulde oftere, vil du være mer komfortabel i kulden til enhver tid, og kan begynne å bruke kaldere temperaturer med mer selvtillit, akkurat som trening. Min egen erfaring så er det bedre å bare kjøre på på det kaldeste, og starte med 30 sekunder for å kjenne effekt med en gang.  
@@ -100,20 +112,25 @@ Her er nøkkelen: jo kaldere vannet er, jo kortere tid trenger du for å utsette
 *(minst 5 ganger i uka.)*
 
 #### Uke 1
+
 Ta en varm dusj først så lenge du vil - deretter skru på det kaldeste, ha på stoppeklokke og stå i **30 sekunder-1 minutt.** 
 
 #### Uke 2
+
 Varm dusj først så lenge du vil - deretter skru på det kaldeste, ha på stoppeklokke og stå i **1 minutt - 2 minutter**  
 
 #### Uke 3
+
 Varm dusj så lenge du vil - deretter skru på det kaldeste, ha på stoppeklokke, og stå i **2-3 minutter** 
 
 #### Uke 4
+
 Ingen varm dusj først! Ha på stoppeklokke, stå i **4-5 minutter** 
 
 For å få mest effekt av kuldeeksponering i dusj er det best å stå i minst 3 til 6 minutter i den kalde dusjen (på det kaldeste). 
 
 ### Sikkerhet
+
 Når WHM praktiseres riktig, kan det bidra til et lykkelig, sterkt og sunt liv. Ettersom pusteteknikker og kuldeeksponering kan påvirke kroppens fysiologi, kan dette ha en dyp positiv effekt på mennesker med dårlig helse eller med visse sykdommer. Det er uansett viktig å tydelig forklare sikkerhetsreglene til WHM (f.eks. bør pusteøvelsene alltid gjøres i et trygt miljø) og gjøre folk oppmerksomme på kontraindikasjonene. Vær dessuten oppmerksom på farene ved en blackout på grunt vann(praktiser aldri WHM pusteteknikk i vann).
 
 Vi fraråder folk fra å utføre metoden i tilfeller av epilepsi, Raynauds syndrom type II eller graviditet.

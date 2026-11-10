@@ -18,6 +18,7 @@ Barn, inkludert spedbarn, opplever ofte kiropraktisk behandling som behagelig. B
 Fødselen kan være en stor påkjenning for en nyfødt kropp. Selv om menneskekroppen er designet for å tåle det trykket som oppstår under fødselen, kan enkelte situasjoner, som bruk av vakuum eller tang, setefødsel, eller trang posisjon i livmoren, føre til spenninger i barnets muskel- og skjelettsystem.
 
 ## Hvorfor oppsøke kiropraktor for barn?
+
 Barn kan ha nytte av kiropraktisk behandling for en rekke problemer, inkludert:
 
 -   **Generell urolighet, kolikk og kolikkliknende symptomer:** Kolikk er et begrep for overdreven gråt, og kiropraktisk behandling kan hjelpe med å lindre ubehaget som fører til gråten.
@@ -71,9 +72,11 @@ Vår egen [Kiropraktor Sara Nordanger](https://fetsundkiropraktorsara.no/om-sara
 ![](/bilder/wp/insta.webp)
 
 ### Fordeler med kiropraktisk behandling for barn
+
 Kiropraktisk behandling kan være svært gunstig for barns utvikling. Krabbing, for eksempel, er viktig for å stimulere hjernen, muskulaturen og skjelettet, og det er avgjørende for å trene opp koordinasjonen.
 
 ### Tips for foreldre
+
 -   Variasjon i stillinger: Bytt på hvordan barnet plasseres for å unngå ensidig belastning. 
 -   Synsinntrykk: Sørg for at barnet ser i ulike retninger for å stimulere synet
 -   Begrenset tid i babystol: La barnet ikke sitte for lenge i babystol – 10-15 minutter er nok i begynnelsen.
@@ -83,6 +86,7 @@ Kiropraktisk behandling kan være svært gunstig for barns utvikling. Krabbing, 
 ![](/bilder/wp/20230220_100830-1920x1440-e1716901393826-480x476-1.webp)
 
 ### Studier og Forskning
+
 Flere studier støtter kiropraktisk behandling for barn. For eksempel viser forskning at kiropraktisk behandling kan hjelpe med kolikkliknende symptomer og forbedre søvnkvaliteten hos spedbarn. En studie publisert i "Journal of Manipulative and Physiological Therapeutics" fant at kiropraktisk behandling reduserte kolikksymptomer betydelig i en gruppe spedbarn.
 
 Ved å oppsøke en kiropraktor kan foreldre sikre at deres barn får en god start på livet med et optimalt fungerende nervesystem og muskel- og skjelettsystem.

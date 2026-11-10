@@ -10,6 +10,7 @@ oppdatert: 2024-05-23
 ---
 
 ## Hva er bindevev?
+
 Våre kiropraktorer på her på Fetsund er veldig opptatt av å se pasienten som en helhet. Derfor inkluderer både [Kiropraktor Sara Nordanger](https://fetsundkiropraktorsara.no/om-sara-nordanger/)  og [Kiropraktor Marie Hermansen](https://fetsundkiropraktormarie.no/om-marie-hermansen/), bindevevsmassasje der det måtte trenges.
 
 Medisinsk leksikon definerer bindevev slik: “Bindevev forstås generelt som vev som støtter, beskytter, styrker, avstiver og binder organene sammen.”
@@ -29,6 +30,7 @@ Denne typen massasje fører til at blodsirkulasjonen og muskelaktiviteten øker,
 **Vi bruker ofte et spesielt redskap som heter "Graston", når vi skal utføre bindevevsmassasje på våre pasienter.**
 
 ## Hva kan bindevevsmassasje hjelpe for?
+
 Alle pasienter i alle aldre kan få bindevevsmassasje, noen få tilfeller skal man unngå bindevevsmassasje som over et åpent sår, høyt blodtrykk, om du går på blodfortynnende medisin, eller om du har en fraktur/brudd som ikke er tilhelet. Behandlingsmetoden er dokumentert effektiv, og kan være til hjelp ved for eksempel plager som for eksempel;
 
 -   Nakkesmerter
@@ -46,6 +48,7 @@ Alle pasienter i alle aldre kan få bindevevsmassasje, noen få tilfeller skal m
 [Studier viser](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932073/) at bindevevsmassasje er effektiv behandling på kroniske og akutte smerter. Massasjen øker bevegeligheten og funksjon i både sener, muskler og ledd. [(1)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932073/) [(2)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039777/) [(3)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5332975/) [(4)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5331993/)
 
 ## Hvordan utføres bindevevsmassasje?
+
 Her på Fetsund Kiropraktorsenter får du det vi kaller «instrument-assistert» bindevevsmassasje (​IASTM = Instrument assisted soft tissue mobilization).​ Det vil si at vi bruker ulike redskaper/instrumenter (laget av kirurgisk stål) som er tilpasset/spesialdesignet slik at ulike deler av kroppen kan behandles.
 
 ![](/bilder/wp/page2image3916178256-1.webp)  
