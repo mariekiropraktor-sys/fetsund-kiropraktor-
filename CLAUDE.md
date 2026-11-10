@@ -70,3 +70,10 @@ fra @fontsource (ingen Google Fonts av personvernhensyn).
 - Svimmelhet, krystallsyken og VNG-siden (`kiropraktor: marie`) har «Bestill svimmelhetsundersøkelse».
   Maries blogginnlegg om svimmelhet/krystallsyke likeså; hennes øvrige innlegg og kjevesmerter går til førstegang.
 - Prissiden: svimmelhetsprisene bestilles i Maries kalender; dobbelttime svimmelhet = «Ring for time».
+
+## Google Ads-måling per kiropraktor (besluttet 10. nov. 2026)
+- `CookieSamtykke.astro` sender ulik konvertering etter kalender-ID i Pasientsky-lenken:
+  Maries kalender → «Bestillingsklikk Marie», Saras kalender → «Bestillingsklikk Sara»,
+  alt annet (felles booking, /bestill/) → «Klikk til timebestilling pasientsky».
+- Etiketter og kalender-ID-er står i `src/data/site.ts` (`googleAds`, `kalenderMarie`, `kalenderSara`).
+- Måler klikk til booking, ikke fullførte bestillinger. Saras egen side har ingen måling (ikke vår tilgang).

@@ -2,8 +2,9 @@
 // Cookie-banner og Google Ads-måling (Google Consent Mode v2, «basic»-variant).
 // Ingenting fra Google lastes før den besøkende har trykket «Godta».
 // Vises bare når googleAds.id er fylt ut i src/data/site.ts.
-import { googleAds } from "../data/site";
+import { googleAds, kalenderMarie, kalenderSara } from "../data/site";
 const aktiv = Boolean(googleAds.id);
+const ads = { ...googleAds, kalenderMarie, kalenderSara };
 ---
 
 {
@@ -21,7 +22,7 @@ const aktiv = Boolean(googleAds.id);
         </div>
       </div>
 
-      <script is:inline define:vars={{ ads: googleAds }}>
+      <script is:inline define:vars={{ ads }}>
         (function () {
           var NOKKEL = "samtykke-v1";
           var boks = document.getElementById("samtykke");
@@ -69,7 +70,15 @@ const aktiv = Boolean(googleAds.id);
             if (!a) return;
             var href = a.getAttribute("href") || "";
             var booking = href.indexOf("pasientsky.no") !== -1 || /^\/bestill\/?(?:[?#]|$)/.test(href);
-            var etikett = booking ? ads.bestill : href.indexOf("tel:") === 0 ? ads.ring : "";
+            // Bestilling i Maries eller Saras kalender telles hver for seg, resten som felles booking
+            var etikett = "";
+            if (booking) {
+              if (href.indexOf(ads.kalenderMarie) !== -1) etikett = ads.bestillMarie;
+              else if (href.indexOf(ads.kalenderSara) !== -1) etikett = ads.bestillSara;
+              else etikett = ads.bestill;
+            } else if (href.indexOf("tel:") === 0) {
+              etikett = ads.ring;
+            }
             if (!etikett) return;
 
             // For vanlig klikk i samme fane: gi Google-taggen kort tid til å sende

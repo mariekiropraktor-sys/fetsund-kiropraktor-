@@ -38,9 +38,15 @@ export const googleAds = {
   id: "AW-520953726",
   // Egne etiketter for klikk på bestilling og telefon må opprettes i Google Ads.
   // Bruk aldri etiketten for «Avtale bestilt» på et klikk – det er ikke en ferdig bestilling.
-  bestill: "STS1CIrUy5wdEP6-tPgB", // «Klikk til timebestilling pasientsky» – sekundær konvertering
+  bestill: "STS1CIrUy5wdEP6-tPgB", // «Klikk til timebestilling pasientsky» – felles booking (ingen bestemt kiropraktor)
+  bestillMarie: "xe9CCP6Y2LUdEP6-tPgB", // «Bestillingsklikk Marie (Pasientsky)» – lenker med Maries kalender
+  bestillSara: "Rtt5CIGZ2LUdEP6-tPgB", // «Bestillingsklikk Sara (Pasientsky)» – lenker med Saras kalender
   ring: "",
 };
+
+// Kalender-ID-ene i Pasientsky. Brukes til å skille bestillingsklikk per kiropraktor.
+export const kalenderMarie = "8b02aa62-04b5-11eb-98d4-56c227606b2b";
+export const kalenderSara = "178e4e32-24eb-11eb-be16-eed210cc88f1";
 
 const marie = "https://fetsundkiropraktormarie.no";
 const pasientsky =
