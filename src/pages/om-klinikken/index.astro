@@ -5,7 +5,7 @@ import SideHode from "../../components/SideHode.astro";
 import Layout from "../../layouts/Layout.astro";
 import BookingCTA from "../../components/BookingCTA.astro";
 import TrustStrip from "../../components/TrustStrip.astro";
-import { site, kiropraktorer, mathilde, visMathilde, mathildeSisteDag as sisteDagTekst } from "../../data/site";
+import { site, kiropraktorer } from "../../data/site";
 
 const k = Object.fromEntries(kiropraktorer.map((p) => [p.id, p]));
 
@@ -148,21 +148,6 @@ const tilnaerming = [
         }
       </div>
 
-      {
-        visMathilde && (
-          <article class="gjest" id="mathilde">
-            <img class="gjest__bilde" src={mathilde.bilde} alt={`Kiropraktor ${mathilde.navn}`} width="600" height="450" loading="lazy" />
-            <div class="gjest__tekst">
-              <span class="eyebrow">Kiropraktor · hos oss til {sisteDagTekst}</span>
-              <h3 class="gjest__navn">{mathilde.navn}</h3>
-              <p>{mathilde.tekst}</p>
-              <div class="btn-row">
-                <a class="btn" href={mathilde.booking}>Bestill hos Mathilde</a>
-              </div>
-            </div>
-          </article>
-        )
-      }
     </div>
   </section>
 
@@ -334,43 +319,6 @@ const tilnaerming = [
     border-color: var(--flate);
     color: var(--teal);
     font-weight: 600;
-  }
-
-  /* Mathilde – eget kort under Marie og Sara, med firkantet bilde som dem (til venstre på PC, øverst på mobil) */
-  .gjest {
-    margin-top: clamp(16px, 2.5vw, 28px);
-    background: var(--bg);
-    border-radius: var(--radius);
-    overflow: hidden;
-    display: grid;
-    scroll-margin-top: 110px;
-  }
-  @media (min-width: 800px) {
-    .gjest {
-      grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
-    }
-  }
-  .gjest__bilde {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    object-position: 40% 30%;
-  }
-  .gjest__tekst {
-    padding: clamp(22px, 3vw, 34px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 12px;
-  }
-  .gjest__navn {
-    font-size: clamp(28px, 3vw, 36px);
-    line-height: 1.1;
-  }
-  .gjest__tekst p {
-    font-size: 16px;
-    line-height: 1.6;
   }
 
   /* Praktisk */
