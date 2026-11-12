@@ -9,8 +9,6 @@ forfatter: sara
 
 Smerter i sete - Det kan det være mange årsaker til - Skrevet av Kiropraktor Sara Nordanger 
 
-[![årsaker til smerter i sete](/bilder/wp/vondt-i-haleben-1918x1116-480x279-1.webp)](<http://årsaker til smerter i sete>)
-
  Her er noen av de vanligste årsakene til smerter i sete:
 
 -   etter et fall eller traume,
@@ -20,6 +18,8 @@ Smerter i sete - Det kan det være mange årsaker til - Skrevet av Kiropraktor S
 -   Noen ganger aner du ikke hvorfor du har vondt. Smertene kan komme gradvis eller akutt.  Noen pasienter har hatt smerter i flere måneder og år uten å ha funnet årsaken.
 
 Det finnes hjelp å få! Riktig diagnose for riktig behandling er viktig og her kan jeg som kiropraktor hjelpe deg.
+
+[![årsaker til smerter i sete](/bilder/wp/vondt-i-haleben-1918x1116-480x279-1.webp)](<http://årsaker til smerter i sete>)
 
 ### Årsaker til smerter i sete: [Halebeinssmerter](/behandlingsomrade/halebenssmerter/)
 

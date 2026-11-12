@@ -7,11 +7,11 @@ image: "/bilder/wp/Shutterstock_2395673425-1920x1680-4.webp"
 forfatter: sara
 ---
 
-![Bekkenrotasjon og halebeinsmerter](/bilder/wp/vondt-i-haleben-1918x1116-640x372-1.webp)
-
 **Bekkenrotasjon og halebeinsmerter**
 
 Halebeinsmerter er en vanlig plage som mange opplever på et tidspunkt i livet. Smerten kan variere fra mildt ubehag til intense smerter som påvirker daglige aktiviteter som å sitte, gå eller bøye seg. Den vanligste årsaken til halebeinsmerter som vi ser ved Fetsund kiropraktorsenter er etter traume som fall på rumpa, i [svangerskap, eller etter fødsel](https://fetsundkiropraktorsara.no/ryggsmerter-i-svangerskap-arsaker-og-losninger/). Men hva skjer når halebeinsmertene kommer uten kjent årsak? Halebeinsmerter som ikke er fra traume kommer ofte av [muskelknuter som stråler til halebein](https://fetsundkiropraktorsara.no/7-muskel-knuter-som-forer-til-halebein-smerter/), eller feiljusteringer i bekkenet, spesielt forover rotert bekken (anterior bekkenrotasjon/nedre kryss syndrom) eller bakover rotert bekken (posterior bekkenrotasjon), eller begge. I denne artikkelen skal vi utforske hvordan disse tilstandene kan føre til halebeinsmerter, samt hvilke behandlingsmetoder som kan hjelpe deg. Les mer om andre [årsaker til halebeinsmerter](https://fetsundkiropraktorsara.no/arsaker-til-halebeinsmerter/) skrevet av [Kiropraktor Sara Nordanger](https://fetsundkiropraktorsara.no/om-sara-nordanger/).
+
+![Bekkenrotasjon og halebeinsmerter](/bilder/wp/vondt-i-haleben-1918x1116-640x372-1.webp)
 
 ## Nedre kryss syndrom - forover rotert bekken
 

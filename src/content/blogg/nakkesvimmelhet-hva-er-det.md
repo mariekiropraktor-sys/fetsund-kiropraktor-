@@ -7,9 +7,9 @@ image: "/bilder/wp/Splenius-Capitis-Splenius-Cervicis2-.webp"
 forfatter: marie
 ---
 
-![nakkesvimmelhet](/bilder/wp/Din-avsnittstekst-3-960x679-1.webp)
-
 Nakkesvimmelhet, eller cervikogen svimmelhet, er en vanlig årsak til balanseproblemer og ubehag. Som regel oppstår plagene i forbindelse med langvarige nakkesmerter og hodepine. Etter hvert opplever man en gyngende og mer eller mindre konstant svimmelhet. Her på Fetsund Kiropraktorsenter har vi god erfaring med å kartlegge, behandle og gi råd for denne typen svimmelhet.
+
+![nakkesvimmelhet](/bilder/wp/Din-avsnittstekst-3-960x679-1.webp)
 
 ## Hva er nakkesvimmelhet?
 

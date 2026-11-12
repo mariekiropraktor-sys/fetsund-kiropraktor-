@@ -9,8 +9,6 @@ forfatter: sara
 
 ## Har du vondt i bekkenet – men føler at ingenting helt hjelper?
 
-Bekkenplager - årsaken er kanskje ikke den du tror?![Bekkenplager - årsaken er kanskje ikke den du tror?](/bilder/wp/haoebeinsmerter-vondt-i-rumpa-1920x1280-4-640x427.webp)
-
 Du har kanskje fått øvelser for hofte, bekken eller kjerne…  
 men det blir liksom aldri helt bra?
 
@@ -21,8 +19,9 @@ Da er det én ting mange blir overrasket over når de kommer til meg:
 Og ja – jeg vet det høres litt rart ut   
 Men føttene dine har faktisk mye å si for hvordan bekkenet ditt har det.
 
-## Bekkenplager - årsaken er kanskje ikke den du tror? - Hvordan føttene påvirker hoftene og bekkenet: ![](/bilder/wp/20231129_132817-1-1920x1440-e1732183238107-480x473-1.webp)
+## Hvordan føttene påvirker hoftene og bekkenet
 
+![](/bilder/wp/20231129_132817-1-1920x1440-e1732183238107-480x473-1.webp)
 [Føttene](/behandlingsomrade/fot-og-ankel-smerter/) er kroppens kontaktpunkt med bakken.  
 For hvert steg du tar, skal de både:
 
@@ -38,7 +37,7 @@ Dette skjer gjennom to bevegelser:
 
 Når dette fungerer godt, får du en naturlig og “flytende” bevegelse gjennom kroppen.([1,](https://whatthefoot.co.uk/)[2](https://pubmed.ncbi.nlm.nih.gov/16621569/)).  Det betyr mindre belastning på hofte, bekken og bekkenbunn.
 
-![](/bilder/wp/20231129_132645-1920x1440-480x360-1.webp)![fot](/bilder/wp/20231129_132642-1920x1440-480x360-1.webp)
+![](/bilder/wp/20231129_132645-1920x1440-480x360-1.webp)
 
 En fot som kan pronere og supinere godt, vil gi en mer, la oss si, harmonisk, bevegelse i hofte og bekken når du går. Dette er med på å dempe hvor mye støt fra bakken bekkenbunnen må håndtere (de med svak bekkenbunn vet hvor tungt det kan være å hoppe eller løpe på hardt underlag) ([3](https://pubmed.ncbi.nlm.nih.gov/34020879/)).
 

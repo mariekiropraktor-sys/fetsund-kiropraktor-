@@ -9,9 +9,9 @@ forfatter: sara
 
 **Cuboid syndrom: Hva er det, og hvordan kan vi hjelpe deg?**
 
-![Cuboid syndrom](/bilder/wp/20231129_132642-1920x1440-480x360-1.webp)
-
 Har du smerter på utsiden av foten som ikke gir seg, og som kanskje til og med stråler opp i leggen eller påvirker andre deler av beinet? Det kan hende du har cuboid syndrom. Dette er en tilstand jeg ofte ser hos pasienter, og som kan være både frustrerende og begrensende i hverdagen. La meg forklare hva dette er, hva som kan ligge bak, og hvordan vi kan jobbe sammen for å løse det. Det finnes flere årsaker til smerter i foten. [Les mer om andre årsaker til fotsmerter her.](https://fetsundkiropraktorsara.no/5-vanlige-arsaker-til-fotsmerter/)
+
+![Cuboid syndrom](/bilder/wp/20231129_132642-1920x1440-480x360-1.webp)
 
 ## Hva er cuboid syndrom, og hvordan føles det?
 

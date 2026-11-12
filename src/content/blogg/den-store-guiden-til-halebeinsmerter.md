@@ -7,10 +7,10 @@ image: "/bilder/wp/halebein-1920x1279-1.webp"
 forfatter: sara
 ---
 
-![Halebeinets anatomi](/bilder/wp/halebein-anatomi-1920x1280-640x427-1-1.webp)
-
 Halebeinsmerter (coccygodyni) er smerter nederst i ryggen, ved selve halebeinet (coccyx). Halebeinet er en liten trekantformet knokkel nederst i ryggraden som består av 3–5 små segmenter.  
 Selv om det er lite, kan det skape store problemer hvis det blir skadet, irritert eller utsatt for vedvarende trykk.
+
+![Halebeinets anatomi](/bilder/wp/halebein-anatomi-1920x1280-640x427-1-1.webp)
 
 ### Hvor vanlig er halebeinsmerter?
 

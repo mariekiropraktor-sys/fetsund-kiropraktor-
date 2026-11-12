@@ -9,8 +9,6 @@ forfatter: marie
 
 En enkel guide til de vanligste årsakene til svimmelhet - og når du bør få det sjekket.  
 
-*![Svimmelhet kan være vanskelig å hanskes med i hverdagen. Les og lær hva dette kan komme av! ](/bilder/wp/Untitled-design.webp)*
-
 -   *Svimmelhet har mange årsaker – krystallsyke/BPPV er den vanligste ved korte, plutselige «snurr».*
 
 -   *Ikke all krystallsyke ser lik ut; «atypiske» varianter kan gi mer seig, ustø eller konstant svimmelhet.*
@@ -28,6 +26,8 @@ En enkel guide til de vanligste årsakene til svimmelhet - og når du bør få d
 ### Skrevet av kiropraktor Marie Hermansen
 
 Den vanligste årsaken til plutselige, korte «snurr» i hodet er [krystallsyke](/behandlingsomrade/krystallsyken/), også kalt BPPV. Inne i det indre øret sitter små kalkkrystaller som hjelper hjernen å registrere tyngdekraft og bevegelse. Når noen av disse krystallene løsner og havner i en buegang, kan de gi kraftige, men kortvarige anfall av svimmelhet.
+
+![Svimmelhet kan være vanskelig å hanskes med i hverdagen. Les og lær hva dette kan komme av! ](/bilder/wp/Untitled-design.webp)
 
 Mange beskriver at det «slår til» når de legger seg ned, snur seg i senga, bøyer seg frem eller ser opp. Selve snurret varer ofte bare noen sekunder, men kan føles svært intenst og komme med kvalme eller ubehag. Krystallsyke er i seg selv ufarlig, men kan være ekstremt plagsomt og øke risikoen for fall – særlig hos eldre eller de som allerede har nedsatt funksjon.
 

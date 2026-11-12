@@ -11,8 +11,6 @@ forfatter: sara
 
 ## 1. Plantar fasciitt
 
-![](/bilder/wp/20231129_132642-1920x1440-480x360-1.webp)
-
 Plantar fasciitt er en betennelseslignende tilstand som påvirker bindevevsplaten (plantarfascia) under foten.  
 Symptomer:
 
