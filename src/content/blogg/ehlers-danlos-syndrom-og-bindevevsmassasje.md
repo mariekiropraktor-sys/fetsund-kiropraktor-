@@ -38,8 +38,6 @@ Graston-instrumentene har flere fordeler:
 3.  **Hurtigere restitusjon**: Ved å øke blodsirkulasjonen til området som behandles, fremmes kroppens naturlige helingsprosess, noe som kan føre til raskere restitusjon etter skader.
 4.  **Tilpasset behandling**: Graston-teknikken kan tilpasses individuelt avhengig av pasientens behov, fra milde bevegelser for å behandle mer følsomme områder, til mer intense skrapinger for å behandle dypere skader.
 
-![Ehlers-Danlos syndrom og bindevevsmassasje8](/bilder/wp/160007748_875755796604734_5295902808081323415_n-e1616147261725-640x480-1.webp)
-
 **Positive pasienterfaringer**
 
 Gjennom min praksis har jeg sett flere pasienter med EDS som har opplevd positive effekter av bindevevsmassasje. Mange har rapportert om redusert smerte i problemområder som nakke, skuldre, hofter, ankler, føtter, knær og korsrygg, samt bedre bevegelsesfrihet. For noen har det også vært et viktig verktøy for å håndtere daglig ubehag og hindre tilbakefall av skader. En pasient med EDS fortalte meg at hun etter behandling kunne gjenoppta fysisk aktivitet hun ikke hadde klart på mange år, noe som har gjort en betydelig forskjell i hennes livskvalitet.

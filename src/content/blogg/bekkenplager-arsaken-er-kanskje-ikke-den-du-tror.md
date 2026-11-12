@@ -38,7 +38,7 @@ Dette skjer gjennom to bevegelser:
 
 Når dette fungerer godt, får du en naturlig og “flytende” bevegelse gjennom kroppen.([1,](https://whatthefoot.co.uk/)[2](https://pubmed.ncbi.nlm.nih.gov/16621569/)).  Det betyr mindre belastning på hofte, bekken og bekkenbunn.
 
-![](/bilder/wp/20231129_132645-1920x1440-480x360-1.webp)![fot](/bilder/wp/20231129_132642-1920x1440-480x360-1.webp)![Bekkenplager - årsaken er kanskje ikke den du tror?](/bilder/wp/20231129_132817-1-1920x1440-e1732183238107-640x631.webp)
+![](/bilder/wp/20231129_132645-1920x1440-480x360-1.webp)![fot](/bilder/wp/20231129_132642-1920x1440-480x360-1.webp)
 
 En fot som kan pronere og supinere godt, vil gi en mer, la oss si, harmonisk, bevegelse i hofte og bekken når du går. Dette er med på å dempe hvor mye støt fra bakken bekkenbunnen må håndtere (de med svak bekkenbunn vet hvor tungt det kan være å hoppe eller løpe på hardt underlag) ([3](https://pubmed.ncbi.nlm.nih.gov/34020879/)).
 
@@ -58,11 +58,9 @@ Har du smerter:
 
 kan en stiv eller «rigid» fot være *én av flere medvirkende faktorer*. Det betyr ikke at foten er hele forklaringen (belastninger som går mer direkte på bekkenet er også viktig!!), men at den kan holde liv i plagene ved å gi dårligere støtdemping, mindre naturlig hofte- og bekkenbevegelse og redusert stimulering av musklene på baksiden av benet (([1,](https://whatthefoot.co.uk/)  [2,](https://pubmed.ncbi.nlm.nih.gov/16621569/)[4](https://pubmed.ncbi.nlm.nih.gov/29097951/).)
 
-![](/bilder/wp/20231129_132645-1920x1440-480x360-1.webp)
-
 ## Hvordan vet du om du har en stiv fot som ikke flater ut og/eller strammer seg til (supinerer) ordentlig?
 
-![](/bilder/wp/fitness-1348867_1280-480x270-1.webp)![](/bilder/wp/fitness-1348867_1280-1-640x360.webp)
+![](/bilder/wp/fitness-1348867_1280-1-640x360.webp)
 
 Det er ikke så lett å vite, men her er noen selvtester du kan prøve hjemme, gjerne barfot foran et speil:
 

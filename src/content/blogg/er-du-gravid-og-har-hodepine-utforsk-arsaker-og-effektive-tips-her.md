@@ -67,8 +67,6 @@ Hvis du har opplevd hodepine på grunn av lavt blodsukker, kjenner du kanskje ig
 
 ## Cervikogen hodepine - når nakkeproblemer gir hodepine
 
-![](/bilder/wp/406289684_3565049273742869_6287191189555598149_n-300x225-1-1.webp)
-
 Det er viktig å forstå at hodepinen du opplever under graviditeten faktisk kan ha sitt opphav i nakken eller ryggraden. Dette fenomenet, kjent som cervikogen hodepine, blir spesielt relevant på grunn av de fysiske endringene som følger med graviditeten.
 
 Cervikogen hodepine oppstår fra nakken eller ryggraden, og det er en reaksjon på endringer i vektfordelingen og holdningen din [(1)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5648730/). Graviditetens påvirkning på kroppens struktur legger ekstra press på nakke- og ryggområdet, og dette kan føre til smertefulle cervikogene hodepiner. Disse hodepinene har karakteristiske trekk som smerteutbredelse fra nakken til forskjellige deler av hodet, forverring ved visse bevegelser, ensidig smerte, samt muligens nummenhet eller prikking i nakken eller den øvre delen av hodet.

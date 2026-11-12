@@ -42,8 +42,6 @@ Andre faktorer som påvirker dannelsen av muskelknuter inkluderer treningsnivå,
 
 ### Obturator internus
 
-![](/bilder/wp/obturator-internus-1.webp)
-
 ### Coccygeous, Sphincter ani, og Coccygeous
 
 ![](/bilder/wp/coccygeous.webp)

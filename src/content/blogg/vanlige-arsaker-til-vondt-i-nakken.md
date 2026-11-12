@@ -43,8 +43,6 @@ Som kiropraktor har jeg gode verktøy for å lindre og å bli kvitt nakkesmerten
 
 ## Forskning på kiropraktisk behandling av nakkesmerter
 
-![](/bilder/wp/bilde-1.webp)
-
 Flere studier støtter effekten av kiropraktisk behandling ved nakkesmerter:
 
 -   American College of Physicians anbefaler manuell behandling, inkludert kiropraktisk manipulasjon, som et trygt og effektivt alternativ for å lindre nakkesmerter (Qaseem et al., Annals of Internal Medicine, 2021).

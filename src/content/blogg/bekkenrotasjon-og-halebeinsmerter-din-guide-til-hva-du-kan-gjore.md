@@ -15,8 +15,6 @@ Halebeinsmerter er en vanlig plage som mange opplever på et tidspunkt i livet. 
 
 ## Nedre kryss syndrom - forover rotert bekken
 
-![Bekkenrotasjon og halebeinsmerter ](/bilder/wp/Shutterstock_2395673425-1920x1680-640x560-1.webp)
-
 Når bekkenet er forover rotert, vil den fremre delen av bekkenet vippe nedover, mens den bakre delen heves [(1)](https://pubmed.ncbi.nlm.nih.gov/34533893/)[(4)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10048650/). Dette kan føre til:
 
 1.  **Økt spenning og svakhet i korsrygg og bekken:** Et forover rotert bekken fører til stramme hofteleddsbøyerne, og stramme korsrygg muskler (Erector spinae), og svake/underaktive magemuskulatur, og setemuskulatur, som igjen trekker på halebeinet og fører til smerte. 

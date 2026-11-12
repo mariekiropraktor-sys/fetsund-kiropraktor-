@@ -41,7 +41,6 @@ Som kiropraktor er målet mitt å finne roten til problemet og jobbe helhetlig m
 -   [**Triggerpunktmassasje:**](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/) Peroneus longus, som ofte blir overbelastet ved cuboid syndrom, er en viktig muskel å jobbe med. Triggerpunktmassasje hjelper til med å løse opp spenninger her, og noen ganger også i hamstrings, dersom de er involvert.
 -   **Activator-teknikk:** Dette lille, håndholdte verktøyet leverer presise, skånsomme impulser for å justere ledd. Det er en fin metode hvis du foretrekker en mer skånsom behandling.
 -   [**Trening og rehabilitering:**](https://fetsundkiropraktorsara.no/behandlingsmetode/ovelsesveiledning-og-hjemmeovelser/) Etter behandlingen vil jeg lære deg øvelser som styrker fotens små muskler og stabiliserer kuboidbenet. Eksempler kan være tåhev, balanseøvelser og stretching for legg- og hamstringsmuskulaturen.
--   ![Cuboid syndrom](/bilder/wp/fitness-1348867_1280-480x270-1.webp)
 
 ## Bekkenets rolle i fotplager
 

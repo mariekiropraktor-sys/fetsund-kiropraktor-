@@ -7,7 +7,7 @@ image: "/bilder/wp/halebein-1920x1279-1.webp"
 forfatter: sara
 ---
 
-![](/bilder/wp/halebein-anatomi-1920x1280-640x427-1-1.webp)Den store guiden til halebeinsmerter ![Den store guiden til halebeinsmerter](/bilder/wp/halebein-anatomi-1920x1280-640x427-1-1.webp)![Den store guiden til halebeinsmerter](/bilder/wp/anatomi-halbeinet-beinet-1920x1280-640x427-1.webp)
+![Halebeinets anatomi](/bilder/wp/halebein-anatomi-1920x1280-640x427-1-1.webp)
 
 Halebeinsmerter (coccygodyni) er smerter nederst i ryggen, ved selve halebeinet (coccyx). Halebeinet er en liten trekantformet knokkel nederst i ryggraden som består av 3–5 små segmenter.  
 Selv om det er lite, kan det skape store problemer hvis det blir skadet, irritert eller utsatt for vedvarende trykk.
@@ -27,8 +27,6 @@ Som kiropraktor har jeg møtt pasienter fra hele Norge som sliter med smerter n�
 En britisk studie antyder at rundt 1 % av befolkningen opplever halebeinsmerter til enhver tid – men mørketallene er sannsynligvis store, fordi mange ikke søker hjelp. [(2)](https://emedicine.medscape.com/article/1264763-overview)
 
 ### Den store guiden til halebeinsmerter - Vanlige symptomer på halebeinsmerter
-
-![Den store guiden til halebeinsmerter](/bilder/wp/halebein-1920x1279-640x426-1.webp)
 
 -   Smerte eller ømhet nederst i korsryggen
 -   Forverring når du sitter lenge, spesielt på harde underlag
@@ -83,7 +81,7 @@ I noen tilfeller vurderes henvisning til røntgen eller MR for å avklare om det
 
 ### Den store guiden til halebeinsmerter - Hvordan [behandles halebeinsmerter](https://fetsundkiropraktorsara.no/behandlingsomrade/halebeinssmerter/)?
 
-![Den store guiden til halebeinsmerter](/bilder/wp/sara_bannerbilde-640x420.webp)![førstegangskonsultasjon hos kiropraktor i fetsund](/bilder/wp/sara_bannerbilde-640x420-1-3.webp)
+![Kiropraktor ved Fetsund Kiropraktorsenter](/bilder/wp/sara_bannerbilde-640x420.webp)
 
 **1\. Avlastning og sittestilling**  
 Bruk av spesialputer (halebeinspute) kan redusere trykket når du sitter.

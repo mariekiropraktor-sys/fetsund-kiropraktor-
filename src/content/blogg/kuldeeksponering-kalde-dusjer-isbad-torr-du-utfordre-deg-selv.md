@@ -59,8 +59,6 @@ Det er viktig å merke seg at isbading kan være farlig og ikke bør utføres al
 
 ### [Wim Hof metoden](https://www.wimhofmethod.com/) - “The ice man”
 
-![](/bilder/wp/wim-hof-960x640-1.webp)
-
 Wim Hof er en nederlandsk mann, kjent som ismannen. Det var han som fikk isbading ordentlig på kartet. Hans metode for kuldeeksponering er i en kort beskrivelse en blanding av pusteteknikk og hyperventilering for å øke oksygeninnholdet i blodet, for deretter å eksponere seg for kalde dusjer eller isbad.   
 
 Du kan lese mere om denne metoden [her.](https://www.wimhofmethod.com/) Eller se en kort filmsnutt om selve metoden her: ["Influence the immune system"](https://www.youtube.com/watch?v=A6jqaALpEFM&t=209s&ab_channel=WimHof), og ["Brain over body"](https://www.youtube.com/watch?v=YficBlvPwWQ&ab_channel=WimHof)
