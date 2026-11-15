@@ -1,5 +1,5 @@
 ---
-title: "Akutte korsryggsmerter: de første dagene og når du bør kontakte lege"
+title: "Akutte korsryggsmerter: de første dagene og når du bør kontakte kiropraktor"
 description: "Akutt vondt i korsryggen? Slik utvikler plagene seg ofte de første dagene, hva en kiropraktor undersøker, og når du bør kontakte lege."
 kortFortalt:
   - "Akutte korsryggsmerter kan være kraftige og skremmende, men skyldes oftest forhold i muskler og ledd, og de fleste blir gradvis bedre."
