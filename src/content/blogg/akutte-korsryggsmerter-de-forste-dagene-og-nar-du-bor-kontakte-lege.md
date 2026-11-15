@@ -8,6 +8,7 @@ kortFortalt:
   - "Kiropraktoren vil hjelpe til med smertelindring/behandling, råd og lette øvelser."
   - "Nedsatt følelse i skrittet, problemer med vannlating eller avføring, lammelser, feber eller smerter etter kraftig skade skal alltid vurderes av lege eller kiropraktor raskt."
 date: 2026-11-13
+image: "/bilder/blogg/akutte-korsryggsmerter.webp"
 tema: rygg-og-nakke
 forfatter: "marie"
 ---
