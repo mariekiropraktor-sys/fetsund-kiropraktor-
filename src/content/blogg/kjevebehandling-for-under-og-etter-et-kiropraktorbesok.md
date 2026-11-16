@@ -5,11 +5,17 @@ date: 2024-02-20
 tema: svimmelhet-og-hode
 image: "/bilder/wp/406315618_898607168278717_372496122684456257_n-1.webp"
 forfatter: marie
+kortFortalt:
+  - "Før besøket: Tenk gjennom når kjevesmertene startet, hva som gjør dem bedre eller verre, og hva du ønsker svar på. Ta gjerne med en oversikt over medisiner og tidligere skader eller behandling."
+  - "Under behandlingen: Kiropraktoren spør, undersøker kjeve og nakke og forklarer hva som gjøres. Si fra hvis noe er ubehagelig."
+  - "Etter behandlingen: Det kan kjennes litt sårt og ømt en stund. Spør om hvor ofte det er aktuelt å komme, og hva du kan gjøre selv hjemme."
+  - "Skriv ned spørsmål: Det er lett å glemme noe av det som blir sagt. Noter underveis, eller be om å få det gjentatt."
+  - "Kontakt kiropraktor eller lege: Ved kraftig hevelse, feber, plutselig endring i bittet, at kjeven låser seg, eller smerter etter et slag eller fall, bør du oppsøke lege."
 ---
 
 ## Har du noen gang lurt på litt rundt det praktiske når det gjelder et kiropraktorbesøk?
 
-*Skrevet av [kiropraktor Marie Hermansen](https://kiropraktormariehermansen.totalweb.dev/), eier, gründer og kiropraktor ved Fetsund Kiropraktorsenter.*
+*Skrevet av* [*kiropraktor Marie Hermansen*](https://kiropraktormariehermansen.totalweb.dev/)*, eier, gründer og kiropraktor ved Fetsund Kiropraktorsenter.*
 
 Hva slags teknikker bruker man og hva bør man gjøre eller unngå før behandling? Hva med det du lurer på etter besøket? Fikk du med deg alt kiropraktoren sa? Her får du svar på det kiropraktoren ønsker at du skal vite før, under og etter et kiropraktorbesøk.
 
