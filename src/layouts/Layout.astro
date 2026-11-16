@@ -17,9 +17,10 @@ interface Props {
   image?: string;
   type?: "website" | "article";
   skjult?: boolean; // true = Google skal ikke indeksere siden (utkast)
+  ikkeFunnet?: boolean; // true = 404-siden, som teller besøket selv med riktig adresse
 }
 
-const { title, description, image = site.heroBilde, type = "website", skjult = false } = Astro.props;
+const { title, description, image = site.heroBilde, type = "website", skjult = false, ikkeFunnet = false } = Astro.props;
 // En tittel med «|» eller klinikknavnet brukes som den er; ellers legges klinikknavnet til.
 // Hold titler under ca. 60 tegn totalt, ellers kutter Google dem.
 const fullTitle =
@@ -79,6 +80,6 @@ const jsonLd = {
     <Footer />
     <MobilBestill />
     <CookieSamtykke />
-    <Analytics />
+    {!ikkeFunnet && <Analytics />}
   </body>
 </html>

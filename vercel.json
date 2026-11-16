@@ -3,6 +3,51 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/hjem/ansatte{/}?",
+      "destination": "/om-klinikken/#kiropraktorene",
+      "permanent": true
+    },
+    {
+      "source": "/ansatte{/}?",
+      "destination": "/om-klinikken/#kiropraktorene",
+      "permanent": true
+    },
+    {
+      "source": "/hjem{/}?",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/om-oss{/}?",
+      "destination": "/om-klinikken/",
+      "permanent": true
+    },
+    {
+      "source": "/kontakt{/}?",
+      "destination": "/kontakt-oss/",
+      "permanent": true
+    },
+    {
+      "source": "/personvernerklaering{/}?",
+      "destination": "/personvern/",
+      "permanent": true
+    },
+    {
+      "source": "/behandlingsomrade/albuesmerter{/}?",
+      "destination": "/behandlingsomrade/albue-og-handleddsmerter/",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap_index.xml",
+      "destination": "/sitemap-index.xml",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "permanent": true
+    },
+    {
       "source": "/www.fetsundkiropraktor.no/:path*",
       "destination": "/:path*",
       "permanent": true
