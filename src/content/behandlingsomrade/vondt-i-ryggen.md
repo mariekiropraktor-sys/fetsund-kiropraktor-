@@ -3,16 +3,17 @@ tittel: "Vondt i ryggen"
 kortNavn: "Korsrygg"
 kortTekst: "Akutt låsning, kink og langvarige smerter"
 gruppe: rygg
-ingress: "Korsryggsmerter er blant det vanligste vi behandler. De fleste blir bra, og riktig behandling og øvelser kan korte ned tiden betydelig."
+ingress: "Korsryggsmerter er blant det vanligste vi som kiropraktorer behandler i Fetsund. De fleste blir bra, og vi hjelper deg med undersøkelse, behandling og øvelser underveis."
+seoTittel: "Vondt i ryggen | Kiropraktor ved ryggsmerter, Fetsund"
 beskrivelse: "Vondt i korsryggen? Les om vanlige årsaker, hva du kan gjøre selv, og hvordan kiropraktorene i Fetsund behandler ryggsmerter."
 rekkefolge: 2
 bilde: "/bilder/wp/Kopi-av-70-CHIROPRACTOR-IG-POSTS-7.webp"
-oppdatert: 2025-07-07
+oppdatert: 2026-11-17
 ---
 
 ## Har du vondt i ryggen?
 
-**Du er neppe alene. Her på Fetsund kiropraktorsenter ser vi mange med vondt i ryggen i løpet av dagen.** 
+**Du er neppe alene. Som kiropraktorer ved Fetsund Kiropraktorsenter ser vi mange med ryggsmerter hver dag, både akutt låsning og plager som har vart lenge.**
 
 I følge [FHI](https://nhi.no/sykdommer/muskelskjelett/rygg-nakke-bryst/korsryggsmerter-vedvarende/) vil 60-70% av befolkningen vil oppleve ryggvondt en eller flere ganger i løpet av livet. I følge [Norsk kiropraktorforening](https://www.kiropraktikk.no/Problemomraader/Ryggsmerter) Har halvparten av disse hatt vondt siste år og cirka 40% siste måned.
 
@@ -54,11 +55,13 @@ Dette er et definisjonsspørsmål og har mye å si for hvor god prognose man har
 
 I noen tilfeller, spesielt ved langvarige plager, kan følelsesmessige og sosiale utfordringer virke inn på smertene. Generell nedstemthet, depresjon, en følelse av utilstrekkelighet og manglende støtte hos partner og i arbeid er eksempler på psykososiale forhold som har vist seg å kunne forsterke eller forlenge smerteprosesser. Det er derfor viktig å ta tak i alle aspekter når man først vil “rydde opp i” vondtene sine.
 
-## Behandlingsmetoder og egenhjelp for korsryggsmerter.
+## Slik hjelper kiropraktoren ved ryggsmerter
+
+Først undersøker vi ryggen, bekkenet og hoftene, og ser etter tegn på at noe bør sjekkes hos lege. Du får en forklaring på hva vi tror smertene kommer av, og en plan for behandling og øvelser. Trengs det MR, røntgen eller sykemelding, ordner vi det.
 
 Om du opplever korsryggsmerter eller vondt i ryggen er det veldig gunstig om du klarer å hode deg fysisk aktiv, fremfor å sitte stille eller holde sengen. Fysisk aktivitet har dokumentert effekt for en rekke muskel- og skjelettsmerter, inkludert ryggplager.
 
-I følge [nationale kliniske retningslinjer for korsryggsmerter med eller uten nerverotsaffeksjon](file:///Users/marteher/Downloads/Nasjonale%20kliniske%20retningslinjer%20for%20korsryggsmerter%20med%20og%20uten%20nerverotaffeksjon.pdf) er det meget god dokumentasjon for at manipulasjonsbehandling, utført av kvalifiserte fagpersoner, er gunstig ved akutte oppståtte korsryggsmerter, basert på den forskningen som nå finnes.
+I følge nasjonale kliniske retningslinjer for korsryggsmerter med eller uten nerverotsaffeksjon er det meget god dokumentasjon for at manipulasjonsbehandling, utført av kvalifiserte fagpersoner, er gunstig ved akutte oppståtte korsryggsmerter, basert på den forskningen som nå finnes.
 
 [Manipulasjonsbehandling](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) er altså den “poppingen” eller “knekkingen” kiropraktoren ofte utfører i tillegg til for eksempel;
 
@@ -71,7 +74,7 @@ I følge [nationale kliniske retningslinjer for korsryggsmerter med eller uten n
 
 I følge [NICE guidelines](https://www.nice.org.uk/guidance/ng59) er en “pakke” med behandling det aller gunstigste. Dvs, fokusere på en helhetlig tilnærming ved behandling og oppfølging av hver pasient.
 
-Dette passer godt inn med hvordan [våre kiropraktorer](/#ansatte) på Fetsund Kiropraktorsenter jobber.
+Dette passer godt inn med hvordan [våre kiropraktorer](/om-klinikken/#kiropraktorene) på Fetsund Kiropraktorsenter jobber.
 
 ## Kontakt oss!
 
@@ -81,4 +84,4 @@ Kontakt oss gjerne på telefon 46332766, eller benytt vår [døgnåpne online bo
 
 Vi gleder oss til å hjelpe deg på vei til en bedre hverdag!
 
-Du kan lese mer om [våre behandlere](/#ansatte), priser og kontaktinformasjon ved å klikke deg gjennom vår [hovedmeny](https://fetsundkiropraktormarie.no/#hovedmeny).
+Du kan lese mer om [våre behandlere](/om-klinikken/#kiropraktorene), priser og kontaktinformasjon ved å klikke deg gjennom vår [hovedmeny](/).
