@@ -96,7 +96,7 @@ Smertestillende medisiner og betennelsesdempende legemidler kan bidra til å lin
 
 -   Bruk av riktige sko som passer godt og gir støtte til foten og ankelen.
 -   Gradvis økning av treningsintensitet og varighet for å unngå overbelastningsskader.
--   Regelmessig [stretching og styrketrening](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/) for å opprettholde muskelfleksibilitet og styrke.
+-   Regelmessig [stretching og styrketrening](/behandlingsmetode/ovelsesveiledning/) for å opprettholde muskelfleksibilitet og styrke.
 -   Vær oppmerksom på kroppens signaler og ta pauser ved tegn på smerte eller ubehag.
 -   [Kiropraktisk behandling](/behandlingsmetoder/): Kiropraktorer kan hjelpe med å korrigere dysfunksjon i ryggraden, hofter eller knær som kan bidra til de refererte smertene til foten.
 -   Ergonomiske endringer\*: Justering av arbeidsstasjonen, skotøy eller daglige aktiviteter kan bidra til å redusere belastningen på det primære problemområdet og lindre de refererte smertene til foten.

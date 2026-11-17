@@ -53,7 +53,7 @@ Du får vite:
 ## 4\. Førstegangskonsultasjon hos kiropraktor i Fetsund - får du behandling?
 
 Som regel starter vi behandlingen allerede på første konsultasjon.  
-Behandlingen kan bestå av [leddjustering](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/), [mobiliseringsteknikker](https://fetsundkiropraktorsara.no/behandlingsmetode/mobiliseringsbehandling/), muskelbehandling som [triggerpunktsmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/) og [bindevevsmassasje,](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/) tøyning, avspenning, [øvelser](https://fetsundkiropraktorsara.no/behandlingsmetode/ovelsesveiledning-og-hjemmeovelser/) eller andre teknikker – alt tilpasset deg og det vi har funnet i undersøkelsen.
+Behandlingen kan bestå av [leddjustering](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/), [mobiliseringsteknikker](/behandlingsmetode/mobiliseringsbehandling/), muskelbehandling som [triggerpunktsmassasje](/behandlingsmetode/triggerpunktsmassasje/) og [bindevevsmassasje,](/behandlingsmetode/bindevevsmassasje/) tøyning, avspenning, [øvelser](/behandlingsmetode/ovelsesveiledning/) eller andre teknikker – alt tilpasset deg og det vi har funnet i undersøkelsen.
 
 I noen tilfeller, hvis det er mye å sette seg inn i, mange funn å gå gjennom, eller behov for videre utredning (for eksempel MR eller røntgen), kan vi avtale å starte behandlingen på neste time. Dette sikrer at vi får gjort en grundig vurdering før vi går i gang.
 

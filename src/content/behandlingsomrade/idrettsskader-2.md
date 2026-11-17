@@ -46,7 +46,7 @@ Tidlig og nøyaktig diagnostisering av idrettsskader er avgjørende for å sikre
 ## Behandlingsmetoder varierer avhengig av type og alvorlighetsgrad av skaden, men kan inkludere:
 
 -    **RICE-metoden:** Rest, Ice, Compression, Elevation. Denne metoden brukes ofte for å behandle akutte skader som forstuinger og forstrekninger.
--   **[Kiropraktikk,](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) [triggerpunktmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/), og [øvelsesveiledning:](https://fetsundkiropraktorsara.no/behandlingsmetode/ovelsesveiledning/)** Viktig for rehabilitering etter skader, inkludert styrkeøvelser, tøyninger og funksjonelle øvelser.
+-   **[Kiropraktikk,](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) [triggerpunktmassasje](/behandlingsmetode/triggerpunktsmassasje/), og [øvelsesveiledning:](/behandlingsmetode/ovelsesveiledning/)** Viktig for rehabilitering etter skader, inkludert styrkeøvelser, tøyninger og funksjonelle øvelser.
 -   **Kirurgi:** Nødvendig for mer alvorlige skader som ligamentrupturer eller komplekse beinbrudd.
 
 ![](/bilder/wp/mobliseringsbehandling_web-2.webp)

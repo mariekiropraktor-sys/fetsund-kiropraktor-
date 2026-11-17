@@ -60,7 +60,7 @@ Her er en oversikt over årsakene, symptomene og behandlingsalternativene for mu
 
 \- Gradvis økning av treningsintensitet og varighet for å unngå overbelastning.
 
-\- Regelmessig [stretching og styrketrening](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/) for å opprettholde muskelfleksibilitet og styrke.
+\- Regelmessig [stretching og styrketrening](/behandlingsmetode/ovelsesveiledning/) for å opprettholde muskelfleksibilitet og styrke.
 
 \- Ta hyppige pauser fra stillesittende aktiviteter for å redusere belastningen på muskler og sener.
 

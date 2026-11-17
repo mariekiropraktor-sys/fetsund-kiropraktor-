@@ -77,7 +77,7 @@ Deretter gjøres en undersøkelse som kan inkludere:
 -   Ortopediske tester for bekken og korsrygg
 -   Vurdering av sittestilling og bevegelsesmønster
 
-I noen tilfeller vurderes henvisning til røntgen eller MR for å avklare om det er brudd, feilstilling eller annen patologi. Les ["hva skjer på en førstegangskonsultasjon hos Kiropraktor i Fetsund"](https://fetsundkiropraktorsara.no/hva-skjer-pa-en-forstegangskonsultasjon-hos-kiropraktor-i-fetsund/)
+I noen tilfeller vurderes henvisning til røntgen eller MR for å avklare om det er brudd, feilstilling eller annen patologi. Les ["hva skjer på en førstegangskonsultasjon hos Kiropraktor i Fetsund"](/hva-skjer-pa-en-forstegangskonsultasjon-hos-kiropraktor-i-fetsund/)
 
 ### Den store guiden til halebeinsmerter - Hvordan [behandles halebeinsmerter](https://fetsundkiropraktorsara.no/behandlingsomrade/halebeinssmerter/)?
 

@@ -48,11 +48,11 @@ Andre faktorer som påvirker dannelsen av muskelknuter inkluderer treningsnivå,
 
 ### Hhvordan løsne på muskelknuter:
 
-Det finnes mange måter å løsne opp muskelknuter på, som kan være avgjørende for å oppnå smertelindring og bedre bevegelighet. En effektiv tilnærming inkluderer regelmessig strekking, foamroller/triggerpunktball, og bruk av varme- og [kuldebehandling](https://fetsundkiropraktorsara.no/kuldeeksponering-kalde-dusjer-isbad-torr-du-utfordre-deg-selv/). Å praktisere yoga, Pilates og Styrketrening kan også bidra til å styrke og strekke musklene, noe som kan forebygge dannelse av nye knuter. I tillegg til disse metodene, kan det være nyttig å søke veiledning fra profesjonell helsepersonell, som Kiropraktor for skreddersydde behandlingsplaner og [behandlingsteknikker](https://fetsundkiropraktorsara.no/behandlingsmetoder/) som passer dine behov og kroppstype. Behandlingsmetoder vi bruker på [Fetsund Kiropraktorsenter](https://fetsundkiropraktorsara.no/) inkluderer:
+Det finnes mange måter å løsne opp muskelknuter på, som kan være avgjørende for å oppnå smertelindring og bedre bevegelighet. En effektiv tilnærming inkluderer regelmessig strekking, foamroller/triggerpunktball, og bruk av varme- og [kuldebehandling](https://fetsundkiropraktorsara.no/kuldeeksponering-kalde-dusjer-isbad-torr-du-utfordre-deg-selv/). Å praktisere yoga, Pilates og Styrketrening kan også bidra til å styrke og strekke musklene, noe som kan forebygge dannelse av nye knuter. I tillegg til disse metodene, kan det være nyttig å søke veiledning fra profesjonell helsepersonell, som Kiropraktor for skreddersydde behandlingsplaner og [behandlingsteknikker](/behandlingsmetoder/) som passer dine behov og kroppstype. Behandlingsmetoder vi bruker på [Fetsund Kiropraktorsenter](https://fetsundkiropraktorsara.no/) inkluderer:
 
--   [Bindevevsmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/) 
--   [Tørrnålteknikk](https://fetsundkiropraktorsara.no/behandlingsmetode/nalebehandling/)
--   [Kiropraktisk leddjustering](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/)
--   [Muskelmassasje/triggerpunkt massasje](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/)
+-   [Bindevevsmassasje](/behandlingsmetode/bindevevsmassasje/) 
+-   [Tørrnålteknikk](/behandlingsmetode/nalebehandling/)
+-   [Kiropraktisk leddjustering](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/)
+-   [Muskelmassasje/triggerpunkt massasje](/behandlingsmetode/triggerpunktsmassasje/)
 
 Skrevet av [Kiropraktor Sara Nordanger](https://fetsundkiropraktorsara.no/om-sara-nordanger/)

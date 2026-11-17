@@ -78,7 +78,7 @@ Symptomer:
 
 ![5 Vanlige årsaker til fotsmerter](/bilder/wp/Shutterstock_2395673425-1920x1680-4-1-480x420-1.webp)
 
-Bekkenet fungerer som fundamentet for ryggraden og hele underkroppen. Hvis [bekkenet er i ubalanse](https://fetsundkiropraktorsara.no/bekkenrotasjon-og-halebeinssmerter-din-guide-til-hva-du-kan-gjore/) – enten fremoverrotert (anterior tilt), bakoverrotert (posterior tilt) eller skjevt til én side (lateral tilt) – kan det påvirke hvordan du går og står. Dette kan skape feilbelastninger som forplanter seg ned til knær, ankler og føtter.  
+Bekkenet fungerer som fundamentet for ryggraden og hele underkroppen. Hvis [bekkenet er i ubalanse](/bekkenrotasjon-og-halebeinsmerter-din-guide-til-hva-du-kan-gjore/) – enten fremoverrotert (anterior tilt), bakoverrotert (posterior tilt) eller skjevt til én side (lateral tilt) – kan det påvirke hvordan du går og står. Dette kan skape feilbelastninger som forplanter seg ned til knær, ankler og føtter.  
 Fremoverrotert bekken: Kan føre til innoverroterte knær, økt press på innsiden av foten og større risiko for tilstander som plantar fasciitt og hallux valgus.  
 Bakoverrotert bekken: Kan føre til utoverroterte knær, økt belastning på utsiden av foten og tilstander som cuboid syndrom.  
 Skjevt bekken: Kan skape asymmetri i belastningen mellom føttene, noe som kan utløse kroniske plager som Mortons nevrom eller tarsal tunnel-syndrom.  
@@ -96,11 +96,11 @@ Clinical Biomechanics har funnet en klar sammenheng mellom hoftebevegelser og fo
 Som kiropraktor undersøker jeg alltid hele kroppen for å finne ut hva som ligger bak fotplagene dine. Behandlingen inkluderer ofte:  
 Undersøkelse av bekken, knær og hofter for å finne biomekaniske ubalanser.
 
--   Spesifikke [justeringer](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) for å rette opp feilbelastning.
+-   Spesifikke [justeringer](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) for å rette opp feilbelastning.
 
-    -   Og andre behandlingsmetoder du kan lese om [her](https://fetsundkiropraktorsara.no/behandlingsmetoder/)
+    -   Og andre behandlingsmetoder du kan lese om [her](/behandlingsmetoder/)
 
--   Skreddersydde [øvelser](https://fetsundkiropraktorsara.no/behandlingsmetode/ovelsesveiledning-og-hjemmeovelser/) for å styrke og stabilisere kroppen.
+-   Skreddersydde [øvelser](/behandlingsmetode/ovelsesveiledning/) for å styrke og stabilisere kroppen.
 
 Ta kontakt i dag for en konsultasjon. Sammen kan vi finne en løsning som gir deg en smertefri hverdag – fra bekken til tåspiss!  
 – Sara Nordanger, din kiropraktor. Les mer om meg og mine spesialiteter [her.](https://fetsundkiropraktorsara.no/om-sara-nordanger/)

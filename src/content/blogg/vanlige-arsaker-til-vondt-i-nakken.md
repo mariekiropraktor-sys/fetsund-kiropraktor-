@@ -31,10 +31,10 @@ Vanlige symptomer på nakkesmerter inkluderer:
 
 Som kiropraktor har jeg gode verktøy for å lindre og å bli kvitt nakkesmertene dine. Gjennom justeringer, mobilisering og målrettede øvelser jobber vi sammen for å styrke nakken og redusere smerter. Nedenfor beskriver jeg hvordan jeg konkret kan hjelpe deg med hver av de vanligste årsakene til nakkesmerter:
 
--   **Kroppsholdning:** Jeg kan rette opp i feilposisjoner i nakke og rygg med [kiropraktisk leddjustering](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/), og gi deg råd om [ergonomi og øvelser](https://fetsundkiropraktorsara.no/behandlingsmetode/ovelsesveiledning-og-hjemmeovelser/) for å støtte opp nakken.
--   **Stress og muskelspenninger:** Behandling hos meg kan bidra til å løsne spenninger i nakke og skuldre, og jeg kan gi deg veiledning i stressmestringsteknikker. [Tørrnålteknikk](https://fetsundkiropraktorsara.no/behandlingsmetode/nalebehandling/), [triggerpunktsmassasje,](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/) muskelmassasje og [bindevevsmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/) er blant noen av behandlingsmetodene vi bruker for muskelspenninger.
+-   **Kroppsholdning:** Jeg kan rette opp i feilposisjoner i nakke og rygg med [kiropraktisk leddjustering](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/), og gi deg råd om [ergonomi og øvelser](/behandlingsmetode/ovelsesveiledning/) for å støtte opp nakken.
+-   **Stress og muskelspenninger:** Behandling hos meg kan bidra til å løsne spenninger i nakke og skuldre, og jeg kan gi deg veiledning i stressmestringsteknikker. [Tørrnålteknikk](/behandlingsmetode/nalebehandling/), [triggerpunktsmassasje,](/behandlingsmetode/triggerpunktsmassasje/) muskelmassasje og [bindevevsmassasje](/behandlingsmetode/bindevevsmassasje/) er blant noen av behandlingsmetodene vi bruker for muskelspenninger.
 -   **Muskulære ubalanser:** Her vil justeringer og skreddersydde øvelser gi deg bedre støtte i nakken og forebygge fremtidige smerter.
--   **Slitasje og låsninger:** Skånsom [mobilisering](https://fetsundkiropraktorsara.no/behandlingsmetode/mobiliseringsbehandling/) og råd om tilpasset trening kan gi deg en sterk og bevegelig nakke.
+-   **Slitasje og låsninger:** Skånsom [mobilisering](/behandlingsmetode/mobiliseringsbehandling/) og råd om tilpasset trening kan gi deg en sterk og bevegelig nakke.
 -   **Akutte skader:** Etter skader vil jeg hjelpe deg med skånsom opptrening for å forhindre at skaden utvikler seg til kronisk smerte.
 
 ## Forskning på kiropraktisk behandling av nakkesmerter

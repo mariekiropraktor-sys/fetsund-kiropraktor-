@@ -36,11 +36,11 @@ Cuboid syndrom kan ramme mange, men visse grupper er mer utsatt:
 
 Som kiropraktor er målet mitt å finne roten til problemet og jobbe helhetlig med kroppen din. Her er noen av teknikkene jeg ofte bruker for cuboid syndrom:
 
--   [**Leddjustering**](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) for kuboidbenet: Hvis kuboidbenet er ute av posisjon, kan jeg forsiktig justere det tilbake. Dette er en trygg og effektiv teknikk som raskt kan redusere smerte og forbedre fotens bevegelighet.
--   [**Bindevevsmassasje:**](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/) Stramhet i bindevevet under foten (plantar fascia) er vanlig ved cuboid syndrom. Jeg jobber med å løse opp dette vevet for å redusere presset på kuboidbenet.
--   [**Triggerpunktmassasje:**](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/) Peroneus longus, som ofte blir overbelastet ved cuboid syndrom, er en viktig muskel å jobbe med. Triggerpunktmassasje hjelper til med å løse opp spenninger her, og noen ganger også i hamstrings, dersom de er involvert.
+-   [**Leddjustering**](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) for kuboidbenet: Hvis kuboidbenet er ute av posisjon, kan jeg forsiktig justere det tilbake. Dette er en trygg og effektiv teknikk som raskt kan redusere smerte og forbedre fotens bevegelighet.
+-   [**Bindevevsmassasje:**](/behandlingsmetode/bindevevsmassasje/) Stramhet i bindevevet under foten (plantar fascia) er vanlig ved cuboid syndrom. Jeg jobber med å løse opp dette vevet for å redusere presset på kuboidbenet.
+-   [**Triggerpunktmassasje:**](/behandlingsmetode/triggerpunktsmassasje/) Peroneus longus, som ofte blir overbelastet ved cuboid syndrom, er en viktig muskel å jobbe med. Triggerpunktmassasje hjelper til med å løse opp spenninger her, og noen ganger også i hamstrings, dersom de er involvert.
 -   **Activator-teknikk:** Dette lille, håndholdte verktøyet leverer presise, skånsomme impulser for å justere ledd. Det er en fin metode hvis du foretrekker en mer skånsom behandling.
--   [**Trening og rehabilitering:**](https://fetsundkiropraktorsara.no/behandlingsmetode/ovelsesveiledning-og-hjemmeovelser/) Etter behandlingen vil jeg lære deg øvelser som styrker fotens små muskler og stabiliserer kuboidbenet. Eksempler kan være tåhev, balanseøvelser og stretching for legg- og hamstringsmuskulaturen.
+-   [**Trening og rehabilitering:**](/behandlingsmetode/ovelsesveiledning/) Etter behandlingen vil jeg lære deg øvelser som styrker fotens små muskler og stabiliserer kuboidbenet. Eksempler kan være tåhev, balanseøvelser og stretching for legg- og hamstringsmuskulaturen.
 
 ## Bekkenets rolle i fotplager
 

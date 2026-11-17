@@ -63,6 +63,6 @@ Om triggerpunktsmassasjen ikke hjelper eller kiropraktoren ikke klarer å reprod
 
 En kiropraktor har full henvisningsrett til både MR/CT/ røntgen, samt spesialistundersøkelser og sykemelding.
 
-Det skal til slutt nevnes at for å få et godt resultat av en hver type behandling, anbefales det både egentiltak og trening parallelt med behandlingsopplegget. På Fetsund Kiropraktorsenter vil vi kunne bistå våre pasienter med både behandling, egentiltak, [trening og hjemmeøvelser](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/), og eventuelt sykemelding eller henvisning videre.
+Det skal til slutt nevnes at for å få et godt resultat av en hver type behandling, anbefales det både egentiltak og trening parallelt med behandlingsopplegget. På Fetsund Kiropraktorsenter vil vi kunne bistå våre pasienter med både behandling, egentiltak, [trening og hjemmeøvelser](/behandlingsmetode/ovelsesveiledning/), og eventuelt sykemelding eller henvisning videre.
 
 Ikke nøl med å ta kontakt om det skulle være noen spørsmål rundt dette.

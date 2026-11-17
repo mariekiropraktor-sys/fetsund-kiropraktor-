@@ -60,11 +60,11 @@ Et rotert bekken kan føre til en rekke andre komplikasjoner og smerter i ulike 
 
 #### Kiropraktisk leddjustering
 
-[Kiropraktisk manipulasjonsbehandling](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) kan bidra til å korrigere bekkenrotasjon ved hjelp av manuelle justeringer. Dette kan bidra til å redusere trykket på halebeinet og lindre smerte. En kiropraktor kan også anbefale spesifikke øvelser og tøyninger for å styrke kjernemuskulaturen og forbedre kroppsholdningen.
+[Kiropraktisk manipulasjonsbehandling](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) kan bidra til å korrigere bekkenrotasjon ved hjelp av manuelle justeringer. Dette kan bidra til å redusere trykket på halebeinet og lindre smerte. En kiropraktor kan også anbefale spesifikke øvelser og tøyninger for å styrke kjernemuskulaturen og forbedre kroppsholdningen.
 
 #### Øvelser og Tøyninger
 
-[Spesifikke øvelser](https://fetsundkiropraktorsara.no/behandlingsmetode/ovelsesveiledning/) kan bidra til å rette opp bekkenet og redusere halebeinsmerter:
+[Spesifikke øvelser](/behandlingsmetode/ovelsesveiledning/) kan bidra til å rette opp bekkenet og redusere halebeinsmerter:
 
 \- Bekkenvipper: Disse kan bidra til å justere bekkenet og styrke kjernemuskulaturen.
 

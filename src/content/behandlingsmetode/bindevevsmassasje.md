@@ -57,7 +57,7 @@ Her på Fetsund Kiropraktorsenter får du det vi kaller «instrument-assistert
 
 Behandlingen kan medføre litt ømhet og rødhet i området som er blitt behandlet, men dette er helt ufarlig og går som regel over i løpet av kort tid.
 
-Bindevevsmassasje får du ofte i kombinasjon med andre behandlingsmetoder, som [kiropraktisk manipulasjonsbehandling](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/), [triggerpunktsmassasje](/behandlingsmetode/triggerpunktsmassasje/), [nålebehandling](/behandlingsmetode/nalebehandling/), samt trening og [hjemmeøvelser](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/).
+Bindevevsmassasje får du ofte i kombinasjon med andre behandlingsmetoder, som [kiropraktisk manipulasjonsbehandling](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/), [triggerpunktsmassasje](/behandlingsmetode/triggerpunktsmassasje/), [nålebehandling](/behandlingsmetode/nalebehandling/), samt trening og [hjemmeøvelser](/behandlingsmetode/ovelsesveiledning/).
 
 Våre kiropraktorer er eksperter på å finne riktig behandlingsmetode for deg og dine behov, samt skreddersy et spesifikt treningsprogram for deg og dine plager.
 

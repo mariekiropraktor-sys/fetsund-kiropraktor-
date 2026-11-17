@@ -68,7 +68,7 @@ Kiropraktorer spiller en viktig rolle i diagnostisering og behandling av brystry
 
 -   [kiropraktiske justeringer](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/),
 -   [myofascial release-teknikker](/behandlingsmetoder/),
--   [øvelser for styrke og fleksibilitet,](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/)
+-   [øvelser for styrke og fleksibilitet,](/behandlingsmetode/ovelsesveiledning/)
 -   samt ergonomiske råd for å forbedre holdningen og forebygge tilbakevendende smerter.
 
 #### Brystryggsmerter kan ha flere underliggende årsaker og påvirke pasienters livskvalitet. Med en helhetlig tilnærming som inkluderer diagnostikk, behandling og forebygging, kan kiropraktorer spille en avgjørende rolle i omsorgen for pasienter med brystryggsmerter. Ved å adressere både symptomer og årsaker, bidrar kiropraktisk behandling til lindring av smerte, forbedret funksjon og økt velvære hos pasientene.

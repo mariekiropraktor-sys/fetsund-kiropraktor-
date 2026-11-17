@@ -67,39 +67,35 @@ Justering fra innsiden brukes vanligvis om justeringen fra utsiden med aktivator
 
 ![halebeinssmerter](/bilder/wp/sara_bannerbilde-640x420-1.webp)
 
-Om halebein smertene er referert fra korsrygg eller bekken, eller om du har gått med dette lenge, er det ofte at kroppen kompenserer med korsrygg og bekken og vi justerer også ofte områdene her ved halebein smerter. Ved en [kiropraktisk justering](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) frigjøres et låst ledd ved et dytt inn i leddene. Dette fører til en bedring av bevegelsen i leddet, en umiddelbar avspenning av overspent muskulatur, og du vil kjenne smertelindring med en gang. En knekke lyd høres ofte i forbindelse med en kiropraktisk justering. Behandlingsmetoden er dokumentert trygg og effektiv. Det er normalt med lette, forbigående reaksjoner etter kiropraktorbehandling, som lokal ømhet, stølhet og tretthet.
+Om halebein smertene er referert fra korsrygg eller bekken, eller om du har gått med dette lenge, er det ofte at kroppen kompenserer med korsrygg og bekken og vi justerer også ofte områdene her ved halebein smerter. Ved en [kiropraktisk justering](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) frigjøres et låst ledd ved et dytt inn i leddene. Dette fører til en bedring av bevegelsen i leddet, en umiddelbar avspenning av overspent muskulatur, og du vil kjenne smertelindring med en gang. En knekke lyd høres ofte i forbindelse med en kiropraktisk justering. Behandlingsmetoden er dokumentert trygg og effektiv. Det er normalt med lette, forbigående reaksjoner etter kiropraktorbehandling, som lokal ømhet, stølhet og tretthet.
 
 I motsetning til justering av halebeinet hvor det ikke kommer noen knekke lyd, så vil en justering av bekken eller korsrygg ofte gi en “knekke” lyd. Lyden som kan høres ved en justering er frigjøring av gasser inne i ett ledd, dette er helt ufarlig hvis utført av kvalifisert kiropraktor.
 
 ## Andre teknikker som blir brukt ved behandling av halebeinsmerter:
 
-### [Muskelmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/)
+### [Muskelmassasje](/behandlingsmetode/triggerpunktsmassasje/)
 
-![](/bilder/wp/hero-forside-480x320-1.webp)
+### [Tørrnålteknikk](/behandlingsmetode/nalebehandling/)
 
-### [Tørrnålteknikk](https://fetsundkiropraktorsara.no/behandlingsmetode/nalebehandling/)
+### [Bindevevsmassasje](/behandlingsmetode/bindevevsmassasje/)
 
-### [Bindevevsmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/)
+### [Mobiliseringsbehandling](/behandlingsmetode/mobiliseringsbehandling/)
 
-### [Mobiliseringsbehandling](https://fetsundkiropraktorsara.no/behandlingsmetode/mobiliseringsbehandling/)
+### [Hjemmeøvelser](/behandlingsmetode/ovelsesveiledning/) og ergonomiske råd
 
-### [Hjemmeøvelser](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/) og ergonomiske råd
-
--   -   bruk av sittering (pute)
-    -   R.I.C.E. metoden\*: Hvile, is, kompresjon og elevasjon kan bidra til å redusere hevelse og smerte i de første dagene etter skaden.
-    -   Smertestillende medisiner: Kortvarig bruk av smertestillende medisiner kan være nødvendig for å lindre akutte smerter.
-    -   varme og [kuldeterapi](https://fetsundkiropraktorsara.no/kuldeeksponering-kalde-dusjer-isbad-torr-du-utfordre-deg-selv/)
-    -   Bekkenbunn avspenning/trening
-    -   [Styrkeøvelser](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/) for muskler som støtter halebein
+-   bruk av sittering (pute)
+-   R.I.C.E. metoden\*: Hvile, is, kompresjon og elevasjon kan bidra til å redusere hevelse og smerte i de første dagene etter skaden.
+-   Smertestillende medisiner: Kortvarig bruk av smertestillende medisiner kan være nødvendig for å lindre akutte smerter.
+-   varme og [kuldeterapi](/kuldeeksponering-kalde-dusjer-isbad-torr-du-utfordre-deg-selv/)
+-   Bekkenbunn avspenning/trening
+-   [Styrkeøvelser](/behandlingsmetode/ovelsesveiledning/) for muskler som støtter halebein
 
 ### Injeksjoner: [(8)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10796902/)
 
--   -   -   I noen tilfeller kan kortikosteroidinjeksjoner bli administrert for å redusere betennelse og lindre smerte i det berørte området.
-        -   Caudal epidural injeksjon
-        -   Ganglion blokade
+-   I noen tilfeller kan kortikosteroidinjeksjoner bli administrert for å redusere betennelse og lindre smerte i det berørte området.
+-   Caudal epidural injeksjon
+-   Ganglion blokade
 
 ### Kirurgisk Fjerning:
 
 Hvis konservative tiltak ikke gir tilstrekkelig lindring, kan kirurgisk fjerning av beinutveksten vurderes. Dette inngrepet, kjent som coccygectomy, innebærer å fjerne deler eller hele halebeinet for å lindre symptomer.
-
-![](/bilder/wp/sky-freedom-happiness-2667455-768x496-1-640x413-1.webp)

@@ -72,13 +72,13 @@ Kiropraktorbehandling er trygg både for mor og det ufødte barnet. [(5)](https:
 
 ### Behandlingsteknikker
 
--   [Kiropraktisk leddjustering](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/)
--   [Triggerpunktbehandling](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/)
+-   [Kiropraktisk leddjustering](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/)
+-   [Triggerpunktbehandling](/behandlingsmetode/triggerpunktsmassasje/)
 -   Muskelmassasje
--   [Mobiliseringsbehandling](https://fetsundkiropraktorsara.no/behandlingsmetode/mobiliseringsbehandling/)
--   [Bindevevsmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/)
--   [Tørrnålteknikk](https://fetsundkiropraktorsara.no/behandlingsmetode/nalebehandling/)
--   [Hjemmeøvelser og rehabilitering](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/)
+-   [Mobiliseringsbehandling](/behandlingsmetode/mobiliseringsbehandling/)
+-   [Bindevevsmassasje](/behandlingsmetode/bindevevsmassasje/)
+-   [Tørrnålteknikk](/behandlingsmetode/nalebehandling/)
+-   [Hjemmeøvelser og rehabilitering](/behandlingsmetode/ovelsesveiledning/)
 -   Råd og veiledning gjennom svangerskapet
 
 ## Hva kan du gjøre selv?

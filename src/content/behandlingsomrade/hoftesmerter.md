@@ -40,9 +40,9 @@ Flere vitenskapelige studier har undersøkt effektiviteten av kiropraktisk behan
 
 Kiropraktorer spiller en viktig rolle i diagnostisering og behandling av hoftesmerter. Gjennom en grundig undersøkelse og vurdering av pasientens historie og symptomer, kan kiropraktorer utvikle en skreddersydd behandlingsplan som kan inkludere:
 
--   [**Kiropraktisk justering og manipulasjon**](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) For å gjenopprette normal leddfunksjon og redusere smerter.
--   **[Myofascial Release Techniques](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/) (MFRT)** For å løsne stramme muskler og forbedre fleksibiliteten i hoften.
--   [**Terapeutiske øvelser**](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/) For å styrke muskler rundt hoften og forbedre stabiliteten og bevegeligheten.
+-   [**Kiropraktisk justering og manipulasjon**](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) For å gjenopprette normal leddfunksjon og redusere smerter.
+-   **[Myofascial Release Techniques](/behandlingsmetode/bindevevsmassasje/) (MFRT)** For å løsne stramme muskler og forbedre fleksibiliteten i hoften.
+-   [**Terapeutiske øvelser**](/behandlingsmetode/ovelsesveiledning/) For å styrke muskler rundt hoften og forbedre stabiliteten og bevegeligheten.
 -   **Ergonomiske råd** For å forebygge tilbakevendende skader og forbedre daglige aktiviteter.
 
 Hoftesmerter kan være en kilde til betydelig ubehag og begrensninger i dagliglivet. Som kiropraktor er det avgjørende å identifisere og behandle de underliggende årsakene til smertene for å hjelpe pasientene med å oppnå varig lindring og bedre funksjon. Med en helhetlig tilnærming som omfatter diagnostikk, behandling og forebygging, kan kiropraktorer spille en sentral rolle i omsorgen for pasienter med hoftesmerter og relaterte tilstander.

@@ -181,11 +181,11 @@ Selv om infeksjon sjelden er årsaken til halebeinsmerter, er det viktig å opps
     -   Ergonomiske råd om forebygging, som bruk av puter, være aktiv, opprettholde god holdning.
     -   Hjemmeøvelser med fokus på bekkenbunn, og muskler som stabiliserer halebeinet
     -   Smertelindring med medisiner
-    -   [Kiropraktisk leddjustering](https://fetsundkiropraktorsara.no/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) av haleben og bekken
-    -   [Mobiliseringsbehandling](https://fetsundkiropraktorsara.no/behandlingsmetode/mobiliseringsbehandling/)
-    -   [Muskelmassasje/Triggerpunktmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/triggerpunktsmassasje/)
-    -   [Bindevevsmassasje](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/)
-    -   [Tørrnålteknikk](https://fetsundkiropraktorsara.no/behandlingsmetode/nalebehandling/)![](/bilder/wp/sara_bannerbilde-640x420-1-1.webp)
+    -   [Kiropraktisk leddjustering](/behandlingsmetode/kiropraktisk-manipulasjonsbehandling/) av haleben og bekken
+    -   [Mobiliseringsbehandling](/behandlingsmetode/mobiliseringsbehandling/)
+    -   [Muskelmassasje/Triggerpunktmassasje](/behandlingsmetode/triggerpunktsmassasje/)
+    -   [Bindevevsmassasje](/behandlingsmetode/bindevevsmassasje/)
+    -   [Tørrnålteknikk](/behandlingsmetode/nalebehandling/)![](/bilder/wp/sara_bannerbilde-640x420-1-1.webp)
 
 -   **Injeksjoner:** [(8)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10796902/)
 

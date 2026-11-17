@@ -73,7 +73,7 @@ Her på Fetsund Kiropraktorsenter pleier vi å kombinere ulike typer behandlings
 
 Når det gjelder muskel – og skjelettplager vil det alltid være viktig å gjøre egne øvelser hjemme.
 
-Vi hjelper deg med et egnet [treningsprogram](https://fetsundkiropraktorsara.no/behandlingsmetoder/ovelsesveiledning/) som kan inneholde alt fra lette tøyninger og avspenning, til styrkeøvelser. Våre kiropraktorer på Fetsund veileder deg slik at du får full effekt.
+Vi hjelper deg med et egnet [treningsprogram](/behandlingsmetode/ovelsesveiledning/) som kan inneholde alt fra lette tøyninger og avspenning, til styrkeøvelser. Våre kiropraktorer på Fetsund veileder deg slik at du får full effekt.
 
 Ring oss på 46332766 dersom du ønsker behandling med dry needling eller om du har noen spørsmål vedrørende din plager. Alternativt kan timer bookes på vår døgnåpne [online booking.](https://psno-patient-platform-fe.svc.pasientsky.no/embedded/planner/booking?serviceProviderId=54907264-049e-11eb-8fc8-26c6f94d64b7)
 

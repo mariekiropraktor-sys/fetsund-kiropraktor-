@@ -9,7 +9,7 @@ forfatter: sara
 
 **Ehlers-Danlos syndrom og bindevevsmassasje**
 
-Som kiropraktor har jeg hatt gleden av å jobbe med flere pasienter som lever med Ehlers-Danlos syndrom (EDS), og mange av disse har hatt stor bedring gjennom bruk av [kiropraktor behandling](https://fetsundkiropraktorsara.no/behandlingsmetoder/) og bindevevsmassasje - spesielt det som kalles [Graston-teknikk](https://fetsundkiropraktorsara.no/behandlingsmetode/bindevevsmassasje/). Jeg ønsker derfor å dele noen erfaringer om hvordan denne behandlingen kan hjelpe mot smerter for personer med EDS.
+Som kiropraktor har jeg hatt gleden av å jobbe med flere pasienter som lever med Ehlers-Danlos syndrom (EDS), og mange av disse har hatt stor bedring gjennom bruk av [kiropraktor behandling](/behandlingsmetoder/) og bindevevsmassasje - spesielt det som kalles [Graston-teknikk](/behandlingsmetode/bindevevsmassasje/). Jeg ønsker derfor å dele noen erfaringer om hvordan denne behandlingen kan hjelpe mot smerter for personer med EDS.
 
 **Hva er Ehlers-Danlos syndrom?**
 
