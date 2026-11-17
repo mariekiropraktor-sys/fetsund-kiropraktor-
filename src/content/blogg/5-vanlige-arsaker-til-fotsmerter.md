@@ -1,10 +1,11 @@
 ---
 title: "5 Vanlige årsaker til fotsmerter"
-description: "5 Vanlige årsaker til fotsmerter - og hva du kan gjøre med det. Skrevet av Kiropraktor Sara Nordanger"
+description: "Vondt under foten eller på yttersiden? Her er fem vanlige årsaker til fotsmerter, hva du kan merke selv, og når det er lurt å få det undersøkt."
 date: 2024-11-21
 tema: ledd-og-muskler
 image: "/bilder/wp/20231129_132817-1-1920x1440-e1732183238107.webp"
 forfatter: sara
+seoTittel: "Smerter under foten: 5 vanlige årsaker"
 ---
 
 **5 Vanlige årsaker til fotsmerter – og hvorfor bekkenet kan være nøkkelen til å bli kvitt smertene**
