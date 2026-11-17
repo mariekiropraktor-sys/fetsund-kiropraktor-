@@ -41,7 +41,7 @@ Målet er ikke bare å dempe symptomene der og da, men å finne hvilke faktorer 
 
 ## Cervikogen hodepine – hodepine fra nakken
 
-[Cervikogen hodepine](/stresshodepine-svimmelhet-og-kjevesmerter/) er hodepine hvor smerter fra strukturer i nakken oppleves som smerter i hodet.
+[Cervikogen hodepine](https://fetsundkiropraktormarie.no/cervikogen-hodepine-eller-spenningshodepine/) er hodepine hvor smerter fra strukturer i nakken oppleves som smerter i hodet.
 
 Den er ofte ensidig og kan starte øverst i nakken eller bakhodet før den trekker frem mot tinningen, pannen eller området rundt øyet.
 

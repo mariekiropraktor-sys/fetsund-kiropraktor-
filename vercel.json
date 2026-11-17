@@ -123,6 +123,26 @@
       "permanent": true
     },
     {
+      "source": "/hvorfor-blir-jeg-svimmel{/}?",
+      "destination": "https://fetsundkiropraktormarie.no/hvorfor-blir-jeg-svimmel/",
+      "permanent": true
+    },
+    {
+      "source": "/stresshodepine-svimmelhet-og-kjevesmerter{/}?",
+      "destination": "https://fetsundkiropraktormarie.no/stresshodepine-svimmelhet-og-kjevesmerter/",
+      "permanent": true
+    },
+    {
+      "source": "/nakkesvimmelhet-hva-er-det{/}?",
+      "destination": "https://fetsundkiropraktormarie.no/svimmelhet/nakkesvimmelhet/",
+      "permanent": true
+    },
+    {
+      "source": "/kjevebehandling-for-under-og-etter-et-kiropraktorbesok{/}?",
+      "destination": "https://fetsundkiropraktormarie.no/kjevesmerter/",
+      "permanent": true
+    },
+    {
       "source": "/knapper-forside/albuesmerter-og-tennisalbue{/}?",
       "destination": "/behandlingsomrade/albue-og-handleddsmerter/",
       "permanent": true

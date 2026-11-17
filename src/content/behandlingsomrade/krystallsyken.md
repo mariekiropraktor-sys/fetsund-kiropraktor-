@@ -138,9 +138,9 @@ Det samme gjelder dersom du besvimer, får betydelige balanseproblemer eller kas
 **Les også:**
 
 -   [**Krystallsykeøvelser – våre 5 mest brukte manøvre**](https://www.krystallsykehjelpen.no/blogg/krystallsyke-5-ovelser-som-hjelper/)
--   [**Nakkesvimmelhet – symptomer og behandling**](/nakkesvimmelhet-hva-er-det/)
--   [**5 vanlige årsaker til svimmelhet**](/hvorfor-blir-jeg-svimmel/)
--   [**Stresshodepine, kjevesmerter og svimmelhet**](/stresshodepine-svimmelhet-og-kjevesmerter/)
+-   [**Nakkesvimmelhet – symptomer og behandling**](https://fetsundkiropraktormarie.no/svimmelhet/nakkesvimmelhet/)
+-   [**5 vanlige årsaker til svimmelhet**](https://fetsundkiropraktormarie.no/hvorfor-blir-jeg-svimmel/)
+-   [**Hodepine, svimmelhet og vond kjeve – når alt henger sammen**](https://fetsundkiropraktormarie.no/stresshodepine-svimmelhet-og-kjevesmerter/)
 -   [**Svimmelhet/krystallsyke**](/behandlingsomrade/svimmelhet/)
 
 ## Ofte stilte spørsmål om krystallsyke

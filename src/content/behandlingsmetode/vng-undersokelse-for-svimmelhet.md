@@ -27,7 +27,7 @@ VNG brukes ikke ved all svimmelhet, men kan være et svært nyttig hjelpemiddel 
 Undersøkelsen kan blant annet være aktuell dersom du har:
 
 -   mistanke om **krystallsyke (BPPV)** med kortvarige episoder av rotasjonssvimmelhet når du snur deg i sengen, bøyer deg frem eller ser opp. Les mer om **krystallsyke (BPPV)** [her](/behandlingsomrade/krystallsyken/).
--   **nakkesvimmelhet (cervikogen svimmelhet)** med svimmelhet kombinert med nakkesmerter eller stivhet. Les mer om **nakkesvimmelhet** [her](/nakkesvimmelhet-hva-er-det/).
+-   **nakkesvimmelhet (cervikogen svimmelhet)** med svimmelhet kombinert med nakkesmerter eller stivhet. Les mer om **nakkesvimmelhet** [her](https://fetsundkiropraktormarie.no/svimmelhet/nakkesvimmelhet/).
 -   mistanke om **vestibulær migrene**, der svimmelheten kommer i episoder med eller uten hodepine.
 -   svimmelhet etter virus på balansenerven (vestibularisnevritt).
 -   vedvarende eller tilbakevendende svimmelhet hvor årsaken fortsatt er uklar.
