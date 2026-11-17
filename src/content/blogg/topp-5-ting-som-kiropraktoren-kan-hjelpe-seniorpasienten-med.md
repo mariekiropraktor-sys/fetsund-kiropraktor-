@@ -79,7 +79,7 @@ Det å være stiv i ryggen, særlig på morgenen, er ganske vanlig for våre god
 
 Våre kiropraktorer håndplukker øvelser som passer for akkurat deg og din stive og vonde rygg. Balansetrening og øvelser i kombinasjon med behandlingsmetoder som beskrevet over og på våre [sider](https://fetsundkiropraktormarie.no/behandlingsmetoder/), pleier å ha en god effekt! Som vi pleier å si "litt stiv og støl skal man være, men det får jo være måter på"!
 
-## *#5: [Svimmelhet](https://fetsundkiropraktormarie.no/behandlingsomrade/svimmelhet/) og [hodepine](https://fetsundkiropraktormarie.no/behandlingsomrade/hodepine/)*
+## *#5: [Svimmelhet](https://fetsundkiropraktormarie.no/svimmelhet/) og [hodepine](https://fetsundkiropraktormarie.no/hodepine/)*
 
 Svimmelhet kan være så mangt. Det er veldig viktig å få en grundig undersøkelse om du opplever å plutselig bli svimmel og få vondt i hodet. Da anbefaler vi at du som er i den øvre aldersgruppen oppsøker lege/legevakt før du oppsøker oss. Dette fordi det kan være underliggende årsaker som kiropraktoren ikke får gjort noe med. Har du derimot slitt med hodepine over lengre tid, eller har kjent krystallsyke som du ønsker å få bukt med, er kiropraktoren et naturlig valg.
 

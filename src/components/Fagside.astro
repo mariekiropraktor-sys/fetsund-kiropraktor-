@@ -43,7 +43,7 @@ const beslektet = [
   ...alle.filter((s) => !d.gruppe || s.data.gruppe !== d.gruppe),
 ]
   .slice(0, 3)
-  .map((s) => ({ navn: s.data.kortNavn, tekst: s.data.kortTekst, lenke: `/${type}/${s.id}/` }));
+  .map((s) => ({ navn: s.data.kortNavn, tekst: s.data.kortTekst, lenke: (s.data as { eksternLenke?: string }).eksternLenke ?? `/${type}/${s.id}/` }));
 
 const sideUrl = new URL(`/${type}/${side.id}/`, Astro.site).href;
 const smuleData = {

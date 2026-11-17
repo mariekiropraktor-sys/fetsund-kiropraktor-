@@ -44,7 +44,7 @@ Dette er en kompleks tilstand kjennetegnet av:
 
 -   ##### Kronisk tretthet og søvnproblemer.
 
--   ##### [Hodepine](https://fetsundkiropraktormarie.no/behandlingsomrade/hodepine/) og [kjeveplager](https://fetsundkiropraktormarie.no/behandlingsomrade/kjevesmerter/).
+-   ##### [Hodepine](https://fetsundkiropraktormarie.no/hodepine/) og [kjeveplager](https://fetsundkiropraktormarie.no/kjevesmerter/).
 
 -   ##### Irritabel tarm-syndrom (IBS) og andre fordøyelsesproblemer.
 

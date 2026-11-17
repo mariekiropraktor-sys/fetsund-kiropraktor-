@@ -143,6 +143,26 @@
       "permanent": true
     },
     {
+      "source": "/behandlingsomrade/krystallsyken{/}?",
+      "destination": "https://fetsundkiropraktormarie.no/krystallsyke/",
+      "permanent": true
+    },
+    {
+      "source": "/behandlingsomrade/svimmelhet{/}?",
+      "destination": "https://fetsundkiropraktormarie.no/svimmelhet/",
+      "permanent": true
+    },
+    {
+      "source": "/behandlingsomrade/hodepine{/}?",
+      "destination": "https://fetsundkiropraktormarie.no/hodepine/",
+      "permanent": true
+    },
+    {
+      "source": "/behandlingsomrade/kjevesmerter{/}?",
+      "destination": "https://fetsundkiropraktormarie.no/kjevesmerter/",
+      "permanent": true
+    },
+    {
       "source": "/knapper-forside/albuesmerter-og-tennisalbue{/}?",
       "destination": "/behandlingsomrade/albue-og-handleddsmerter/",
       "permanent": true
@@ -164,7 +184,7 @@
     },
     {
       "source": "/knapper-forside/hodepine{/}?",
-      "destination": "/behandlingsomrade/hodepine/",
+      "destination": "https://fetsundkiropraktormarie.no/hodepine/",
       "permanent": true
     },
     {
@@ -179,7 +199,7 @@
     },
     {
       "source": "/knapper-forside/krystallsyken{/}?",
-      "destination": "/behandlingsomrade/krystallsyken/",
+      "destination": "https://fetsundkiropraktormarie.no/krystallsyke/",
       "permanent": true
     },
     {

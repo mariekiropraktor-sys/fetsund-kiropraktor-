@@ -4,7 +4,8 @@ import Fagside from "../../components/Fagside.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  const sider = await getCollection("behandlingsomrade");
+  // Temaer med eksternLenke har ingen egen side her (de videresendes i vercel.json)
+  const sider = await getCollection("behandlingsomrade", (s) => !s.data.eksternLenke);
   return sider.map((side) => ({ params: { side: side.id }, props: { side } }));
 }
 const { side } = Astro.props;

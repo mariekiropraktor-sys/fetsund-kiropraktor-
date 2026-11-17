@@ -57,7 +57,7 @@ const grupper = plageGrupper
           <h2 class="h2 gruppe__tittel">{g.navn}</h2>
           <div class="plager">
             {g.sider.map((s) => (
-              <a class="plager__kort" href={`/behandlingsomrade/${s.id}/`}>
+              <a class="plager__kort" href={s.data.eksternLenke ?? `/behandlingsomrade/${s.id}/`}>
                 {s.data.kiropraktor && <span class="plager__merke">Spesialfelt</span>}
                 <strong>{s.data.kortNavn}</strong>
                 <span>{s.data.kortTekst}</span>

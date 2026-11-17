@@ -126,7 +126,7 @@ export const plager: { navn: string; tekst: string; lenke: string }[] = [
   { navn: "Skulder", tekst: "Smerter og nedsatt bevegelse", lenke: "/skuldersmerter-for-under-og-etter-ett-kiropraktorbesok/" },
   { navn: "Hofte og kne", tekst: "Også senebetennelser", lenke: "/behandlingsomrade/hoftesmerter/" },
   { navn: "Fot og ankel", tekst: "Ofte henger bekkenet med", lenke: "/behandlingsomrade/fot-og-ankel-smerter/" },
-  { navn: "Hodepine og kjeve", tekst: "Spenning, stress og klikking", lenke: "/behandlingsomrade/hodepine/" },
+  { navn: "Hodepine og kjeve", tekst: "Spenning, stress og klikking", lenke: `${marie}/hodepine/` },
   { navn: "Muskelsmerter", tekst: "Muskelknuter og stivhet", lenke: "/behandlingsomrade/muskelsmerter-og-senebetennelser/" },
   { navn: "Seniorer", tekst: "Tilpasset behandling i alle aldre", lenke: "/behandlingsomrade/seniorpasienten/" },
 ];

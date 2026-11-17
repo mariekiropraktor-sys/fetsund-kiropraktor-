@@ -35,6 +35,9 @@ const side = z.object({
   kiropraktor: z.enum(["marie", "sara"]).optional(), // hvem som har dette som spesialfelt
   rekkefolge: z.number().default(50),
   oppdatert: z.coerce.date().optional(),
+  // Temaet eies av en annen nettside (f.eks. Marie-siden). Kortene lenker dit, det bygges
+  // ingen egen side her, og den gamle adressen videresendes med 301 i vercel.json.
+  eksternLenke: z.string().url().optional(),
 });
 
 const behandlingsomrade = defineCollection({

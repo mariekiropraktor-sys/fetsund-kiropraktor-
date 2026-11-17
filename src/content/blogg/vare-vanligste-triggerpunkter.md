@@ -29,7 +29,7 @@ Vanlige symptomer er blant annet:
 
 -   Smerter i kinnet, noen ganger liknende bihuleplager
 
--   [Hodepine](/behandlingsomrade/hodepine/) eller migrene‑lignende smerter
+-   [Hodepine](https://fetsundkiropraktormarie.no/hodepine/) eller migrene‑lignende smerter
 
 -   Smerter midt i brystryggen
 
@@ -39,7 +39,7 @@ Vanlige symptomer er blant annet:
 
 -   Tinningshodepine
 
--   [Kjeveplager og symptomer fra kjeveleddet (TMD/TMJ)](/behandlingsomrade/kjevesmerter/)
+-   [Kjeveplager og symptomer fra kjeveleddet (TMD/TMJ)](https://fetsundkiropraktormarie.no/kjevesmerter/)
 
 -   Smerter øverst i brystryggen
 
