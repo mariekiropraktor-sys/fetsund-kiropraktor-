@@ -206,6 +206,13 @@ export const priser = [
   },
 ];
 
+// Hent prisen for en timetype fra listen over, så den bare står ett sted.
+export function pris(navn: string): string {
+  const time = priser.flatMap((g) => g.timer).find((t) => t.navn === navn);
+  if (!time) throw new Error(`Fant ikke prisen for «${navn}» i priser (site.ts).`);
+  return time.pris;
+}
+
 export const tilleggspriser = [
   { navn: "Ekstra nåler eller kinesiotape", pris: "45 kr" },
   { navn: "Attest eller epikrise", pris: "150 kr" },

@@ -2,7 +2,7 @@
 import SideHode from "../../components/SideHode.astro";
 import Layout from "../../layouts/Layout.astro";
 import BookingCTA from "../../components/BookingCTA.astro";
-import { site, priser, tilleggspriser, kiropraktorer } from "../../data/site";
+import { site, priser, tilleggspriser, kiropraktorer, pris } from "../../data/site";
 // Svimmelhet er Maries spesialfelt: de timene bestilles rett i hennes kalender
 const marie = kiropraktorer.find((k) => k.id === "marie")!;
 const lenke = (b?: string) =>
@@ -11,7 +11,7 @@ const lenke = (b?: string) =>
 
 <Layout
   title="Priser"
-  description="Priser hos Fetsund Kiropraktorsenter: førstegangskonsultasjon 910 kr, oppfølgende behandling 580 kr og egne priser for svimmelhetsundersøkelse."
+  description={`Priser hos Fetsund Kiropraktorsenter: førstegangskonsultasjon ${pris("Førstegangskonsultasjon")}, oppfølgende behandling ${pris("Oppfølgende behandling")} og egne priser for svimmelhetsundersøkelse.`}
 >
   <SideHode
     tittel="Priser"
